@@ -29,6 +29,10 @@ for (const [name, width, height] of [["phone", 375, 800], ["desktop", 1280, 900]
   assert.ok(await page.locator("#groups .item").count() < before, "the age filter narrows the list");
   assert.ok(await page.locator("#camps .item").count() > 0, "camp cards render");
   await page.selectOption("#age", "");
+  await page.selectOption("#neighborhood", "Bexley");
+  assert.ok(await page.locator("#groups .item").count() > 0, "neighborhood filter shows Bexley");
+  assert.equal(await page.locator('#groups .item:not(:has-text("Bexley"))').count(), 0, "neighborhood filter hides other areas");
+  await page.selectOption("#neighborhood", "");
   await page.selectOption("#place", "Wendy's Gymnastics");
   assert.ok(await page.locator("#groups .item").count() > 0, "place filter shows Wendy's");
   assert.equal(await page.locator('#groups .item:not(:has-text("Wendy"))').count(), 0, "place filter hides others");

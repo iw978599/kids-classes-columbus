@@ -41,7 +41,7 @@ a { color: var(--teal); }
 main { max-width: 1400px; margin: 0 auto; padding: 14px 16px 40px; }
 .filters { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 10px 12px; margin-bottom: 12px; }
 .lbl { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); min-width: 0; max-width: 100%; }
-#place { flex: 1 1 auto; width: 240px; max-width: 100%; }
+#place, #neighborhood { flex: 1 1 auto; width: 240px; max-width: 100%; }
 .sel { background: var(--well); border: 1px solid var(--line); border-radius: 4px; padding: 5px 7px; color: var(--ink); text-transform: none; letter-spacing: 0; font-size: 15px; min-width: 0; }
 .search { flex: 1 1 200px; }
 .search .sel { flex: 1; min-width: 0; }

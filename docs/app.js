@@ -8,7 +8,7 @@ const STATUS = {
   open: ["Open", "good"], upcoming: ["Opens soon", "soon"],
   anytime: ["Join anytime", "good"], "drop-in": ["Drop in", ""], contact: ["Contact", ""],
 };
-const filters = { fitsOnly: true, showDropIn: false, showAnytime: true, place: "", age: null, hidden: new Set(), startsFrom: "", maxMiles: 0, search: "" };
+const filters = { fitsOnly: true, showDropIn: false, showAnytime: true, place: "", neighborhood: "", age: null, hidden: new Set(), startsFrom: "", maxMiles: 0, search: "" };
 const remember = { get(k) { try { return localStorage.getItem(k); } catch { return null; } }, set(k, v) { try { localStorage.setItem(k, v); } catch {} } };
 const slug = (c) => c.toLowerCase().replace(/\s+/g, "-");
 
@@ -83,7 +83,7 @@ function render(data) {
   $("count").textContent = `${shown.length} / ${data.items.length}`;
   $("count").title = `${shown.length} of ${data.items.length} classes shown`;
 
-  const cards = sortedProviders(data).filter((p) => !filters.place || p.provider === filters.place);
+  const cards = sortedProviders(data).filter((p) => (!filters.place || p.provider === filters.place) && (!filters.neighborhood || p.neighborhood === filters.neighborhood));
   $("providers").innerHTML = cards.filter((p) => !p.camp).map(providerCard).join("");
   $("camps").innerHTML = cards.filter((p) => p.camp).map(providerCard).join("");
   $("providers-section").hidden = !$("providers").innerHTML;
@@ -110,6 +110,8 @@ function renderOnce(data) {
   $("legend").innerHTML = '<button type="button" class="btn tiny" id="allTags">All</button><button type="button" class="btn tiny" id="noTags">None</button>'
     + cats.map((c) => `<button type="button" class="lg" data-c="${slug(c)}" data-cat="${esc(c)}" aria-pressed="true"><i></i>${esc(c)}</button>`).join("");
 
+  const inUse = new Set([...data.items, ...data.providers].map((i) => i.neighborhood));
+  $("neighborhood").innerHTML = `<option value="">All neighborhoods</option>${data.neighborhoods.filter((n) => inUse.has(n)).map((n) => `<option value="${esc(n)}">${esc(n)}</option>`).join("")}`;
   const { centers, companies } = placeOptions(data.items, data.providers);
   const options = (list) => list.map((p) => `<option value="${esc(p)}">${esc(p)}</option>`).join("");
   $("place").innerHTML = `<option value="">All places</option><optgroup label="Columbus rec centers">${options(centers)}</optgroup><optgroup label="Companies and cities">${options(companies)}</optgroup>`;
@@ -130,6 +132,10 @@ async function start() {
     bind("anytime", "showAnytime", (t) => t.checked);
     bind("drop", "showDropIn", (t) => t.checked);
     bind("place", "place", (t) => t.value);
+    bind("neighborhood", "neighborhood", (t) => t.value);
+    const savedArea = remember.get("neighborhood");
+    if (savedArea && [...$("neighborhood").options].some((o) => o.value === savedArea)) { $("neighborhood").value = savedArea; filters.neighborhood = savedArea; render(data); }
+    $("neighborhood").addEventListener("input", (e) => remember.set("neighborhood", e.target.value));
     const saved = remember.get("age");
     if (saved) { $("age").value = saved; filters.age = Number(saved); render(data); }
     $("age").addEventListener("input", (e) => {

@@ -1,6 +1,7 @@
 // Refreshes docs/data.json. One failing source keeps its last good data and is reported on the page.
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { ANCHOR, hasStarted, http, localNow, milesBetween } from "./lib.mjs";
+import { NEIGHBORHOODS, NO_AREA, neighborhoodOf } from "./neighborhoods.mjs";
 import { fetchBexley } from "./sources/bexley.mjs";
 import { fetchCct } from "./sources/cct.mjs";
 import { fetchJackrabbit } from "./sources/jackrabbit.mjs";
@@ -60,10 +61,12 @@ async function geocode(address) {
 for (const i of items) {
   if (i.lat == null) Object.assign(i, (await geocode(i.address)) ?? {});
   i.miles = i.lat != null ? milesBetween(ANCHOR, i) : null;
+  i.neighborhood = neighborhoodOf(i);
 }
 for (const p of providers) {
   Object.assign(p, (await geocode(p.address)) ?? {});
   p.miles = p.lat != null ? milesBetween(ANCHOR, p) : null;
+  p.neighborhood = neighborhoodOf(p);
 }
 
 // Track what's genuinely new. The first run sets the baseline so everything isn't "new".
@@ -87,6 +90,7 @@ write(DATA, {
   checkedAt: now,
   baselineAt: state.baselineAt,
   anchor: ANCHOR.name,
+  neighborhoods: [...NEIGHBORHOODS.map(([name]) => name), NO_AREA],
   sources,
   items: published.sort((a, b) => a.firstDate.localeCompare(b.firstDate) || a.name.localeCompare(b.name)),
   providers: merged,

@@ -39,6 +39,7 @@ export function filterItems(items, f, now) {
     if (f.fitsOnly && !fitsSchedule(i)) return false;
     if (f.hidden.has(i.category)) return false;
     if (f.place && placeOf(i) !== f.place) return false;
+    if (f.neighborhood && i.neighborhood !== f.neighborhood) return false;
     if (f.age != null && !fitsAge(i, f.age)) return false;
     if (f.startsFrom && i.firstDate < f.startsFrom) return false;
     if (f.maxMiles && i.miles != null && i.miles > f.maxMiles) return false;

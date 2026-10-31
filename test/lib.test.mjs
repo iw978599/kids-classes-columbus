@@ -6,6 +6,7 @@ import { parseBexleyAges, parseDateTime } from "../scripts/sources/bexley.mjs";
 import { collapseOpenGym, parseJrAges, parseTime } from "../scripts/sources/jackrabbit.mjs";
 import { parsePrograms } from "../scripts/sources/recdesk.mjs";
 import { fingerprint } from "../scripts/sources/watch.mjs";
+import { NO_AREA, neighborhoodOf } from "../scripts/neighborhoods.mjs";
 
 test("classes starting at age 7 or later are out of scope", () => {
   assert.equal(forYoungKids(83), true);
@@ -65,6 +66,15 @@ test("suburb and studio formats parse", () => {
   assert.equal(collapsed[1].firstDate, "2026-11-05");
   const youth = parsePrograms("<p>Category: Youth Little Ballers Youth No online registration Dates 11/7/2026 - 12/19/2026 Days Sat Ages 4y - 6y Grades - Openings n/a Remaining n/a</p>");
   assert.deepEqual(youth[0], { name: "Little Ballers", reg: "No online registration", firstDate: "2026-11-07", lastDate: "2026-12-19", day: "Sat", ages: "4y - 6y", remaining: "n/a" });
+});
+
+test("places map to neighborhoods", () => {
+  assert.equal(neighborhoodOf({ location: "Schiller Park" }), "German Village & Merion Village");
+  assert.equal(neighborhoodOf({ location: "Montrose Elementary School - Gym", address: "2099 Clifton Ave" }), "Bexley");
+  assert.equal(neighborhoodOf({ location: "Columbus Aquatics Center", address: "1160 Hunter Ave, 43201" }), "Short North & Campus");
+  assert.equal(neighborhoodOf({ location: "", provider: "Columbus Rec & Parks", name: "6U Basketball at Barnett" }), "East Side");
+  assert.equal(neighborhoodOf({ location: "Wendy's Gymnastics", address: "2460 Wood Ave" }), "Upper Arlington");
+  assert.equal(neighborhoodOf({ location: "Gymnasium", provider: "Columbus Rec & Parks", name: "Family Gym" }), NO_AREA);
 });
 
 test("helpers", () => {
