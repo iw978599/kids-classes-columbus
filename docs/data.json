@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-10-30 23:58:44",
+ "checkedAt": "2026-10-31 00:00:29",
  "baselineAt": "2026-10-30 23:09:05",
  "anchor": "Schiller Park",
  "sources": {
@@ -7,38 +7,37 @@
    "label": "Columbus Rec & Parks",
    "ok": true,
    "count": 273,
-   "lastSuccess": "2026-10-30 23:58:44"
+   "lastSuccess": "2026-10-31 00:00:29"
   },
   "cct": {
    "label": "Columbus Children's Theatre",
    "ok": true,
    "count": 2,
-   "lastSuccess": "2026-10-30 23:58:44"
+   "lastSuccess": "2026-10-31 00:00:29"
   },
   "bexley": {
    "label": "Bexley Rec",
    "ok": true,
    "count": 8,
-   "lastSuccess": "2026-10-30 23:58:44"
+   "lastSuccess": "2026-10-31 00:00:29"
   },
   "recdesk": {
    "label": "Grandview Heights Rec",
-   "ok": false,
-   "count": 3,
-   "lastSuccess": "2026-10-30 23:39:25",
-   "error": "Unexpected RecDesk response"
+   "ok": true,
+   "count": 6,
+   "lastSuccess": "2026-10-31 00:00:29"
   },
   "jackrabbit": {
    "label": "Wendy's and K Studio",
    "ok": true,
    "count": 76,
-   "lastSuccess": "2026-10-30 23:58:44"
+   "lastSuccess": "2026-10-31 00:00:29"
   },
   "library": {
    "label": "Columbus Metropolitan Library",
    "ok": true,
-   "count": 15,
-   "lastSuccess": "2026-10-30 23:58:44"
+   "count": 14,
+   "lastSuccess": "2026-10-31 00:00:29"
   }
  },
  "items": [
@@ -2182,68 +2181,6 @@
    "firstSeen": "2026-10-30 23:09:05"
   },
   {
-   "id": "lib-south-high-family-storytime-fri-10-30",
-   "source": "library",
-   "provider": "Columbus Metropolitan Library",
-   "name": "Family Storytime",
-   "category": "Story time",
-   "ages": "Preschool and family",
-   "ageMin": 0,
-   "ageMax": null,
-   "days": [
-    "Fri"
-   ],
-   "startTime": "10:30",
-   "endTime": "11:00",
-   "firstDate": "2026-10-30",
-   "lastDate": "2026-11-13",
-   "sessions": null,
-   "location": "South High branch",
-   "address": "3540 S High St, Columbus, OH 43207",
-   "lat": 39.889174528675,
-   "lon": -82.997669422075,
-   "price": "Free",
-   "status": "drop-in",
-   "openings": null,
-   "opensAt": null,
-   "closesAt": null,
-   "notes": [],
-   "url": "https://events.columbuslibrary.org/event/16426265",
-   "miles": 3.5,
-   "firstSeen": "2026-10-30 23:09:05"
-  },
-  {
-   "id": "lib-main-library-halloween-family-storytime-fri-10-30",
-   "source": "library",
-   "provider": "Columbus Metropolitan Library",
-   "name": "Halloween Family Storytime",
-   "category": "Story time",
-   "ages": "Preschool and family",
-   "ageMin": 0,
-   "ageMax": null,
-   "days": [
-    "Fri"
-   ],
-   "startTime": "10:30",
-   "endTime": "11:00",
-   "firstDate": "2026-10-30",
-   "lastDate": "2026-10-30",
-   "sessions": null,
-   "location": "Main Library branch",
-   "address": "96 S Grant Ave, Columbus, OH 43215",
-   "lat": 39.961199462733,
-   "lon": -82.990580352092,
-   "price": "Free",
-   "status": "drop-in",
-   "openings": null,
-   "opensAt": null,
-   "closesAt": null,
-   "notes": [],
-   "url": "https://events.columbuslibrary.org/event/17322118",
-   "miles": 1.5,
-   "firstSeen": "2026-10-30 23:09:05"
-  },
-  {
    "id": "lib-main-library-halloween-family-storytime-sat-11-00",
    "source": "library",
    "provider": "Columbus Metropolitan Library",
@@ -3051,6 +2988,37 @@
    "firstSeen": "2026-10-30 23:09:05"
   },
   {
+   "id": "lib-south-high-family-storytime-fri-10-30",
+   "source": "library",
+   "provider": "Columbus Metropolitan Library",
+   "name": "Family Storytime",
+   "category": "Story time",
+   "ages": "Preschool and family",
+   "ageMin": 0,
+   "ageMax": null,
+   "days": [
+    "Fri"
+   ],
+   "startTime": "10:30",
+   "endTime": "11:00",
+   "firstDate": "2026-11-06",
+   "lastDate": "2026-11-20",
+   "sessions": null,
+   "location": "South High branch",
+   "address": "3540 S High St, Columbus, OH 43207",
+   "lat": 39.889174528675,
+   "lon": -82.997669422075,
+   "price": "Free",
+   "status": "drop-in",
+   "openings": null,
+   "opensAt": null,
+   "closesAt": null,
+   "notes": [],
+   "url": "https://events.columbuslibrary.org/event/16426266",
+   "miles": 3.5,
+   "firstSeen": "2026-10-30 23:09:05"
+  },
+  {
    "id": "lib-main-library-family-storytime-fri-10-30",
    "source": "library",
    "provider": "Columbus Metropolitan Library",
@@ -3065,7 +3033,7 @@
    "startTime": "10:30",
    "endTime": "11:00",
    "firstDate": "2026-11-06",
-   "lastDate": "2026-11-13",
+   "lastDate": "2026-11-20",
    "sessions": null,
    "location": "Main Library branch",
    "address": "96 S Grant Ave, Columbus, OH 43215",
@@ -3243,6 +3211,8 @@
    "name": "Little Ballers (Session 1)",
    "category": "Other",
    "ages": "4y - 6y",
+   "ageMin": 48,
+   "ageMax": 84,
    "days": [
     "Sat"
    ],
@@ -3274,6 +3244,8 @@
    "name": "Little Ballers (Session 2)",
    "category": "Other",
    "ages": "4y - 6y",
+   "ageMin": 48,
+   "ageMax": 84,
    "days": [
     "Sat"
    ],
@@ -3336,6 +3308,8 @@
    "name": "Munchin Munchkins",
    "category": "Other",
    "ages": "2y 5m - 5y",
+   "ageMin": 29,
+   "ageMax": 72,
    "days": [
     "Sat"
    ],
@@ -3914,6 +3888,37 @@
    "notes": [],
    "url": "https://anc.apm.activecommunities.com/columbusrecparks1/activity/search/detail/6432?onlineSiteId=0&from_original_cui=true",
    "miles": 10.3,
+   "firstSeen": "2026-10-30 23:09:05"
+  },
+  {
+   "id": "gh-parents-night-out-november-2026--2026-11-13",
+   "source": "recdesk",
+   "provider": "Grandview Heights Parks & Rec",
+   "name": "Parents Night Out (November 2026)",
+   "category": "Other",
+   "ages": "5y - 11y",
+   "ageMin": 60,
+   "ageMax": 144,
+   "days": [
+    "Fri"
+   ],
+   "startTime": "",
+   "endTime": "",
+   "firstDate": "2026-11-13",
+   "lastDate": "2026-11-13",
+   "sessions": null,
+   "location": "Grandview Heights",
+   "address": "1525 Goodale Blvd, Grandview Heights, OH 43212",
+   "lat": 39.976700170076,
+   "lon": -83.044313820481,
+   "price": "See listing",
+   "status": "open",
+   "openings": 15,
+   "opensAt": null,
+   "closesAt": null,
+   "notes": [],
+   "url": "https://grandviewheights.recdesk.com/Community/Program",
+   "miles": 3.7,
    "firstSeen": "2026-10-30 23:09:05"
   },
   {
@@ -5493,6 +5498,37 @@
    "firstSeen": "2026-10-30 23:09:05"
   },
   {
+   "id": "gh-youth-vendor-program-holiday-in-the-heights-2026-12-01",
+   "source": "recdesk",
+   "provider": "Grandview Heights Parks & Rec",
+   "name": "Youth Vendor Program - Holiday in the Heights",
+   "category": "Other",
+   "ages": "5y - 18y",
+   "ageMin": 60,
+   "ageMax": 228,
+   "days": [
+    "Tue"
+   ],
+   "startTime": "",
+   "endTime": "",
+   "firstDate": "2026-12-01",
+   "lastDate": "2026-12-01",
+   "sessions": null,
+   "location": "Grandview Heights",
+   "address": "1525 Goodale Blvd, Grandview Heights, OH 43212",
+   "lat": 39.976700170076,
+   "lon": -83.044313820481,
+   "price": "See listing",
+   "status": "open",
+   "openings": 6,
+   "opensAt": null,
+   "closesAt": null,
+   "notes": [],
+   "url": "https://grandviewheights.recdesk.com/Community/Program",
+   "miles": 3.7,
+   "firstSeen": "2026-10-30 23:09:05"
+  },
+  {
    "id": "rec-8983",
    "source": "rec",
    "provider": "Columbus Rec & Parks",
@@ -5738,6 +5774,37 @@
    "notes": [],
    "url": "https://anc.apm.activecommunities.com/columbusrecparks1/activity/search/detail/8292?onlineSiteId=0&from_original_cui=true",
    "miles": 3.1,
+   "firstSeen": "2026-10-30 23:09:05"
+  },
+  {
+   "id": "gh-parents-night-out-december-2026--2026-12-18",
+   "source": "recdesk",
+   "provider": "Grandview Heights Parks & Rec",
+   "name": "Parents Night Out (December 2026)",
+   "category": "Other",
+   "ages": "5y - 11y",
+   "ageMin": 60,
+   "ageMax": 144,
+   "days": [
+    "Fri"
+   ],
+   "startTime": "",
+   "endTime": "",
+   "firstDate": "2026-12-18",
+   "lastDate": "2026-12-18",
+   "sessions": null,
+   "location": "Grandview Heights",
+   "address": "1525 Goodale Blvd, Grandview Heights, OH 43212",
+   "lat": 39.976700170076,
+   "lon": -83.044313820481,
+   "price": "See listing",
+   "status": "open",
+   "openings": 20,
+   "opensAt": null,
+   "closesAt": null,
+   "notes": [],
+   "url": "https://grandviewheights.recdesk.com/Community/Program",
+   "miles": 3.7,
    "firstSeen": "2026-10-30 23:09:05"
   },
   {

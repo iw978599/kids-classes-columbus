@@ -44,7 +44,7 @@ export async function fetchRecdesk(ctx) {
     body: JSON.stringify({ ProgramName: "", Code: "", ProgramType: [0], Facility: [0], Days: [0], Pagination: { CurrentPageIndex: 1, PageSize: 100, LoadMore: false } }),
   });
   const html = await r.text();
-  if (!r.ok || !html.includes("filtered results")) throw new Error("Unexpected RecDesk response");
+  if (!r.ok || !html.includes("Programs list")) throw new Error("Unexpected RecDesk response");
 
   const ids = Object.fromEntries([...html.matchAll(/data-id="(\d+)" data-type="PGM" data-description="([^"]+)"/g)].map((m) => [m[2].replace(/&amp;/g, "&"), m[1]]));
   return parsePrograms(html).flatMap((p) => {
