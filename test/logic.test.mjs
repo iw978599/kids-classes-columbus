@@ -1,14 +1,14 @@
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { test } from "node:test";
-import { filterItems, fitsSchedule, formatDateTime, formatTime, groupItems, isNew, liveStatus } from "../docs/logic.mjs";
+import { filterItems, fitsSchedule, formatDateTime, formatTime, groupItems, isNew, liveStatus, placeOf, placeOptions } from "../docs/logic.mjs";
 
 const NOW = "2026-11-03 12:31:00";
 const item = (o = {}) => ({
   name: "Class", provider: "P", location: "L", category: "Swim", days: ["Sat"], startTime: "10:00",
   firstDate: "2026-11-14", status: "open", miles: 2, firstSeen: "2026-10-30 12:00:00", ...o,
 });
-const off = { fitsOnly: false, showFull: true, showDropIn: true, hidden: new Set(), startsFrom: "", maxMiles: 0, search: "" };
+const off = { fitsOnly: false, showDropIn: true, showAnytime: true, place: "", hidden: new Set(), startsFrom: "", maxMiles: 0, search: "" };
 
 test("schedule fit means a weekend or a 5:30pm or later start", () => {
   assert.equal(fitsSchedule(item()), true);
@@ -23,9 +23,8 @@ test("a class flips to open as soon as its registration time passes", () => {
 });
 
 test("filters combine, and unknown distances stay visible", () => {
-  const items = [item({ name: "A", status: "full" }), item({ name: "B", miles: 12 }), item({ name: "C", miles: null, category: "Dance" })];
+  const items = [item({ name: "A" }), item({ name: "B", miles: 12 }), item({ name: "C", miles: null, category: "Dance" })];
   assert.equal(filterItems(items, off, NOW).length, 3);
-  assert.deepEqual(filterItems(items, { ...off, showFull: false }, NOW).map((i) => i.name), ["B", "C"]);
   assert.deepEqual(filterItems(items, { ...off, maxMiles: 5 }, NOW).map((i) => i.name), ["A", "C"]);
   assert.deepEqual(filterItems(items, { ...off, hidden: new Set(["Swim"]) }, NOW).map((i) => i.name), ["C"]);
   assert.deepEqual(filterItems(items, { ...off, search: "b" }, NOW).map((i) => i.name), ["B"]);
@@ -40,6 +39,17 @@ test("only future sessions show, and drop-ins need opting in", () => {
   assert.deepEqual(names({ ...off, showDropIn: false }), ["winter"]);
   assert.deepEqual(names({ ...off, startsFrom: "2027-01-01", showDropIn: false }), ["winter"]);
   assert.deepEqual(filterItems([item({ firstDate: "2026-12-01" })], { ...off, startsFrom: "2027-01-01" }, NOW), []);
+});
+
+test("places filter by rec center or company, and join-anytime classes can be hidden", () => {
+  const rec = item({ name: "rec", source: "rec", location: "Schiller Park", provider: "Columbus Rec & Parks" });
+  const gym = item({ name: "gym", source: "jackrabbit", location: "Wendy's Gymnastics", provider: "Wendy's Gymnastics", status: "anytime", firstDate: "2026-08-31" });
+  assert.equal(placeOf(rec), "Schiller Park");
+  assert.equal(placeOf(gym), "Wendy's Gymnastics");
+  assert.deepEqual(filterItems([rec, gym], { ...off, place: "Schiller Park" }, NOW).map((i) => i.name), ["rec"]);
+  assert.deepEqual(filterItems([rec, gym], { ...off, place: "Wendy's Gymnastics" }, NOW).map((i) => i.name), ["gym"]);
+  assert.deepEqual(filterItems([rec, gym], { ...off, showAnytime: false }, NOW).map((i) => i.name), ["rec"]);
+  assert.deepEqual(placeOptions([rec, gym], [{ provider: "BalletMet" }]), { centers: ["Schiller Park"], companies: ["BalletMet", "Wendy's Gymnastics"] });
 });
 
 test("groups put nearest first and earliest registration first", () => {

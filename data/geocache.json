@@ -74,5 +74,21 @@
  "1777 E Broad St, Columbus, OH 43203": {
   "lat": 39.967546397765,
   "lon": -82.953519930862
+ },
+ "1525 Goodale Blvd, Grandview Heights, OH 43212": {
+  "lat": 39.976700170076,
+  "lon": -83.044313820481
+ },
+ "1152 Kenny Centre Mall, Columbus, OH 43220": {
+  "lat": 40.051102947073,
+  "lon": -83.049880978134
+ },
+ "1945 Ridgeview Rd, Upper Arlington, OH 43221": {
+  "lat": 40.015741372095,
+  "lon": -83.063940617273
+ },
+ "2665 Farmers Dr, Columbus, OH 43235": {
+  "lat": 40.107160912784,
+  "lon": -83.087192475101
  }
 }

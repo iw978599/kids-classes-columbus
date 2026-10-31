@@ -89,7 +89,7 @@ async function loadClass(id, ctx) {
     firstDate: d.first_date,
     lastDate: d.last_date,
     sessions: d.other_info?.sessions || null,
-    location: center?.name ?? d.location_description ?? "",
+    location: center?.name ?? (/1160 Hunter/.test(d.location_description) ? "Columbus Aquatics Center" : d.location_description) ?? "",
     address: center ? `${center.address1}, ${center.city}, ${center.state} ${center.zip_code}` : d.location_description ?? "",
     lat: center?.latitude ?? null,
     lon: center?.longitude ?? null,

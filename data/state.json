@@ -188,313 +188,416 @@
    "firstSeen": "2026-10-30 23:09:05"
   },
   "rec-8445": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-7491": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-6328": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-6329": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-6330": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-6311": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": true
   },
   "rec-6313": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": true
   },
   "rec-8989": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-9236": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-9238": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-9240": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-9241": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-9242": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-9246": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-6413": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": true
   },
   "rec-6414": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": true
   },
   "rec-6418": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": true
   },
   "rec-7066": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-9225": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-9227": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-9228": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-9229": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-9231": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-7427": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-6421": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-6423": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": true
   },
   "rec-9275": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-9277": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-9279": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-9280": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-9281": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-9340": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-9285": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-7494": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-6429": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": true
   },
   "rec-6432": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-6433": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": true
   },
   "rec-6424": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": true
   },
   "rec-6427": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-6428": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": true
   },
   "rec-7493": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-8287": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-8270": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": true
   },
   "rec-7173": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-6985": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": true
   },
   "rec-6986": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": true
   },
   "rec-7481": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-8292": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-9469": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-8530": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-8529": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-8528": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-8403": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-8407": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-9020": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-9022": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-9544": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-9257": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-9258": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-9029": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-8406": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-8390": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-8446": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-9033": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-9035": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-8447": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-9419": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-9168": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-9574": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-9036": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-8573": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-8402": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-9039": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-9040": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-9571": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-9549": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-9263": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-9440": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-9386": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-8405": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-8448": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-9446": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-8458": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-8527": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-9188": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-9041": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-8404": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-9389": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-9044": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-9045": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-8542": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-8513": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-9390": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-9391": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-8978": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-9433": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-9435": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-9471": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-8076": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-8980": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-9437": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-9255": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "rec-9566": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "cct-2307794": {
    "firstSeen": "2026-10-30 23:09:05"
@@ -503,55 +606,220 @@
    "firstSeen": "2026-10-30 23:09:05"
   },
   "cct-2491816": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "cct-2491830": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "lib-south-high-family-storytime-fri-10-30": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "lib-main-library-halloween-family-storytime-fri-10-30": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "lib-main-library-halloween-family-storytime-sat-11-00": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "lib-south-high-kids-create-sat-14-00": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "lib-main-library-halloween-family-storytime-sun-13-30": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "lib-marion-franklin-family-storytime-tue-10-00": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "lib-franklinton-family-storytime-tue-10-30": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "lib-south-high-family-storytime-tue-10-30": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "lib-main-library-kids-create-tue-16-00": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "lib-main-library-family-storytime-wed-10-30": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "lib-marion-franklin-kids-create-wed-16-30": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "lib-main-library-family-storytime-thu-10-30": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "lib-main-library-family-storytime-fri-10-30": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "lib-main-library-family-storytime-sat-11-00": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
   },
   "lib-main-library-family-storytime-sun-14-30": {
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-10-30 23:09:05",
+   "full": false
+  },
+  "bex-148452": {
+   "firstSeen": "2026-10-30 23:37:14",
+   "full": false
+  },
+  "bex-148477": {
+   "firstSeen": "2026-10-30 23:37:14",
+   "full": false
+  },
+  "bex-148480": {
+   "firstSeen": "2026-10-30 23:37:14",
+   "full": false
+  },
+  "gh-little-ballers-session-1--2026-11-07": {
+   "firstSeen": "2026-10-30 23:37:14",
+   "full": false
+  },
+  "gh-little-ballers-session-2--2026-11-07": {
+   "firstSeen": "2026-10-30 23:37:14",
+   "full": false
+  },
+  "gh-selected-program-details-date-day-age-grade-openings-remaining-action-dates-11-9-2026-11-30-2026-days-mon-ages-grades-4-8-openings-8-remaining-4-register-now-munchin-munchkins-2026-11-07": {
+   "firstSeen": "2026-10-30 23:37:14",
+   "full": false
+  },
+  "jr-506905-22443243": {
+   "firstSeen": "2026-10-30 23:37:14",
+   "full": false
+  },
+  "jr-506905-22124735": {
+   "firstSeen": "2026-10-30 23:37:14",
+   "full": false
+  },
+  "jr-506905-22124737": {
+   "firstSeen": "2026-10-30 23:37:14",
+   "full": false
+  },
+  "jr-506905-22123038": {
+   "firstSeen": "2026-10-30 23:37:14",
+   "full": false
+  },
+  "jr-506905-22123023": {
+   "firstSeen": "2026-10-30 23:37:14",
+   "full": false
+  },
+  "jr-506905-22123470": {
+   "firstSeen": "2026-10-30 23:37:14",
+   "full": false
+  },
+  "jr-506905-22123049": {
+   "firstSeen": "2026-10-30 23:37:14",
+   "full": false
+  },
+  "jr-506905-22123462": {
+   "firstSeen": "2026-10-30 23:37:14",
+   "full": false
+  },
+  "jr-506905-22123488": {
+   "firstSeen": "2026-10-30 23:37:14",
+   "full": false
+  },
+  "jr-506905-22123044": {
+   "firstSeen": "2026-10-30 23:37:14",
+   "full": false
+  },
+  "jr-506905-22123036": {
+   "firstSeen": "2026-10-30 23:37:14",
+   "full": false
+  },
+  "jr-506905-22123464": {
+   "firstSeen": "2026-10-30 23:37:14",
+   "full": false
+  },
+  "jr-506905-22124741": {
+   "firstSeen": "2026-10-30 23:37:14",
+   "full": false
+  },
+  "jr-506905-22125146": {
+   "firstSeen": "2026-10-30 23:37:14",
+   "full": false
+  },
+  "jr-506905-22124731": {
+   "firstSeen": "2026-10-30 23:37:14",
+   "full": false
+  },
+  "jr-506905-22123064": {
+   "firstSeen": "2026-10-30 23:37:14",
+   "full": false
+  },
+  "jr-506905-22123075": {
+   "firstSeen": "2026-10-30 23:37:14",
+   "full": false
+  },
+  "jr-506905-22125141": {
+   "firstSeen": "2026-10-30 23:37:14",
+   "full": false
+  },
+  "jr-506905-22123072": {
+   "firstSeen": "2026-10-30 23:37:14",
+   "full": false
+  },
+  "jr-506905-22125149": {
+   "firstSeen": "2026-10-30 23:37:14",
+   "full": false
+  },
+  "jr-506905-22125148": {
+   "firstSeen": "2026-10-30 23:37:14",
+   "full": false
+  },
+  "jr-506905-22125174": {
+   "firstSeen": "2026-10-30 23:37:14",
+   "full": false
+  },
+  "jr-513881-21720818": {
+   "firstSeen": "2026-10-30 23:37:14",
+   "full": false
+  },
+  "jr-opengym-wendy-s-gymnastics-fri-11-30am": {
+   "firstSeen": "2026-10-30 23:37:14",
+   "full": false
+  },
+  "jr-opengym-wendy-s-gymnastics-mon-10-00am": {
+   "firstSeen": "2026-10-30 23:37:14",
+   "full": false
+  },
+  "jr-opengym-wendy-s-gymnastics-mon-9-15am": {
+   "firstSeen": "2026-10-30 23:37:14",
+   "full": false
+  },
+  "jr-opengym-wendy-s-gymnastics-thu-6-30pm": {
+   "firstSeen": "2026-10-30 23:37:14",
+   "full": false
+  },
+  "jr-opengym-wendy-s-gymnastics-tue-11-30am": {
+   "firstSeen": "2026-10-30 23:37:14",
+   "full": false
+  },
+  "jr-opengym-wendy-s-gymnastics-tue-10-45am": {
+   "firstSeen": "2026-10-30 23:37:14",
+   "full": false
+  },
+  "bex-148394": {
+   "firstSeen": "2026-10-30 23:38:05",
+   "full": false
+  },
+  "gh-munchin-munchkins-2026-11-07": {
+   "firstSeen": "2026-10-30 23:38:05",
+   "full": false
   }
  },
  "watch": {
@@ -562,11 +830,6 @@
   },
   "jcc-swim": {
    "hash": "21c126bdbe37042c",
-   "changedAt": null,
-   "ok": true
-  },
-  "wendys-gym": {
-   "hash": "9820fabd94db141f",
    "changedAt": null,
    "ok": true
   },
@@ -585,11 +848,6 @@
    "changedAt": null,
    "ok": true
   },
-  "bexley-rec": {
-   "hash": "f46fbb91d2c0e4db",
-   "changedAt": null,
-   "ok": true
-  },
   "zoo": {
    "hash": "c540ccc575573cf1",
    "changedAt": null,
@@ -603,6 +861,26 @@
   },
   "fpc": {
    "hash": "ed712de6f6e3a51e",
+   "changedAt": null,
+   "ok": true
+  },
+  "ua-rec": {
+   "hash": "b3ceda26f966e46a",
+   "changedAt": null,
+   "ok": true
+  },
+  "dublin-dance": {
+   "hash": "c0245c84aec88bf2",
+   "changedAt": null,
+   "ok": true
+  },
+  "learn-sing-grow": {
+   "hash": "f205a56ffc0552b4",
+   "changedAt": null,
+   "ok": true
+  },
+  "lifetime-ua": {
+   "hash": "ad7d1f6b1f51b916",
    "changedAt": null,
    "ok": true
   }

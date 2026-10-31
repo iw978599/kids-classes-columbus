@@ -1,14 +1,14 @@
 import {
-  filterItems, formatDate, formatDateTime, formatTime, groupItems, isNew, liveStatus, reopened,
+  filterItems, formatDate, formatDateTime, formatTime, groupItems, isNew, liveStatus, placeOptions, reopened,
 } from "./logic.mjs";
 
 const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => `&#${c.charCodeAt(0)};`);
 const STATUS = {
   open: ["Open", "good"], upcoming: ["Opens soon", "soon"],
-  "drop-in": ["Drop in", ""], contact: ["Contact", ""], full: ["Full", ""],
+  anytime: ["Join anytime", "good"], "drop-in": ["Drop in", ""], contact: ["Contact", ""],
 };
-const filters = { fitsOnly: true, showFull: false, showDropIn: false, hidden: new Set(), startsFrom: "", maxMiles: 0, search: "" };
+const filters = { fitsOnly: true, showDropIn: false, showAnytime: true, place: "", hidden: new Set(), startsFrom: "", maxMiles: 0, search: "" };
 const slug = (c) => c.toLowerCase().replace(/\s+/g, "-");
 
 function easternNow() {
@@ -32,10 +32,10 @@ function dates(i) {
 function card(i, ctx) {
   const status = liveStatus(i, ctx.now);
   const [label, tone] = STATUS[status] ?? STATUS.contact;
-  const spots = status === "open" && i.openings ? ` · ${i.openings} left` : "";
+  const spots = ["open", "anytime"].includes(status) && i.openings ? ` · ${i.openings} left` : "";
   const place = [i.location || "See listing", i.miles != null ? `${i.miles} mi` : "distance unknown"].join(" · ");
   const reg = status === "upcoming" && i.opensAt ? `Registration opens ${formatDateTime(i.opensAt)}`
-    : i.closesAt && status !== "full" ? `Registration closes ${formatDateTime(i.closesAt)}` : "";
+    : i.closesAt ? `Registration closes ${formatDateTime(i.closesAt)}` : "";
   const flags = [
     reopened(i, ctx.now) ? '<span class="mk alert">Spot opened</span>' : "",
     isNew(i, ctx.baselineAt, ctx.now) ? '<span class="mk alert">New</span>' : "",
@@ -72,12 +72,18 @@ function setTheme(theme) {
   try { localStorage.setItem("theme", theme); } catch {}
 }
 
+const sortedProviders = (data) =>
+  [...data.providers].sort((a, b) => (b.changedAt ?? "").localeCompare(a.changedAt ?? "") || (a.miles ?? 999) - (b.miles ?? 999));
+
 function render(data) {
   const ctx = { now: easternNow(), baselineAt: data.baselineAt };
   const shown = filterItems(data.items, filters, ctx.now);
   const groups = groupItems(shown, ctx.now);
   $("count").textContent = `${shown.length} / ${data.items.length}`;
   $("count").title = `${shown.length} of ${data.items.length} classes shown`;
+
+  $("providers").innerHTML = sortedProviders(data).filter((p) => !filters.place || p.provider === filters.place).map(providerCard).join("");
+  $("providers-section").hidden = !$("providers").innerHTML;
 
   const fresh = shown.filter((i) => isNew(i, ctx.baselineAt, ctx.now) || reopened(i, ctx.now));
   $("new").hidden = !fresh.length;
@@ -100,8 +106,9 @@ function renderOnce(data) {
   $("legend").innerHTML = '<button type="button" class="btn tiny" id="allTags">All</button><button type="button" class="btn tiny" id="noTags">None</button>'
     + cats.map((c) => `<button type="button" class="lg" data-c="${slug(c)}" data-cat="${esc(c)}" aria-pressed="true"><i></i>${esc(c)}</button>`).join("");
 
-  const providers = [...data.providers].sort((a, b) => (b.changedAt ?? "").localeCompare(a.changedAt ?? "") || (a.miles ?? 999) - (b.miles ?? 999));
-  $("providers").innerHTML = providers.map(providerCard).join("");
+  const { centers, companies } = placeOptions(data.items, data.providers);
+  const options = (list) => list.map((p) => `<option value="${esc(p)}">${esc(p)}</option>`).join("");
+  $("place").innerHTML = `<option value="">All places</option><optgroup label="Columbus rec centers">${options(centers)}</optgroup><optgroup label="Companies and cities">${options(companies)}</optgroup>`;
   $("sources").textContent = Object.values(data.sources).map((s) => `${s.label}: ${s.count}`).join(" · ");
 }
 
@@ -116,8 +123,9 @@ async function start() {
     render(data);
     const bind = (id, key, read) => $(id).addEventListener("input", (e) => { filters[key] = read(e.target); render(data); });
     bind("fits", "fitsOnly", (t) => t.checked);
-    bind("full", "showFull", (t) => t.checked);
+    bind("anytime", "showAnytime", (t) => t.checked);
     bind("drop", "showDropIn", (t) => t.checked);
+    bind("place", "place", (t) => t.value);
     bind("starts", "startsFrom", (t) => t.value);
     bind("miles", "maxMiles", (t) => Number(t.value));
     bind("search", "search", (t) => t.value);

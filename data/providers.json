@@ -28,20 +28,6 @@
     "verified": "2026-10-30"
   },
   {
-    "id": "wendys-gym",
-    "name": "Weekly gymnastics and open gym",
-    "provider": "Wendy's Gymnastics",
-    "category": "Gymnastics",
-    "ages": "Check the class page for age 4",
-    "schedule": "School-year classes through May 28, 2027. Open gym Thursdays at 6:30pm.",
-    "price": "Open gym $15",
-    "note": "Registration is always open. Summer 2027 registration opens in April.",
-    "address": "2460 Wood Ave, Columbus, OH 43221",
-    "url": "https://www.wendysgymnastics.com/weekly-classes",
-    "watchUrl": "https://www.wendysgymnastics.com/weekly-classes",
-    "verified": "2026-10-30"
-  },
-  {
     "id": "balletmet",
     "name": "Children's Division",
     "provider": "BalletMet Academy",
@@ -81,20 +67,6 @@
     "address": "",
     "url": "https://www.ss-columbus.soccershots.com/page/class-registration",
     "watchUrl": "https://www.soccershots.com/columbus/",
-    "verified": "2026-10-30"
-  },
-  {
-    "id": "bexley-rec",
-    "name": "Programs search",
-    "provider": "Bexley Recreation & Parks",
-    "category": "Other",
-    "ages": "Search the catalog for age 4",
-    "schedule": "Varies by season.",
-    "price": "Varies",
-    "note": "Check whether non-resident registration differs.",
-    "address": "2099 Clifton Ave, Columbus, OH 43209",
-    "url": "https://bexleyoh.myrec.com/info/activities/default.aspx",
-    "watchUrl": "https://bexleyoh.myrec.com/info/activities/default.aspx",
     "verified": "2026-10-30"
   },
   {
@@ -138,5 +110,61 @@
     "url": "https://www.fpconservatory.org/education-programs/classes/",
     "watchUrl": "https://www.fpconservatory.org/education-programs/classes/",
     "verified": "2026-10-30"
+  },
+  {
+    "id": "ua-rec",
+    "name": "Preschool and youth classes",
+    "provider": "Upper Arlington Parks & Recreation",
+    "category": "Other",
+    "ages": "Check the Activity Guide",
+    "schedule": "Seasonal. All programs need pre-registration.",
+    "price": "Varies",
+    "note": "Residents register first. Non-residents can usually join about two days later. Its registration portal blocks automated checks, so classes can't be listed here.",
+    "address": "1945 Ridgeview Rd, Upper Arlington, OH 43221",
+    "url": "https://upperarlingtonoh.gov/activityguide",
+    "watchUrl": "https://www.upperarlingtonoh.gov/351/Program-Information-Registration",
+    "verified": "2026-10-31"
+  },
+  {
+    "id": "dublin-dance",
+    "name": "Creative Ballet and Creative Gymnastics",
+    "provider": "Dublin Dance Centre & Gymnastics",
+    "category": "Dance",
+    "ages": "Classes for 4s and 4-5/K",
+    "schedule": "Includes weekend and evening classes. Check with the office for this season.",
+    "price": "Not published",
+    "note": "Registration is by phone: 614-761-2882.",
+    "address": "2665 Farmers Dr, Columbus, OH 43235",
+    "url": "https://www.activekids.com/columbus-oh/dance/classes/creative-ballet-4-s-2025-106711072",
+    "watchUrl": "https://www.activekids.com/columbus-oh/dance/classes/creative-ballet-4-s-2025-106711072",
+    "verified": "2026-10-31"
+  },
+  {
+    "id": "learn-sing-grow",
+    "name": "Kindermusik music classes",
+    "provider": "Learn Sing Grow",
+    "category": "Music",
+    "ages": "Ages 4 months to 5 years",
+    "schedule": "Year-round classes in Dublin.",
+    "price": "Not published",
+    "note": "Check its class page for current times.",
+    "address": "",
+    "url": "https://www.learnsingandgrow.com",
+    "watchUrl": "https://www.learnsingandgrow.com",
+    "verified": "2026-10-31"
+  },
+  {
+    "id": "lifetime-ua",
+    "name": "Kids Studio Classes",
+    "provider": "Life Time Upper Arlington",
+    "category": "Dance",
+    "ages": "Ages 3-11",
+    "schedule": "Check the club schedule.",
+    "price": "Membership required",
+    "note": "A family membership that includes a junior is required.",
+    "address": "",
+    "url": "https://www.lifetime.life/locations/oh/upper-arlington/kids-and-family/classes.html",
+    "watchUrl": "https://www.lifetime.life/locations/oh/upper-arlington/kids-and-family/classes.html",
+    "verified": "2026-10-31"
   }
 ]

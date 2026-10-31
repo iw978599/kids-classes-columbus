@@ -28,8 +28,9 @@
 
     <form class="filters" onsubmit="return false" aria-label="Filter classes">
       <label class="toggle"><input type="checkbox" id="fits" checked> Weekends and after 5:30pm</label>
-      <label class="toggle"><input type="checkbox" id="full"> Include full</label>
+      <label class="toggle"><input type="checkbox" id="anytime" checked> Include join-anytime</label>
       <label class="toggle"><input type="checkbox" id="drop"> Include drop-ins</label>
+      <label class="lbl">Place <select class="sel" id="place"></select></label>
       <label class="lbl">Starts
         <select class="sel" id="starts">
           <option value="">Any time</option>
@@ -55,9 +56,9 @@
 
     <div id="groups"></div>
 
-    <section>
+    <section id="providers-section">
       <h2>Other programs to check</h2>
-      <p class="hint">These providers don't publish schedules this site can read. Details were checked by hand on Oct 30, 2026, and a badge appears when a class page changes.</p>
+      <p class="hint">These providers don't publish schedules this site can read. Details were checked by hand, and a badge appears when a class page changes.</p>
       <div class="grid" id="providers"></div>
     </section>
   </main>

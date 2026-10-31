@@ -2,6 +2,9 @@ import assert from "node:assert/strict";
 import { test } from "node:test";
 import { ageFits, ageMonths, categorize, localNow, milesBetween, nameTimeConflict, recStatus } from "../scripts/lib.mjs";
 import { parseAges, parseRange } from "../scripts/sources/cct.mjs";
+import { parseBexleyAges, parseDateTime } from "../scripts/sources/bexley.mjs";
+import { collapseOpenGym, parseJrAges, parseTime } from "../scripts/sources/jackrabbit.mjs";
+import { parsePrograms } from "../scripts/sources/recdesk.mjs";
 import { fingerprint } from "../scripts/sources/watch.mjs";
 
 const BIRTH = "2020-06";
@@ -43,6 +46,27 @@ test("Ticket Tailor dates and ages parse", () => {
   assert.deepEqual(parseAges("Story Explorers Ages 3 - 6"), [3, 6]);
   assert.deepEqual(parseAges("Group Voice 1 (8-13)"), [8, 13]);
   assert.equal(parseAges("no ages here"), null);
+});
+
+test("suburb and studio formats parse", () => {
+  assert.deepEqual(parseJrAges("2 yrs 10 mos - 4 yrs"), [34, 60]);
+  assert.deepEqual(parseJrAges("1 yr - 12 yrs"), [12, 156]);
+  assert.equal(parseTime("6:45pm"), "18:45");
+  assert.deepEqual(parseBexleyAges("4y - 5y"), [48, 72]);
+  assert.deepEqual(parseBexleyAges("3y"), [36, 48]);
+  assert.deepEqual(parseBexleyAges("2y 5m - 5y"), [29, 72]);
+  assert.deepEqual(parseDateTime("11/16/2026 - 12/07/2026 04:40 PM - 05:15 PM Jeffrey Mansion - Garage"), {
+    firstDate: "2026-11-16", lastDate: "2026-12-07", startTime: "16:40", endTime: "17:15", location: "Jeffrey Mansion - Garage",
+  });
+  const collapsed = collapseOpenGym([
+    { name: "OPEN GYM - Thurs 11/12 @ 6:30pm", provider: "W", firstDate: "2026-11-12", lastDate: "2026-11-12" },
+    { name: "OPEN GYM - Thurs 11/5 @ 6:30pm", provider: "W", firstDate: "2026-11-05", lastDate: "2026-11-05" },
+    { name: "Ballet", provider: "W", firstDate: "2026-11-05", lastDate: "2026-11-30" },
+  ]);
+  assert.equal(collapsed.length, 2);
+  assert.equal(collapsed[1].firstDate, "2026-11-05");
+  const youth = parsePrograms("<p>Category: Youth Little Ballers Youth No online registration Dates 11/7/2026 - 12/19/2026 Days Sat Ages 4y - 6y Grades - Openings n/a Remaining n/a</p>");
+  assert.deepEqual(youth[0], { name: "Little Ballers", reg: "No online registration", firstDate: "2026-11-07", lastDate: "2026-12-19", day: "Sat", ages: "4y - 6y", remaining: "n/a" });
 });
 
 test("helpers", () => {

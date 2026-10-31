@@ -14,16 +14,28 @@ export function daysBetween(a, b) {
 export const isNew = (i, baselineAt, now) => i.firstSeen > baselineAt && daysBetween(i.firstSeen, now) <= NEW_DAYS;
 export const reopened = (i, now) => Boolean(i.spotOpenedAt) && daysBetween(i.spotOpenedAt, now) <= NEW_DAYS;
 
+// Columbus Rec filters by rec center. Everyone else filters by company.
+export const placeOf = (i) => (i.source === "rec" && i.location ? i.location : i.provider);
+
+export function placeOptions(items, providers) {
+  const sorted = (list) => [...new Set(list)].sort((a, b) => a.localeCompare(b));
+  return {
+    centers: sorted(items.filter((i) => i.source === "rec").map(placeOf)),
+    companies: sorted([...items.filter((i) => i.source !== "rec").map(placeOf), ...providers.map((p) => p.provider)]),
+  };
+}
+
 export function filterItems(items, f, now) {
   const q = f.search.trim().toLowerCase();
   return items.filter((i) => {
     const status = liveStatus(i, now);
     // The data can be hours old, so a session that began since then drops off here.
-    if (status !== "drop-in" && i.firstDate <= now.slice(0, 10)) return false;
+    if (!["drop-in", "anytime"].includes(status) && i.firstDate <= now.slice(0, 10)) return false;
     if (status === "drop-in" && !f.showDropIn) return false;
+    if (status === "anytime" && !f.showAnytime) return false;
     if (f.fitsOnly && !fitsSchedule(i)) return false;
-    if (!f.showFull && status === "full") return false;
     if (f.hidden.has(i.category)) return false;
+    if (f.place && placeOf(i) !== f.place) return false;
     if (f.startsFrom && i.firstDate < f.startsFrom) return false;
     if (f.maxMiles && i.miles != null && i.miles > f.maxMiles) return false;
     if (q && !`${i.name} ${i.provider} ${i.location}`.toLowerCase().includes(q)) return false;
@@ -34,9 +46,9 @@ export function filterItems(items, f, now) {
 const GROUPS = [
   ["now", "Register now", ["open"]],
   ["soon", "Registration opening soon", ["upcoming"]],
-  ["drop", "Drop in, no registration", ["drop-in"]],
   ["contact", "Contact to enroll", ["contact"]],
-  ["full", "Full or waitlist", ["full"]],
+  ["anytime", "Join anytime", ["anytime"]],
+  ["drop", "Drop in, no registration", ["drop-in"]],
 ];
 
 export function groupItems(items, now) {

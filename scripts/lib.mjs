@@ -74,7 +74,7 @@ export function milesBetween(a, b) {
 
 const CATEGORIES = [
   ["Swim", /swim|aquatic/i],
-  ["Gymnastics", /gymnast|tumbl|gymtastic/i],
+  ["Gymnastics", /gymnast|tumbl|gymtastic|gym skills/i],
   ["Dance", /ballet|dance|dancing|\btap\b|hip hop|\bstep\b|cheer|movement/i],
   ["Theatre", /theat|acting|drama|story explorers|playwrit/i],
   ["Music", /music|drum|piano|guitar|singing|voice/i],
