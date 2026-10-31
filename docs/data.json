@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-10-31 00:01:20",
+ "checkedAt": "2026-10-31 05:48:42",
  "baselineAt": "2026-10-30 23:09:05",
  "anchor": "Schiller Park",
  "sources": {
@@ -7,37 +7,37 @@
    "label": "Columbus Rec & Parks",
    "ok": true,
    "count": 273,
-   "lastSuccess": "2026-10-31 00:01:20"
+   "lastSuccess": "2026-10-31 05:48:42"
   },
   "cct": {
    "label": "Columbus Children's Theatre",
    "ok": true,
    "count": 2,
-   "lastSuccess": "2026-10-31 00:01:20"
+   "lastSuccess": "2026-10-31 05:48:42"
   },
   "bexley": {
    "label": "Bexley Rec",
    "ok": true,
    "count": 8,
-   "lastSuccess": "2026-10-31 00:01:20"
+   "lastSuccess": "2026-10-31 05:48:42"
   },
   "recdesk": {
    "label": "Grandview Heights Rec",
    "ok": true,
    "count": 6,
-   "lastSuccess": "2026-10-31 00:01:20"
+   "lastSuccess": "2026-10-31 05:48:42"
   },
   "jackrabbit": {
    "label": "Wendy's and K Studio",
    "ok": true,
-   "count": 76,
-   "lastSuccess": "2026-10-31 00:01:20"
+   "count": 78,
+   "lastSuccess": "2026-10-31 05:48:42"
   },
   "library": {
    "label": "Columbus Metropolitan Library",
    "ok": true,
    "count": 14,
-   "lastSuccess": "2026-10-31 00:01:20"
+   "lastSuccess": "2026-10-31 05:48:42"
   }
  },
  "items": [
@@ -1065,6 +1065,37 @@
    "firstSeen": "2026-10-30 23:09:05"
   },
   {
+   "id": "jr-506905-22122940",
+   "source": "jackrabbit",
+   "provider": "Wendy's Gymnastics",
+   "name": "TUMBLE TOT 2&3 - Fri 9:15am",
+   "category": "Gymnastics",
+   "ages": "1 yr 10 mos - 3 yrs",
+   "ageMin": 22,
+   "ageMax": 48,
+   "days": [
+    "Fri"
+   ],
+   "startTime": "09:15",
+   "endTime": "09:55",
+   "firstDate": "2026-08-31",
+   "lastDate": "2027-05-28",
+   "sessions": null,
+   "location": "Wendy's Gymnastics",
+   "address": "2460 Wood Ave, Columbus, OH 43221",
+   "lat": 40.009629846106,
+   "lon": -83.034094847396,
+   "price": "$99.00 tuition",
+   "status": "anytime",
+   "openings": 1,
+   "opensAt": null,
+   "closesAt": null,
+   "notes": [],
+   "url": "https://app.jackrabbitclass.com/reg.asp?id=506905&hc=&initEmpty=&hdrColor=&WL=0&preLoadClassID=22122940&loc=",
+   "miles": 5.3,
+   "firstSeen": "2026-10-31 05:48:42"
+  },
+  {
    "id": "jr-506905-22122977",
    "source": "jackrabbit",
    "provider": "Wendy's Gymnastics",
@@ -1466,6 +1497,37 @@
    "url": "https://app.jackrabbitclass.com/reg.asp?id=506905&hc=&initEmpty=&hdrColor=&WL=0&preLoadClassID=22443243&loc=",
    "miles": 5.3,
    "firstSeen": "2026-10-30 23:09:05"
+  },
+  {
+   "id": "jr-506905-22124719",
+   "source": "jackrabbit",
+   "provider": "Wendy's Gymnastics",
+   "name": "TUMBLE TOT 3&4 - Mon @ 5:15pm",
+   "category": "Gymnastics",
+   "ages": "2 yrs 10 mos - 4 yrs",
+   "ageMin": 34,
+   "ageMax": 60,
+   "days": [
+    "Mon"
+   ],
+   "startTime": "17:15",
+   "endTime": "17:55",
+   "firstDate": "2026-08-31",
+   "lastDate": "2027-05-28",
+   "sessions": null,
+   "location": "Wendy's Gymnastics",
+   "address": "2460 Wood Ave, Columbus, OH 43221",
+   "lat": 40.009629846106,
+   "lon": -83.034094847396,
+   "price": "$99.00 tuition",
+   "status": "anytime",
+   "openings": 1,
+   "opensAt": null,
+   "closesAt": null,
+   "notes": [],
+   "url": "https://app.jackrabbitclass.com/reg.asp?id=506905&hc=&initEmpty=&hdrColor=&WL=0&preLoadClassID=22124719&loc=",
+   "miles": 5.3,
+   "firstSeen": "2026-10-31 05:48:42"
   },
   {
    "id": "jr-506905-22124735",
@@ -10069,7 +10131,7 @@
    "lon": null,
    "price": "$50.00 resident, $60.00 non-resident",
    "status": "open",
-   "openings": 23,
+   "openings": 25,
    "opensAt": "2026-10-20 12:30:00",
    "closesAt": "2026-11-28 23:59:00",
    "notes": [],
@@ -10795,7 +10857,7 @@
    "lat": 40.107160912784,
    "lon": -83.087192475101,
    "miles": 12.6,
-   "changedAt": null,
+   "changedAt": "2026-10-31 05:48:42",
    "watchOk": true
   },
   {

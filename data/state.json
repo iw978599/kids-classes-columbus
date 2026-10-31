@@ -1716,6 +1716,14 @@
   "gh-youth-vendor-program-holiday-in-the-heights-2026-12-01": {
    "firstSeen": "2026-10-30 23:09:05",
    "full": false
+  },
+  "jr-506905-22122940": {
+   "firstSeen": "2026-10-31 05:48:42",
+   "full": false
+  },
+  "jr-506905-22124719": {
+   "firstSeen": "2026-10-31 05:48:42",
+   "full": false
   }
  },
  "watch": {
@@ -1766,8 +1774,8 @@
    "ok": true
   },
   "dublin-dance": {
-   "hash": "c0245c84aec88bf2",
-   "changedAt": null,
+   "hash": "6716cd0dfc609a49",
+   "changedAt": "2026-10-31 05:48:42",
    "ok": true
   },
   "learn-sing-grow": {
