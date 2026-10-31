@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-10-31 13:16:12",
+ "checkedAt": "2026-10-31 17:42:08",
  "baselineAt": "2026-10-30 23:09:05",
  "anchor": "Schiller Park",
  "neighborhoods": [
@@ -24,37 +24,37 @@
    "label": "Columbus Rec & Parks",
    "ok": true,
    "count": 274,
-   "lastSuccess": "2026-10-31 13:16:12"
+   "lastSuccess": "2026-10-31 17:42:08"
   },
   "cct": {
    "label": "Columbus Children's Theatre",
    "ok": true,
    "count": 2,
-   "lastSuccess": "2026-10-31 13:16:12"
+   "lastSuccess": "2026-10-31 17:42:08"
   },
   "bexley": {
    "label": "Bexley Rec",
    "ok": true,
    "count": 8,
-   "lastSuccess": "2026-10-31 13:16:12"
+   "lastSuccess": "2026-10-31 17:42:08"
   },
   "recdesk": {
    "label": "Grandview Heights Rec",
    "ok": true,
    "count": 6,
-   "lastSuccess": "2026-10-31 13:16:12"
+   "lastSuccess": "2026-10-31 17:42:08"
   },
   "jackrabbit": {
    "label": "Wendy's and K Studio",
    "ok": true,
    "count": 77,
-   "lastSuccess": "2026-10-31 13:16:12"
+   "lastSuccess": "2026-10-31 17:42:08"
   },
   "library": {
    "label": "Columbus Metropolitan Library",
    "ok": true,
    "count": 14,
-   "lastSuccess": "2026-10-31 13:16:12"
+   "lastSuccess": "2026-10-31 17:42:08"
   }
  },
  "items": [
@@ -5274,7 +5274,7 @@
    "lon": -83.0911,
    "price": "$30.00 resident, $36.00 non-resident",
    "status": "open",
-   "openings": 5,
+   "openings": 3,
    "opensAt": "2026-09-08 12:30:00",
    "closesAt": "2026-11-24 00:00:00",
    "notes": [],
@@ -10503,7 +10503,7 @@
    "lon": -83.0828337,
    "price": "$50.00 resident, $60.00 non-resident",
    "status": "open",
-   "openings": 3,
+   "openings": 4,
    "opensAt": "2026-10-20 12:30:00",
    "closesAt": "2026-11-28 23:59:00",
    "notes": [],
@@ -10535,7 +10535,7 @@
    "lon": null,
    "price": "$50.00 resident, $60.00 non-resident",
    "status": "open",
-   "openings": 45,
+   "openings": 44,
    "opensAt": "2026-10-20 12:30:00",
    "closesAt": "2026-11-28 23:59:00",
    "notes": [],
