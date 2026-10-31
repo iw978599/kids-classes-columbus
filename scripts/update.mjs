@@ -74,7 +74,8 @@ const firstRun = !state.baselineAt;
 if (firstRun) state.baselineAt = now;
 // Full classes aren't published, but stay tracked so a reopened spot can be flagged.
 for (const i of items) {
-  const s = (state.seen[i.id] ??= { firstSeen: now });
+  // A source joining the site for the first time isn't news; only what it adds later is.
+  const s = (state.seen[i.id] ??= { firstSeen: previous.sources[i.source] ? now : state.baselineAt });
   if (s.full && i.status !== "full") s.spotOpenedAt = now;
   s.full = i.status === "full";
   i.firstSeen = s.firstSeen;
