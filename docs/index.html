@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Columbus Kids' Classes</title>
+  <meta name="description" content="Classes for 4-year-olds around Columbus, updated automatically.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800&family=Barlow+Condensed:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="style.css">
+  <script>try { document.documentElement.dataset.theme = localStorage.getItem("theme") || "light"; } catch {}</script>
+</head>
+<body>
+  <header class="top">
+    <div class="top-in">
+      <div class="brand">
+        <h1>Kids' Classes</h1>
+        <small id="checked">Loading…</small>
+      </div>
+      <div class="counter" id="count" aria-live="polite">—</div>
+      <button class="btn" id="theme" type="button">☾ Dark</button>
+    </div>
+  </header>
+
+  <main>
+    <p class="warn" id="warn" hidden></p>
+
+    <form class="filters" onsubmit="return false" aria-label="Filter classes">
+      <label class="toggle"><input type="checkbox" id="fits" checked> Weekends and after 5:30pm</label>
+      <label class="toggle"><input type="checkbox" id="full"> Include full</label>
+      <label class="lbl">Distance
+        <select class="sel" id="miles">
+          <option value="0">Any</option>
+          <option value="3">3 miles</option>
+          <option value="5">5 miles</option>
+          <option value="10">10 miles</option>
+        </select>
+      </label>
+      <label class="lbl search">Search <input class="sel" type="search" id="search" placeholder="ballet, swim, Tuttle"></label>
+      <div class="legend" id="legend"></div>
+    </form>
+
+    <section id="new" hidden>
+      <h2>New and reopened</h2>
+      <div class="grid" id="new-list"></div>
+    </section>
+
+    <div id="groups"></div>
+
+    <section>
+      <h2>Other programs to check</h2>
+      <p class="hint">These providers don't publish schedules this site can read. Details were checked by hand on Oct 30, 2026, and a badge appears when a class page changes.</p>
+      <div class="grid" id="providers"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p id="sources"></p>
+    <p>Distances from <span id="anchor">Schiller Park</span> are straight-line. Stripes mean free. Confirm details with the provider before registering.</p>
+  </footer>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
