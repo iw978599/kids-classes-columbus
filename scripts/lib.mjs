@@ -52,18 +52,8 @@ export function localNow(date = new Date()) {
   return `${p.year}-${p.month}-${p.day} ${p.hour}:${p.minute}:${p.second}`;
 }
 
-// Age in whole months on an ISO date, for a "YYYY-MM" birth month.
-export function ageMonths(birthMonth, isoDate) {
-  const [by, bm] = birthMonth.split("-").map(Number);
-  const [y, m] = isoDate.split("-").map(Number);
-  return (y - by) * 12 + (m - bm);
-}
-
-// maxMonths is exclusive ("less than 5 yrs" = 60). null means no limit.
-export function ageFits(birthMonth, startDate, minMonths, maxMonths) {
-  const age = ageMonths(birthMonth, startDate);
-  return age >= (minMonths ?? 0) && (maxMonths == null || age < maxMonths);
-}
+// The site covers kids through age 6, so anything that starts at 7 or later is skipped.
+export const forYoungKids = (minMonths) => (minMonths ?? 0) < 84;
 
 export function milesBetween(a, b) {
   const rad = (d) => (d * Math.PI) / 180;
@@ -73,6 +63,7 @@ export function milesBetween(a, b) {
 }
 
 const CATEGORIES = [
+  ["Camps", /\bcamps?\b|bootcamp/i],
   ["Swim", /swim|aquatic/i],
   ["Gymnastics", /gymnast|tumbl|gymtastic|gym skills/i],
   ["Dance", /ballet|dance|dancing|\btap\b|hip hop|\bstep\b|cheer|movement/i],

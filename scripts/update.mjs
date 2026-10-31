@@ -9,15 +9,12 @@ import { fetchRec } from "./sources/rec.mjs";
 import { fetchRecdesk } from "./sources/recdesk.mjs";
 import { checkProviders } from "./sources/watch.mjs";
 
-const birthMonth = process.env.BIRTH_MONTH;
-if (!/^\d{4}-\d{2}$/.test(birthMonth ?? "")) throw new Error("Set BIRTH_MONTH to YYYY-MM");
-
 const read = (path, fallback) => (existsSync(path) ? JSON.parse(readFileSync(path, "utf8")) : fallback);
 const write = (path, value) => writeFileSync(path, `${JSON.stringify(value, null, 1)}\n`);
 const DATA = "docs/data.json", STATE = "data/state.json", GEO = "data/geocache.json";
 
 const now = localNow();
-const ctx = { birthMonth, now };
+const ctx = { now };
 const previous = read(DATA, { items: [], sources: {} });
 const state = read(STATE, { baselineAt: null, seen: {}, watch: {} });
 const geo = read(GEO, {});

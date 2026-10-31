@@ -1,5 +1,5 @@
 // Grandview Heights Parks & Recreation (RecDesk). The list has no times, so those show as "not listed".
-import { hasStarted, ageMonths, categorize, textOf } from "../lib.mjs";
+import { categorize, forYoungKids, hasStarted, textOf } from "../lib.mjs";
 import { parseBexleyAges as parseAges } from "./bexley.mjs";
 
 const BASE = "https://grandviewheights.recdesk.com/Community";
@@ -41,7 +41,7 @@ export async function fetchRecdesk(ctx) {
     method: "POST",
     signal: AbortSignal.timeout(45000),
     headers: { "User-Agent": UA, Cookie: cookie, "Content-Type": "application/json; charset=utf-8", "X-Requested-With": "XMLHttpRequest" },
-    body: JSON.stringify({ ProgramName: "", Code: "", ProgramType: [0], Facility: [0], Days: [0], Age: "4", Pagination: { CurrentPageIndex: 1, PageSize: 100, LoadMore: false } }),
+    body: JSON.stringify({ ProgramName: "", Code: "", ProgramType: [0], Facility: [0], Days: [0], Pagination: { CurrentPageIndex: 1, PageSize: 100, LoadMore: false } }),
   });
   const html = await r.text();
   if (!r.ok || !html.includes("filtered results")) throw new Error("Unexpected RecDesk response");
@@ -50,9 +50,7 @@ export async function fetchRecdesk(ctx) {
   return parsePrograms(html).flatMap((p) => {
     const ages = parseAges(p.ages);
     const st = status(p, ctx.now);
-    if (!ages || !st || hasStarted(p.firstDate, ctx.now)) return [];
-    const age = ageMonths(ctx.birthMonth, p.firstDate);
-    if (age < ages[0] || age >= ages[1]) return [];
+    if (!ages || !st || hasStarted(p.firstDate, ctx.now) || !forYoungKids(ages[0])) return [];
     return [{
       id: `gh-${p.name.toLowerCase().replace(/[^a-z0-9]+/g, "-")}-${p.firstDate}`,
       source: "recdesk",
@@ -60,6 +58,8 @@ export async function fetchRecdesk(ctx) {
       name: p.name,
       category: categorize(p.name),
       ages: p.ages,
+      ageMin: ages[0],
+      ageMax: ages[1],
       days: [p.day],
       startTime: "",
       endTime: "",

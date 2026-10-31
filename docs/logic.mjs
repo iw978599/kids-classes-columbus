@@ -14,6 +14,9 @@ export function daysBetween(a, b) {
 export const isNew = (i, baselineAt, now) => i.firstSeen > baselineAt && daysBetween(i.firstSeen, now) <= NEW_DAYS;
 export const reopened = (i, now) => Boolean(i.spotOpenedAt) && daysBetween(i.spotOpenedAt, now) <= NEW_DAYS;
 
+// A class fits if it overlaps that year of age, so "at least 4y 6m" still shows for a 4-year-old.
+export const fitsAge = (i, age) => (i.ageMin ?? 0) < (age + 1) * 12 && (i.ageMax == null || i.ageMax > age * 12);
+
 // Columbus Rec filters by rec center. Everyone else filters by company.
 export const placeOf = (i) => (i.source === "rec" && i.location ? i.location : i.provider);
 
@@ -36,6 +39,7 @@ export function filterItems(items, f, now) {
     if (f.fitsOnly && !fitsSchedule(i)) return false;
     if (f.hidden.has(i.category)) return false;
     if (f.place && placeOf(i) !== f.place) return false;
+    if (f.age != null && !fitsAge(i, f.age)) return false;
     if (f.startsFrom && i.firstDate < f.startsFrom) return false;
     if (f.maxMiles && i.miles != null && i.miles > f.maxMiles) return false;
     if (q && !`${i.name} ${i.provider} ${i.location}`.toLowerCase().includes(q)) return false;

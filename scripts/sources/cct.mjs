@@ -1,7 +1,7 @@
 // Columbus Children's Theatre: the class page lists ages, Ticket Tailor lists dates and availability.
-import { ageMonths, hasStarted, http, mapLimit, textOf } from "../lib.mjs";
+import { forYoungKids, hasStarted, http, mapLimit, textOf } from "../lib.mjs";
 
-const CLASSES = "https://www.columbuschildrenstheatre.org/classes";
+const PAGES = ["classes", "camps"].map((p) => `https://www.columbuschildrenstheatre.org/${p}`);
 const LISTING = "https://www.tickettailor.com/events/columbuschildrenstheatre";
 const event = (id) => `https://tickets.columbuschildrenstheatre.org/events/columbuschildrenstheatre/${id}`;
 const MONTHS = { Jan: 1, Feb: 2, Mar: 3, Apr: 4, May: 5, Jun: 6, Jul: 7, Aug: 8, Sep: 9, Oct: 10, Nov: 11, Dec: 12 };
@@ -49,7 +49,8 @@ function listingCards(html) {
 }
 
 export async function fetchCct(ctx) {
-  const [page, listing] = await Promise.all([http(CLASSES, { json: false }), http(LISTING, { json: false })]);
+  const [classes, camps, listing] = await Promise.all([...PAGES, LISTING].map((u) => http(u, { json: false })));
+  const page = classes + camps;
   const cards = listingCards(listing);
   const ids = new Set([...cards.keys(), ...[...page.matchAll(/events\/columbuschildrenstheatre\/(\d+)/g)].map((m) => m[1])]);
 
@@ -61,9 +62,7 @@ export async function fetchCct(ctx) {
     const ages = parseAges(textOf(`<${near}`)) ?? parseAges(body);
     const range = parseRange(body);
     if (!ages || !range || hasStarted(range.firstDate, ctx.now)) return null;
-    // Ranges here are inclusive: "Ages 3 - 6" takes a 6-year-old.
-    const age = ageMonths(ctx.birthMonth, range.firstDate);
-    if (age < ages[0] * 12 || age >= (ages[1] + 1) * 12) return null;
+    if (!forYoungKids(ages[0] * 12)) return null;
 
     const title = (cards.get(id)?.title || body.split(" – ")[1] || "").trim();
     const name = title.replace(/^(Fall|Winter|Spring|Summer) (Academy|\d+)[^:]*:\s*/i, "").trim() || title;
@@ -72,8 +71,11 @@ export async function fetchCct(ctx) {
       source: "cct",
       provider: "Columbus Children's Theatre",
       name,
-      category: /movement/i.test(name) ? "Dance" : "Theatre",
+      category: /camp/i.test(name) ? "Camps" : /movement/i.test(name) ? "Dance" : "Theatre",
       ages: `Ages ${ages[0]}–${ages[1]}`,
+      // Ranges here are inclusive: "Ages 3 - 6" takes a 6-year-old.
+      ageMin: ages[0] * 12,
+      ageMax: (ages[1] + 1) * 12,
       days: [range.day],
       startTime: range.startTime,
       endTime: range.endTime,

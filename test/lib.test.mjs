@@ -1,20 +1,18 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
-import { ageFits, ageMonths, categorize, localNow, milesBetween, nameTimeConflict, recStatus } from "../scripts/lib.mjs";
+import { categorize, forYoungKids, localNow, milesBetween, nameTimeConflict, recStatus } from "../scripts/lib.mjs";
 import { parseAges, parseRange } from "../scripts/sources/cct.mjs";
 import { parseBexleyAges, parseDateTime } from "../scripts/sources/bexley.mjs";
 import { collapseOpenGym, parseJrAges, parseTime } from "../scripts/sources/jackrabbit.mjs";
 import { parsePrograms } from "../scripts/sources/recdesk.mjs";
 import { fingerprint } from "../scripts/sources/watch.mjs";
 
-const BIRTH = "2020-06";
-
-test("age limits treat the upper bound as exclusive", () => {
-  assert.equal(ageMonths(BIRTH, "2025-06-01"), 60);
-  assert.equal(ageFits(BIRTH, "2025-05-30", 36, 60), true);
-  assert.equal(ageFits(BIRTH, "2025-06-01", 36, 60), false);
-  assert.equal(ageFits(BIRTH, "2025-06-01", 36, null), true);
-  assert.equal(ageFits(BIRTH, "2024-11-01", 54, null), false);
+test("classes starting at age 7 or later are out of scope", () => {
+  assert.equal(forYoungKids(83), true);
+  assert.equal(forYoungKids(84), false);
+  assert.equal(forYoungKids(null), true);
+  assert.equal(categorize("Coach Reggie Winter Break Camp"), "Camps");
+  assert.equal(categorize("6u Basketball Bootcamp"), "Camps");
 });
 
 test("Rec status follows the registration window", () => {

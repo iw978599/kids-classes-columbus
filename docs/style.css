@@ -5,7 +5,7 @@
   --ink: #ece5d3; --muted: #9c9d89; --oxide: #a8562f; --oxide-hi: #dc8a50; --amber: #f2b648;
   --teal: #80c7b5; --alert: #e5553f; --stripe: rgba(255, 255, 255, .075);
   --c-swim: #6f93d6; --c-gymnastics: #c7639a; --c-dance: #9a6fd6; --c-theatre: #cf5a43; --c-music: #d98a3d;
-  --c-arts: #d4b23c; --c-story-time: #4fa39a; --c-sports: #5f9a5c; --c-nature: #93a24a; --c-other: #b88f5c;
+  --c-arts: #d4b23c; --c-story-time: #4fa39a; --c-sports: #5f9a5c; --c-nature: #93a24a; --c-other: #b88f5c; --c-camps: #e07a3f;
   --display: 'Big Shoulders Display', 'Arial Narrow', Impact, sans-serif;
   --ui: 'Barlow Condensed', 'Arial Narrow', 'Roboto Condensed', sans-serif;
   --mono: 'JetBrains Mono', ui-monospace, Menlo, monospace;
@@ -16,7 +16,7 @@
   --ink: #1f2733; --muted: #64707f; --oxide: #3b76b3; --oxide-hi: #2f69a6; --amber: #3b76b3;
   --teal: #157f78; --alert: #c0392b; --stripe: rgba(31, 39, 51, .075);
   --c-swim: #3b6fc0; --c-gymnastics: #b0447f; --c-dance: #7a4fa3; --c-theatre: #b8432c; --c-music: #c4701f;
-  --c-arts: #a88a12; --c-story-time: #157f78; --c-sports: #3f7d3c; --c-nature: #6f7e22; --c-other: #94683a;
+  --c-arts: #a88a12; --c-story-time: #157f78; --c-sports: #3f7d3c; --c-nature: #6f7e22; --c-other: #94683a; --c-camps: #c2571a;
 }
 * { box-sizing: border-box; }
 [hidden] { display: none !important; }
@@ -97,3 +97,4 @@ footer p { margin: 2px 0; }
 [data-c="music"] { --c: var(--c-music); } [data-c="arts"] { --c: var(--c-arts); }
 [data-c="story-time"] { --c: var(--c-story-time); } [data-c="sports"] { --c: var(--c-sports); }
 [data-c="nature"] { --c: var(--c-nature); } [data-c="other"] { --c: var(--c-other); }
+[data-c="camps"] { --c: var(--c-camps); }

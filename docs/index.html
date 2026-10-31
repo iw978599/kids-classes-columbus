@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Columbus Kids' Classes</title>
-  <meta name="description" content="Classes for 4-year-olds around Columbus, updated automatically.">
+  <meta name="description" content="Classes and camps for kids up to age 6 around Columbus, updated automatically.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800&family=Barlow+Condensed:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
@@ -30,11 +30,23 @@
       <label class="toggle"><input type="checkbox" id="fits" checked> Weekends and after 5:30pm</label>
       <label class="toggle"><input type="checkbox" id="anytime" checked> Include join-anytime</label>
       <label class="toggle"><input type="checkbox" id="drop"> Include drop-ins</label>
+      <label class="lbl">Age
+        <select class="sel" id="age">
+          <option value="">Any, up to 6</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+        </select>
+      </label>
       <label class="lbl">Place <select class="sel" id="place"></select></label>
       <label class="lbl">Starts
         <select class="sel" id="starts">
           <option value="">Any time</option>
           <option value="2027-01-01">January or later</option>
+          <option value="2027-05-20">Summer 2027 or later</option>
         </select>
       </label>
       <label class="lbl">Distance
@@ -55,6 +67,12 @@
     </section>
 
     <div id="groups"></div>
+
+    <section id="camps-section">
+      <h2>Summer camps to watch</h2>
+      <p class="hint">Camps move into the lists above once a provider posts them in a system this site reads. Until then, these show what's known so far, and a badge appears when a camp page changes.</p>
+      <div class="grid" id="camps"></div>
+    </section>
 
     <section id="providers-section">
       <h2>Other programs to check</h2>

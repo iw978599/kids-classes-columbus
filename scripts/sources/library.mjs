@@ -35,6 +35,8 @@ export async function fetchLibrary(ctx) {
         name: title,
         category: categorize(title),
         ages: "Preschool and family",
+        ageMin: 0,
+        ageMax: null,
         days: [dayOf(date)],
         startTime,
         endTime: e.raw_end_time.slice(11, 16),

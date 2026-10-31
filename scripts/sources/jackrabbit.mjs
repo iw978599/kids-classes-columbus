@@ -1,5 +1,5 @@
 // Studios on Jackrabbit publish a live openings table, including exact seat counts.
-import { ageMonths, categorize, hasStarted, http, textOf } from "../lib.mjs";
+import { categorize, forYoungKids, hasStarted, http, textOf } from "../lib.mjs";
 
 const STUDIOS = [
   { org: "506905", provider: "Wendy's Gymnastics", address: "2460 Wood Ave, Columbus, OH 43221" },
@@ -47,8 +47,7 @@ async function studio(s, ctx) {
     const ages = c.Ages ? parseJrAges(c.Ages) : null;
     if (!ages || !firstDate || !lastDate || !(openings > 0)) return [];
     if (lastDate <= ctx.now.slice(0, 10) || /party|office use|sibling/i.test(c.Class)) return [];
-    const age = ageMonths(ctx.birthMonth, hasStarted(firstDate, ctx.now) ? ctx.now.slice(0, 10) : firstDate);
-    if (age < ages[0] || age >= ages[1]) return [];
+    if (!forYoungKids(ages[0])) return [];
     const [start, end] = (c.Times ?? "").split(" - ");
     return [{
       id: `jr-${s.org}-${c.href.match(/preLoadClassID=(\d+)/)?.[1] ?? c.Class.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`,
@@ -57,6 +56,8 @@ async function studio(s, ctx) {
       name: c.Class.trim().replace(/\.$/, ""),
       category: s.org === "506905" ? "Gymnastics" : categorize(`${c.Class} dance`),
       ages: c.Ages,
+      ageMin: ages[0],
+      ageMax: ages[1],
       days: (c.Days ?? "").split(/,\s*/).map((d) => DAY[d]).filter(Boolean),
       startTime: parseTime(start ?? ""),
       endTime: parseTime(end ?? ""),

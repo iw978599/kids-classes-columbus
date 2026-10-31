@@ -23,8 +23,6 @@ jobs:
           node-version: 24
       - run: node --test "test/*.test.mjs"
       - run: node scripts/update.mjs
-        env:
-          BIRTH_MONTH: ${{ secrets.BIRTH_MONTH }}
       - name: Publish
         run: |
           git config user.name "github-actions[bot]"

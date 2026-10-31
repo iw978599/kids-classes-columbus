@@ -1,5 +1,5 @@
-// Bexley Recreation & Parks (MyRec): reads each Early Childhood program's activity table.
-import { ageMonths, categorize, hasStarted, http, mapLimit, textOf } from "../lib.mjs";
+// Bexley Recreation & Parks (MyRec): reads the activity table of each children's and camp program.
+import { categorize, forYoungKids, hasStarted, http, mapLimit, textOf } from "../lib.mjs";
 
 const BASE = "https://bexleyoh.myrec.com/info/activities";
 const DAY = { Su: "Sun", Mo: "Mon", Tu: "Tue", We: "Wed", Th: "Thu", Fr: "Fri", Sa: "Sat" };
@@ -48,25 +48,27 @@ function statusOf(reg) {
 export async function fetchBexley(ctx) {
   const index = await http(`${BASE}/default.aspx`, { json: false });
   const start = index.lastIndexOf("Early Childhood Activities");
-  const section = index.slice(start, index.indexOf("Youth Activities", start));
+  const section = index.slice(start, index.indexOf("Adult Sports", start));
   const programs = [...new Set([...section.matchAll(/ProgramID=(\d+)/g)].map((m) => m[1]))];
-  if (!programs.length) throw new Error("No Early Childhood programs found");
+  if (!programs.length) throw new Error("No children's programs found");
+  const campsAt = section.indexOf("Camps");
+  const camps = campsAt < 0 ? "" : section.slice(campsAt, section.indexOf("Youth Sports", campsAt));
 
   const rows = await mapLimit(programs, 2, async (pid) => {
     const html = await http(`${BASE}/program_details.aspx?ProgramID=${pid}`, { json: false });
     return parseActivities(html).flatMap((a) => {
       const when = parseDateTime(a.when);
       const ages = parseBexleyAges(a.ages);
-      if (!when || !ages || hasStarted(when.firstDate, ctx.now)) return [];
-      const age = ageMonths(ctx.birthMonth, when.firstDate);
-      if (age < ages[0] || age >= ages[1]) return [];
+      if (!when || !ages || hasStarted(when.firstDate, ctx.now) || !forYoungKids(ages[0])) return [];
       return [{
         id: `bex-${a.id || pid}`,
         source: "bexley",
         provider: "Bexley Recreation & Parks",
         name: a.name,
-        category: categorize(a.name),
+        category: camps.includes(`ProgramID=${pid}`) ? "Camps" : categorize(a.name),
         ages: a.ages,
+        ageMin: ages[0],
+        ageMax: ages[1],
         days: daysOf(a.days, when.firstDate),
         startTime: when.startTime,
         endTime: when.endTime,

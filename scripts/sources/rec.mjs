@@ -1,5 +1,5 @@
 // Columbus Recreation & Parks, via the public JSON feed behind its ActiveNet site.
-import { ageFits, categorize, http, mapLimit, nameTimeConflict, recStatus } from "../lib.mjs";
+import { categorize, forYoungKids, http, mapLimit, nameTimeConflict, recStatus } from "../lib.mjs";
 
 const REST = "https://anc.apm.activecommunities.com/columbusrecparks1/rest";
 const DETAIL_URL = (id) => `https://anc.apm.activecommunities.com/columbusrecparks1/activity/search/detail/${id}?onlineSiteId=0&from_original_cui=true`;
@@ -61,7 +61,8 @@ async function loadClass(id, ctx) {
   if (!d.last_date || d.last_date < ctx.now.slice(0, 10)) return null;
 
   const hasMax = d.age_max_year > 0 || d.age_max_month > 0;
-  if (!ageFits(ctx.birthMonth, d.first_date, toMonths(d.age_min_year, d.age_min_month), hasMax ? toMonths(d.age_max_year, d.age_max_month) : null)) return null;
+  const ageMin = toMonths(d.age_min_year, d.age_min_month);
+  if (!forYoungKids(ageMin)) return null;
 
   const reg = m.enrollment_datetimes?.[0] ?? {};
   const status = recStatus({
@@ -83,6 +84,8 @@ async function loadClass(id, ctx) {
     name,
     category: categorize(`${name} ${d.sub_category ?? ""}`),
     ages: d.age_description?.replace(/,\s*$/, "") ?? "",
+    ageMin,
+    ageMax: hasMax ? toMonths(d.age_max_year, d.age_max_month) : null,
     days: [...new Set(slots.flatMap((s) => s.weekdays.split(/,\s*/)))],
     startTime,
     endTime: hm(slots[0]?.ending_time),
@@ -104,7 +107,8 @@ async function loadClass(id, ctx) {
 }
 
 export async function fetchRec(ctx) {
-  const lists = await Promise.all([listForAge(4), listForAge(5)]);
+  // Age 0 makes the feed ignore age and return its whole catalog, so the search starts at 1.
+  const lists = await Promise.all([1, 2, 3, 4, 5, 6].map(listForAge));
   const byId = new Map(lists.flat().map((a) => [a.id, a]));
   const ids = (await mapLimit([...byId.values()], 3, expand)).flat();
   const rows = await mapLimit([...new Set(ids)], 3, (id) => loadClass(id, ctx));

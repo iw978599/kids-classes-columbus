@@ -1,14 +1,14 @@
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { test } from "node:test";
-import { filterItems, fitsSchedule, formatDateTime, formatTime, groupItems, isNew, liveStatus, placeOf, placeOptions } from "../docs/logic.mjs";
+import { filterItems, fitsAge, fitsSchedule, formatDateTime, formatTime, groupItems, isNew, liveStatus, placeOf, placeOptions } from "../docs/logic.mjs";
 
 const NOW = "2026-11-03 12:31:00";
 const item = (o = {}) => ({
   name: "Class", provider: "P", location: "L", category: "Swim", days: ["Sat"], startTime: "10:00",
   firstDate: "2026-11-14", status: "open", miles: 2, firstSeen: "2026-10-30 12:00:00", ...o,
 });
-const off = { fitsOnly: false, showDropIn: true, showAnytime: true, place: "", hidden: new Set(), startsFrom: "", maxMiles: 0, search: "" };
+const off = { fitsOnly: false, showDropIn: true, showAnytime: true, place: "", age: null, hidden: new Set(), startsFrom: "", maxMiles: 0, search: "" };
 
 test("schedule fit means a weekend or a 5:30pm or later start", () => {
   assert.equal(fitsSchedule(item()), true);
@@ -50,6 +50,17 @@ test("places filter by rec center or company, and join-anytime classes can be hi
   assert.deepEqual(filterItems([rec, gym], { ...off, place: "Wendy's Gymnastics" }, NOW).map((i) => i.name), ["gym"]);
   assert.deepEqual(filterItems([rec, gym], { ...off, showAnytime: false }, NOW).map((i) => i.name), ["rec"]);
   assert.deepEqual(placeOptions([rec, gym], [{ provider: "BalletMet" }]), { centers: ["Schiller Park"], companies: ["BalletMet", "Wendy's Gymnastics"] });
+});
+
+test("age matches any overlap with that year of age", () => {
+  const fourToFive = item({ ageMin: 48, ageMax: 72 });
+  assert.equal(fitsAge(fourToFive, 3), false);
+  assert.equal(fitsAge(fourToFive, 4), true);
+  assert.equal(fitsAge(fourToFive, 5), true);
+  assert.equal(fitsAge(fourToFive, 6), false);
+  assert.equal(fitsAge(item({ ageMin: 54, ageMax: 84 }), 4), true);
+  assert.equal(fitsAge(item({ ageMin: 36, ageMax: null }), 6), true);
+  assert.deepEqual(filterItems([fourToFive], { ...off, age: 6 }, NOW), []);
 });
 
 test("groups put nearest first and earliest registration first", () => {

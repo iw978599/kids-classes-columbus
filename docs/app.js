@@ -8,7 +8,8 @@ const STATUS = {
   open: ["Open", "good"], upcoming: ["Opens soon", "soon"],
   anytime: ["Join anytime", "good"], "drop-in": ["Drop in", ""], contact: ["Contact", ""],
 };
-const filters = { fitsOnly: true, showDropIn: false, showAnytime: true, place: "", hidden: new Set(), startsFrom: "", maxMiles: 0, search: "" };
+const filters = { fitsOnly: true, showDropIn: false, showAnytime: true, place: "", age: null, hidden: new Set(), startsFrom: "", maxMiles: 0, search: "" };
+const remember = { get(k) { try { return localStorage.getItem(k); } catch { return null; } }, set(k, v) { try { localStorage.setItem(k, v); } catch {} } };
 const slug = (c) => c.toLowerCase().replace(/\s+/g, "-");
 
 function easternNow() {
@@ -69,7 +70,7 @@ function providerCard(p) {
 function setTheme(theme) {
   document.documentElement.dataset.theme = theme;
   $("theme").textContent = theme === "light" ? "☾ Dark" : "☀ Light";
-  try { localStorage.setItem("theme", theme); } catch {}
+  remember.set("theme", theme);
 }
 
 const sortedProviders = (data) =>
@@ -82,8 +83,11 @@ function render(data) {
   $("count").textContent = `${shown.length} / ${data.items.length}`;
   $("count").title = `${shown.length} of ${data.items.length} classes shown`;
 
-  $("providers").innerHTML = sortedProviders(data).filter((p) => !filters.place || p.provider === filters.place).map(providerCard).join("");
+  const cards = sortedProviders(data).filter((p) => !filters.place || p.provider === filters.place);
+  $("providers").innerHTML = cards.filter((p) => !p.camp).map(providerCard).join("");
+  $("camps").innerHTML = cards.filter((p) => p.camp).map(providerCard).join("");
   $("providers-section").hidden = !$("providers").innerHTML;
+  $("camps-section").hidden = !$("camps").innerHTML;
 
   const fresh = shown.filter((i) => isNew(i, ctx.baselineAt, ctx.now) || reopened(i, ctx.now));
   $("new").hidden = !fresh.length;
@@ -126,6 +130,13 @@ async function start() {
     bind("anytime", "showAnytime", (t) => t.checked);
     bind("drop", "showDropIn", (t) => t.checked);
     bind("place", "place", (t) => t.value);
+    const saved = remember.get("age");
+    if (saved) { $("age").value = saved; filters.age = Number(saved); render(data); }
+    $("age").addEventListener("input", (e) => {
+      filters.age = e.target.value === "" ? null : Number(e.target.value);
+      remember.set("age", e.target.value);
+      render(data);
+    });
     bind("starts", "startsFrom", (t) => t.value);
     bind("miles", "maxMiles", (t) => Number(t.value));
     bind("search", "search", (t) => t.value);
