@@ -17,9 +17,14 @@ export const reopened = (i, now) => Boolean(i.spotOpenedAt) && daysBetween(i.spo
 export function filterItems(items, f, now) {
   const q = f.search.trim().toLowerCase();
   return items.filter((i) => {
+    const status = liveStatus(i, now);
+    // The data can be hours old, so a session that began since then drops off here.
+    if (status !== "drop-in" && i.firstDate <= now.slice(0, 10)) return false;
+    if (status === "drop-in" && !f.showDropIn) return false;
     if (f.fitsOnly && !fitsSchedule(i)) return false;
-    if (!f.showFull && liveStatus(i, now) === "full") return false;
+    if (!f.showFull && status === "full") return false;
     if (f.hidden.has(i.category)) return false;
+    if (f.startsFrom && i.firstDate < f.startsFrom) return false;
     if (f.maxMiles && i.miles != null && i.miles > f.maxMiles) return false;
     if (q && !`${i.name} ${i.provider} ${i.location}`.toLowerCase().includes(q)) return false;
     return true;
@@ -27,7 +32,7 @@ export function filterItems(items, f, now) {
 }
 
 const GROUPS = [
-  ["now", "Register now", ["open", "in-progress"]],
+  ["now", "Register now", ["open"]],
   ["soon", "Registration opening soon", ["upcoming"]],
   ["drop", "Drop in, no registration", ["drop-in"]],
   ["contact", "Contact to enroll", ["contact"]],

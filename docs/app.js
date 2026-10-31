@@ -1,14 +1,14 @@
 import {
-  filterItems, fitsSchedule, formatDate, formatDateTime, formatTime, groupItems, isNew, liveStatus, reopened,
+  filterItems, formatDate, formatDateTime, formatTime, groupItems, isNew, liveStatus, reopened,
 } from "./logic.mjs";
 
 const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => `&#${c.charCodeAt(0)};`);
 const STATUS = {
-  open: ["Open", "good"], "in-progress": ["In progress", "good"], upcoming: ["Opens soon", "soon"],
+  open: ["Open", "good"], upcoming: ["Opens soon", "soon"],
   "drop-in": ["Drop in", ""], contact: ["Contact", ""], full: ["Full", ""],
 };
-const filters = { fitsOnly: true, showFull: false, hidden: new Set(), maxMiles: 0, search: "" };
+const filters = { fitsOnly: true, showFull: false, showDropIn: false, hidden: new Set(), startsFrom: "", maxMiles: 0, search: "" };
 const slug = (c) => c.toLowerCase().replace(/\s+/g, "-");
 
 function easternNow() {
@@ -79,7 +79,7 @@ function render(data) {
   $("count").textContent = `${shown.length} / ${data.items.length}`;
   $("count").title = `${shown.length} of ${data.items.length} classes shown`;
 
-  const fresh = data.items.filter((i) => (isNew(i, ctx.baselineAt, ctx.now) || reopened(i, ctx.now)) && (!filters.fitsOnly || fitsSchedule(i)));
+  const fresh = shown.filter((i) => isNew(i, ctx.baselineAt, ctx.now) || reopened(i, ctx.now));
   $("new").hidden = !fresh.length;
   $("new-list").innerHTML = fresh.map((i) => card(i, ctx)).join("");
 
@@ -97,7 +97,8 @@ function renderOnce(data) {
   $("warn").textContent = down.map((s) => `${s.label} couldn't be checked. Showing its data from ${s.lastSuccess ? formatDateTime(s.lastSuccess) : "an earlier run"}.`).join(" ");
 
   const cats = [...new Set(data.items.map((i) => i.category))].sort();
-  $("legend").innerHTML = cats.map((c) => `<button type="button" class="lg" data-c="${slug(c)}" data-cat="${esc(c)}" aria-pressed="true"><i></i>${esc(c)}</button>`).join("");
+  $("legend").innerHTML = '<button type="button" class="btn tiny" id="allTags">All</button><button type="button" class="btn tiny" id="noTags">None</button>'
+    + cats.map((c) => `<button type="button" class="lg" data-c="${slug(c)}" data-cat="${esc(c)}" aria-pressed="true"><i></i>${esc(c)}</button>`).join("");
 
   const providers = [...data.providers].sort((a, b) => (b.changedAt ?? "").localeCompare(a.changedAt ?? "") || (a.miles ?? 999) - (b.miles ?? 999));
   $("providers").innerHTML = providers.map(providerCard).join("");
@@ -116,8 +117,20 @@ async function start() {
     const bind = (id, key, read) => $(id).addEventListener("input", (e) => { filters[key] = read(e.target); render(data); });
     bind("fits", "fitsOnly", (t) => t.checked);
     bind("full", "showFull", (t) => t.checked);
+    bind("drop", "showDropIn", (t) => t.checked);
+    bind("starts", "startsFrom", (t) => t.value);
     bind("miles", "maxMiles", (t) => Number(t.value));
     bind("search", "search", (t) => t.value);
+    const setAllTags = (on) => {
+      filters.hidden.clear();
+      document.querySelectorAll(".lg").forEach((chip) => {
+        chip.setAttribute("aria-pressed", String(on));
+        if (!on) filters.hidden.add(chip.dataset.cat);
+      });
+      render(data);
+    };
+    $("allTags").addEventListener("click", () => setAllTags(true));
+    $("noTags").addEventListener("click", () => setAllTags(false));
     $("legend").addEventListener("click", (e) => {
       const chip = e.target.closest(".lg");
       if (!chip) return;

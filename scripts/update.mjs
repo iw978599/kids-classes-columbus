@@ -1,6 +1,6 @@
 // Refreshes docs/data.json. One failing source keeps its last good data and is reported on the page.
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
-import { ANCHOR, http, localNow, milesBetween } from "./lib.mjs";
+import { ANCHOR, hasStarted, http, localNow, milesBetween } from "./lib.mjs";
 import { fetchCct } from "./sources/cct.mjs";
 import { fetchLibrary } from "./sources/library.mjs";
 import { fetchRec } from "./sources/rec.mjs";
@@ -29,7 +29,7 @@ const SOURCES = {
 const items = [];
 const sources = {};
 for (const [key, { label, run }] of Object.entries(SOURCES)) {
-  const old = previous.items.filter((i) => i.source === key);
+  const old = previous.items.filter((i) => i.source === key && (key === "library" || !hasStarted(i.firstDate, now)));
   try {
     const rows = await run(ctx);
     // A sudden collapse means the feed broke, not that the classes vanished.
@@ -69,7 +69,7 @@ if (firstRun) state.baselineAt = now;
 const before = new Map(previous.items.map((i) => [i.id, i]));
 for (const i of items) {
   const s = (state.seen[i.id] ??= { firstSeen: now });
-  if (before.get(i.id)?.status === "full" && ["open", "in-progress"].includes(i.status)) s.spotOpenedAt = now;
+  if (before.get(i.id)?.status === "full" && i.status === "open") s.spotOpenedAt = now;
   i.firstSeen = s.firstSeen;
   if (s.spotOpenedAt) i.spotOpenedAt = s.spotOpenedAt;
 }

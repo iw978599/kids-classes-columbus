@@ -18,6 +18,13 @@ for (const [name, width, height] of [["phone", 375, 800], ["desktop", 1280, 900]
   await page.click('.lg[data-cat="Swim"]');
   assert.equal(await page.locator('#groups .item[data-c="swim"]').count(), 0, "swim chip hides swim classes");
   await page.click('.lg[data-cat="Swim"]');
+  await page.click("#noTags");
+  assert.equal(await page.locator("#groups .item").count(), 0, "None hides every tag");
+  await page.click("#allTags");
+  assert.equal(await page.locator("#groups .item").count(), before, "All restores every tag");
+  await page.selectOption("#starts", "2027-01-01");
+  assert.ok(await page.locator("#groups .item").count() > 0, "winter classes show");
+  await page.selectOption("#starts", "");
   assert.ok(await page.locator("#providers .item").count() > 5, "providers render");
   await page.click("#theme");
   assert.equal(await page.evaluate(() => document.documentElement.dataset.theme), "dark");

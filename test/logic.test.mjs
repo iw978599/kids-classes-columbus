@@ -8,7 +8,7 @@ const item = (o = {}) => ({
   name: "Class", provider: "P", location: "L", category: "Swim", days: ["Sat"], startTime: "10:00",
   firstDate: "2026-11-14", status: "open", miles: 2, firstSeen: "2026-10-30 12:00:00", ...o,
 });
-const off = { fitsOnly: false, showFull: true, hidden: new Set(), maxMiles: 0, search: "" };
+const off = { fitsOnly: false, showFull: true, showDropIn: true, hidden: new Set(), startsFrom: "", maxMiles: 0, search: "" };
 
 test("schedule fit means a weekend or a 5:30pm or later start", () => {
   assert.equal(fitsSchedule(item()), true);
@@ -29,6 +29,17 @@ test("filters combine, and unknown distances stay visible", () => {
   assert.deepEqual(filterItems(items, { ...off, maxMiles: 5 }, NOW).map((i) => i.name), ["A", "C"]);
   assert.deepEqual(filterItems(items, { ...off, hidden: new Set(["Swim"]) }, NOW).map((i) => i.name), ["C"]);
   assert.deepEqual(filterItems(items, { ...off, search: "b" }, NOW).map((i) => i.name), ["B"]);
+});
+
+test("only future sessions show, and drop-ins need opting in", () => {
+  const started = item({ name: "started", firstDate: "2026-11-03" });
+  const winter = item({ name: "winter", firstDate: "2027-01-16" });
+  const drop = item({ name: "drop", status: "drop-in", firstDate: "2026-11-03" });
+  const names = (f) => filterItems([started, winter, drop], f, NOW).map((i) => i.name);
+  assert.deepEqual(names(off), ["winter", "drop"]);
+  assert.deepEqual(names({ ...off, showDropIn: false }), ["winter"]);
+  assert.deepEqual(names({ ...off, startsFrom: "2027-01-01", showDropIn: false }), ["winter"]);
+  assert.deepEqual(filterItems([item({ firstDate: "2026-12-01" })], { ...off, startsFrom: "2027-01-01" }, NOW), []);
 });
 
 test("groups put nearest first and earliest registration first", () => {

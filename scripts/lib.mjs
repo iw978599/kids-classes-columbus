@@ -80,7 +80,7 @@ const CATEGORIES = [
   ["Music", /music|drum|piano|guitar|singing|voice/i],
   ["Arts", /\bart\b|ceramic|craft|paint|glass|pottery|draw/i],
   ["Story time", /storytime|story time|kids create/i],
-  ["Sports", /soccer|basketball|tennis|karate|sporties|baseball|t-ball|flag football|sport|gym\b|volleyball/i],
+  ["Sports", /soccer|basketball|tennis|karate|kung fu|martial|sporties|baseball|t-ball|flag football|sport|gym\b|volleyball/i],
 ];
 export function categorize(text) {
   return CATEGORIES.find(([, re]) => re.test(text))?.[0] ?? "Other";
@@ -110,8 +110,11 @@ export function textOf(html) {
 export function recStatus({ space = "", opensAt, closesAt, firstDate, now }) {
   if (/cancel|closed/i.test(space)) return null;
   if (closesAt && closesAt < now) return null;
+  if (hasStarted(firstDate, now)) return null;
   if (opensAt && opensAt > now) return "upcoming";
   if (/full/i.test(space)) return "full";
-  if (!opensAt) return "contact";
-  return firstDate < now.slice(0, 10) ? "in-progress" : "open";
+  return opensAt ? "open" : "contact";
 }
+
+// Only future sessions belong on the site.
+export const hasStarted = (firstDate, now) => firstDate <= now.slice(0, 10);

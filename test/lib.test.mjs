@@ -20,7 +20,9 @@ test("Rec status follows the registration window", () => {
   assert.equal(recStatus({ ...base, opensAt: "2026-11-03 12:30:00" }), "upcoming");
   assert.equal(recStatus({ ...base, opensAt: "2026-10-01 12:30:00" }), "open");
   assert.equal(recStatus({ ...base, opensAt: "2026-10-01 12:30:00", space: "Full" }), "full");
-  assert.equal(recStatus({ ...base, opensAt: "2026-10-01 12:30:00", firstDate: "2026-10-20" }), "in-progress");
+  assert.equal(recStatus({ ...base, opensAt: "2026-10-01 12:30:00", firstDate: "2026-10-20" }), null);
+  assert.equal(recStatus({ ...base, opensAt: "2026-10-01 12:30:00", firstDate: "2026-11-01" }), null);
+  assert.equal(recStatus({ ...base, opensAt: "2026-10-01 12:30:00", firstDate: "2026-10-20", space: "Full" }), null);
   assert.equal(recStatus({ ...base, opensAt: "2026-10-01 12:30:00", closesAt: "2026-10-30 12:00:00" }), null);
   assert.equal(recStatus({ ...base, space: "Cancelled" }), null);
   assert.equal(recStatus({ ...base, opensAt: null }), "contact");

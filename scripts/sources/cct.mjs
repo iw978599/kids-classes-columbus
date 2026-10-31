@@ -1,5 +1,5 @@
 // Columbus Children's Theatre: the class page lists ages, Ticket Tailor lists dates and availability.
-import { ageMonths, http, mapLimit, textOf } from "../lib.mjs";
+import { ageMonths, hasStarted, http, mapLimit, textOf } from "../lib.mjs";
 
 const CLASSES = "https://www.columbuschildrenstheatre.org/classes";
 const LISTING = "https://www.tickettailor.com/events/columbuschildrenstheatre";
@@ -30,7 +30,6 @@ export function parseAges(text) {
 function statusOf(label) {
   if (/wait/i.test(label)) return "full";
   if (/sold out|unavailable|closed/i.test(label)) return "full";
-  if (/in progress/i.test(label)) return "in-progress";
   if (/on sale|coming|opens/i.test(label)) return "upcoming";
   if (/tickets|register|book|buy|enroll/i.test(label)) return "open";
   return "contact";
@@ -61,7 +60,7 @@ export async function fetchCct(ctx) {
     const near = page.slice(page.indexOf(`columbuschildrenstheatre/${id}`), page.indexOf(`columbuschildrenstheatre/${id}`) + 500);
     const ages = parseAges(textOf(`<${near}`)) ?? parseAges(body);
     const range = parseRange(body);
-    if (!ages || !range || range.lastDate < ctx.now.slice(0, 10)) return null;
+    if (!ages || !range || hasStarted(range.firstDate, ctx.now)) return null;
     // Ranges here are inclusive: "Ages 3 - 6" takes a 6-year-old.
     const age = ageMonths(ctx.birthMonth, range.firstDate);
     if (age < ages[0] * 12 || age >= (ages[1] + 1) * 12) return null;

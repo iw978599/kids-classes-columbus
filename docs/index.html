@@ -29,6 +29,13 @@
     <form class="filters" onsubmit="return false" aria-label="Filter classes">
       <label class="toggle"><input type="checkbox" id="fits" checked> Weekends and after 5:30pm</label>
       <label class="toggle"><input type="checkbox" id="full"> Include full</label>
+      <label class="toggle"><input type="checkbox" id="drop"> Include drop-ins</label>
+      <label class="lbl">Starts
+        <select class="sel" id="starts">
+          <option value="">Any time</option>
+          <option value="2027-01-01">January or later</option>
+        </select>
+      </label>
       <label class="lbl">Distance
         <select class="sel" id="miles">
           <option value="0">Any</option>
