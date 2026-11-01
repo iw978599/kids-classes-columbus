@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-10-31 17:42:08",
+ "checkedAt": "2026-11-01 01:18:13",
  "baselineAt": "2026-10-30 23:09:05",
  "anchor": "Schiller Park",
  "neighborhoods": [
@@ -24,37 +24,37 @@
    "label": "Columbus Rec & Parks",
    "ok": true,
    "count": 274,
-   "lastSuccess": "2026-10-31 17:42:08"
+   "lastSuccess": "2026-11-01 01:18:13"
   },
   "cct": {
    "label": "Columbus Children's Theatre",
    "ok": true,
    "count": 2,
-   "lastSuccess": "2026-10-31 17:42:08"
+   "lastSuccess": "2026-11-01 01:18:13"
   },
   "bexley": {
    "label": "Bexley Rec",
    "ok": true,
    "count": 8,
-   "lastSuccess": "2026-10-31 17:42:08"
+   "lastSuccess": "2026-11-01 01:18:13"
   },
   "recdesk": {
    "label": "Grandview Heights Rec",
    "ok": true,
-   "count": 6,
-   "lastSuccess": "2026-10-31 17:42:08"
+   "count": 5,
+   "lastSuccess": "2026-11-01 01:18:13"
   },
   "jackrabbit": {
    "label": "Wendy's and K Studio",
    "ok": true,
-   "count": 77,
-   "lastSuccess": "2026-10-31 17:42:08"
+   "count": 76,
+   "lastSuccess": "2026-11-01 01:18:13"
   },
   "library": {
    "label": "Columbus Metropolitan Library",
    "ok": true,
-   "count": 14,
-   "lastSuccess": "2026-10-31 17:42:08"
+   "count": 13,
+   "lastSuccess": "2026-11-01 01:18:13"
   }
  },
  "items": [
@@ -1979,38 +1979,6 @@
    "firstSeen": "2026-10-30 23:09:05"
   },
   {
-   "id": "jr-506905-22125146",
-   "source": "jackrabbit",
-   "provider": "Wendy's Gymnastics",
-   "name": "TUMBLE TOT 3&4 - Wed @ 5:15pm",
-   "category": "Gymnastics",
-   "ages": "2 yrs 10 mos - 4 yrs",
-   "ageMin": 34,
-   "ageMax": 60,
-   "days": [
-    "Wed"
-   ],
-   "startTime": "17:15",
-   "endTime": "17:55",
-   "firstDate": "2026-08-31",
-   "lastDate": "2027-05-28",
-   "sessions": null,
-   "location": "Wendy's Gymnastics",
-   "address": "2460 Wood Ave, Columbus, OH 43221",
-   "lat": 40.009629846106,
-   "lon": -83.034094847396,
-   "price": "$99.00 tuition",
-   "status": "anytime",
-   "openings": 1,
-   "opensAt": null,
-   "closesAt": null,
-   "notes": [],
-   "url": "https://app.jackrabbitclass.com/reg.asp?id=506905&hc=&initEmpty=&hdrColor=&WL=0&preLoadClassID=22125146&loc=",
-   "miles": 5.3,
-   "neighborhood": "Upper Arlington",
-   "firstSeen": "2026-10-30 23:09:05"
-  },
-  {
    "id": "jr-506905-22124731",
    "source": "jackrabbit",
    "provider": "Wendy's Gymnastics",
@@ -2296,70 +2264,6 @@
    "url": "https://app.jackrabbitclass.com/reg.asp?id=506905&hc=&initEmpty=&hdrColor=&WL=0&preLoadClassID=22431235&loc=",
    "miles": 5.3,
    "neighborhood": "Upper Arlington",
-   "firstSeen": "2026-10-30 23:09:05"
-  },
-  {
-   "id": "lib-main-library-halloween-family-storytime-sat-11-00",
-   "source": "library",
-   "provider": "Columbus Metropolitan Library",
-   "name": "Halloween Family Storytime",
-   "category": "Story time",
-   "ages": "Preschool and family",
-   "ageMin": 0,
-   "ageMax": null,
-   "days": [
-    "Sat"
-   ],
-   "startTime": "11:00",
-   "endTime": "11:30",
-   "firstDate": "2026-10-31",
-   "lastDate": "2026-10-31",
-   "sessions": null,
-   "location": "Main Library branch",
-   "address": "96 S Grant Ave, Columbus, OH 43215",
-   "lat": 39.961199462733,
-   "lon": -82.990580352092,
-   "price": "Free",
-   "status": "drop-in",
-   "openings": null,
-   "opensAt": null,
-   "closesAt": null,
-   "notes": [],
-   "url": "https://events.columbuslibrary.org/event/17322119",
-   "miles": 1.5,
-   "neighborhood": "Downtown & Near East",
-   "firstSeen": "2026-10-30 23:09:05"
-  },
-  {
-   "id": "lib-south-high-kids-create-sat-14-00",
-   "source": "library",
-   "provider": "Columbus Metropolitan Library",
-   "name": "Kids Create",
-   "category": "Story time",
-   "ages": "Preschool and family",
-   "ageMin": 0,
-   "ageMax": null,
-   "days": [
-    "Sat"
-   ],
-   "startTime": "14:00",
-   "endTime": "15:00",
-   "firstDate": "2026-10-31",
-   "lastDate": "2026-11-14",
-   "sessions": null,
-   "location": "South High branch",
-   "address": "3540 S High St, Columbus, OH 43207",
-   "lat": 39.889174528675,
-   "lon": -82.997669422075,
-   "price": "Free",
-   "status": "drop-in",
-   "openings": null,
-   "opensAt": null,
-   "closesAt": null,
-   "notes": [],
-   "url": "https://events.columbuslibrary.org/event/16398846",
-   "miles": 3.5,
-   "neighborhood": "South Side",
    "firstSeen": "2026-10-30 23:09:05"
   },
   {
@@ -2738,7 +2642,7 @@
    "lon": -83.034094847396,
    "price": "$15.00 tuition",
    "status": "open",
-   "openings": 11,
+   "openings": 10,
    "opensAt": null,
    "closesAt": null,
    "notes": [],
@@ -3306,7 +3210,7 @@
    "startTime": "11:00",
    "endTime": "11:30",
    "firstDate": "2026-11-07",
-   "lastDate": "2026-11-14",
+   "lastDate": "2026-11-21",
    "sessions": null,
    "location": "Main Library branch",
    "address": "96 S Grant Ave, Columbus, OH 43215",
@@ -3353,6 +3257,38 @@
    "url": "https://anc.apm.activecommunities.com/columbusrecparks1/activity/search/detail/6315?onlineSiteId=0&from_original_cui=true",
    "miles": 10.3,
    "neighborhood": "Northwest & Dublin",
+   "firstSeen": "2026-10-30 23:09:05"
+  },
+  {
+   "id": "lib-south-high-kids-create-sat-14-00",
+   "source": "library",
+   "provider": "Columbus Metropolitan Library",
+   "name": "Kids Create",
+   "category": "Story time",
+   "ages": "Preschool and family",
+   "ageMin": 0,
+   "ageMax": null,
+   "days": [
+    "Sat"
+   ],
+   "startTime": "14:00",
+   "endTime": "15:00",
+   "firstDate": "2026-11-07",
+   "lastDate": "2026-11-21",
+   "sessions": null,
+   "location": "South High branch",
+   "address": "3540 S High St, Columbus, OH 43207",
+   "lat": 39.889174528675,
+   "lon": -82.997669422075,
+   "price": "Free",
+   "status": "drop-in",
+   "openings": null,
+   "opensAt": null,
+   "closesAt": null,
+   "notes": [],
+   "url": "https://events.columbuslibrary.org/event/16398848",
+   "miles": 3.5,
+   "neighborhood": "South Side",
    "firstSeen": "2026-10-30 23:09:05"
   },
   {
@@ -3453,38 +3389,6 @@
    "url": "https://bexleyoh.myrec.com/info/activities/program_details.aspx?ProgramID=31276",
    "miles": 3.3,
    "neighborhood": "Bexley",
-   "firstSeen": "2026-10-30 23:09:05"
-  },
-  {
-   "id": "gh-munchin-munchkins-2026-11-07",
-   "source": "recdesk",
-   "provider": "Grandview Heights Parks & Rec",
-   "name": "Munchin Munchkins",
-   "category": "Other",
-   "ages": "2y 5m - 5y",
-   "ageMin": 29,
-   "ageMax": 72,
-   "days": [
-    "Sat"
-   ],
-   "startTime": "",
-   "endTime": "",
-   "firstDate": "2026-11-07",
-   "lastDate": "2026-12-19",
-   "sessions": null,
-   "location": "Grandview Heights",
-   "address": "1525 Goodale Blvd, Grandview Heights, OH 43212",
-   "lat": 39.976700170076,
-   "lon": -83.044313820481,
-   "price": "See listing",
-   "status": "open",
-   "openings": 3,
-   "opensAt": null,
-   "closesAt": null,
-   "notes": [],
-   "url": "https://grandviewheights.recdesk.com/Community/Program",
-   "miles": 3.7,
-   "neighborhood": "Grandview",
    "firstSeen": "2026-10-30 23:09:05"
   },
   {
@@ -10471,7 +10375,7 @@
    "lon": -83.0164315,
    "price": "$50.00 resident, $60.00 non-resident",
    "status": "open",
-   "openings": 6,
+   "openings": 5,
    "opensAt": "2026-10-20 12:30:00",
    "closesAt": "2026-11-28 23:59:00",
    "notes": [],
@@ -11185,7 +11089,7 @@
    "lon": -82.953519930862,
    "miles": 2.8,
    "neighborhood": "Downtown & Near East",
-   "changedAt": null,
+   "changedAt": "2026-11-01 01:18:13",
    "watchOk": true
   },
   {
@@ -11225,7 +11129,7 @@
    "lon": -83.087192475101,
    "miles": 12.6,
    "neighborhood": "Northwest & Dublin",
-   "changedAt": "2026-10-31 13:16:12",
+   "changedAt": "2026-11-01 01:18:13",
    "watchOk": true
   },
   {
@@ -11341,7 +11245,7 @@
    "lon": -82.953519930862,
    "miles": 2.8,
    "neighborhood": "Downtown & Near East",
-   "changedAt": null,
+   "changedAt": "2026-11-01 01:18:13",
    "watchOk": true
   },
   {
