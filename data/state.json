@@ -1736,6 +1736,14 @@
   "rec-7150": {
    "firstSeen": "2026-11-02 01:19:31",
    "full": false
+  },
+  "rec-8965": {
+   "firstSeen": "2026-11-02 14:34:13",
+   "full": false
+  },
+  "jr-506905-22125753": {
+   "firstSeen": "2026-11-02 14:34:13",
+   "full": false
   }
  },
  "watch": {
@@ -1786,13 +1794,13 @@
    "ok": true
   },
   "dublin-dance": {
-   "hash": "9f1c5d4e819db1cb",
-   "changedAt": "2026-11-02 01:19:31",
+   "hash": "93f2cfa8aeeb1a51",
+   "changedAt": "2026-11-02 14:34:13",
    "ok": true
   },
   "learn-sing-grow": {
-   "hash": "f205a56ffc0552b4",
-   "changedAt": null,
+   "hash": "1b24013639baa224",
+   "changedAt": "2026-11-02 14:34:13",
    "ok": true
   },
   "lifetime-ua": {
@@ -1811,8 +1819,8 @@
    "ok": true
   },
   "camp-audubon": {
-   "hash": "152e3f8f9e50e19e",
-   "changedAt": null,
+   "hash": "e3cd7efdac9b369c",
+   "changedAt": "2026-11-02 14:34:13",
    "ok": true
   },
   "camp-fpc": {
