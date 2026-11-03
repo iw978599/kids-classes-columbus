@@ -1760,6 +1760,14 @@
   "jr-506905-22125844": {
    "firstSeen": "2026-11-02 21:56:43",
    "full": false
+  },
+  "rec-8257": {
+   "firstSeen": "2026-11-03 05:58:58",
+   "full": false
+  },
+  "rec-8258": {
+   "firstSeen": "2026-11-03 05:58:58",
+   "full": false
   }
  },
  "watch": {
@@ -1810,8 +1818,8 @@
    "ok": true
   },
   "dublin-dance": {
-   "hash": "14c68eead4674d58",
-   "changedAt": "2026-11-02 21:56:43",
+   "hash": "bac3623a1d7f5726",
+   "changedAt": "2026-11-03 05:58:58",
    "ok": true
   },
   "learn-sing-grow": {

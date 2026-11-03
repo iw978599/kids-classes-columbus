@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-02 21:56:43",
+ "checkedAt": "2026-11-03 05:58:58",
  "baselineAt": "2026-10-30 23:09:05",
  "anchor": "Schiller Park",
  "neighborhoods": [
@@ -23,38 +23,38 @@
   "rec": {
    "label": "Columbus Rec & Parks",
    "ok": true,
-   "count": 275,
-   "lastSuccess": "2026-11-02 21:56:43"
+   "count": 277,
+   "lastSuccess": "2026-11-03 05:58:58"
   },
   "cct": {
    "label": "Columbus Children's Theatre",
    "ok": true,
    "count": 2,
-   "lastSuccess": "2026-11-02 21:56:43"
+   "lastSuccess": "2026-11-03 05:58:58"
   },
   "bexley": {
    "label": "Bexley Rec",
    "ok": true,
    "count": 7,
-   "lastSuccess": "2026-11-02 21:56:43"
+   "lastSuccess": "2026-11-03 05:58:58"
   },
   "recdesk": {
    "label": "Grandview Heights Rec",
    "ok": true,
    "count": 5,
-   "lastSuccess": "2026-11-02 21:56:43"
+   "lastSuccess": "2026-11-03 05:58:58"
   },
   "jackrabbit": {
    "label": "Wendy's and K Studio",
    "ok": true,
-   "count": 74,
-   "lastSuccess": "2026-11-02 21:56:43"
+   "count": 73,
+   "lastSuccess": "2026-11-03 05:58:58"
   },
   "library": {
    "label": "Columbus Metropolitan Library",
    "ok": true,
    "count": 12,
-   "lastSuccess": "2026-11-02 21:56:43"
+   "lastSuccess": "2026-11-03 05:58:58"
   }
  },
  "items": [
@@ -2328,38 +2328,6 @@
    "url": "https://events.columbuslibrary.org/event/16464104",
    "miles": 1.5,
    "neighborhood": "Downtown & Near East",
-   "firstSeen": "2026-10-30 23:09:05"
-  },
-  {
-   "id": "jr-opengym-wendy-s-gymnastics-tue-11-30am",
-   "source": "jackrabbit",
-   "provider": "Wendy's Gymnastics",
-   "name": "Open gym - Tue @ 11:30am",
-   "category": "Gymnastics",
-   "ages": "1 yr - 12 yrs",
-   "ageMin": 12,
-   "ageMax": 156,
-   "days": [
-    "Tue"
-   ],
-   "startTime": "11:30",
-   "endTime": "12:15",
-   "firstDate": "2026-11-03",
-   "lastDate": "2026-11-03",
-   "sessions": null,
-   "location": "Wendy's Gymnastics",
-   "address": "2460 Wood Ave, Columbus, OH 43221",
-   "lat": 40.009629846106,
-   "lon": -83.034094847396,
-   "price": "$15.00 tuition",
-   "status": "open",
-   "openings": 18,
-   "opensAt": null,
-   "closesAt": null,
-   "notes": [],
-   "url": "https://app.jackrabbitclass.com/reg.asp?id=506905&hc=&initEmpty=&hdrColor=&WL=0&preLoadClassID=22429903&loc=",
-   "miles": 5.3,
-   "neighborhood": "Upper Arlington",
    "firstSeen": "2026-10-30 23:09:05"
   },
   {
@@ -6177,7 +6145,7 @@
    "lon": -82.9879,
    "price": "$50.00 resident, $60.00 non-resident",
    "status": "open",
-   "openings": 22,
+   "openings": 21,
    "opensAt": "2026-10-06 12:30:00",
    "closesAt": "2026-11-22 23:59:00",
    "notes": [],
@@ -10647,6 +10615,39 @@
    "firstSeen": "2026-10-30 23:09:05"
   },
   {
+   "id": "rec-8258",
+   "source": "rec",
+   "provider": "Columbus Rec & Parks",
+   "name": "Douglas Cheer",
+   "category": "Dance",
+   "ages": "Age at least 6 yrs but less than 12 yrs",
+   "ageMin": 72,
+   "ageMax": 144,
+   "days": [
+    "Mon",
+    "Wed"
+   ],
+   "startTime": "17:00",
+   "endTime": "18:00",
+   "firstDate": "2027-01-25",
+   "lastDate": "2027-03-17",
+   "sessions": 15,
+   "location": "",
+   "address": "",
+   "lat": null,
+   "lon": null,
+   "price": "Free",
+   "status": "upcoming",
+   "openings": 15,
+   "opensAt": "2027-01-05 12:30:00",
+   "closesAt": null,
+   "notes": [],
+   "url": "https://anc.apm.activecommunities.com/columbusrecparks1/activity/search/detail/8258?onlineSiteId=0&from_original_cui=true",
+   "miles": null,
+   "neighborhood": "Other locations",
+   "firstSeen": "2026-11-03 05:58:58"
+  },
+  {
    "id": "rec-9255",
    "source": "rec",
    "provider": "Columbus Rec & Parks",
@@ -10677,6 +10678,39 @@
    "miles": 13.2,
    "neighborhood": "Northland & Westerville",
    "firstSeen": "2026-10-30 23:09:05"
+  },
+  {
+   "id": "rec-8257",
+   "source": "rec",
+   "provider": "Columbus Rec & Parks",
+   "name": "DIAMONDS N MOTION",
+   "category": "Other",
+   "ages": "Age at least 5 yrs but less than 18 yrs",
+   "ageMin": 60,
+   "ageMax": 216,
+   "days": [
+    "Mon",
+    "Wed"
+   ],
+   "startTime": "18:00",
+   "endTime": "19:45",
+   "firstDate": "2027-02-01",
+   "lastDate": "2027-03-17",
+   "sessions": 13,
+   "location": "",
+   "address": "",
+   "lat": null,
+   "lon": null,
+   "price": "Free",
+   "status": "upcoming",
+   "openings": 15,
+   "opensAt": "2027-01-05 12:30:00",
+   "closesAt": null,
+   "notes": [],
+   "url": "https://anc.apm.activecommunities.com/columbusrecparks1/activity/search/detail/8257?onlineSiteId=0&from_original_cui=true",
+   "miles": null,
+   "neighborhood": "Other locations",
+   "firstSeen": "2026-11-03 05:58:58"
   },
   {
    "id": "rec-9566",
@@ -11035,7 +11069,7 @@
    "lon": -83.087192475101,
    "miles": 12.6,
    "neighborhood": "Northwest & Dublin",
-   "changedAt": "2026-11-02 21:56:43",
+   "changedAt": "2026-11-03 05:58:58",
    "watchOk": true
   },
   {
