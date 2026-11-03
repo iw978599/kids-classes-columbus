@@ -221,27 +221,27 @@
   },
   "rec-9236": {
    "firstSeen": "2026-10-30 23:09:05",
-   "full": false
+   "full": true
   },
   "rec-9238": {
    "firstSeen": "2026-10-30 23:09:05",
-   "full": false
+   "full": true
   },
   "rec-9240": {
    "firstSeen": "2026-10-30 23:09:05",
-   "full": false
+   "full": true
   },
   "rec-9241": {
    "firstSeen": "2026-10-30 23:09:05",
-   "full": false
+   "full": true
   },
   "rec-9242": {
    "firstSeen": "2026-10-30 23:09:05",
-   "full": false
+   "full": true
   },
   "rec-9246": {
    "firstSeen": "2026-10-30 23:09:05",
-   "full": false
+   "full": true
   },
   "rec-6413": {
    "firstSeen": "2026-10-30 23:09:05",
@@ -261,7 +261,7 @@
   },
   "rec-9225": {
    "firstSeen": "2026-10-30 23:09:05",
-   "full": false
+   "full": true
   },
   "rec-9227": {
    "firstSeen": "2026-10-30 23:09:05",
@@ -269,7 +269,7 @@
   },
   "rec-9228": {
    "firstSeen": "2026-10-30 23:09:05",
-   "full": false
+   "full": true
   },
   "rec-9229": {
    "firstSeen": "2026-10-30 23:09:05",
@@ -297,23 +297,23 @@
   },
   "rec-9277": {
    "firstSeen": "2026-10-30 23:09:05",
-   "full": false
+   "full": true
   },
   "rec-9279": {
    "firstSeen": "2026-10-30 23:09:05",
-   "full": false
+   "full": true
   },
   "rec-9280": {
    "firstSeen": "2026-10-30 23:09:05",
-   "full": false
+   "full": true
   },
   "rec-9281": {
    "firstSeen": "2026-10-30 23:09:05",
-   "full": false
+   "full": true
   },
   "rec-9340": {
    "firstSeen": "2026-10-30 23:09:05",
-   "full": false
+   "full": true
   },
   "rec-9285": {
    "firstSeen": "2026-10-30 23:09:05",
@@ -823,11 +823,11 @@
   },
   "rec-9217": {
    "firstSeen": "2026-10-30 23:09:05",
-   "full": false
+   "full": true
   },
   "rec-9218": {
    "firstSeen": "2026-10-30 23:09:05",
-   "full": false
+   "full": true
   },
   "rec-9221": {
    "firstSeen": "2026-10-30 23:09:05",
@@ -1159,7 +1159,7 @@
   },
   "rec-9092": {
    "firstSeen": "2026-10-30 23:09:05",
-   "full": false
+   "full": true
   },
   "rec-9093": {
    "firstSeen": "2026-10-30 23:09:05",
@@ -1171,11 +1171,11 @@
   },
   "rec-9100": {
    "firstSeen": "2026-10-30 23:09:05",
-   "full": false
+   "full": true
   },
   "rec-9102": {
    "firstSeen": "2026-10-30 23:09:05",
-   "full": false
+   "full": true
   },
   "rec-9103": {
    "firstSeen": "2026-10-30 23:09:05",
@@ -1183,11 +1183,11 @@
   },
   "rec-9104": {
    "firstSeen": "2026-10-30 23:09:05",
-   "full": false
+   "full": true
   },
   "rec-9105": {
    "firstSeen": "2026-10-30 23:09:05",
-   "full": false
+   "full": true
   },
   "rec-9109": {
    "firstSeen": "2026-10-30 23:09:05",
@@ -1195,7 +1195,7 @@
   },
   "rec-9111": {
    "firstSeen": "2026-10-30 23:09:05",
-   "full": false
+   "full": true
   },
   "rec-9112": {
    "firstSeen": "2026-10-30 23:09:05",
@@ -1203,31 +1203,31 @@
   },
   "rec-9113": {
    "firstSeen": "2026-10-30 23:09:05",
-   "full": false
+   "full": true
   },
   "rec-9152": {
    "firstSeen": "2026-10-30 23:09:05",
-   "full": false
+   "full": true
   },
   "rec-9154": {
    "firstSeen": "2026-10-30 23:09:05",
-   "full": false
+   "full": true
   },
   "rec-9155": {
    "firstSeen": "2026-10-30 23:09:05",
-   "full": false
+   "full": true
   },
   "rec-9156": {
    "firstSeen": "2026-10-30 23:09:05",
-   "full": false
+   "full": true
   },
   "rec-9167": {
    "firstSeen": "2026-10-30 23:09:05",
-   "full": false
+   "full": true
   },
   "rec-9172": {
    "firstSeen": "2026-10-30 23:09:05",
-   "full": false
+   "full": true
   },
   "rec-9481": {
    "firstSeen": "2026-10-30 23:09:05",
@@ -1768,6 +1768,34 @@
   "rec-8258": {
    "firstSeen": "2026-11-03 05:58:58",
    "full": false
+  },
+  "rec-9624": {
+   "firstSeen": "2026-11-03 14:33:20",
+   "full": false
+  },
+  "rec-9622": {
+   "firstSeen": "2026-11-03 14:33:20",
+   "full": false
+  },
+  "rec-9623": {
+   "firstSeen": "2026-11-03 14:33:20",
+   "full": false
+  },
+  "rec-9589": {
+   "firstSeen": "2026-11-03 14:33:20",
+   "full": false
+  },
+  "rec-9656": {
+   "firstSeen": "2026-11-03 14:33:20",
+   "full": false
+  },
+  "jr-506905-22123500": {
+   "firstSeen": "2026-11-03 14:33:20",
+   "full": false
+  },
+  "jr-506905-22125315": {
+   "firstSeen": "2026-11-03 14:33:20",
+   "full": false
   }
  },
  "watch": {
@@ -1813,13 +1841,13 @@
    "ok": true
   },
   "ua-rec": {
-   "hash": "b3ceda26f966e46a",
-   "changedAt": null,
+   "hash": "27ebb7c33ad5a7ed",
+   "changedAt": "2026-11-03 14:33:20",
    "ok": true
   },
   "dublin-dance": {
-   "hash": "bac3623a1d7f5726",
-   "changedAt": "2026-11-03 05:58:58",
+   "hash": "82c56187f38f3cc9",
+   "changedAt": "2026-11-03 14:33:20",
    "ok": true
   },
   "learn-sing-grow": {
@@ -1828,8 +1856,8 @@
    "ok": true
   },
   "lifetime-ua": {
-   "hash": "ad7d1f6b1f51b916",
-   "changedAt": null,
+   "hash": "2e427816180ce88e",
+   "changedAt": "2026-11-03 14:33:20",
    "ok": true
   },
   "camp-columbus": {
