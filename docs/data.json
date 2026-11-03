@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-02 14:34:13",
+ "checkedAt": "2026-11-02 21:56:43",
  "baselineAt": "2026-10-30 23:09:05",
  "anchor": "Schiller Park",
  "neighborhoods": [
@@ -23,38 +23,38 @@
   "rec": {
    "label": "Columbus Rec & Parks",
    "ok": true,
-   "count": 274,
-   "lastSuccess": "2026-11-02 14:34:13"
+   "count": 275,
+   "lastSuccess": "2026-11-02 21:56:43"
   },
   "cct": {
    "label": "Columbus Children's Theatre",
    "ok": true,
    "count": 2,
-   "lastSuccess": "2026-11-02 14:34:13"
+   "lastSuccess": "2026-11-02 21:56:43"
   },
   "bexley": {
    "label": "Bexley Rec",
    "ok": true,
    "count": 7,
-   "lastSuccess": "2026-11-02 14:34:13"
+   "lastSuccess": "2026-11-02 21:56:43"
   },
   "recdesk": {
    "label": "Grandview Heights Rec",
    "ok": true,
    "count": 5,
-   "lastSuccess": "2026-11-02 14:34:13"
+   "lastSuccess": "2026-11-02 21:56:43"
   },
   "jackrabbit": {
    "label": "Wendy's and K Studio",
    "ok": true,
-   "count": 72,
-   "lastSuccess": "2026-11-02 14:34:13"
+   "count": 74,
+   "lastSuccess": "2026-11-02 21:56:43"
   },
   "library": {
    "label": "Columbus Metropolitan Library",
    "ok": true,
    "count": 12,
-   "lastSuccess": "2026-11-02 14:34:13"
+   "lastSuccess": "2026-11-02 21:56:43"
   }
  },
  "items": [
@@ -379,6 +379,70 @@
    "firstSeen": "2026-10-30 23:09:05"
   },
   {
+   "id": "jr-506905-22125781",
+   "source": "jackrabbit",
+   "provider": "Wendy's Gymnastics",
+   "name": "BEG/INT 6-9 - Mon @ 4:30pm",
+   "category": "Gymnastics",
+   "ages": "6 yrs - 9 yrs",
+   "ageMin": 72,
+   "ageMax": 120,
+   "days": [
+    "Mon"
+   ],
+   "startTime": "16:30",
+   "endTime": "17:25",
+   "firstDate": "2026-08-31",
+   "lastDate": "2027-05-28",
+   "sessions": null,
+   "location": "Wendy's Gymnastics",
+   "address": "2460 Wood Ave, Columbus, OH 43221",
+   "lat": 40.009629846106,
+   "lon": -83.034094847396,
+   "price": "$109.00 tuition",
+   "status": "anytime",
+   "openings": 1,
+   "opensAt": null,
+   "closesAt": null,
+   "notes": [],
+   "url": "https://app.jackrabbitclass.com/reg.asp?id=506905&hc=&initEmpty=&hdrColor=&WL=0&preLoadClassID=22125781&loc=",
+   "miles": 5.3,
+   "neighborhood": "Upper Arlington",
+   "firstSeen": "2026-11-02 21:56:43"
+  },
+  {
+   "id": "jr-506905-22125844",
+   "source": "jackrabbit",
+   "provider": "Wendy's Gymnastics",
+   "name": "BEG/INT 6-9 - Mon @ 6:45pm",
+   "category": "Gymnastics",
+   "ages": "6 yrs - 9 yrs",
+   "ageMin": 72,
+   "ageMax": 120,
+   "days": [
+    "Mon"
+   ],
+   "startTime": "18:45",
+   "endTime": "19:40",
+   "firstDate": "2026-08-31",
+   "lastDate": "2027-05-28",
+   "sessions": null,
+   "location": "Wendy's Gymnastics",
+   "address": "2460 Wood Ave, Columbus, OH 43221",
+   "lat": 40.009629846106,
+   "lon": -83.034094847396,
+   "price": "$109.00 tuition",
+   "status": "anytime",
+   "openings": 1,
+   "opensAt": null,
+   "closesAt": null,
+   "notes": [],
+   "url": "https://app.jackrabbitclass.com/reg.asp?id=506905&hc=&initEmpty=&hdrColor=&WL=0&preLoadClassID=22125844&loc=",
+   "miles": 5.3,
+   "neighborhood": "Upper Arlington",
+   "firstSeen": "2026-11-02 21:56:43"
+  },
+  {
    "id": "jr-506905-22125753",
    "source": "jackrabbit",
    "provider": "Wendy's Gymnastics",
@@ -441,6 +505,38 @@
    "miles": 5.3,
    "neighborhood": "Upper Arlington",
    "firstSeen": "2026-10-30 23:09:05"
+  },
+  {
+   "id": "jr-506905-22125369",
+   "source": "jackrabbit",
+   "provider": "Wendy's Gymnastics",
+   "name": "KINDER-KIDS 5-6 - Mon @ 3:45pm",
+   "category": "Gymnastics",
+   "ages": "5 yrs - 6 yrs",
+   "ageMin": 60,
+   "ageMax": 84,
+   "days": [
+    "Mon"
+   ],
+   "startTime": "15:45",
+   "endTime": "16:25",
+   "firstDate": "2026-08-31",
+   "lastDate": "2027-05-28",
+   "sessions": null,
+   "location": "Wendy's Gymnastics",
+   "address": "2460 Wood Ave, Columbus, OH 43221",
+   "lat": 40.009629846106,
+   "lon": -83.034094847396,
+   "price": "$99.00 tuition",
+   "status": "anytime",
+   "openings": 1,
+   "opensAt": null,
+   "closesAt": null,
+   "notes": [],
+   "url": "https://app.jackrabbitclass.com/reg.asp?id=506905&hc=&initEmpty=&hdrColor=&WL=0&preLoadClassID=22125369&loc=",
+   "miles": 5.3,
+   "neighborhood": "Upper Arlington",
+   "firstSeen": "2026-11-02 21:56:43"
   },
   {
    "id": "jr-506905-22125350",
@@ -891,38 +987,6 @@
    "firstSeen": "2026-10-30 23:09:05"
   },
   {
-   "id": "jr-506905-22123262",
-   "source": "jackrabbit",
-   "provider": "Wendy's Gymnastics",
-   "name": "TUMBLE TOT 1&2 - Wed @ 4:30pm",
-   "category": "Gymnastics",
-   "ages": "10 mos - 2 yrs",
-   "ageMin": 10,
-   "ageMax": 36,
-   "days": [
-    "Wed"
-   ],
-   "startTime": "16:30",
-   "endTime": "17:10",
-   "firstDate": "2026-08-31",
-   "lastDate": "2027-05-28",
-   "sessions": null,
-   "location": "Wendy's Gymnastics",
-   "address": "2460 Wood Ave, Columbus, OH 43221",
-   "lat": 40.009629846106,
-   "lon": -83.034094847396,
-   "price": "$99.00 tuition",
-   "status": "anytime",
-   "openings": 1,
-   "opensAt": null,
-   "closesAt": null,
-   "notes": [],
-   "url": "https://app.jackrabbitclass.com/reg.asp?id=506905&hc=&initEmpty=&hdrColor=&WL=0&preLoadClassID=22123262&loc=",
-   "miles": 5.3,
-   "neighborhood": "Upper Arlington",
-   "firstSeen": "2026-10-30 23:09:05"
-  },
-  {
    "id": "jr-506905-22123255",
    "source": "jackrabbit",
    "provider": "Wendy's Gymnastics",
@@ -945,7 +1009,7 @@
    "lon": -83.034094847396,
    "price": "$99.00 tuition",
    "status": "anytime",
-   "openings": 4,
+   "openings": 3,
    "opensAt": null,
    "closesAt": null,
    "notes": [],
@@ -2289,43 +2353,11 @@
    "lon": -83.034094847396,
    "price": "$15.00 tuition",
    "status": "open",
-   "openings": 23,
+   "openings": 18,
    "opensAt": null,
    "closesAt": null,
    "notes": [],
    "url": "https://app.jackrabbitclass.com/reg.asp?id=506905&hc=&initEmpty=&hdrColor=&WL=0&preLoadClassID=22429903&loc=",
-   "miles": 5.3,
-   "neighborhood": "Upper Arlington",
-   "firstSeen": "2026-10-30 23:09:05"
-  },
-  {
-   "id": "jr-opengym-wendy-s-gymnastics-tue-10-45am",
-   "source": "jackrabbit",
-   "provider": "Wendy's Gymnastics",
-   "name": "Open gym - Tues @ 10:45am",
-   "category": "Gymnastics",
-   "ages": "1 yr - 12 yrs",
-   "ageMin": 12,
-   "ageMax": 156,
-   "days": [
-    "Tue"
-   ],
-   "startTime": "10:45",
-   "endTime": "11:30",
-   "firstDate": "2026-11-03",
-   "lastDate": "2026-11-24",
-   "sessions": null,
-   "location": "Wendy's Gymnastics",
-   "address": "2460 Wood Ave, Columbus, OH 43221",
-   "lat": 40.009629846106,
-   "lon": -83.034094847396,
-   "price": "$15.00 tuition",
-   "status": "open",
-   "openings": 6,
-   "opensAt": null,
-   "closesAt": null,
-   "notes": [],
-   "url": "https://app.jackrabbitclass.com/reg.asp?id=506905&hc=&initEmpty=&hdrColor=&WL=0&preLoadClassID=22429875&loc=",
    "miles": 5.3,
    "neighborhood": "Upper Arlington",
    "firstSeen": "2026-10-30 23:09:05"
@@ -2545,7 +2577,7 @@
    "lon": -83.034094847396,
    "price": "$15.00 tuition",
    "status": "open",
-   "openings": 10,
+   "openings": 8,
    "opensAt": null,
    "closesAt": null,
    "notes": [],
@@ -2769,7 +2801,7 @@
    "lon": -83.034094847396,
    "price": "$15.00 tuition",
    "status": "open",
-   "openings": 15,
+   "openings": 12,
    "opensAt": null,
    "closesAt": null,
    "notes": [],
@@ -3228,6 +3260,38 @@
    "url": "https://bexleyoh.myrec.com/info/activities/program_details.aspx?ProgramID=31276",
    "miles": 3.3,
    "neighborhood": "Bexley",
+   "firstSeen": "2026-10-30 23:09:05"
+  },
+  {
+   "id": "jr-opengym-wendy-s-gymnastics-tue-10-45am",
+   "source": "jackrabbit",
+   "provider": "Wendy's Gymnastics",
+   "name": "Open gym - Tues @ 10:45am",
+   "category": "Gymnastics",
+   "ages": "1 yr - 12 yrs",
+   "ageMin": 12,
+   "ageMax": 156,
+   "days": [
+    "Tue"
+   ],
+   "startTime": "10:45",
+   "endTime": "11:30",
+   "firstDate": "2026-11-10",
+   "lastDate": "2026-11-24",
+   "sessions": null,
+   "location": "Wendy's Gymnastics",
+   "address": "2460 Wood Ave, Columbus, OH 43221",
+   "lat": 40.009629846106,
+   "lon": -83.034094847396,
+   "price": "$15.00 tuition",
+   "status": "open",
+   "openings": 19,
+   "opensAt": null,
+   "closesAt": null,
+   "notes": [],
+   "url": "https://app.jackrabbitclass.com/reg.asp?id=506905&hc=&initEmpty=&hdrColor=&WL=0&preLoadClassID=22429876&loc=",
+   "miles": 5.3,
+   "neighborhood": "Upper Arlington",
    "firstSeen": "2026-10-30 23:09:05"
   },
   {
@@ -5157,7 +5221,7 @@
    "lon": -82.928756725128,
    "price": "Free",
    "status": "open",
-   "openings": 12,
+   "openings": 11,
    "opensAt": "2026-10-27 12:30:00",
    "closesAt": null,
    "notes": [],
@@ -5192,7 +5256,7 @@
    "lon": -82.9898019,
    "price": "Free",
    "status": "open",
-   "openings": 12,
+   "openings": 10,
    "opensAt": "2026-10-27 12:30:00",
    "closesAt": null,
    "notes": [],
@@ -5301,6 +5365,38 @@
    "miles": 13.2,
    "neighborhood": "Northland & Westerville",
    "firstSeen": "2026-10-30 23:09:05"
+  },
+  {
+   "id": "rec-9627",
+   "source": "rec",
+   "provider": "Columbus Rec & Parks",
+   "name": "Youth Basketball League Skills and Drills Clinic",
+   "category": "Sports",
+   "ages": "Age at least 6 yrs but less than 18 yrs",
+   "ageMin": 72,
+   "ageMax": 216,
+   "days": [
+    "Tue"
+   ],
+   "startTime": "13:00",
+   "endTime": "15:00",
+   "firstDate": "2026-11-24",
+   "lastDate": "2026-11-24",
+   "sessions": 1,
+   "location": "Mock Park",
+   "address": "2520 Mock Rd, Columbus, OH 43219",
+   "lat": 40.0120734,
+   "lon": -82.9424254,
+   "price": "Free",
+   "status": "open",
+   "openings": 149,
+   "opensAt": "2026-09-08 12:30:00",
+   "closesAt": null,
+   "notes": [],
+   "url": "https://anc.apm.activecommunities.com/columbusrecparks1/activity/search/detail/9627?onlineSiteId=0&from_original_cui=true",
+   "miles": 5.6,
+   "neighborhood": "Other locations",
+   "firstSeen": "2026-11-02 21:56:43"
   },
   {
    "id": "rec-7220",
@@ -9321,7 +9417,7 @@
    "lon": -83.0194043,
    "price": "$50.00 resident, $60.00 non-resident",
    "status": "open",
-   "openings": 21,
+   "openings": 20,
    "opensAt": "2026-10-05 12:30:00",
    "closesAt": "2026-11-28 23:59:00",
    "notes": [],
@@ -9833,7 +9929,7 @@
    "lon": -82.928756725128,
    "price": "$50.00 resident, $60.00 non-resident",
    "status": "open",
-   "openings": 55,
+   "openings": 53,
    "opensAt": "2026-10-20 12:30:00",
    "closesAt": "2026-11-21 23:59:00",
    "notes": [],
@@ -10153,7 +10249,7 @@
    "lon": null,
    "price": "$50.00 resident, $60.00 non-resident",
    "status": "open",
-   "openings": 25,
+   "openings": 22,
    "opensAt": "2026-10-20 12:30:00",
    "closesAt": "2026-11-28 23:59:00",
    "notes": [],
@@ -10859,7 +10955,7 @@
    "lon": -83.112805247906,
    "miles": 15.9,
    "neighborhood": "Powell",
-   "changedAt": null,
+   "changedAt": "2026-11-02 21:56:43",
    "watchOk": true
   },
   {
@@ -10939,7 +11035,7 @@
    "lon": -83.087192475101,
    "miles": 12.6,
    "neighborhood": "Northwest & Dublin",
-   "changedAt": "2026-11-02 14:34:13",
+   "changedAt": "2026-11-02 21:56:43",
    "watchOk": true
   },
   {
