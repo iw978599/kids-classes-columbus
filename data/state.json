@@ -265,7 +265,7 @@
   },
   "rec-9227": {
    "firstSeen": "2026-10-30 23:09:05",
-   "full": false
+   "full": true
   },
   "rec-9228": {
    "firstSeen": "2026-10-30 23:09:05",
@@ -1515,7 +1515,8 @@
   },
   "bex-148374": {
    "firstSeen": "2026-10-30 23:09:05",
-   "full": true
+   "full": false,
+   "spotOpenedAt": "2026-11-04 14:51:02"
   },
   "jr-506905-22122871": {
    "firstSeen": "2026-10-30 23:09:05",
@@ -1796,12 +1797,28 @@
   "jr-506905-22125315": {
    "firstSeen": "2026-11-03 14:33:20",
    "full": false
+  },
+  "rec-9678": {
+   "firstSeen": "2026-11-04 14:51:02",
+   "full": false
+  },
+  "rec-9675": {
+   "firstSeen": "2026-11-04 14:51:02",
+   "full": false
+  },
+  "jr-506905-22125191": {
+   "firstSeen": "2026-11-04 14:51:02",
+   "full": false
+  },
+  "jr-506905-22125805": {
+   "firstSeen": "2026-11-04 14:51:02",
+   "full": false
   }
  },
  "watch": {
   "little-movers": {
-   "hash": "3a90dcb4fe29454e",
-   "changedAt": null,
+   "hash": "f8a586a1d0cdc847",
+   "changedAt": "2026-11-04 14:51:02",
    "ok": true
   },
   "jcc-swim": {
@@ -1836,8 +1853,8 @@
    "error": "HTTP 403 for https://ohfranklinctyweb.myvscloud.com/wbwsc/ohfranklinctywt.wsc/search.html?module=AR&type=preschool"
   },
   "fpc": {
-   "hash": "f885b2c0392a627d",
-   "changedAt": "2026-11-04 06:05:05",
+   "hash": "fa6290582ccae2a0",
+   "changedAt": "2026-11-04 14:51:02",
    "ok": true
   },
   "ua-rec": {
@@ -1846,8 +1863,8 @@
    "ok": true
   },
   "dublin-dance": {
-   "hash": "c504595a479bff9d",
-   "changedAt": "2026-11-04 06:05:05",
+   "hash": "0e8803dc9592a737",
+   "changedAt": "2026-11-04 14:51:02",
    "ok": true
   },
   "learn-sing-grow": {
