@@ -257,7 +257,7 @@
   },
   "rec-7066": {
    "firstSeen": "2026-10-30 23:09:05",
-   "full": false
+   "full": true
   },
   "rec-9225": {
    "firstSeen": "2026-10-30 23:09:05",
@@ -915,7 +915,7 @@
   },
   "rec-9587": {
    "firstSeen": "2026-10-30 23:09:05",
-   "full": false
+   "full": true
   },
   "rec-7175": {
    "firstSeen": "2026-10-30 23:09:05",
@@ -1829,6 +1829,10 @@
   "lib-main-library-family-storytime-sweet-as-pie-wed-10-30": {
    "firstSeen": "2026-11-05 06:06:11",
    "full": false
+  },
+  "rec-9580": {
+   "firstSeen": "2026-11-05 15:02:47",
+   "full": false
   }
  },
  "watch": {
@@ -1879,8 +1883,8 @@
    "ok": true
   },
   "dublin-dance": {
-   "hash": "2d75fc9d9fe8c1de",
-   "changedAt": "2026-11-05 06:06:11",
+   "hash": "8ee094fbff574428",
+   "changedAt": "2026-11-05 15:02:47",
    "ok": true
   },
   "learn-sing-grow": {
