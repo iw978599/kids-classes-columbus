@@ -201,7 +201,7 @@
   },
   "rec-6329": {
    "firstSeen": "2026-10-30 23:09:05",
-   "full": false
+   "full": true
   },
   "rec-6330": {
    "firstSeen": "2026-10-30 23:09:05",
@@ -1813,6 +1813,18 @@
   "jr-506905-22125805": {
    "firstSeen": "2026-11-04 14:51:02",
    "full": false
+  },
+  "rec-9689": {
+   "firstSeen": "2026-11-04 20:30:00",
+   "full": false
+  },
+  "rec-9692": {
+   "firstSeen": "2026-11-04 20:30:00",
+   "full": false
+  },
+  "jr-506905-22126014": {
+   "firstSeen": "2026-11-04 20:30:00",
+   "full": false
   }
  },
  "watch": {
@@ -1863,8 +1875,8 @@
    "ok": true
   },
   "dublin-dance": {
-   "hash": "0e8803dc9592a737",
-   "changedAt": "2026-11-04 14:51:02",
+   "hash": "9ae6018f403eb167",
+   "changedAt": "2026-11-04 20:30:00",
    "ok": true
   },
   "learn-sing-grow": {

@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-04 14:51:02",
+ "checkedAt": "2026-11-04 20:30:00",
  "baselineAt": "2026-10-30 23:09:05",
  "anchor": "Schiller Park",
  "neighborhoods": [
@@ -23,38 +23,38 @@
   "rec": {
    "label": "Columbus Rec & Parks",
    "ok": true,
-   "count": 278,
-   "lastSuccess": "2026-11-04 14:51:02"
+   "count": 280,
+   "lastSuccess": "2026-11-04 20:30:00"
   },
   "cct": {
    "label": "Columbus Children's Theatre",
    "ok": true,
    "count": 2,
-   "lastSuccess": "2026-11-04 14:51:02"
+   "lastSuccess": "2026-11-04 20:30:00"
   },
   "bexley": {
    "label": "Bexley Rec",
    "ok": true,
    "count": 7,
-   "lastSuccess": "2026-11-04 14:51:02"
+   "lastSuccess": "2026-11-04 20:30:00"
   },
   "recdesk": {
    "label": "Grandview Heights Rec",
    "ok": true,
    "count": 5,
-   "lastSuccess": "2026-11-04 14:51:02"
+   "lastSuccess": "2026-11-04 20:30:00"
   },
   "jackrabbit": {
    "label": "Wendy's and K Studio",
    "ok": true,
-   "count": 75,
-   "lastSuccess": "2026-11-04 14:51:02"
+   "count": 73,
+   "lastSuccess": "2026-11-04 20:30:00"
   },
   "library": {
    "label": "Columbus Metropolitan Library",
    "ok": true,
    "count": 12,
-   "lastSuccess": "2026-11-04 14:51:02"
+   "lastSuccess": "2026-11-04 20:30:00"
   }
  },
  "items": [
@@ -539,70 +539,6 @@
    "firstSeen": "2026-10-30 23:09:05"
   },
   {
-   "id": "jr-506905-22125191",
-   "source": "jackrabbit",
-   "provider": "Wendy's Gymnastics",
-   "name": "KINDER-KIDS 5-6 - Mon @ 6:45pm",
-   "category": "Gymnastics",
-   "ages": "5 yrs - 6 yrs",
-   "ageMin": 60,
-   "ageMax": 84,
-   "days": [
-    "Mon"
-   ],
-   "startTime": "18:45",
-   "endTime": "19:25",
-   "firstDate": "2026-08-31",
-   "lastDate": "2027-05-28",
-   "sessions": null,
-   "location": "Wendy's Gymnastics",
-   "address": "2460 Wood Ave, Columbus, OH 43221",
-   "lat": 40.009629846106,
-   "lon": -83.034094847396,
-   "price": "$99.00 tuition",
-   "status": "anytime",
-   "openings": 1,
-   "opensAt": null,
-   "closesAt": null,
-   "notes": [],
-   "url": "https://app.jackrabbitclass.com/reg.asp?id=506905&hc=&initEmpty=&hdrColor=&WL=0&preLoadClassID=22125191&loc=",
-   "miles": 5.3,
-   "neighborhood": "Upper Arlington",
-   "firstSeen": "2026-11-04 14:51:02"
-  },
-  {
-   "id": "jr-506905-22125315",
-   "source": "jackrabbit",
-   "provider": "Wendy's Gymnastics",
-   "name": "KINDER-KIDS 5-6 - Thurs @ 4:15pm",
-   "category": "Gymnastics",
-   "ages": "5 yrs - 6 yrs",
-   "ageMin": 60,
-   "ageMax": 84,
-   "days": [
-    "Thu"
-   ],
-   "startTime": "16:15",
-   "endTime": "16:55",
-   "firstDate": "2026-08-31",
-   "lastDate": "2027-05-28",
-   "sessions": null,
-   "location": "Wendy's Gymnastics",
-   "address": "2460 Wood Ave, Columbus, OH 43221",
-   "lat": 40.009629846106,
-   "lon": -83.034094847396,
-   "price": "$99.00 tuition",
-   "status": "anytime",
-   "openings": 1,
-   "opensAt": null,
-   "closesAt": null,
-   "notes": [],
-   "url": "https://app.jackrabbitclass.com/reg.asp?id=506905&hc=&initEmpty=&hdrColor=&WL=0&preLoadClassID=22125315&loc=",
-   "miles": 5.3,
-   "neighborhood": "Upper Arlington",
-   "firstSeen": "2026-11-03 14:33:20"
-  },
-  {
    "id": "jr-506905-22125287",
    "source": "jackrabbit",
    "provider": "Wendy's Gymnastics",
@@ -665,6 +601,38 @@
    "miles": 5.3,
    "neighborhood": "Upper Arlington",
    "firstSeen": "2026-10-30 23:09:05"
+  },
+  {
+   "id": "jr-506905-22126014",
+   "source": "jackrabbit",
+   "provider": "Wendy's Gymnastics",
+   "name": "KINDER-KIDS 5-6 - Wed @ 6:00pm",
+   "category": "Gymnastics",
+   "ages": "5 yrs - 6 yrs",
+   "ageMin": 60,
+   "ageMax": 84,
+   "days": [
+    "Wed"
+   ],
+   "startTime": "18:00",
+   "endTime": "18:55",
+   "firstDate": "2026-08-31",
+   "lastDate": "2027-05-28",
+   "sessions": null,
+   "location": "Wendy's Gymnastics",
+   "address": "2460 Wood Ave, Columbus, OH 43221",
+   "lat": 40.009629846106,
+   "lon": -83.034094847396,
+   "price": "$99.00 tuition",
+   "status": "anytime",
+   "openings": 1,
+   "opensAt": null,
+   "closesAt": null,
+   "notes": [],
+   "url": "https://app.jackrabbitclass.com/reg.asp?id=506905&hc=&initEmpty=&hdrColor=&WL=0&preLoadClassID=22126014&loc=",
+   "miles": 5.3,
+   "neighborhood": "Upper Arlington",
+   "firstSeen": "2026-11-04 20:30:00"
   },
   {
    "id": "jr-506905-22125288",
@@ -1755,38 +1723,6 @@
    "firstSeen": "2026-10-30 23:09:05"
   },
   {
-   "id": "jr-506905-22123500",
-   "source": "jackrabbit",
-   "provider": "Wendy's Gymnastics",
-   "name": "TUMBLE TOT 3&4 - Thurs @ 4:15pm",
-   "category": "Gymnastics",
-   "ages": "2 yrs 10 mos - 4 yrs",
-   "ageMin": 34,
-   "ageMax": 60,
-   "days": [
-    "Thu"
-   ],
-   "startTime": "16:15",
-   "endTime": "16:55",
-   "firstDate": "2026-08-31",
-   "lastDate": "2027-05-28",
-   "sessions": null,
-   "location": "Wendy's Gymnastics",
-   "address": "2460 Wood Ave, Columbus, OH 43221",
-   "lat": 40.009629846106,
-   "lon": -83.034094847396,
-   "price": "$99.00 tuition",
-   "status": "anytime",
-   "openings": 1,
-   "opensAt": null,
-   "closesAt": null,
-   "notes": [],
-   "url": "https://app.jackrabbitclass.com/reg.asp?id=506905&hc=&initEmpty=&hdrColor=&WL=0&preLoadClassID=22123500&loc=",
-   "miles": 5.3,
-   "neighborhood": "Upper Arlington",
-   "firstSeen": "2026-11-03 14:33:20"
-  },
-  {
    "id": "jr-506905-22123049",
    "source": "jackrabbit",
    "provider": "Wendy's Gymnastics",
@@ -2129,7 +2065,7 @@
    "lon": -83.034094847396,
    "price": "$99.00 tuition",
    "status": "anytime",
-   "openings": 4,
+   "openings": 3,
    "opensAt": null,
    "closesAt": null,
    "notes": [],
@@ -2492,38 +2428,6 @@
    "firstSeen": "2026-10-30 23:09:05"
   },
   {
-   "id": "rec-6329",
-   "source": "rec",
-   "provider": "Columbus Rec & Parks",
-   "name": "Coach Reggie Pee Wee Basketball Clinic- SESSION B",
-   "category": "Sports",
-   "ages": "Age at least 4 yrs but less than 7 yrs",
-   "ageMin": 48,
-   "ageMax": 84,
-   "days": [
-    "Fri"
-   ],
-   "startTime": "16:30",
-   "endTime": "17:15",
-   "firstDate": "2026-11-06",
-   "lastDate": "2026-12-11",
-   "sessions": 5,
-   "location": "Carriage Place Park",
-   "address": "4900 Sawmill Road, Columbus, OH 43235",
-   "lat": 40.069,
-   "lon": -83.0911,
-   "price": "$40.00 resident, $48.00 non-resident",
-   "status": "open",
-   "openings": 1,
-   "opensAt": "2026-09-08 12:30:00",
-   "closesAt": "2026-11-19 00:00:00",
-   "notes": [],
-   "url": "https://anc.apm.activecommunities.com/columbusrecparks1/activity/search/detail/6329?onlineSiteId=0&from_original_cui=true",
-   "miles": 10.3,
-   "neighborhood": "Northwest & Dublin",
-   "firstSeen": "2026-10-30 23:09:05"
-  },
-  {
    "id": "rec-6328",
    "source": "rec",
    "provider": "Columbus Rec & Parks",
@@ -2706,7 +2610,7 @@
    "lon": -82.9786328,
    "price": "Free",
    "status": "open",
-   "openings": 8,
+   "openings": 7,
    "opensAt": "2026-11-03 12:30:00",
    "closesAt": null,
    "notes": [],
@@ -4168,7 +4072,7 @@
    "lon": -83.0183878,
    "price": "Free",
    "status": "open",
-   "openings": 17,
+   "openings": 16,
    "opensAt": "2026-10-27 12:30:00",
    "closesAt": null,
    "notes": [],
@@ -4850,7 +4754,7 @@
    "lon": -82.928756725128,
    "price": "Free",
    "status": "open",
-   "openings": 57,
+   "openings": 54,
    "opensAt": "2026-09-08 12:30:00",
    "closesAt": "2026-12-12 23:59:00",
    "notes": [],
@@ -6839,6 +6743,38 @@
    "firstSeen": "2026-10-30 23:09:05"
   },
   {
+   "id": "rec-9689",
+   "source": "rec",
+   "provider": "Columbus Rec & Parks",
+   "name": "Youth Beginner Ping Pong",
+   "category": "Other",
+   "ages": "Age at least 6 yrs but less than 12 yrs",
+   "ageMin": 72,
+   "ageMax": 144,
+   "days": [
+    "Tue"
+   ],
+   "startTime": "17:00",
+   "endTime": "17:45",
+   "firstDate": "2027-01-12",
+   "lastDate": "2027-03-09",
+   "sessions": 9,
+   "location": "Lazelle Woods Park",
+   "address": "8140 Sancus Blvd., Westerville, OH 43081",
+   "lat": 40.1318,
+   "lon": -82.9879,
+   "price": "Free",
+   "status": "upcoming",
+   "openings": 10,
+   "opensAt": "2027-01-05 12:30:00",
+   "closesAt": null,
+   "notes": [],
+   "url": "https://anc.apm.activecommunities.com/columbusrecparks1/activity/search/detail/9689?onlineSiteId=0&from_original_cui=true",
+   "miles": 13.2,
+   "neighborhood": "Northland & Westerville",
+   "firstSeen": "2026-11-04 20:30:00"
+  },
+  {
    "id": "rec-9440",
    "source": "rec",
    "provider": "Columbus Rec & Parks",
@@ -6861,7 +6797,7 @@
    "lon": -82.928756725128,
    "price": "$50.00 resident, $60.00 non-resident",
    "status": "open",
-   "openings": 16,
+   "openings": 15,
    "opensAt": "2026-10-20 12:30:00",
    "closesAt": "2026-11-21 23:59:00",
    "notes": [],
@@ -7411,6 +7347,38 @@
    "miles": 10.3,
    "neighborhood": "Northwest & Dublin",
    "firstSeen": "2026-10-30 23:09:05"
+  },
+  {
+   "id": "rec-9692",
+   "source": "rec",
+   "provider": "Columbus Rec & Parks",
+   "name": "Homeschool Fitness",
+   "category": "Other",
+   "ages": "Age at least 6 yrs but less than 13 yrs",
+   "ageMin": 72,
+   "ageMax": 156,
+   "days": [
+    "Wed"
+   ],
+   "startTime": "10:15",
+   "endTime": "11:15",
+   "firstDate": "2027-01-13",
+   "lastDate": "2027-03-10",
+   "sessions": 9,
+   "location": "Lazelle Woods Park",
+   "address": "8140 Sancus Blvd., Westerville, OH 43081",
+   "lat": 40.1318,
+   "lon": -82.9879,
+   "price": "Free",
+   "status": "upcoming",
+   "openings": 16,
+   "opensAt": "2027-01-05 12:30:00",
+   "closesAt": null,
+   "notes": [],
+   "url": "https://anc.apm.activecommunities.com/columbusrecparks1/activity/search/detail/9692?onlineSiteId=0&from_original_cui=true",
+   "miles": 13.2,
+   "neighborhood": "Northland & Westerville",
+   "firstSeen": "2026-11-04 20:30:00"
   },
   {
    "id": "rec-9548",
@@ -9132,7 +9100,7 @@
    "lon": null,
    "price": "$50.00 resident, $60.00 non-resident",
    "status": "open",
-   "openings": 10,
+   "openings": 9,
    "opensAt": "2026-10-20 12:30:00",
    "closesAt": "2026-11-28 23:59:00",
    "notes": [],
@@ -9164,7 +9132,7 @@
    "lon": null,
    "price": "$50.00 resident, $60.00 non-resident",
    "status": "open",
-   "openings": 47,
+   "openings": 46,
    "opensAt": "2026-10-20 12:30:00",
    "closesAt": "2026-11-28 23:59:00",
    "notes": [],
@@ -9388,7 +9356,7 @@
    "lon": -83.0828337,
    "price": "$50.00 resident, $60.00 non-resident",
    "status": "open",
-   "openings": 4,
+   "openings": 2,
    "opensAt": "2026-10-20 12:30:00",
    "closesAt": "2026-11-28 23:59:00",
    "notes": [],
@@ -10176,7 +10144,7 @@
    "lon": -83.087192475101,
    "miles": 12.6,
    "neighborhood": "Northwest & Dublin",
-   "changedAt": "2026-11-04 14:51:02",
+   "changedAt": "2026-11-04 20:30:00",
    "watchOk": true
   },
   {
