@@ -1151,7 +1151,7 @@
   },
   "rec-9089": {
    "firstSeen": "2026-10-30 23:09:05",
-   "full": false
+   "full": true
   },
   "rec-9091": {
    "firstSeen": "2026-10-30 23:09:05",
@@ -1841,6 +1841,50 @@
   "jr-506905-22123411": {
    "firstSeen": "2026-11-06 06:02:29",
    "full": false
+  },
+  "rec-9712": {
+   "firstSeen": "2026-11-06 14:29:12",
+   "full": false
+  },
+  "rec-9714": {
+   "firstSeen": "2026-11-06 14:29:12",
+   "full": false
+  },
+  "rec-9713": {
+   "firstSeen": "2026-11-06 14:29:12",
+   "full": false
+  },
+  "rec-9717": {
+   "firstSeen": "2026-11-06 14:29:12",
+   "full": false
+  },
+  "rec-9715": {
+   "firstSeen": "2026-11-06 14:29:12",
+   "full": false
+  },
+  "rec-9716": {
+   "firstSeen": "2026-11-06 14:29:12",
+   "full": false
+  },
+  "rec-9718": {
+   "firstSeen": "2026-11-06 14:29:12",
+   "full": false
+  },
+  "rec-9719": {
+   "firstSeen": "2026-11-06 14:29:12",
+   "full": false
+  },
+  "rec-9720": {
+   "firstSeen": "2026-11-06 14:29:12",
+   "full": false
+  },
+  "rec-9721": {
+   "firstSeen": "2026-11-06 14:29:12",
+   "full": false
+  },
+  "rec-9722": {
+   "firstSeen": "2026-11-06 14:29:12",
+   "full": false
   }
  },
  "watch": {
@@ -1891,8 +1935,8 @@
    "ok": true
   },
   "dublin-dance": {
-   "hash": "3a270b6e9b4a6755",
-   "changedAt": "2026-11-06 06:02:29",
+   "hash": "2c6ce8dd0e8a06f7",
+   "changedAt": "2026-11-06 14:29:12",
    "ok": true
   },
   "learn-sing-grow": {
