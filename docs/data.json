@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-05 20:36:12",
+ "checkedAt": "2026-11-06 06:02:29",
  "baselineAt": "2026-10-30 23:09:05",
  "anchor": "Schiller Park",
  "neighborhoods": [
@@ -23,38 +23,38 @@
   "rec": {
    "label": "Columbus Rec & Parks",
    "ok": true,
-   "count": 280,
-   "lastSuccess": "2026-11-05 20:36:12"
+   "count": 272,
+   "lastSuccess": "2026-11-06 06:02:29"
   },
   "cct": {
    "label": "Columbus Children's Theatre",
    "ok": true,
    "count": 2,
-   "lastSuccess": "2026-11-05 20:36:12"
+   "lastSuccess": "2026-11-06 06:02:29"
   },
   "bexley": {
    "label": "Bexley Rec",
    "ok": true,
-   "count": 6,
-   "lastSuccess": "2026-11-05 20:36:12"
+   "count": 5,
+   "lastSuccess": "2026-11-06 06:02:29"
   },
   "recdesk": {
    "label": "Grandview Heights Rec",
    "ok": true,
    "count": 5,
-   "lastSuccess": "2026-11-05 20:36:12"
+   "lastSuccess": "2026-11-06 06:02:29"
   },
   "jackrabbit": {
    "label": "Wendy's and K Studio",
    "ok": true,
-   "count": 72,
-   "lastSuccess": "2026-11-05 20:36:12"
+   "count": 73,
+   "lastSuccess": "2026-11-06 06:02:29"
   },
   "library": {
    "label": "Columbus Metropolitan Library",
    "ok": true,
    "count": 13,
-   "lastSuccess": "2026-11-05 20:36:12"
+   "lastSuccess": "2026-11-06 06:02:29"
   }
  },
  "items": [
@@ -1179,6 +1179,38 @@
    "firstSeen": "2026-10-30 23:09:05"
   },
   {
+   "id": "jr-506905-22123411",
+   "source": "jackrabbit",
+   "provider": "Wendy's Gymnastics",
+   "name": "TUMBLE TOT 2&3 - Thurs @ 5:00pm",
+   "category": "Gymnastics",
+   "ages": "1 yr 10 mos - 3 yrs",
+   "ageMin": 22,
+   "ageMax": 48,
+   "days": [
+    "Thu"
+   ],
+   "startTime": "17:00",
+   "endTime": "17:40",
+   "firstDate": "2026-08-31",
+   "lastDate": "2027-05-28",
+   "sessions": null,
+   "location": "Wendy's Gymnastics",
+   "address": "2460 Wood Ave, Columbus, OH 43221",
+   "lat": 40.009629846106,
+   "lon": -83.034094847396,
+   "price": "$99.00 tuition",
+   "status": "anytime",
+   "openings": 1,
+   "opensAt": null,
+   "closesAt": null,
+   "notes": [],
+   "url": "https://app.jackrabbitclass.com/reg.asp?id=506905&hc=&initEmpty=&hdrColor=&WL=0&preLoadClassID=22123411&loc=",
+   "miles": 5.3,
+   "neighborhood": "Upper Arlington",
+   "firstSeen": "2026-11-06 06:02:29"
+  },
+  {
    "id": "jr-506905-22122963",
    "source": "jackrabbit",
    "provider": "Wendy's Gymnastics",
@@ -2171,102 +2203,6 @@
    "firstSeen": "2026-10-30 23:09:05"
   },
   {
-   "id": "lib-main-library-family-storytime-thu-10-30",
-   "source": "library",
-   "provider": "Columbus Metropolitan Library",
-   "name": "Family Storytime",
-   "category": "Story time",
-   "ages": "Preschool and family",
-   "ageMin": 0,
-   "ageMax": null,
-   "days": [
-    "Thu"
-   ],
-   "startTime": "10:30",
-   "endTime": "11:00",
-   "firstDate": "2026-11-05",
-   "lastDate": "2026-11-19",
-   "sessions": null,
-   "location": "Main Library branch",
-   "address": "96 S Grant Ave, Columbus, OH 43215",
-   "lat": 39.961199462733,
-   "lon": -82.990580352092,
-   "price": "Free",
-   "status": "drop-in",
-   "openings": null,
-   "opensAt": null,
-   "closesAt": null,
-   "notes": [],
-   "url": "https://events.columbuslibrary.org/event/16464380",
-   "miles": 1.5,
-   "neighborhood": "Downtown & Near East",
-   "firstSeen": "2026-10-30 23:09:05"
-  },
-  {
-   "id": "rec-6501",
-   "source": "rec",
-   "provider": "Columbus Rec & Parks",
-   "name": "Coach Reggie Multi-Sport Home School Gym- SESSION B",
-   "category": "Sports",
-   "ages": "Age at least 5 yrs but less than 14 yrs",
-   "ageMin": 60,
-   "ageMax": 168,
-   "days": [
-    "Fri"
-   ],
-   "startTime": "12:15",
-   "endTime": "13:15",
-   "firstDate": "2026-11-06",
-   "lastDate": "2026-12-18",
-   "sessions": 6,
-   "location": "Carriage Place Park",
-   "address": "4900 Sawmill Road, Columbus, OH 43235",
-   "lat": 40.069,
-   "lon": -83.0911,
-   "price": "$48.00 resident, $57.00 non-resident",
-   "status": "open",
-   "openings": 8,
-   "opensAt": "2026-09-08 12:30:00",
-   "closesAt": "2026-11-19 00:00:00",
-   "notes": [],
-   "url": "https://anc.apm.activecommunities.com/columbusrecparks1/activity/search/detail/6501?onlineSiteId=0&from_original_cui=true",
-   "miles": 10.3,
-   "neighborhood": "Northwest & Dublin",
-   "firstSeen": "2026-10-30 23:09:05"
-  },
-  {
-   "id": "rec-6328",
-   "source": "rec",
-   "provider": "Columbus Rec & Parks",
-   "name": "Coach Reggie Tiny Tot Kickers- SESSION B",
-   "category": "Other",
-   "ages": "Age at least 2 yrs but less than 5 yrs",
-   "ageMin": 24,
-   "ageMax": 60,
-   "days": [
-    "Fri"
-   ],
-   "startTime": "11:30",
-   "endTime": "12:10",
-   "firstDate": "2026-11-06",
-   "lastDate": "2026-12-18",
-   "sessions": 6,
-   "location": "Carriage Place Park",
-   "address": "4900 Sawmill Road, Columbus, OH 43235",
-   "lat": 40.069,
-   "lon": -83.0911,
-   "price": "$48.00 resident, $57.00 non-resident",
-   "status": "open",
-   "openings": 6,
-   "opensAt": "2026-09-08 12:30:00",
-   "closesAt": "2026-11-19 00:00:00",
-   "notes": [],
-   "url": "https://anc.apm.activecommunities.com/columbusrecparks1/activity/search/detail/6328?onlineSiteId=0&from_original_cui=true",
-   "miles": 10.3,
-   "neighborhood": "Northwest & Dublin",
-   "firstSeen": "2026-10-30 23:09:05"
-  },
-  {
    "id": "lib-south-high-family-storytime-fri-10-30",
    "source": "library",
    "provider": "Columbus Metropolitan Library",
@@ -2328,70 +2264,6 @@
    "url": "https://events.columbuslibrary.org/event/16464383",
    "miles": 1.5,
    "neighborhood": "Downtown & Near East",
-   "firstSeen": "2026-10-30 23:09:05"
-  },
-  {
-   "id": "jr-opengym-wendy-s-gymnastics-fri-11-30am",
-   "source": "jackrabbit",
-   "provider": "Wendy's Gymnastics",
-   "name": "Open gym - Fri @ 11:30am",
-   "category": "Gymnastics",
-   "ages": "1 yr - 12 yrs",
-   "ageMin": 12,
-   "ageMax": 156,
-   "days": [
-    "Fri"
-   ],
-   "startTime": "11:30",
-   "endTime": "12:15",
-   "firstDate": "2026-11-06",
-   "lastDate": "2026-11-20",
-   "sessions": null,
-   "location": "Wendy's Gymnastics",
-   "address": "2460 Wood Ave, Columbus, OH 43221",
-   "lat": 40.009629846106,
-   "lon": -83.034094847396,
-   "price": "$15.00 tuition",
-   "status": "open",
-   "openings": 3,
-   "opensAt": null,
-   "closesAt": null,
-   "notes": [],
-   "url": "https://app.jackrabbitclass.com/reg.asp?id=506905&hc=&initEmpty=&hdrColor=&WL=0&preLoadClassID=22429880&loc=",
-   "miles": 5.3,
-   "neighborhood": "Upper Arlington",
-   "firstSeen": "2026-10-30 23:09:05"
-  },
-  {
-   "id": "bex-148394",
-   "source": "bexley",
-   "provider": "Bexley Recreation & Parks",
-   "name": "The Play Spot FA 26 (S2)",
-   "category": "Other",
-   "ages": "1y 3m - 5y 11m",
-   "ageMin": 15,
-   "ageMax": 72,
-   "days": [
-    "Fri"
-   ],
-   "startTime": "10:00",
-   "endTime": "10:45",
-   "firstDate": "2026-11-06",
-   "lastDate": "2026-12-18",
-   "sessions": null,
-   "location": "Jeffrey Mansion - Garden Room",
-   "address": "2099 Clifton Ave, Columbus, OH 43209",
-   "lat": 39.971273206992,
-   "lon": -82.94580502906,
-   "price": "$234.00 Res, $234.00 Non-Res",
-   "status": "contact",
-   "openings": null,
-   "opensAt": null,
-   "closesAt": null,
-   "notes": [],
-   "url": "https://bexleyoh.myrec.com/info/activities/program_details.aspx?ProgramID=31251",
-   "miles": 3.3,
-   "neighborhood": "Bexley",
    "firstSeen": "2026-10-30 23:09:05"
   },
   {
@@ -3199,6 +3071,38 @@
    "firstSeen": "2026-10-30 23:09:05"
   },
   {
+   "id": "lib-main-library-family-storytime-thu-10-30",
+   "source": "library",
+   "provider": "Columbus Metropolitan Library",
+   "name": "Family Storytime",
+   "category": "Story time",
+   "ages": "Preschool and family",
+   "ageMin": 0,
+   "ageMax": null,
+   "days": [
+    "Thu"
+   ],
+   "startTime": "10:30",
+   "endTime": "11:00",
+   "firstDate": "2026-11-12",
+   "lastDate": "2026-11-19",
+   "sessions": null,
+   "location": "Main Library branch",
+   "address": "96 S Grant Ave, Columbus, OH 43215",
+   "lat": 39.961199462733,
+   "lon": -82.990580352092,
+   "price": "Free",
+   "status": "drop-in",
+   "openings": null,
+   "opensAt": null,
+   "closesAt": null,
+   "notes": [],
+   "url": "https://events.columbuslibrary.org/event/16464381",
+   "miles": 1.5,
+   "neighborhood": "Downtown & Near East",
+   "firstSeen": "2026-10-30 23:09:05"
+  },
+  {
    "id": "jr-opengym-wendy-s-gymnastics-thu-6-30pm",
    "source": "jackrabbit",
    "provider": "Wendy's Gymnastics",
@@ -3292,6 +3196,38 @@
    "url": "https://anc.apm.activecommunities.com/columbusrecparks1/activity/search/detail/8284?onlineSiteId=0&from_original_cui=true",
    "miles": 3.1,
    "neighborhood": "Franklinton & West Side",
+   "firstSeen": "2026-10-30 23:09:05"
+  },
+  {
+   "id": "jr-opengym-wendy-s-gymnastics-fri-11-30am",
+   "source": "jackrabbit",
+   "provider": "Wendy's Gymnastics",
+   "name": "Open gym - Fri @ 11:30am",
+   "category": "Gymnastics",
+   "ages": "1 yr - 12 yrs",
+   "ageMin": 12,
+   "ageMax": 156,
+   "days": [
+    "Fri"
+   ],
+   "startTime": "11:30",
+   "endTime": "12:15",
+   "firstDate": "2026-11-13",
+   "lastDate": "2026-11-20",
+   "sessions": null,
+   "location": "Wendy's Gymnastics",
+   "address": "2460 Wood Ave, Columbus, OH 43221",
+   "lat": 40.009629846106,
+   "lon": -83.034094847396,
+   "price": "$15.00 tuition",
+   "status": "open",
+   "openings": 17,
+   "opensAt": null,
+   "closesAt": null,
+   "notes": [],
+   "url": "https://app.jackrabbitclass.com/reg.asp?id=506905&hc=&initEmpty=&hdrColor=&WL=0&preLoadClassID=22429881&loc=",
+   "miles": 5.3,
+   "neighborhood": "Upper Arlington",
    "firstSeen": "2026-10-30 23:09:05"
   },
   {
@@ -3445,7 +3381,7 @@
    "lon": -83.009523623896,
    "price": "$53.00 resident, $63.60 non-resident",
    "status": "open",
-   "openings": 5,
+   "openings": 3,
    "opensAt": "2026-11-03 12:30:00",
    "closesAt": "2026-11-16 13:00:00",
    "notes": [],
@@ -10048,7 +9984,7 @@
    "lon": -83.087192475101,
    "miles": 12.6,
    "neighborhood": "Northwest & Dublin",
-   "changedAt": "2026-11-05 20:36:12",
+   "changedAt": "2026-11-06 06:02:29",
    "watchOk": true
   },
   {
