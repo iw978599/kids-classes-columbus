@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-05 15:02:47",
+ "checkedAt": "2026-11-05 20:36:12",
  "baselineAt": "2026-10-30 23:09:05",
  "anchor": "Schiller Park",
  "neighborhoods": [
@@ -23,38 +23,38 @@
   "rec": {
    "label": "Columbus Rec & Parks",
    "ok": true,
-   "count": 279,
-   "lastSuccess": "2026-11-05 15:02:47"
+   "count": 280,
+   "lastSuccess": "2026-11-05 20:36:12"
   },
   "cct": {
    "label": "Columbus Children's Theatre",
    "ok": true,
    "count": 2,
-   "lastSuccess": "2026-11-05 15:02:47"
+   "lastSuccess": "2026-11-05 20:36:12"
   },
   "bexley": {
    "label": "Bexley Rec",
    "ok": true,
    "count": 6,
-   "lastSuccess": "2026-11-05 15:02:47"
+   "lastSuccess": "2026-11-05 20:36:12"
   },
   "recdesk": {
    "label": "Grandview Heights Rec",
    "ok": true,
    "count": 5,
-   "lastSuccess": "2026-11-05 15:02:47"
+   "lastSuccess": "2026-11-05 20:36:12"
   },
   "jackrabbit": {
    "label": "Wendy's and K Studio",
    "ok": true,
    "count": 72,
-   "lastSuccess": "2026-11-05 15:02:47"
+   "lastSuccess": "2026-11-05 20:36:12"
   },
   "library": {
    "label": "Columbus Metropolitan Library",
    "ok": true,
    "count": 13,
-   "lastSuccess": "2026-11-05 15:02:47"
+   "lastSuccess": "2026-11-05 20:36:12"
   }
  },
  "items": [
@@ -433,7 +433,7 @@
    "lon": -83.034094847396,
    "price": "$109.00 tuition",
    "status": "anytime",
-   "openings": 3,
+   "openings": 2,
    "opensAt": null,
    "closesAt": null,
    "notes": [],
@@ -785,7 +785,7 @@
    "lon": -83.034094847396,
    "price": "$99.00 tuition",
    "status": "anytime",
-   "openings": 2,
+   "openings": 1,
    "opensAt": null,
    "closesAt": null,
    "notes": [],
@@ -2161,7 +2161,7 @@
    "lon": -83.034094847396,
    "price": "$109.00 tuition",
    "status": "anytime",
-   "openings": 3,
+   "openings": 4,
    "opensAt": null,
    "closesAt": null,
    "notes": [],
@@ -2353,7 +2353,7 @@
    "lon": -83.034094847396,
    "price": "$15.00 tuition",
    "status": "open",
-   "openings": 2,
+   "openings": 3,
    "opensAt": null,
    "closesAt": null,
    "notes": [],
@@ -3221,7 +3221,7 @@
    "lon": -83.034094847396,
    "price": "$15.00 tuition",
    "status": "open",
-   "openings": 15,
+   "openings": 13,
    "opensAt": null,
    "closesAt": null,
    "notes": [],
@@ -3701,7 +3701,7 @@
    "lon": -83.0911,
    "price": "Free",
    "status": "upcoming",
-   "openings": 13,
+   "openings": 7,
    "opensAt": "2026-11-09 12:30:00",
    "closesAt": null,
    "notes": [],
@@ -5743,6 +5743,39 @@
    "miles": 13.2,
    "neighborhood": "Northland & Westerville",
    "firstSeen": "2026-10-30 23:09:05"
+  },
+  {
+   "id": "rec-9711",
+   "source": "rec",
+   "provider": "Columbus Rec & Parks",
+   "name": "Speed and Agility",
+   "category": "Other",
+   "ages": "Age at least 6 yrs but less than 18 yrs",
+   "ageMin": 72,
+   "ageMax": 216,
+   "days": [
+    "Mon",
+    "Wed"
+   ],
+   "startTime": "18:00",
+   "endTime": "19:45",
+   "firstDate": "2027-01-11",
+   "lastDate": "2027-02-17",
+   "sessions": 10,
+   "location": "Walking Track",
+   "address": "Walking Track",
+   "lat": null,
+   "lon": null,
+   "price": "Free",
+   "status": "upcoming",
+   "openings": 20,
+   "opensAt": "2027-01-05 12:30:00",
+   "closesAt": null,
+   "notes": [],
+   "url": "https://anc.apm.activecommunities.com/columbusrecparks1/activity/search/detail/9711?onlineSiteId=0&from_original_cui=true",
+   "miles": null,
+   "neighborhood": "Other locations",
+   "firstSeen": "2026-11-05 20:36:12"
   },
   {
    "id": "rec-9159",
@@ -9003,7 +9036,7 @@
    "lon": null,
    "price": "$50.00 resident, $60.00 non-resident",
    "status": "open",
-   "openings": 45,
+   "openings": 46,
    "opensAt": "2026-10-20 12:30:00",
    "closesAt": "2026-11-28 23:59:00",
    "notes": [],
@@ -9259,7 +9292,7 @@
    "lon": null,
    "price": "$50.00 resident, $60.00 non-resident",
    "status": "open",
-   "openings": 40,
+   "openings": 39,
    "opensAt": "2026-10-20 12:30:00",
    "closesAt": "2026-11-28 23:59:00",
    "notes": [],
@@ -10015,7 +10048,7 @@
    "lon": -83.087192475101,
    "miles": 12.6,
    "neighborhood": "Northwest & Dublin",
-   "changedAt": "2026-11-05 15:02:47",
+   "changedAt": "2026-11-05 20:36:12",
    "watchOk": true
   },
   {
