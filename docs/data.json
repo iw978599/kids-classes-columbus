@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-06 14:29:12",
+ "checkedAt": "2026-11-06 19:58:00",
  "baselineAt": "2026-10-30 23:09:05",
  "anchor": "Schiller Park",
  "neighborhoods": [
@@ -24,37 +24,37 @@
    "label": "Columbus Rec & Parks",
    "ok": true,
    "count": 283,
-   "lastSuccess": "2026-11-06 14:29:12"
+   "lastSuccess": "2026-11-06 19:58:00"
   },
   "cct": {
    "label": "Columbus Children's Theatre",
    "ok": true,
    "count": 2,
-   "lastSuccess": "2026-11-06 14:29:12"
+   "lastSuccess": "2026-11-06 19:58:00"
   },
   "bexley": {
    "label": "Bexley Rec",
    "ok": true,
    "count": 5,
-   "lastSuccess": "2026-11-06 14:29:12"
+   "lastSuccess": "2026-11-06 19:58:00"
   },
   "recdesk": {
    "label": "Grandview Heights Rec",
    "ok": true,
    "count": 5,
-   "lastSuccess": "2026-11-06 14:29:12"
+   "lastSuccess": "2026-11-06 19:58:00"
   },
   "jackrabbit": {
    "label": "Wendy's and K Studio",
    "ok": true,
    "count": 71,
-   "lastSuccess": "2026-11-06 14:29:12"
+   "lastSuccess": "2026-11-06 19:58:00"
   },
   "library": {
    "label": "Columbus Metropolitan Library",
    "ok": true,
    "count": 13,
-   "lastSuccess": "2026-11-06 14:29:12"
+   "lastSuccess": "2026-11-06 19:58:00"
   }
  },
  "items": [
@@ -2321,7 +2321,7 @@
    "lon": -83.0911,
    "price": "$45.00 resident, $54.00 non-resident",
    "status": "open",
-   "openings": 2,
+   "openings": 1,
    "opensAt": "2026-09-08 12:30:00",
    "closesAt": "2026-11-20 00:00:00",
    "notes": [],
@@ -2549,7 +2549,7 @@
    "lon": -83.034094847396,
    "price": "$15.00 tuition",
    "status": "open",
-   "openings": 20,
+   "openings": 19,
    "opensAt": null,
    "closesAt": null,
    "notes": [],
@@ -3292,70 +3292,6 @@
    "url": "https://app.jackrabbitclass.com/reg.asp?id=513881&hc=&initEmpty=&hdrColor=&WL=0&preLoadClassID=22517711&loc=",
    "miles": 8.2,
    "neighborhood": "Northwest & Dublin",
-   "firstSeen": "2026-10-30 23:09:05"
-  },
-  {
-   "id": "rec-9093",
-   "source": "rec",
-   "provider": "Columbus Rec & Parks",
-   "name": "Sundays 11:35a Swimming Lessons School Age Level 1 (6-12yrs)",
-   "category": "Swim",
-   "ages": "Age at least 6 yrs but less than 13 yrs",
-   "ageMin": 72,
-   "ageMax": 156,
-   "days": [
-    "Sun"
-   ],
-   "startTime": "11:35",
-   "endTime": "12:15",
-   "firstDate": "2026-11-15",
-   "lastDate": "2026-12-20",
-   "sessions": 6,
-   "location": "Columbus Aquatics Center",
-   "address": "1160 Hunter Ave, 43201",
-   "lat": 39.985640363957,
-   "lon": -83.009523623896,
-   "price": "$53.00 resident, $63.60 non-resident",
-   "status": "open",
-   "openings": 1,
-   "opensAt": "2026-11-03 12:30:00",
-   "closesAt": "2026-11-16 13:00:00",
-   "notes": [],
-   "url": "https://anc.apm.activecommunities.com/columbusrecparks1/activity/search/detail/9093?onlineSiteId=0&from_original_cui=true",
-   "miles": 3.2,
-   "neighborhood": "Short North & Campus",
-   "firstSeen": "2026-10-30 23:09:05"
-  },
-  {
-   "id": "rec-9094",
-   "source": "rec",
-   "provider": "Columbus Rec & Parks",
-   "name": "Sundays 12:20p Swimming Lessons School Age Level 1 (6-12yrs)",
-   "category": "Swim",
-   "ages": "Age at least 6 yrs but less than 13 yrs",
-   "ageMin": 72,
-   "ageMax": 156,
-   "days": [
-    "Sun"
-   ],
-   "startTime": "12:20",
-   "endTime": "13:00",
-   "firstDate": "2026-11-15",
-   "lastDate": "2026-12-20",
-   "sessions": 6,
-   "location": "Columbus Aquatics Center",
-   "address": "1160 Hunter Ave, 43201",
-   "lat": 39.985640363957,
-   "lon": -83.009523623896,
-   "price": "$53.00 resident, $63.60 non-resident",
-   "status": "open",
-   "openings": 1,
-   "opensAt": "2026-11-03 12:30:00",
-   "closesAt": "2026-11-16 13:00:00",
-   "notes": [],
-   "url": "https://anc.apm.activecommunities.com/columbusrecparks1/activity/search/detail/9094?onlineSiteId=0&from_original_cui=true",
-   "miles": 3.2,
-   "neighborhood": "Short North & Campus",
    "firstSeen": "2026-10-30 23:09:05"
   },
   {
@@ -5165,7 +5101,7 @@
    "lon": -82.9879,
    "price": "$50.00 resident, $60.00 non-resident",
    "status": "open",
-   "openings": 18,
+   "openings": 16,
    "opensAt": "2026-10-06 12:30:00",
    "closesAt": "2026-11-22 23:59:00",
    "notes": [],
@@ -9174,7 +9110,7 @@
    "lon": null,
    "price": "$50.00 resident, $60.00 non-resident",
    "status": "open",
-   "openings": 42,
+   "openings": 43,
    "opensAt": "2026-10-20 12:30:00",
    "closesAt": "2026-11-28 23:59:00",
    "notes": [],
@@ -10250,7 +10186,7 @@
    "lon": -83.087192475101,
    "miles": 12.6,
    "neighborhood": "Northwest & Dublin",
-   "changedAt": "2026-11-06 14:29:12",
+   "changedAt": "2026-11-06 19:58:00",
    "watchOk": true
   },
   {
