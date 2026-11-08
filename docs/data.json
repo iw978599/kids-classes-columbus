@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-07 16:57:02",
+ "checkedAt": "2026-11-08 01:13:24",
  "baselineAt": "2026-10-30 23:09:05",
  "anchor": "Schiller Park",
  "neighborhoods": [
@@ -24,37 +24,37 @@
    "label": "Columbus Rec & Parks",
    "ok": true,
    "count": 278,
-   "lastSuccess": "2026-11-07 16:57:02"
+   "lastSuccess": "2026-11-08 01:13:24"
   },
   "cct": {
    "label": "Columbus Children's Theatre",
    "ok": true,
    "count": 2,
-   "lastSuccess": "2026-11-07 16:57:02"
+   "lastSuccess": "2026-11-08 01:13:24"
   },
   "bexley": {
    "label": "Bexley Rec",
    "ok": true,
    "count": 4,
-   "lastSuccess": "2026-11-07 16:57:02"
+   "lastSuccess": "2026-11-08 01:13:24"
   },
   "recdesk": {
    "label": "Grandview Heights Rec",
    "ok": true,
    "count": 2,
-   "lastSuccess": "2026-11-07 16:57:02"
+   "lastSuccess": "2026-11-08 01:13:24"
   },
   "jackrabbit": {
    "label": "Wendy's and K Studio",
    "ok": true,
    "count": 69,
-   "lastSuccess": "2026-11-07 16:57:02"
+   "lastSuccess": "2026-11-08 01:13:24"
   },
   "library": {
    "label": "Columbus Metropolitan Library",
    "ok": true,
-   "count": 14,
-   "lastSuccess": "2026-11-07 16:57:02"
+   "count": 15,
+   "lastSuccess": "2026-11-08 01:13:24"
   }
  },
  "items": [
@@ -2075,70 +2075,6 @@
    "firstSeen": "2026-10-30 23:09:05"
   },
   {
-   "id": "lib-main-library-family-storytime-sat-11-00",
-   "source": "library",
-   "provider": "Columbus Metropolitan Library",
-   "name": "Family Storytime",
-   "category": "Story time",
-   "ages": "Preschool and family",
-   "ageMin": 0,
-   "ageMax": null,
-   "days": [
-    "Sat"
-   ],
-   "startTime": "11:00",
-   "endTime": "11:30",
-   "firstDate": "2026-11-07",
-   "lastDate": "2026-11-21",
-   "sessions": null,
-   "location": "Main Library branch",
-   "address": "96 S Grant Ave, Columbus, OH 43215",
-   "lat": 39.961199462733,
-   "lon": -82.990580352092,
-   "price": "Free",
-   "status": "drop-in",
-   "openings": null,
-   "opensAt": null,
-   "closesAt": null,
-   "notes": [],
-   "url": "https://events.columbuslibrary.org/event/16464387",
-   "miles": 1.5,
-   "neighborhood": "Downtown & Near East",
-   "firstSeen": "2026-10-30 23:09:05"
-  },
-  {
-   "id": "lib-south-high-kids-create-sat-14-00",
-   "source": "library",
-   "provider": "Columbus Metropolitan Library",
-   "name": "Kids Create",
-   "category": "Story time",
-   "ages": "Preschool and family",
-   "ageMin": 0,
-   "ageMax": null,
-   "days": [
-    "Sat"
-   ],
-   "startTime": "14:00",
-   "endTime": "15:00",
-   "firstDate": "2026-11-07",
-   "lastDate": "2026-11-21",
-   "sessions": null,
-   "location": "South High branch",
-   "address": "3540 S High St, Columbus, OH 43207",
-   "lat": 39.889174528675,
-   "lon": -82.997669422075,
-   "price": "Free",
-   "status": "drop-in",
-   "openings": null,
-   "opensAt": null,
-   "closesAt": null,
-   "notes": [],
-   "url": "https://events.columbuslibrary.org/event/16398848",
-   "miles": 3.5,
-   "neighborhood": "South Side",
-   "firstSeen": "2026-10-30 23:09:05"
-  },
-  {
    "id": "lib-main-library-family-storytime-sun-14-30",
    "source": "library",
    "provider": "Columbus Metropolitan Library",
@@ -3003,6 +2939,70 @@
    "firstSeen": "2026-10-30 23:09:05"
   },
   {
+   "id": "lib-main-library-family-storytime-sat-11-00",
+   "source": "library",
+   "provider": "Columbus Metropolitan Library",
+   "name": "Family Storytime",
+   "category": "Story time",
+   "ages": "Preschool and family",
+   "ageMin": 0,
+   "ageMax": null,
+   "days": [
+    "Sat"
+   ],
+   "startTime": "11:00",
+   "endTime": "11:30",
+   "firstDate": "2026-11-14",
+   "lastDate": "2026-11-28",
+   "sessions": null,
+   "location": "Main Library branch",
+   "address": "96 S Grant Ave, Columbus, OH 43215",
+   "lat": 39.961199462733,
+   "lon": -82.990580352092,
+   "price": "Free",
+   "status": "drop-in",
+   "openings": null,
+   "opensAt": null,
+   "closesAt": null,
+   "notes": [],
+   "url": "https://events.columbuslibrary.org/event/16464388",
+   "miles": 1.5,
+   "neighborhood": "Downtown & Near East",
+   "firstSeen": "2026-10-30 23:09:05"
+  },
+  {
+   "id": "lib-south-high-kids-create-sat-14-00",
+   "source": "library",
+   "provider": "Columbus Metropolitan Library",
+   "name": "Kids Create",
+   "category": "Story time",
+   "ages": "Preschool and family",
+   "ageMin": 0,
+   "ageMax": null,
+   "days": [
+    "Sat"
+   ],
+   "startTime": "14:00",
+   "endTime": "15:00",
+   "firstDate": "2026-11-14",
+   "lastDate": "2026-11-28",
+   "sessions": null,
+   "location": "South High branch",
+   "address": "3540 S High St, Columbus, OH 43207",
+   "lat": 39.889174528675,
+   "lon": -82.997669422075,
+   "price": "Free",
+   "status": "drop-in",
+   "openings": null,
+   "opensAt": null,
+   "closesAt": null,
+   "notes": [],
+   "url": "https://events.columbuslibrary.org/event/16398849",
+   "miles": 3.5,
+   "neighborhood": "South Side",
+   "firstSeen": "2026-10-30 23:09:05"
+  },
+  {
    "id": "bex-148452",
    "source": "bexley",
    "provider": "Bexley Recreation & Parks",
@@ -3666,6 +3666,38 @@
    "miles": 1.5,
    "neighborhood": "Downtown & Near East",
    "firstSeen": "2026-11-07 05:23:22"
+  },
+  {
+   "id": "lib-main-library-family-storytime-sweet-as-pie-sat-11-00",
+   "source": "library",
+   "provider": "Columbus Metropolitan Library",
+   "name": "Family Storytime: Sweet As Pie",
+   "category": "Story time",
+   "ages": "Preschool and family",
+   "ageMin": 0,
+   "ageMax": null,
+   "days": [
+    "Sat"
+   ],
+   "startTime": "11:00",
+   "endTime": "11:30",
+   "firstDate": "2026-11-28",
+   "lastDate": "2026-11-28",
+   "sessions": null,
+   "location": "Main Library branch",
+   "address": "96 S Grant Ave, Columbus, OH 43215",
+   "lat": 39.961199462733,
+   "lon": -82.990580352092,
+   "price": "Free",
+   "status": "drop-in",
+   "openings": null,
+   "opensAt": null,
+   "closesAt": null,
+   "notes": [],
+   "url": "https://events.columbuslibrary.org/event/17561980",
+   "miles": 1.5,
+   "neighborhood": "Downtown & Near East",
+   "firstSeen": "2026-11-08 01:13:24"
   },
   {
    "id": "rec-9623",
@@ -4841,7 +4873,7 @@
    "lon": -82.9879,
    "price": "$50.00 resident, $60.00 non-resident",
    "status": "open",
-   "openings": 15,
+   "openings": 16,
    "opensAt": "2026-10-06 12:30:00",
    "closesAt": "2026-11-22 23:59:00",
    "notes": [],
@@ -9116,38 +9148,6 @@
    "firstSeen": "2026-10-30 23:09:05"
   },
   {
-   "id": "rec-8248",
-   "source": "rec",
-   "provider": "Columbus Rec & Parks",
-   "name": "6U (Ages 5-6) Co-ed Basketball at Westgate",
-   "category": "Sports",
-   "ages": "Age at least 5 yrs but less than 7 yrs",
-   "ageMin": 60,
-   "ageMax": 84,
-   "days": [
-    "Sat"
-   ],
-   "startTime": "09:00",
-   "endTime": "13:00",
-   "firstDate": "2027-01-16",
-   "lastDate": "2027-02-20",
-   "sessions": 6,
-   "location": "Westgate Park",
-   "address": "455 S. Westgate Ave., Columbus, OH 43204",
-   "lat": 39.9455182,
-   "lon": -83.0828337,
-   "price": "$50.00 resident, $60.00 non-resident",
-   "status": "open",
-   "openings": 1,
-   "opensAt": "2026-10-20 12:30:00",
-   "closesAt": "2026-11-28 23:59:00",
-   "notes": [],
-   "url": "https://anc.apm.activecommunities.com/columbusrecparks1/activity/search/detail/8248?onlineSiteId=0&from_original_cui=true",
-   "miles": 4.8,
-   "neighborhood": "Franklinton & West Side",
-   "firstSeen": "2026-10-30 23:09:05"
-  },
-  {
    "id": "rec-8166",
    "source": "rec",
    "provider": "Columbus Rec & Parks",
@@ -9886,7 +9886,7 @@
    "lon": -82.953519930862,
    "miles": 2.8,
    "neighborhood": "Downtown & Near East",
-   "changedAt": "2026-11-04 14:51:02",
+   "changedAt": "2026-11-08 01:13:24",
    "watchOk": true
   },
   {
@@ -9926,7 +9926,7 @@
    "lon": -83.087192475101,
    "miles": 12.6,
    "neighborhood": "Northwest & Dublin",
-   "changedAt": "2026-11-07 16:57:02",
+   "changedAt": "2026-11-08 01:13:24",
    "watchOk": true
   },
   {

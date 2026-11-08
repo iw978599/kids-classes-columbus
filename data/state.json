@@ -1075,7 +1075,7 @@
   },
   "rec-8248": {
    "firstSeen": "2026-10-30 23:09:05",
-   "full": false
+   "full": true
   },
   "rec-8166": {
    "firstSeen": "2026-10-30 23:09:05",
@@ -1889,6 +1889,10 @@
   "lib-main-library-family-storytime-sweet-as-pie-fri-10-30": {
    "firstSeen": "2026-11-07 05:23:22",
    "full": false
+  },
+  "lib-main-library-family-storytime-sweet-as-pie-sat-11-00": {
+   "firstSeen": "2026-11-08 01:13:24",
+   "full": false
   }
  },
  "watch": {
@@ -1929,8 +1933,8 @@
    "error": "HTTP 403 for https://ohfranklinctyweb.myvscloud.com/wbwsc/ohfranklinctywt.wsc/search.html?module=AR&type=preschool"
   },
   "fpc": {
-   "hash": "fa6290582ccae2a0",
-   "changedAt": "2026-11-04 14:51:02",
+   "hash": "d8433ef719146f2b",
+   "changedAt": "2026-11-08 01:13:24",
    "ok": true
   },
   "ua-rec": {
@@ -1939,8 +1943,8 @@
    "ok": true
   },
   "dublin-dance": {
-   "hash": "f0aaf338772e4813",
-   "changedAt": "2026-11-07 16:57:02",
+   "hash": "6674e0e85e5538ce",
+   "changedAt": "2026-11-08 01:13:24",
    "ok": true
   },
   "learn-sing-grow": {
