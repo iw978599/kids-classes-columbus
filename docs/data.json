@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-08 08:37:19",
+ "checkedAt": "2026-11-08 14:44:26",
  "baselineAt": "2026-10-30 23:09:05",
  "anchor": "Schiller Park",
  "neighborhoods": [
@@ -24,37 +24,37 @@
    "label": "Columbus Rec & Parks",
    "ok": true,
    "count": 278,
-   "lastSuccess": "2026-11-08 08:37:19"
+   "lastSuccess": "2026-11-08 14:44:26"
   },
   "cct": {
    "label": "Columbus Children's Theatre",
    "ok": true,
    "count": 2,
-   "lastSuccess": "2026-11-08 08:37:19"
+   "lastSuccess": "2026-11-08 14:44:26"
   },
   "bexley": {
    "label": "Bexley Rec",
    "ok": true,
    "count": 4,
-   "lastSuccess": "2026-11-08 08:37:19"
+   "lastSuccess": "2026-11-08 14:44:26"
   },
   "recdesk": {
    "label": "Grandview Heights Rec",
    "ok": true,
    "count": 2,
-   "lastSuccess": "2026-11-08 08:37:19"
+   "lastSuccess": "2026-11-08 14:44:26"
   },
   "jackrabbit": {
    "label": "Wendy's and K Studio",
    "ok": true,
    "count": 69,
-   "lastSuccess": "2026-11-08 08:37:19"
+   "lastSuccess": "2026-11-08 14:44:26"
   },
   "library": {
    "label": "Columbus Metropolitan Library",
    "ok": true,
    "count": 15,
-   "lastSuccess": "2026-11-08 08:37:19"
+   "lastSuccess": "2026-11-08 14:44:26"
   }
  },
  "items": [
@@ -2161,7 +2161,7 @@
    "lon": -83.034094847396,
    "price": "$15.00 tuition",
    "status": "open",
-   "openings": 18,
+   "openings": 16,
    "opensAt": null,
    "closesAt": null,
    "notes": [],
@@ -3700,6 +3700,40 @@
    "firstSeen": "2026-11-08 01:13:24"
   },
   {
+   "id": "rec-9623",
+   "source": "rec",
+   "provider": "Columbus Rec & Parks",
+   "name": "The R.E.C. Experience - Create It!",
+   "category": "Other",
+   "ages": "All ages",
+   "ageMin": 0,
+   "ageMax": null,
+   "days": [
+    "Tue",
+    "Wed",
+    "Thu"
+   ],
+   "startTime": "17:00",
+   "endTime": "19:30",
+   "firstDate": "2026-12-01",
+   "lastDate": "2026-12-03",
+   "sessions": 3,
+   "location": "Glenwood Park",
+   "address": "1888 Fairmont Ave, Columbus, OH 43223",
+   "lat": 39.9556169,
+   "lon": -83.048891,
+   "price": "Free",
+   "status": "upcoming",
+   "openings": null,
+   "opensAt": "2026-11-16 12:30:00",
+   "closesAt": null,
+   "notes": [],
+   "url": "https://anc.apm.activecommunities.com/columbusrecparks1/activity/search/detail/9623?onlineSiteId=0&from_original_cui=true",
+   "miles": 3.1,
+   "neighborhood": "Franklinton & West Side",
+   "firstSeen": "2026-11-03 14:33:20"
+  },
+  {
    "id": "rec-9712",
    "source": "rec",
    "provider": "Columbus Rec & Parks",
@@ -3768,40 +3802,6 @@
    "firstSeen": "2026-11-06 14:29:12"
   },
   {
-   "id": "rec-9623",
-   "source": "rec",
-   "provider": "Columbus Rec & Parks",
-   "name": "The R.E.C. Experience - Create It!",
-   "category": "Other",
-   "ages": "All ages",
-   "ageMin": 0,
-   "ageMax": null,
-   "days": [
-    "Tue",
-    "Wed",
-    "Thu"
-   ],
-   "startTime": "17:00",
-   "endTime": "19:30",
-   "firstDate": "2026-12-01",
-   "lastDate": "2026-12-03",
-   "sessions": 3,
-   "location": "Glenwood Park",
-   "address": "1888 Fairmont Ave, Columbus, OH 43223",
-   "lat": 39.9556169,
-   "lon": -83.048891,
-   "price": "Free",
-   "status": "upcoming",
-   "openings": null,
-   "opensAt": "2026-11-16 12:30:00",
-   "closesAt": null,
-   "notes": [],
-   "url": "https://anc.apm.activecommunities.com/columbusrecparks1/activity/search/detail/9623?onlineSiteId=0&from_original_cui=true",
-   "miles": 3.1,
-   "neighborhood": "Franklinton & West Side",
-   "firstSeen": "2026-11-03 14:33:20"
-  },
-  {
    "id": "gh-youth-vendor-program-holiday-in-the-heights-2026-12-01",
    "source": "recdesk",
    "provider": "Grandview Heights Parks & Rec",
@@ -3824,7 +3824,7 @@
    "lon": -83.044313820481,
    "price": "See listing",
    "status": "open",
-   "openings": 6,
+   "openings": 3,
    "opensAt": null,
    "closesAt": null,
    "notes": [],
@@ -4535,7 +4535,7 @@
    "lon": -82.928756725128,
    "price": "Free",
    "status": "open",
-   "openings": 54,
+   "openings": 52,
    "opensAt": "2026-09-08 12:30:00",
    "closesAt": "2026-12-12 23:59:00",
    "notes": [],
