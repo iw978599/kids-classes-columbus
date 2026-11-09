@@ -855,7 +855,7 @@
   },
   "rec-6426": {
    "firstSeen": "2026-10-30 23:09:05",
-   "full": false
+   "full": true
   },
   "rec-9030": {
    "firstSeen": "2026-10-30 23:09:05",
@@ -1271,7 +1271,7 @@
   },
   "rec-9478": {
    "firstSeen": "2026-10-30 23:09:05",
-   "full": false
+   "full": true
   },
   "rec-9584": {
    "firstSeen": "2026-10-30 23:09:05",
@@ -1897,6 +1897,22 @@
   "lib-main-library-family-storytime-sweet-as-pie-sun-13-30": {
    "firstSeen": "2026-11-09 06:44:21",
    "full": false
+  },
+  "rec-9736": {
+   "firstSeen": "2026-11-09 17:28:02",
+   "full": false
+  },
+  "rec-9737": {
+   "firstSeen": "2026-11-09 17:28:02",
+   "full": false
+  },
+  "rec-9734": {
+   "firstSeen": "2026-11-09 17:28:02",
+   "full": false
+  },
+  "jr-506905-22123295": {
+   "firstSeen": "2026-11-09 17:28:02",
+   "full": false
   }
  },
  "watch": {
@@ -1906,8 +1922,8 @@
    "ok": true
   },
   "jcc-swim": {
-   "hash": "21c126bdbe37042c",
-   "changedAt": null,
+   "hash": "d25bb15fa616055a",
+   "changedAt": "2026-11-09 17:28:02",
    "ok": true
   },
   "balletmet": {
@@ -1916,8 +1932,8 @@
    "ok": true
   },
   "osu-cms": {
-   "hash": "3b59da72a54d45a2",
-   "changedAt": null,
+   "hash": "073fb966f0b3517a",
+   "changedAt": "2026-11-09 17:28:02",
    "ok": true
   },
   "soccer-shots": {
@@ -1937,8 +1953,8 @@
    "error": "HTTP 403 for https://ohfranklinctyweb.myvscloud.com/wbwsc/ohfranklinctywt.wsc/search.html?module=AR&type=preschool"
   },
   "fpc": {
-   "hash": "d8433ef719146f2b",
-   "changedAt": "2026-11-08 01:13:24",
+   "hash": "79239c71843937b4",
+   "changedAt": "2026-11-09 17:28:02",
    "ok": true
   },
   "ua-rec": {
@@ -1947,8 +1963,8 @@
    "ok": true
   },
   "dublin-dance": {
-   "hash": "041aea743888b61b",
-   "changedAt": "2026-11-08 19:58:26",
+   "hash": "3558013504739c5a",
+   "changedAt": "2026-11-09 17:28:02",
    "ok": true
   },
   "learn-sing-grow": {
