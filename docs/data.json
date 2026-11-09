@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-08 14:44:26",
+ "checkedAt": "2026-11-08 19:58:26",
  "baselineAt": "2026-10-30 23:09:05",
  "anchor": "Schiller Park",
  "neighborhoods": [
@@ -24,37 +24,37 @@
    "label": "Columbus Rec & Parks",
    "ok": true,
    "count": 278,
-   "lastSuccess": "2026-11-08 14:44:26"
+   "lastSuccess": "2026-11-08 19:58:26"
   },
   "cct": {
    "label": "Columbus Children's Theatre",
    "ok": true,
    "count": 2,
-   "lastSuccess": "2026-11-08 14:44:26"
+   "lastSuccess": "2026-11-08 19:58:26"
   },
   "bexley": {
    "label": "Bexley Rec",
    "ok": true,
    "count": 4,
-   "lastSuccess": "2026-11-08 14:44:26"
+   "lastSuccess": "2026-11-08 19:58:26"
   },
   "recdesk": {
    "label": "Grandview Heights Rec",
    "ok": true,
    "count": 2,
-   "lastSuccess": "2026-11-08 14:44:26"
+   "lastSuccess": "2026-11-08 19:58:26"
   },
   "jackrabbit": {
    "label": "Wendy's and K Studio",
    "ok": true,
-   "count": 69,
-   "lastSuccess": "2026-11-08 14:44:26"
+   "count": 68,
+   "lastSuccess": "2026-11-08 19:58:26"
   },
   "library": {
    "label": "Columbus Metropolitan Library",
    "ok": true,
    "count": 15,
-   "lastSuccess": "2026-11-08 14:44:26"
+   "lastSuccess": "2026-11-08 19:58:26"
   }
  },
  "items": [
@@ -790,38 +790,6 @@
    "closesAt": null,
    "notes": [],
    "url": "https://app.jackrabbitclass.com/reg.asp?id=506905&hc=&initEmpty=&hdrColor=&WL=0&preLoadClassID=22122852&loc=",
-   "miles": 5.3,
-   "neighborhood": "Upper Arlington",
-   "firstSeen": "2026-10-30 23:09:05"
-  },
-  {
-   "id": "jr-506905-22123254",
-   "source": "jackrabbit",
-   "provider": "Wendy's Gymnastics",
-   "name": "TUMBLE TOT 1&2 - Tues @ 5:15pm",
-   "category": "Gymnastics",
-   "ages": "10 mos - 2 yrs",
-   "ageMin": 10,
-   "ageMax": 36,
-   "days": [
-    "Tue"
-   ],
-   "startTime": "17:15",
-   "endTime": "17:55",
-   "firstDate": "2026-08-31",
-   "lastDate": "2027-05-28",
-   "sessions": null,
-   "location": "Wendy's Gymnastics",
-   "address": "2460 Wood Ave, Columbus, OH 43221",
-   "lat": 40.009629846106,
-   "lon": -83.034094847396,
-   "price": "$99.00 tuition",
-   "status": "anytime",
-   "openings": 1,
-   "opensAt": null,
-   "closesAt": null,
-   "notes": [],
-   "url": "https://app.jackrabbitclass.com/reg.asp?id=506905&hc=&initEmpty=&hdrColor=&WL=0&preLoadClassID=22123254&loc=",
    "miles": 5.3,
    "neighborhood": "Upper Arlington",
    "firstSeen": "2026-10-30 23:09:05"
@@ -2129,7 +2097,7 @@
    "lon": -83.034094847396,
    "price": "$15.00 tuition",
    "status": "open",
-   "openings": 19,
+   "openings": 17,
    "opensAt": null,
    "closesAt": null,
    "notes": [],
@@ -3528,7 +3496,7 @@
    "lon": -82.9424254,
    "price": "Free",
    "status": "open",
-   "openings": 133,
+   "openings": 132,
    "opensAt": "2026-09-08 12:30:00",
    "closesAt": null,
    "notes": [],
@@ -4873,7 +4841,7 @@
    "lon": -82.9879,
    "price": "$50.00 resident, $60.00 non-resident",
    "status": "open",
-   "openings": 16,
+   "openings": 14,
    "opensAt": "2026-10-06 12:30:00",
    "closesAt": "2026-11-22 23:59:00",
    "notes": [],
@@ -9926,7 +9894,7 @@
    "lon": -83.087192475101,
    "miles": 12.6,
    "neighborhood": "Northwest & Dublin",
-   "changedAt": "2026-11-08 01:13:24",
+   "changedAt": "2026-11-08 19:58:26",
    "watchOk": true
   },
   {
