@@ -1949,6 +1949,102 @@
   "jr-506905-22125546": {
    "firstSeen": "2026-11-10 12:06:48",
    "full": false
+  },
+  "rec-8491": {
+   "firstSeen": "2026-11-10 18:28:12",
+   "full": false
+  },
+  "rec-8496": {
+   "firstSeen": "2026-11-10 18:28:12",
+   "full": false
+  },
+  "rec-8492": {
+   "firstSeen": "2026-11-10 18:28:12",
+   "full": false
+  },
+  "rec-8493": {
+   "firstSeen": "2026-11-10 18:28:12",
+   "full": false
+  },
+  "rec-8494": {
+   "firstSeen": "2026-11-10 18:28:12",
+   "full": false
+  },
+  "rec-8495": {
+   "firstSeen": "2026-11-10 18:28:12",
+   "full": false
+  },
+  "rec-8498": {
+   "firstSeen": "2026-11-10 18:28:12",
+   "full": false
+  },
+  "rec-8500": {
+   "firstSeen": "2026-11-10 18:28:12",
+   "full": false
+  },
+  "rec-8502": {
+   "firstSeen": "2026-11-10 18:28:12",
+   "full": false
+  },
+  "rec-8497": {
+   "firstSeen": "2026-11-10 18:28:12",
+   "full": false
+  },
+  "rec-8501": {
+   "firstSeen": "2026-11-10 18:28:12",
+   "full": false
+  },
+  "rec-8546": {
+   "firstSeen": "2026-11-10 18:28:12",
+   "full": false
+  },
+  "rec-8548": {
+   "firstSeen": "2026-11-10 18:28:12",
+   "full": false
+  },
+  "rec-8547": {
+   "firstSeen": "2026-11-10 18:28:12",
+   "full": false
+  },
+  "rec-8545": {
+   "firstSeen": "2026-11-10 18:28:12",
+   "full": false
+  },
+  "rec-9738": {
+   "firstSeen": "2026-11-10 18:28:12",
+   "full": false
+  },
+  "rec-9739": {
+   "firstSeen": "2026-11-10 18:28:12",
+   "full": false
+  },
+  "rec-8811": {
+   "firstSeen": "2026-11-10 18:28:12",
+   "full": false
+  },
+  "rec-8818": {
+   "firstSeen": "2026-11-10 18:28:12",
+   "full": false
+  },
+  "rec-8812": {
+   "firstSeen": "2026-11-10 18:28:12",
+   "full": false
+  },
+  "rec-8819": {
+   "firstSeen": "2026-11-10 18:28:12",
+   "full": false
+  },
+  "rec-8813": {
+   "firstSeen": "2026-11-10 18:28:12",
+   "full": false
+  },
+  "rec-8820": {
+   "firstSeen": "2026-11-10 18:28:12",
+   "full": false
+  },
+  "jr-506905-22125852": {
+   "firstSeen": "2026-11-10 18:28:12",
+   "full": false
   }
  },
  "watch": {
@@ -1968,8 +2064,8 @@
    "ok": true
   },
   "osu-cms": {
-   "hash": "073fb966f0b3517a",
-   "changedAt": "2026-11-09 17:28:02",
+   "hash": "01738847dff68fda",
+   "changedAt": "2026-11-10 18:28:12",
    "ok": true
   },
   "soccer-shots": {
@@ -1999,8 +2095,8 @@
    "ok": true
   },
   "dublin-dance": {
-   "hash": "cd6c6ba6a04826e6",
-   "changedAt": "2026-11-10 12:06:48",
+   "hash": "555c6b87286fe5d9",
+   "changedAt": "2026-11-10 18:28:12",
    "ok": true
   },
   "learn-sing-grow": {
@@ -2024,8 +2120,8 @@
    "ok": true
   },
   "camp-audubon": {
-   "hash": "e3cd7efdac9b369c",
-   "changedAt": "2026-11-02 14:34:13",
+   "hash": "4e47a615824df58d",
+   "changedAt": "2026-11-10 18:28:12",
    "ok": true
   },
   "camp-fpc": {
