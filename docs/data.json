@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-12 06:26:11",
+ "checkedAt": "2026-11-12 15:02:16",
  "baselineAt": "2026-10-30 23:09:05",
  "anchor": "Schiller Park",
  "neighborhoods": [
@@ -23,38 +23,38 @@
   "rec": {
    "label": "Columbus Rec & Parks",
    "ok": true,
-   "count": 275,
-   "lastSuccess": "2026-11-12 06:26:11"
+   "count": 277,
+   "lastSuccess": "2026-11-12 15:02:16"
   },
   "cct": {
    "label": "Columbus Children's Theatre",
    "ok": true,
    "count": 2,
-   "lastSuccess": "2026-11-12 06:26:11"
+   "lastSuccess": "2026-11-12 15:02:16"
   },
   "bexley": {
    "label": "Bexley Rec",
    "ok": true,
    "count": 3,
-   "lastSuccess": "2026-11-12 06:26:11"
+   "lastSuccess": "2026-11-12 15:02:16"
   },
   "recdesk": {
    "label": "Grandview Heights Rec",
    "ok": true,
    "count": 2,
-   "lastSuccess": "2026-11-12 06:26:11"
+   "lastSuccess": "2026-11-12 15:02:16"
   },
   "jackrabbit": {
    "label": "Wendy's and K Studio",
    "ok": true,
-   "count": 69,
-   "lastSuccess": "2026-11-12 06:26:11"
+   "count": 68,
+   "lastSuccess": "2026-11-12 15:02:16"
   },
   "library": {
    "label": "Columbus Metropolitan Library",
    "ok": true,
    "count": 17,
-   "lastSuccess": "2026-11-12 06:26:11"
+   "lastSuccess": "2026-11-12 15:02:16"
   }
  },
  "items": [
@@ -465,7 +465,7 @@
    "lon": -83.034094847396,
    "price": "$109.00 tuition",
    "status": "anytime",
-   "openings": 2,
+   "openings": 3,
    "opensAt": null,
    "closesAt": null,
    "notes": [],
@@ -1947,38 +1947,6 @@
    "firstSeen": "2026-10-30 23:09:05"
   },
   {
-   "id": "jr-506905-22125141",
-   "source": "jackrabbit",
-   "provider": "Wendy's Gymnastics",
-   "name": "TUMBLE TOT 4&5 - Mon @ 5:15pm",
-   "category": "Gymnastics",
-   "ages": "3 yrs 10 mos - 5 yrs",
-   "ageMin": 46,
-   "ageMax": 72,
-   "days": [
-    "Mon"
-   ],
-   "startTime": "17:15",
-   "endTime": "17:55",
-   "firstDate": "2026-08-31",
-   "lastDate": "2027-05-28",
-   "sessions": null,
-   "location": "Wendy's Gymnastics",
-   "address": "2460 Wood Ave, Columbus, OH 43221",
-   "lat": 40.009629846106,
-   "lon": -83.034094847396,
-   "price": "$99.00 tuition",
-   "status": "anytime",
-   "openings": 1,
-   "opensAt": null,
-   "closesAt": null,
-   "notes": [],
-   "url": "https://app.jackrabbitclass.com/reg.asp?id=506905&hc=&initEmpty=&hdrColor=&WL=0&preLoadClassID=22125141&loc=",
-   "miles": 5.3,
-   "neighborhood": "Upper Arlington",
-   "firstSeen": "2026-10-30 23:09:05"
-  },
-  {
    "id": "jr-506905-22123072",
    "source": "jackrabbit",
    "provider": "Wendy's Gymnastics",
@@ -2001,7 +1969,7 @@
    "lon": -83.034094847396,
    "price": "$99.00 tuition",
    "status": "anytime",
-   "openings": 3,
+   "openings": 2,
    "opensAt": null,
    "closesAt": null,
    "notes": [],
@@ -2225,7 +2193,7 @@
    "lon": -83.034094847396,
    "price": "$15.00 tuition",
    "status": "open",
-   "openings": 8,
+   "openings": 5,
    "opensAt": null,
    "closesAt": null,
    "notes": [],
@@ -6142,6 +6110,38 @@
    "firstSeen": "2026-10-30 23:09:05"
   },
   {
+   "id": "rec-9753",
+   "source": "rec",
+   "provider": "Columbus Rec & Parks",
+   "name": "Homeschool Art",
+   "category": "Arts",
+   "ages": "Age at least 6 yrs but less than 9 yrs",
+   "ageMin": 72,
+   "ageMax": 108,
+   "days": [
+    "Tue"
+   ],
+   "startTime": "10:15",
+   "endTime": "11:00",
+   "firstDate": "2027-01-12",
+   "lastDate": "2027-03-09",
+   "sessions": 9,
+   "location": "Lazelle Woods Park",
+   "address": "8140 Sancus Blvd., Westerville, OH 43081",
+   "lat": 40.1318,
+   "lon": -82.9879,
+   "price": "Free",
+   "status": "upcoming",
+   "openings": 10,
+   "opensAt": "2027-01-05 12:30:00",
+   "closesAt": null,
+   "notes": [],
+   "url": "https://anc.apm.activecommunities.com/columbusrecparks1/activity/search/detail/9753?onlineSiteId=0&from_original_cui=true",
+   "miles": 13.2,
+   "neighborhood": "Northland & Westerville",
+   "firstSeen": "2026-11-12 15:02:16"
+  },
+  {
    "id": "rec-9562",
    "source": "rec",
    "provider": "Columbus Rec & Parks",
@@ -6524,6 +6524,38 @@
    "miles": 7.2,
    "neighborhood": "Clintonville",
    "firstSeen": "2026-11-10 18:28:12"
+  },
+  {
+   "id": "rec-9751",
+   "source": "rec",
+   "provider": "Columbus Rec & Parks",
+   "name": "Pre-K Clay + Play",
+   "category": "Other",
+   "ages": "Age at least 3 yrs but less than 6 yrs",
+   "ageMin": 36,
+   "ageMax": 72,
+   "days": [
+    "Tue"
+   ],
+   "startTime": "09:00",
+   "endTime": "09:40",
+   "firstDate": "2027-01-12",
+   "lastDate": "2027-03-09",
+   "sessions": 9,
+   "location": "Lazelle Woods Park",
+   "address": "8140 Sancus Blvd., Westerville, OH 43081",
+   "lat": 40.1318,
+   "lon": -82.9879,
+   "price": "$10.00 resident, $15.00 non-resident, $15.00 lab fee: for general",
+   "status": "upcoming",
+   "openings": 8,
+   "opensAt": "2027-01-05 12:30:00",
+   "closesAt": null,
+   "notes": [],
+   "url": "https://anc.apm.activecommunities.com/columbusrecparks1/activity/search/detail/9751?onlineSiteId=0&from_original_cui=true",
+   "miles": 13.2,
+   "neighborhood": "Northland & Westerville",
+   "firstSeen": "2026-11-12 15:02:16"
   },
   {
    "id": "rec-9168",
@@ -9205,7 +9237,7 @@
    "lon": null,
    "price": "$50.00 resident, $60.00 non-resident",
    "status": "open",
-   "openings": 43,
+   "openings": 42,
    "opensAt": "2026-10-20 12:30:00",
    "closesAt": "2026-11-28 23:59:00",
    "notes": [],
@@ -9493,7 +9525,7 @@
    "lon": null,
    "price": "$50.00 resident, $60.00 non-resident",
    "status": "open",
-   "openings": 39,
+   "openings": 38,
    "opensAt": "2026-10-20 12:30:00",
    "closesAt": "2026-11-28 23:59:00",
    "notes": [],
@@ -10265,7 +10297,7 @@
    "lon": -83.112805247906,
    "miles": 15.9,
    "neighborhood": "Powell",
-   "changedAt": "2026-11-02 21:56:43",
+   "changedAt": "2026-11-12 15:02:16",
    "watchOk": true
   },
   {
@@ -10345,7 +10377,7 @@
    "lon": -83.087192475101,
    "miles": 12.6,
    "neighborhood": "Northwest & Dublin",
-   "changedAt": "2026-11-12 06:26:11",
+   "changedAt": "2026-11-12 15:02:16",
    "watchOk": true
   },
   {

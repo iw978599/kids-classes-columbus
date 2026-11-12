@@ -2057,6 +2057,14 @@
   "lib-main-library-kids-create-evergreen-tree-weaving-tue-16-00": {
    "firstSeen": "2026-11-11 01:38:22",
    "full": false
+  },
+  "rec-9751": {
+   "firstSeen": "2026-11-12 15:02:16",
+   "full": false
+  },
+  "rec-9753": {
+   "firstSeen": "2026-11-12 15:02:16",
+   "full": false
   }
  },
  "watch": {
@@ -2086,8 +2094,8 @@
    "ok": true
   },
   "zoo": {
-   "hash": "68140fec6f50b6c7",
-   "changedAt": "2026-11-02 21:56:43",
+   "hash": "b109088321ee698f",
+   "changedAt": "2026-11-12 15:02:16",
    "ok": true
   },
   "metro-parks": {
@@ -2107,8 +2115,8 @@
    "ok": true
   },
   "dublin-dance": {
-   "hash": "6adbd9fcc8abbf42",
-   "changedAt": "2026-11-12 06:26:11",
+   "hash": "acd1b7a661506eab",
+   "changedAt": "2026-11-12 15:02:16",
    "ok": true
   },
   "learn-sing-grow": {
