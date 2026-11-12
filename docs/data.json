@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-11 19:48:42",
+ "checkedAt": "2026-11-12 06:26:11",
  "baselineAt": "2026-10-30 23:09:05",
  "anchor": "Schiller Park",
  "neighborhoods": [
@@ -23,38 +23,38 @@
   "rec": {
    "label": "Columbus Rec & Parks",
    "ok": true,
-   "count": 276,
-   "lastSuccess": "2026-11-11 19:48:42"
+   "count": 275,
+   "lastSuccess": "2026-11-12 06:26:11"
   },
   "cct": {
    "label": "Columbus Children's Theatre",
    "ok": true,
    "count": 2,
-   "lastSuccess": "2026-11-11 19:48:42"
+   "lastSuccess": "2026-11-12 06:26:11"
   },
   "bexley": {
    "label": "Bexley Rec",
    "ok": true,
    "count": 3,
-   "lastSuccess": "2026-11-11 19:48:42"
+   "lastSuccess": "2026-11-12 06:26:11"
   },
   "recdesk": {
    "label": "Grandview Heights Rec",
    "ok": true,
-   "count": 3,
-   "lastSuccess": "2026-11-11 19:48:42"
+   "count": 2,
+   "lastSuccess": "2026-11-12 06:26:11"
   },
   "jackrabbit": {
    "label": "Wendy's and K Studio",
    "ok": true,
    "count": 69,
-   "lastSuccess": "2026-11-11 19:48:42"
+   "lastSuccess": "2026-11-12 06:26:11"
   },
   "library": {
    "label": "Columbus Metropolitan Library",
    "ok": true,
    "count": 17,
-   "lastSuccess": "2026-11-11 19:48:42"
+   "lastSuccess": "2026-11-12 06:26:11"
   }
  },
  "items": [
@@ -2075,70 +2075,6 @@
    "firstSeen": "2026-10-30 23:09:05"
   },
   {
-   "id": "lib-main-library-family-storytime-wed-10-30",
-   "source": "library",
-   "provider": "Columbus Metropolitan Library",
-   "name": "Family Storytime",
-   "category": "Story time",
-   "ages": "Preschool and family",
-   "ageMin": 0,
-   "ageMax": null,
-   "days": [
-    "Wed"
-   ],
-   "startTime": "10:30",
-   "endTime": "11:00",
-   "firstDate": "2026-11-11",
-   "lastDate": "2026-11-25",
-   "sessions": null,
-   "location": "Main Library branch",
-   "address": "96 S Grant Ave, Columbus, OH 43215",
-   "lat": 39.961199462733,
-   "lon": -82.990580352092,
-   "price": "Free",
-   "status": "drop-in",
-   "openings": null,
-   "opensAt": null,
-   "closesAt": null,
-   "notes": [],
-   "url": "https://events.columbuslibrary.org/event/16464377",
-   "miles": 1.5,
-   "neighborhood": "Downtown & Near East",
-   "firstSeen": "2026-10-30 23:09:05"
-  },
-  {
-   "id": "lib-marion-franklin-kids-create-wed-16-30",
-   "source": "library",
-   "provider": "Columbus Metropolitan Library",
-   "name": "Kids Create",
-   "category": "Story time",
-   "ages": "Preschool and family",
-   "ageMin": 0,
-   "ageMax": null,
-   "days": [
-    "Wed"
-   ],
-   "startTime": "16:30",
-   "endTime": "17:30",
-   "firstDate": "2026-11-11",
-   "lastDate": "2026-11-18",
-   "sessions": null,
-   "location": "Marion-Franklin branch",
-   "address": "2740 Lockbourne Rd, Columbus, OH 43207",
-   "lat": 39.910017375539,
-   "lon": -82.96633291529,
-   "price": "Free",
-   "status": "drop-in",
-   "openings": null,
-   "opensAt": null,
-   "closesAt": null,
-   "notes": [],
-   "url": "https://events.columbuslibrary.org/event/16340541",
-   "miles": 2.5,
-   "neighborhood": "South Side",
-   "firstSeen": "2026-10-30 23:09:05"
-  },
-  {
    "id": "lib-main-library-family-storytime-thu-10-30",
    "source": "library",
    "provider": "Columbus Metropolitan Library",
@@ -2168,70 +2104,6 @@
    "url": "https://events.columbuslibrary.org/event/16464381",
    "miles": 1.5,
    "neighborhood": "Downtown & Near East",
-   "firstSeen": "2026-10-30 23:09:05"
-  },
-  {
-   "id": "jr-opengym-wendy-s-gymnastics-thu-6-30pm",
-   "source": "jackrabbit",
-   "provider": "Wendy's Gymnastics",
-   "name": "Open gym - Thurs @ 6:30pm",
-   "category": "Gymnastics",
-   "ages": "1 yr - 12 yrs",
-   "ageMin": 12,
-   "ageMax": 156,
-   "days": [
-    "Thu"
-   ],
-   "startTime": "18:30",
-   "endTime": "19:15",
-   "firstDate": "2026-11-12",
-   "lastDate": "2026-11-19",
-   "sessions": null,
-   "location": "Wendy's Gymnastics",
-   "address": "2460 Wood Ave, Columbus, OH 43221",
-   "lat": 40.009629846106,
-   "lon": -83.034094847396,
-   "price": "$15.00 tuition",
-   "status": "open",
-   "openings": 7,
-   "opensAt": null,
-   "closesAt": null,
-   "notes": [],
-   "url": "https://app.jackrabbitclass.com/reg.asp?id=506905&hc=&initEmpty=&hdrColor=&WL=0&preLoadClassID=22429885&loc=",
-   "miles": 5.3,
-   "neighborhood": "Upper Arlington",
-   "firstSeen": "2026-10-30 23:09:05"
-  },
-  {
-   "id": "rec-7494",
-   "source": "rec",
-   "provider": "Columbus Rec & Parks",
-   "name": "Open Hours - Look at the Little Guys!",
-   "category": "Other",
-   "ages": "All ages",
-   "ageMin": 0,
-   "ageMax": null,
-   "days": [
-    "Thu"
-   ],
-   "startTime": "15:30",
-   "endTime": "19:30",
-   "firstDate": "2026-11-12",
-   "lastDate": "2026-11-12",
-   "sessions": 1,
-   "location": "Wyandot Lodge - 3228 Indian Village Rd. Columbus 43221",
-   "address": "Wyandot Lodge - 3228 Indian Village Rd. Columbus 43221",
-   "lat": 40.020126793376,
-   "lon": -83.097444097243,
-   "price": "Free",
-   "status": "open",
-   "openings": null,
-   "opensAt": "2026-09-08 12:30:00",
-   "closesAt": null,
-   "notes": [],
-   "url": "https://anc.apm.activecommunities.com/columbusrecparks1/activity/search/detail/7494?onlineSiteId=0&from_original_cui=true",
-   "miles": 7.8,
-   "neighborhood": "Upper Arlington",
    "firstSeen": "2026-10-30 23:09:05"
   },
   {
@@ -2424,38 +2296,6 @@
    "url": "https://anc.apm.activecommunities.com/columbusrecparks1/activity/search/detail/6432?onlineSiteId=0&from_original_cui=true",
    "miles": 10.3,
    "neighborhood": "Northwest & Dublin",
-   "firstSeen": "2026-10-30 23:09:05"
-  },
-  {
-   "id": "gh-parents-night-out-november-2026--2026-11-13",
-   "source": "recdesk",
-   "provider": "Grandview Heights Parks & Rec",
-   "name": "Parents Night Out (November 2026)",
-   "category": "Other",
-   "ages": "5y - 11y",
-   "ageMin": 60,
-   "ageMax": 144,
-   "days": [
-    "Fri"
-   ],
-   "startTime": "",
-   "endTime": "",
-   "firstDate": "2026-11-13",
-   "lastDate": "2026-11-13",
-   "sessions": null,
-   "location": "Grandview Heights",
-   "address": "1525 Goodale Blvd, Grandview Heights, OH 43212",
-   "lat": 39.976700170076,
-   "lon": -83.044313820481,
-   "price": "See listing",
-   "status": "open",
-   "openings": 10,
-   "opensAt": null,
-   "closesAt": null,
-   "notes": [],
-   "url": "https://grandviewheights.recdesk.com/Community/Program",
-   "miles": 3.7,
-   "neighborhood": "Grandview",
    "firstSeen": "2026-10-30 23:09:05"
   },
   {
@@ -2875,6 +2715,70 @@
    "firstSeen": "2026-10-30 23:09:05"
   },
   {
+   "id": "lib-main-library-family-storytime-wed-10-30",
+   "source": "library",
+   "provider": "Columbus Metropolitan Library",
+   "name": "Family Storytime",
+   "category": "Story time",
+   "ages": "Preschool and family",
+   "ageMin": 0,
+   "ageMax": null,
+   "days": [
+    "Wed"
+   ],
+   "startTime": "10:30",
+   "endTime": "11:00",
+   "firstDate": "2026-11-18",
+   "lastDate": "2026-12-02",
+   "sessions": null,
+   "location": "Main Library branch",
+   "address": "96 S Grant Ave, Columbus, OH 43215",
+   "lat": 39.961199462733,
+   "lon": -82.990580352092,
+   "price": "Free",
+   "status": "drop-in",
+   "openings": null,
+   "opensAt": null,
+   "closesAt": null,
+   "notes": [],
+   "url": "https://events.columbuslibrary.org/event/16464378",
+   "miles": 1.5,
+   "neighborhood": "Downtown & Near East",
+   "firstSeen": "2026-10-30 23:09:05"
+  },
+  {
+   "id": "lib-marion-franklin-kids-create-wed-16-30",
+   "source": "library",
+   "provider": "Columbus Metropolitan Library",
+   "name": "Kids Create",
+   "category": "Story time",
+   "ages": "Preschool and family",
+   "ageMin": 0,
+   "ageMax": null,
+   "days": [
+    "Wed"
+   ],
+   "startTime": "16:30",
+   "endTime": "17:30",
+   "firstDate": "2026-11-18",
+   "lastDate": "2026-12-02",
+   "sessions": null,
+   "location": "Marion-Franklin branch",
+   "address": "2740 Lockbourne Rd, Columbus, OH 43207",
+   "lat": 39.910017375539,
+   "lon": -82.96633291529,
+   "price": "Free",
+   "status": "drop-in",
+   "openings": null,
+   "opensAt": null,
+   "closesAt": null,
+   "notes": [],
+   "url": "https://events.columbuslibrary.org/event/16340542",
+   "miles": 2.5,
+   "neighborhood": "South Side",
+   "firstSeen": "2026-10-30 23:09:05"
+  },
+  {
    "id": "rec-6427",
    "source": "rec",
    "provider": "Columbus Rec & Parks",
@@ -2936,6 +2840,38 @@
    "url": "https://anc.apm.activecommunities.com/columbusrecparks1/activity/search/detail/8287?onlineSiteId=0&from_original_cui=true",
    "miles": 3.1,
    "neighborhood": "Franklinton & West Side",
+   "firstSeen": "2026-10-30 23:09:05"
+  },
+  {
+   "id": "jr-opengym-wendy-s-gymnastics-thu-6-30pm",
+   "source": "jackrabbit",
+   "provider": "Wendy's Gymnastics",
+   "name": "Open gym - Thurs @ 6:30pm",
+   "category": "Gymnastics",
+   "ages": "1 yr - 12 yrs",
+   "ageMin": 12,
+   "ageMax": 156,
+   "days": [
+    "Thu"
+   ],
+   "startTime": "18:30",
+   "endTime": "19:15",
+   "firstDate": "2026-11-19",
+   "lastDate": "2026-11-19",
+   "sessions": null,
+   "location": "Wendy's Gymnastics",
+   "address": "2460 Wood Ave, Columbus, OH 43221",
+   "lat": 40.009629846106,
+   "lon": -83.034094847396,
+   "price": "$15.00 tuition",
+   "status": "open",
+   "openings": 10,
+   "opensAt": null,
+   "closesAt": null,
+   "notes": [],
+   "url": "https://app.jackrabbitclass.com/reg.asp?id=506905&hc=&initEmpty=&hdrColor=&WL=0&preLoadClassID=22429887&loc=",
+   "miles": 5.3,
+   "neighborhood": "Upper Arlington",
    "firstSeen": "2026-10-30 23:09:05"
   },
   {
@@ -10409,7 +10345,7 @@
    "lon": -83.087192475101,
    "miles": 12.6,
    "neighborhood": "Northwest & Dublin",
-   "changedAt": "2026-11-11 19:48:42",
+   "changedAt": "2026-11-12 06:26:11",
    "watchOk": true
   },
   {
@@ -10525,7 +10461,7 @@
    "lon": -82.953519930862,
    "miles": 2.8,
    "neighborhood": "Downtown & Near East",
-   "changedAt": "2026-11-11 12:14:28",
+   "changedAt": "2026-11-12 06:26:11",
    "watchOk": true
   },
   {
