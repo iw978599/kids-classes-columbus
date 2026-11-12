@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-11 12:14:28",
+ "checkedAt": "2026-11-11 19:48:42",
  "baselineAt": "2026-10-30 23:09:05",
  "anchor": "Schiller Park",
  "neighborhoods": [
@@ -24,37 +24,37 @@
    "label": "Columbus Rec & Parks",
    "ok": true,
    "count": 276,
-   "lastSuccess": "2026-11-11 12:14:28"
+   "lastSuccess": "2026-11-11 19:48:42"
   },
   "cct": {
    "label": "Columbus Children's Theatre",
    "ok": true,
    "count": 2,
-   "lastSuccess": "2026-11-11 12:14:28"
+   "lastSuccess": "2026-11-11 19:48:42"
   },
   "bexley": {
    "label": "Bexley Rec",
    "ok": true,
    "count": 3,
-   "lastSuccess": "2026-11-11 12:14:28"
+   "lastSuccess": "2026-11-11 19:48:42"
   },
   "recdesk": {
    "label": "Grandview Heights Rec",
    "ok": true,
    "count": 3,
-   "lastSuccess": "2026-11-11 12:14:28"
+   "lastSuccess": "2026-11-11 19:48:42"
   },
   "jackrabbit": {
    "label": "Wendy's and K Studio",
    "ok": true,
    "count": 69,
-   "lastSuccess": "2026-11-11 12:14:28"
+   "lastSuccess": "2026-11-11 19:48:42"
   },
   "library": {
    "label": "Columbus Metropolitan Library",
    "ok": true,
    "count": 17,
-   "lastSuccess": "2026-11-11 12:14:28"
+   "lastSuccess": "2026-11-11 19:48:42"
   }
  },
  "items": [
@@ -1105,7 +1105,7 @@
    "lon": -83.034094847396,
    "price": "$99.00 tuition",
    "status": "anytime",
-   "openings": 2,
+   "openings": 1,
    "opensAt": null,
    "closesAt": null,
    "notes": [],
@@ -1937,7 +1937,7 @@
    "lon": -83.034094847396,
    "price": "$99.00 tuition",
    "status": "anytime",
-   "openings": 2,
+   "openings": 1,
    "opensAt": null,
    "closesAt": null,
    "notes": [],
@@ -2449,7 +2449,7 @@
    "lon": -83.044313820481,
    "price": "See listing",
    "status": "open",
-   "openings": 12,
+   "openings": 10,
    "opensAt": null,
    "closesAt": null,
    "notes": [],
@@ -2481,7 +2481,7 @@
    "lon": -83.049880978134,
    "price": "$25.00 tuition",
    "status": "open",
-   "openings": 12,
+   "openings": 11,
    "opensAt": null,
    "closesAt": null,
    "notes": [],
@@ -3063,7 +3063,7 @@
    "lon": -83.048891,
    "price": "Free",
    "status": "open",
-   "openings": 7,
+   "openings": 2,
    "opensAt": "2026-10-27 12:30:00",
    "closesAt": null,
    "notes": [],
@@ -3661,7 +3661,7 @@
    "lon": -83.044313820481,
    "price": "See listing",
    "status": "open",
-   "openings": 3,
+   "openings": 2,
    "opensAt": null,
    "closesAt": null,
    "notes": [],
@@ -10369,7 +10369,7 @@
    "lon": -82.953519930862,
    "miles": 2.8,
    "neighborhood": "Downtown & Near East",
-   "changedAt": "2026-11-11 12:14:28",
+   "changedAt": "2026-11-11 19:48:42",
    "watchOk": true
   },
   {
@@ -10409,7 +10409,7 @@
    "lon": -83.087192475101,
    "miles": 12.6,
    "neighborhood": "Northwest & Dublin",
-   "changedAt": "2026-11-11 12:14:28",
+   "changedAt": "2026-11-11 19:48:42",
    "watchOk": true
   },
   {
