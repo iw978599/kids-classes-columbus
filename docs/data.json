@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-12 20:53:55",
+ "checkedAt": "2026-11-13 06:09:44",
  "baselineAt": "2026-10-30 23:09:05",
  "anchor": "Schiller Park",
  "neighborhoods": [
@@ -23,38 +23,38 @@
   "rec": {
    "label": "Columbus Rec & Parks",
    "ok": true,
-   "count": 278,
-   "lastSuccess": "2026-11-12 20:53:55"
+   "count": 272,
+   "lastSuccess": "2026-11-13 06:09:44"
   },
   "cct": {
    "label": "Columbus Children's Theatre",
    "ok": true,
    "count": 2,
-   "lastSuccess": "2026-11-12 20:53:55"
+   "lastSuccess": "2026-11-13 06:09:44"
   },
   "bexley": {
    "label": "Bexley Rec",
    "ok": true,
    "count": 3,
-   "lastSuccess": "2026-11-12 20:53:55"
+   "lastSuccess": "2026-11-13 06:09:44"
   },
   "recdesk": {
    "label": "Grandview Heights Rec",
    "ok": true,
    "count": 2,
-   "lastSuccess": "2026-11-12 20:53:55"
+   "lastSuccess": "2026-11-13 06:09:44"
   },
   "jackrabbit": {
    "label": "Wendy's and K Studio",
    "ok": true,
-   "count": 66,
-   "lastSuccess": "2026-11-12 20:53:55"
+   "count": 65,
+   "lastSuccess": "2026-11-13 06:09:44"
   },
   "library": {
    "label": "Columbus Metropolitan Library",
    "ok": true,
    "count": 17,
-   "lastSuccess": "2026-11-12 20:53:55"
+   "lastSuccess": "2026-11-13 06:09:44"
   }
  },
  "items": [
@@ -1979,70 +1979,6 @@
    "firstSeen": "2026-10-30 23:09:05"
   },
   {
-   "id": "lib-main-library-family-storytime-thu-10-30",
-   "source": "library",
-   "provider": "Columbus Metropolitan Library",
-   "name": "Family Storytime",
-   "category": "Story time",
-   "ages": "Preschool and family",
-   "ageMin": 0,
-   "ageMax": null,
-   "days": [
-    "Thu"
-   ],
-   "startTime": "10:30",
-   "endTime": "11:00",
-   "firstDate": "2026-11-12",
-   "lastDate": "2026-11-19",
-   "sessions": null,
-   "location": "Main Library branch",
-   "address": "96 S Grant Ave, Columbus, OH 43215",
-   "lat": 39.961199462733,
-   "lon": -82.990580352092,
-   "price": "Free",
-   "status": "drop-in",
-   "openings": null,
-   "opensAt": null,
-   "closesAt": null,
-   "notes": [],
-   "url": "https://events.columbuslibrary.org/event/16464381",
-   "miles": 1.5,
-   "neighborhood": "Downtown & Near East",
-   "firstSeen": "2026-10-30 23:09:05"
-  },
-  {
-   "id": "rec-8284",
-   "source": "rec",
-   "provider": "Columbus Rec & Parks",
-   "name": "Family Paint & Sip Night",
-   "category": "Arts",
-   "ages": "Age at least 6 yrs but less than 100 yrs",
-   "ageMin": 72,
-   "ageMax": 1200,
-   "days": [
-    "Fri"
-   ],
-   "startTime": "17:30",
-   "endTime": "19:30",
-   "firstDate": "2026-11-13",
-   "lastDate": "2026-11-13",
-   "sessions": 1,
-   "location": "Glenwood Park",
-   "address": "1888 Fairmont Ave, Columbus, OH 43223",
-   "lat": 39.9556169,
-   "lon": -83.048891,
-   "price": "Free",
-   "status": "open",
-   "openings": 19,
-   "opensAt": "2026-09-08 12:30:00",
-   "closesAt": null,
-   "notes": [],
-   "url": "https://anc.apm.activecommunities.com/columbusrecparks1/activity/search/detail/8284?onlineSiteId=0&from_original_cui=true",
-   "miles": 3.1,
-   "neighborhood": "Franklinton & West Side",
-   "firstSeen": "2026-10-30 23:09:05"
-  },
-  {
    "id": "lib-south-high-family-storytime-fri-10-30",
    "source": "library",
    "provider": "Columbus Metropolitan Library",
@@ -2104,134 +2040,6 @@
    "url": "https://events.columbuslibrary.org/event/16464384",
    "miles": 1.5,
    "neighborhood": "Downtown & Near East",
-   "firstSeen": "2026-10-30 23:09:05"
-  },
-  {
-   "id": "jr-opengym-wendy-s-gymnastics-fri-11-30am",
-   "source": "jackrabbit",
-   "provider": "Wendy's Gymnastics",
-   "name": "Open gym - Fri @ 11:30am",
-   "category": "Gymnastics",
-   "ages": "1 yr - 12 yrs",
-   "ageMin": 12,
-   "ageMax": 156,
-   "days": [
-    "Fri"
-   ],
-   "startTime": "11:30",
-   "endTime": "12:15",
-   "firstDate": "2026-11-13",
-   "lastDate": "2026-11-20",
-   "sessions": null,
-   "location": "Wendy's Gymnastics",
-   "address": "2460 Wood Ave, Columbus, OH 43221",
-   "lat": 40.009629846106,
-   "lon": -83.034094847396,
-   "price": "$15.00 tuition",
-   "status": "open",
-   "openings": 3,
-   "opensAt": null,
-   "closesAt": null,
-   "notes": [],
-   "url": "https://app.jackrabbitclass.com/reg.asp?id=506905&hc=&initEmpty=&hdrColor=&WL=0&preLoadClassID=22429881&loc=",
-   "miles": 5.3,
-   "neighborhood": "Upper Arlington",
-   "firstSeen": "2026-10-30 23:09:05"
-  },
-  {
-   "id": "rec-6431",
-   "source": "rec",
-   "provider": "Columbus Rec & Parks",
-   "name": "P/C Tiny Tumblers- SESSION B",
-   "category": "Gymnastics",
-   "ages": "Age at least 1 yr but less than 4 yrs",
-   "ageMin": 12,
-   "ageMax": 48,
-   "days": [
-    "Fri"
-   ],
-   "startTime": "11:30",
-   "endTime": "12:15",
-   "firstDate": "2026-11-13",
-   "lastDate": "2026-12-18",
-   "sessions": 5,
-   "location": "Carriage Place Park",
-   "address": "4900 Sawmill Road, Columbus, OH 43235",
-   "lat": 40.069,
-   "lon": -83.0911,
-   "price": "$30.00 resident, $36.00 non-resident",
-   "status": "open",
-   "openings": 9,
-   "opensAt": "2026-09-08 12:30:00",
-   "closesAt": "2026-11-26 00:00:00",
-   "notes": [],
-   "url": "https://anc.apm.activecommunities.com/columbusrecparks1/activity/search/detail/6431?onlineSiteId=0&from_original_cui=true",
-   "miles": 10.3,
-   "neighborhood": "Northwest & Dublin",
-   "firstSeen": "2026-10-30 23:09:05"
-  },
-  {
-   "id": "rec-6432",
-   "source": "rec",
-   "provider": "Columbus Rec & Parks",
-   "name": "P/C Turbo Tumblers- SESSION B",
-   "category": "Gymnastics",
-   "ages": "Age at least 1 yr but less than 7 yrs",
-   "ageMin": 12,
-   "ageMax": 84,
-   "days": [
-    "Fri"
-   ],
-   "startTime": "12:15",
-   "endTime": "13:00",
-   "firstDate": "2026-11-13",
-   "lastDate": "2026-12-18",
-   "sessions": 5,
-   "location": "Carriage Place Park",
-   "address": "4900 Sawmill Road, Columbus, OH 43235",
-   "lat": 40.069,
-   "lon": -83.0911,
-   "price": "$30.00 resident, $36.00 non-resident",
-   "status": "open",
-   "openings": 5,
-   "opensAt": "2026-09-08 12:30:00",
-   "closesAt": "2026-11-26 00:00:00",
-   "notes": [],
-   "url": "https://anc.apm.activecommunities.com/columbusrecparks1/activity/search/detail/6432?onlineSiteId=0&from_original_cui=true",
-   "miles": 10.3,
-   "neighborhood": "Northwest & Dublin",
-   "firstSeen": "2026-10-30 23:09:05"
-  },
-  {
-   "id": "jr-513881-22517711",
-   "source": "jackrabbit",
-   "provider": "K Studio Dance",
-   "name": "Squishy Sensation Dance Camp",
-   "category": "Camps",
-   "ages": "6 yrs - 9 yrs",
-   "ageMin": 72,
-   "ageMax": 120,
-   "days": [
-    "Fri"
-   ],
-   "startTime": "16:00",
-   "endTime": "17:30",
-   "firstDate": "2026-11-13",
-   "lastDate": "2026-11-13",
-   "sessions": null,
-   "location": "K Studio Dance",
-   "address": "1152 Kenny Centre Mall, Columbus, OH 43220",
-   "lat": 40.051102947073,
-   "lon": -83.049880978134,
-   "price": "$25.00 tuition",
-   "status": "open",
-   "openings": 11,
-   "opensAt": null,
-   "closesAt": null,
-   "notes": [],
-   "url": "https://app.jackrabbitclass.com/reg.asp?id=513881&hc=&initEmpty=&hdrColor=&WL=0&preLoadClassID=22517711&loc=",
-   "miles": 8.2,
-   "neighborhood": "Northwest & Dublin",
    "firstSeen": "2026-10-30 23:09:05"
   },
   {
@@ -2715,6 +2523,38 @@
    "firstSeen": "2026-10-30 23:09:05"
   },
   {
+   "id": "lib-main-library-family-storytime-thu-10-30",
+   "source": "library",
+   "provider": "Columbus Metropolitan Library",
+   "name": "Family Storytime",
+   "category": "Story time",
+   "ages": "Preschool and family",
+   "ageMin": 0,
+   "ageMax": null,
+   "days": [
+    "Thu"
+   ],
+   "startTime": "10:30",
+   "endTime": "11:00",
+   "firstDate": "2026-11-19",
+   "lastDate": "2026-12-03",
+   "sessions": null,
+   "location": "Main Library branch",
+   "address": "96 S Grant Ave, Columbus, OH 43215",
+   "lat": 39.961199462733,
+   "lon": -82.990580352092,
+   "price": "Free",
+   "status": "drop-in",
+   "openings": null,
+   "opensAt": null,
+   "closesAt": null,
+   "notes": [],
+   "url": "https://events.columbuslibrary.org/event/16464382",
+   "miles": 1.5,
+   "neighborhood": "Downtown & Near East",
+   "firstSeen": "2026-10-30 23:09:05"
+  },
+  {
    "id": "rec-8287",
    "source": "rec",
    "provider": "Columbus Rec & Parks",
@@ -2807,6 +2647,38 @@
    "notes": [],
    "url": "https://anc.apm.activecommunities.com/columbusrecparks1/activity/search/detail/7493?onlineSiteId=0&from_original_cui=true",
    "miles": 7.8,
+   "neighborhood": "Upper Arlington",
+   "firstSeen": "2026-10-30 23:09:05"
+  },
+  {
+   "id": "jr-opengym-wendy-s-gymnastics-fri-11-30am",
+   "source": "jackrabbit",
+   "provider": "Wendy's Gymnastics",
+   "name": "Open gym - Fri @ 11:30am",
+   "category": "Gymnastics",
+   "ages": "1 yr - 12 yrs",
+   "ageMin": 12,
+   "ageMax": 156,
+   "days": [
+    "Fri"
+   ],
+   "startTime": "11:30",
+   "endTime": "12:15",
+   "firstDate": "2026-11-20",
+   "lastDate": "2026-11-20",
+   "sessions": null,
+   "location": "Wendy's Gymnastics",
+   "address": "2460 Wood Ave, Columbus, OH 43221",
+   "lat": 40.009629846106,
+   "lon": -83.034094847396,
+   "price": "$15.00 tuition",
+   "status": "open",
+   "openings": 16,
+   "opensAt": null,
+   "closesAt": null,
+   "notes": [],
+   "url": "https://app.jackrabbitclass.com/reg.asp?id=506905&hc=&initEmpty=&hdrColor=&WL=0&preLoadClassID=22429882&loc=",
+   "miles": 5.3,
    "neighborhood": "Upper Arlington",
    "firstSeen": "2026-10-30 23:09:05"
   },
@@ -3141,7 +3013,7 @@
    "lon": -82.9424254,
    "price": "Free",
    "status": "open",
-   "openings": 128,
+   "openings": 123,
    "opensAt": "2026-09-08 12:30:00",
    "closesAt": null,
    "notes": [],
@@ -10344,7 +10216,7 @@
    "lon": -83.087192475101,
    "miles": 12.6,
    "neighborhood": "Northwest & Dublin",
-   "changedAt": "2026-11-12 20:53:55",
+   "changedAt": "2026-11-13 06:09:44",
    "watchOk": true
   },
   {
@@ -10439,7 +10311,7 @@
    "lon": -82.982844283914,
    "miles": 0.6,
    "neighborhood": "German Village & Merion Village",
-   "changedAt": "2026-11-10 18:28:12",
+   "changedAt": "2026-11-13 06:09:44",
    "watchOk": true
   },
   {
