@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-13 06:09:44",
+ "checkedAt": "2026-11-13 14:49:34",
  "baselineAt": "2026-10-30 23:09:05",
  "anchor": "Schiller Park",
  "neighborhoods": [
@@ -24,37 +24,37 @@
    "label": "Columbus Rec & Parks",
    "ok": true,
    "count": 272,
-   "lastSuccess": "2026-11-13 06:09:44"
+   "lastSuccess": "2026-11-13 14:49:34"
   },
   "cct": {
    "label": "Columbus Children's Theatre",
    "ok": true,
    "count": 2,
-   "lastSuccess": "2026-11-13 06:09:44"
+   "lastSuccess": "2026-11-13 14:49:34"
   },
   "bexley": {
    "label": "Bexley Rec",
    "ok": true,
    "count": 3,
-   "lastSuccess": "2026-11-13 06:09:44"
+   "lastSuccess": "2026-11-13 14:49:34"
   },
   "recdesk": {
    "label": "Grandview Heights Rec",
    "ok": true,
    "count": 2,
-   "lastSuccess": "2026-11-13 06:09:44"
+   "lastSuccess": "2026-11-13 14:49:34"
   },
   "jackrabbit": {
    "label": "Wendy's and K Studio",
    "ok": true,
-   "count": 65,
-   "lastSuccess": "2026-11-13 06:09:44"
+   "count": 66,
+   "lastSuccess": "2026-11-13 14:49:34"
   },
   "library": {
    "label": "Columbus Metropolitan Library",
    "ok": true,
    "count": 17,
-   "lastSuccess": "2026-11-13 06:09:44"
+   "lastSuccess": "2026-11-13 14:49:34"
   }
  },
  "items": [
@@ -1467,6 +1467,38 @@
    "firstSeen": "2026-10-30 23:09:05"
   },
   {
+   "id": "jr-506905-22576164",
+   "source": "jackrabbit",
+   "provider": "Wendy's Gymnastics",
+   "name": "Tumble Tot 3&4 - Fri @ 9:15am*",
+   "category": "Gymnastics",
+   "ages": "2 yrs 10 mos - 4 yrs",
+   "ageMin": 34,
+   "ageMax": 60,
+   "days": [
+    "Fri"
+   ],
+   "startTime": "09:15",
+   "endTime": "09:55",
+   "firstDate": "2026-08-31",
+   "lastDate": "2027-05-28",
+   "sessions": null,
+   "location": "Wendy's Gymnastics",
+   "address": "2460 Wood Ave, Columbus, OH 43221",
+   "lat": 40.009629846106,
+   "lon": -83.034094847396,
+   "price": "$99.00 tuition",
+   "status": "anytime",
+   "openings": 3,
+   "opensAt": null,
+   "closesAt": null,
+   "notes": [],
+   "url": "https://app.jackrabbitclass.com/reg.asp?id=506905&hc=&initEmpty=&hdrColor=&WL=0&preLoadClassID=22576164&loc=",
+   "miles": 5.3,
+   "neighborhood": "Upper Arlington",
+   "firstSeen": "2026-11-13 14:49:34"
+  },
+  {
    "id": "jr-506905-22124735",
    "source": "jackrabbit",
    "provider": "Wendy's Gymnastics",
@@ -2160,7 +2192,7 @@
    "lat": 39.971273206992,
    "lon": -82.94580502906,
    "price": "$95.00 Res, $95.00 Non-Res",
-   "status": "open",
+   "status": "contact",
    "openings": null,
    "opensAt": null,
    "closesAt": null,
@@ -2192,7 +2224,7 @@
    "lat": 39.971273206992,
    "lon": -82.94580502906,
    "price": "$95.00 Res, $95.00 Non-Res",
-   "status": "open",
+   "status": "contact",
    "openings": null,
    "opensAt": null,
    "closesAt": null,
@@ -3013,7 +3045,7 @@
    "lon": -82.9424254,
    "price": "Free",
    "status": "open",
-   "openings": 123,
+   "openings": 120,
    "opensAt": "2026-09-08 12:30:00",
    "closesAt": null,
    "notes": [],
@@ -4083,7 +4115,7 @@
    "lon": -82.928756725128,
    "price": "Free",
    "status": "open",
-   "openings": 47,
+   "openings": 46,
    "opensAt": "2026-09-08 12:30:00",
    "closesAt": "2026-12-12 23:59:00",
    "notes": [],
@@ -8980,7 +9012,7 @@
    "lon": -82.928756725128,
    "price": "$50.00 resident, $60.00 non-resident",
    "status": "open",
-   "openings": 47,
+   "openings": 46,
    "opensAt": "2026-10-20 12:30:00",
    "closesAt": "2026-11-21 23:59:00",
    "notes": [],
@@ -9300,7 +9332,7 @@
    "lon": null,
    "price": "$50.00 resident, $60.00 non-resident",
    "status": "open",
-   "openings": 15,
+   "openings": 12,
    "opensAt": "2026-10-20 12:30:00",
    "closesAt": "2026-11-28 23:59:00",
    "notes": [],
@@ -10176,7 +10208,7 @@
    "lon": -82.953519930862,
    "miles": 2.8,
    "neighborhood": "Downtown & Near East",
-   "changedAt": "2026-11-12 20:53:55",
+   "changedAt": "2026-11-13 14:49:34",
    "watchOk": true
   },
   {
@@ -10216,7 +10248,7 @@
    "lon": -83.087192475101,
    "miles": 12.6,
    "neighborhood": "Northwest & Dublin",
-   "changedAt": "2026-11-13 06:09:44",
+   "changedAt": "2026-11-13 14:49:34",
    "watchOk": true
   },
   {
@@ -10332,7 +10364,7 @@
    "lon": -82.953519930862,
    "miles": 2.8,
    "neighborhood": "Downtown & Near East",
-   "changedAt": "2026-11-12 06:26:11",
+   "changedAt": "2026-11-13 14:49:34",
    "watchOk": true
   },
   {
@@ -10353,7 +10385,7 @@
    "lon": -82.996387316646,
    "miles": 2,
    "neighborhood": "Downtown & Near East",
-   "changedAt": null,
+   "changedAt": "2026-11-13 14:49:34",
    "watchOk": true
   },
   {
