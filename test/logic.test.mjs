@@ -95,3 +95,44 @@ test("no excluded provider appears in the curated list", () => {
   const raw = readFileSync("data/providers.json", "utf8");
   assert.doesNotMatch(raw, /goldfish/i);
 });
+
+test("saving a listing keeps its name and link, and saving it again forgets it", async () => {
+  const { readSaved, toggleSaved } = await import("../docs/logic.mjs");
+  const swim = { id: "rec-1", name: "Tadpoles", url: "https://example.org/1", provider: "Rec" };
+  const once = toggleSaved({}, "item", swim, NOW);
+  assert.deepEqual(once, { "item:rec-1": { name: "Tadpoles", url: "https://example.org/1", provider: "Rec", savedAt: NOW } });
+  assert.deepEqual(toggleSaved(once, "item", swim, NOW), {});
+  assert.deepEqual(toggleSaved(once, "provider", { ...swim }, NOW)["provider:rec-1"].name, "Tadpoles", "a provider with the same id is its own entry");
+  assert.deepEqual(readSaved(JSON.stringify(once)), once, "it reads back as it was written");
+});
+
+test("saved listings read from storage are checked, and anything odd is dropped", async () => {
+  const { readSaved } = await import("../docs/logic.mjs");
+  assert.deepEqual(readSaved(null), {});
+  assert.deepEqual(readSaved("not json"), {});
+  assert.deepEqual(readSaved("[1,2]"), {});
+  const kept = readSaved(JSON.stringify({
+    "item:a": { name: "A", url: "https://x.org/a" },
+    "item:b": { name: "B", url: "javascript:alert(1)" },
+    "other:c": { name: "C", url: "https://x.org/c" },
+    "item:d": { url: "https://x.org/d" },
+  }));
+  assert.deepEqual(Object.keys(kept), ["item:a"]);
+  assert.deepEqual(kept["item:a"], { name: "A", url: "https://x.org/a", provider: "", savedAt: "" });
+});
+
+test("the saved section shows listings still on the site, newest first, and keeps the rest as links", async () => {
+  const { savedView } = await import("../docs/logic.mjs");
+  const items = [item({ id: "a", name: "A" }), item({ id: "b", name: "B" })];
+  const providers = [{ id: "p", name: "Studio" }];
+  const saved = {
+    "item:a": { name: "A", url: "https://x.org/a", provider: "", savedAt: "2026-11-01 10:00:00" },
+    "item:b": { name: "B", url: "https://x.org/b", provider: "", savedAt: "2026-11-02 10:00:00" },
+    "provider:p": { name: "Studio", url: "https://x.org/p", provider: "", savedAt: "2026-11-01 09:00:00" },
+    "item:gone": { name: "Old", url: "https://x.org/old", provider: "Rec", savedAt: "2026-10-01 09:00:00" },
+  };
+  const view = savedView(saved, items, providers);
+  assert.deepEqual(view.items.map((i) => i.name), ["B", "A"]);
+  assert.deepEqual(view.providers.map((p) => p.name), ["Studio"]);
+  assert.deepEqual(view.gone, [{ key: "item:gone", name: "Old", url: "https://x.org/old", provider: "Rec", savedAt: "2026-10-01 09:00:00" }]);
+});

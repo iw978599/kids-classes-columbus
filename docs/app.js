@@ -1,5 +1,6 @@
 import {
-  filterItems, formatDate, formatDateTime, formatTime, groupItems, isNew, liveStatus, placeOptions, reopened,
+  filterItems, formatDate, formatDateTime, formatTime, groupItems, isNew, liveStatus, placeOptions, readSaved, reopened,
+  savedKey, savedView, toggleSaved,
 } from "./logic.mjs";
 
 const $ = (id) => document.getElementById(id);
@@ -11,6 +12,14 @@ const STATUS = {
 const filters = { fitsOnly: true, showDropIn: false, showAnytime: true, place: "", neighborhood: "", age: null, hidden: new Set(), startsFrom: "", maxMiles: 0, search: "" };
 const remember = { get(k) { try { return localStorage.getItem(k); } catch { return null; } }, set(k, v) { try { localStorage.setItem(k, v); } catch {} } };
 const slug = (c) => c.toLowerCase().replace(/\s+/g, "-");
+
+let saved = readSaved(remember.get("saved"));
+
+// The star on a card: saves the listing in this browser, or forgets it.
+function star(key, name) {
+  const on = Boolean(saved[key]);
+  return `<button type="button" class="star" data-key="${esc(key)}" aria-pressed="${on}" aria-label="${on ? "Unsave" : "Save"} ${esc(name)}" title="${on ? "Remove from Saved" : "Save for later"}">${on ? "★" : "☆"}</button>`;
+}
 
 function easternNow() {
   const p = Object.fromEntries(new Intl.DateTimeFormat("en-US", {
@@ -37,12 +46,14 @@ function card(i, ctx) {
   const place = [i.location || "See listing", i.miles != null ? `${i.miles} mi` : "distance unknown"].join(" · ");
   const reg = status === "upcoming" && i.opensAt ? `Registration opens ${formatDateTime(i.opensAt)}`
     : i.closesAt ? `Registration closes ${formatDateTime(i.closesAt)}` : "";
+  const started = !["drop-in", "anytime"].includes(status) && i.firstDate <= ctx.now.slice(0, 10);
   const flags = [
+    started ? `<span class="mk">Started ${esc(formatDate(i.firstDate))}</span>` : "",
     reopened(i, ctx.now) ? '<span class="mk alert">Spot opened</span>' : "",
     isNew(i, ctx.baselineAt, ctx.now) ? '<span class="mk alert">New</span>' : "",
   ].join("");
   return `<article class="item${i.price === "Free" ? " free" : ""}" data-c="${slug(i.category)}">
-    <div class="r1"><span class="tag">${esc(i.category)}</span><span class="tm">${esc(when(i))}</span></div>
+    <div class="r1"><span class="tag">${esc(i.category)}</span><span class="tm">${esc(when(i))}</span>${star(savedKey("item", i.id), i.name)}</div>
     <h3><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.name)}</a></h3>
     <div class="meta">${esc(dates(i))}</div>
     <div class="meta">${esc(place)}</div>
@@ -57,7 +68,7 @@ function providerCard(p) {
   const changed = p.changedAt ? `<span class="mk alert">Page changed ${esc(formatDate(p.changedAt))}</span>` : "";
   const failed = p.watchOk ? "" : '<span class="mk">Can\'t monitor this page</span>';
   return `<article class="item" data-c="${slug(p.category)}">
-    <div class="r1"><span class="tag">${esc(p.category)}</span>${p.miles != null ? `<span class="tm">${p.miles} mi</span>` : ""}</div>
+    <div class="r1"><span class="tag">${esc(p.category)}</span>${p.miles != null ? `<span class="tm">${p.miles} mi</span>` : ""}${star(savedKey("provider", p.id), p.name)}</div>
     <h3><a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.name)}</a></h3>
     <div class="meta">${esc(p.provider)} · ${esc(p.ages)}</div>
     <div class="meta">${esc(p.schedule)}</div>
@@ -88,6 +99,14 @@ function render(data) {
   $("camps").innerHTML = cards.filter((p) => p.camp).map(providerCard).join("");
   $("providers-section").hidden = !$("providers").innerHTML;
   $("camps-section").hidden = !$("camps").innerHTML;
+
+  const mine = savedView(saved, data.items, data.providers);
+  const count = mine.items.length + mine.providers.length + mine.gone.length;
+  $("saved").hidden = !count;
+  $("saved-n").textContent = count;
+  $("saved-list").innerHTML = mine.items.map((i) => card(i, ctx)).join("") + mine.providers.map(providerCard).join("");
+  $("saved-gone").innerHTML = mine.gone.map((g) => `<li><a href="${esc(g.url)}" target="_blank" rel="noopener">${esc(g.name)}</a>${g.provider ? ` · ${esc(g.provider)}` : ""} <span class="mk">No longer listed</span> ${star(g.key, g.name)}</li>`).join("");
+  $("saved-gone").hidden = !mine.gone.length;
 
   const fresh = shown.filter((i) => isNew(i, ctx.baselineAt, ctx.now) || reopened(i, ctx.now));
   $("new").hidden = !fresh.length;
@@ -136,8 +155,8 @@ async function start() {
     const savedArea = remember.get("neighborhood");
     if (savedArea && [...$("neighborhood").options].some((o) => o.value === savedArea)) { $("neighborhood").value = savedArea; filters.neighborhood = savedArea; render(data); }
     $("neighborhood").addEventListener("input", (e) => remember.set("neighborhood", e.target.value));
-    const saved = remember.get("age");
-    if (saved) { $("age").value = saved; filters.age = Number(saved); render(data); }
+    const savedAge = remember.get("age");
+    if (savedAge) { $("age").value = savedAge; filters.age = Number(savedAge); render(data); }
     $("age").addEventListener("input", (e) => {
       filters.age = e.target.value === "" ? null : Number(e.target.value);
       remember.set("age", e.target.value);
@@ -156,6 +175,19 @@ async function start() {
     };
     $("allTags").addEventListener("click", () => setAllTags(true));
     $("noTags").addEventListener("click", () => setAllTags(false));
+    document.body.addEventListener("click", (e) => {
+      const button = e.target.closest(".star");
+      if (!button) return;
+      const key = button.dataset.key, section = button.closest("section[id]")?.id;
+      const [kind, ...rest] = key.split(":"), id = rest.join(":");
+      const listing = (kind === "item" ? data.items : data.providers).find((x) => x.id === id);
+      if (saved[key] || !listing) { saved = { ...saved }; delete saved[key]; } else saved = toggleSaved(saved, kind, listing, easternNow());
+      remember.set("saved", JSON.stringify(saved));
+      render(data);
+      // The card was drawn again: keep the keyboard on its star, or on the Saved heading if it left.
+      const again = [...document.querySelectorAll(".star")].filter((b) => b.dataset.key === key);
+      (again.find((b) => b.closest("section[id]")?.id === section) ?? again[0] ?? $("saved-title")).focus();
+    });
     $("legend").addEventListener("click", (e) => {
       const chip = e.target.closest(".lg");
       if (!chip) return;
