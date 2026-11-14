@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-14 13:13:36",
+ "checkedAt": "2026-11-14 17:33:26",
  "baselineAt": "2026-10-30 23:09:05",
  "anchor": "Schiller Park",
  "neighborhoods": [
@@ -24,37 +24,37 @@
    "label": "Columbus Rec & Parks",
    "ok": true,
    "count": 244,
-   "lastSuccess": "2026-11-14 13:13:36"
+   "lastSuccess": "2026-11-14 17:33:26"
   },
   "cct": {
    "label": "Columbus Children's Theatre",
    "ok": true,
    "count": 2,
-   "lastSuccess": "2026-11-14 13:13:36"
+   "lastSuccess": "2026-11-14 17:33:26"
   },
   "bexley": {
    "label": "Bexley Rec",
    "ok": true,
    "count": 3,
-   "lastSuccess": "2026-11-14 13:13:36"
+   "lastSuccess": "2026-11-14 17:33:26"
   },
   "recdesk": {
    "label": "Grandview Heights Rec",
    "ok": true,
    "count": 2,
-   "lastSuccess": "2026-11-14 13:13:36"
+   "lastSuccess": "2026-11-14 17:33:26"
   },
   "jackrabbit": {
    "label": "Wendy's and K Studio",
    "ok": true,
    "count": 65,
-   "lastSuccess": "2026-11-14 13:13:36"
+   "lastSuccess": "2026-11-14 17:33:26"
   },
   "library": {
    "label": "Columbus Metropolitan Library",
    "ok": true,
    "count": 17,
-   "lastSuccess": "2026-11-14 13:13:36"
+   "lastSuccess": "2026-11-14 17:33:26"
   }
  },
  "items": [
@@ -4048,7 +4048,7 @@
    "lon": -82.928756725128,
    "price": "Free",
    "status": "open",
-   "openings": 40,
+   "openings": 38,
    "opensAt": "2026-09-08 12:30:00",
    "closesAt": "2026-12-12 23:59:00",
    "notes": [],
@@ -10181,7 +10181,7 @@
    "lon": -83.087192475101,
    "miles": 12.6,
    "neighborhood": "Northwest & Dublin",
-   "changedAt": "2026-11-14 13:13:36",
+   "changedAt": "2026-11-14 17:33:26",
    "watchOk": true
   },
   {
