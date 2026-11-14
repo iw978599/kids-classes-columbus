@@ -83,3 +83,40 @@ export function formatDateTime(s) {
   const day = new Date(Date.UTC(y, m - 1, d)).toLocaleDateString("en-US", { weekday: "short", month: "short", day: "numeric", timeZone: "UTC" });
   return `${day}${time}`;
 }
+
+// Saved listings: kept in this browser as { key: { name, url, provider, savedAt } }, keyed by kind and id
+// so a class and a provider can't collide. The name and link are kept so a listing that later drops off
+// the site (its session started, or the source removed it) can still be reached.
+export const savedKey = (kind, id) => `${kind}:${id}`;
+
+export function readSaved(text) {
+  let raw;
+  try { raw = JSON.parse(text ?? "{}"); } catch { return {}; }
+  if (!raw || typeof raw !== "object" || Array.isArray(raw)) return {};
+  const out = {};
+  for (const [key, v] of Object.entries(raw)) {
+    if (!/^(item|provider):/.test(key) || !v || typeof v.name !== "string" || typeof v.url !== "string") continue;
+    if (!/^https?:\/\//.test(v.url)) continue;
+    out[key] = { name: v.name, url: v.url, provider: typeof v.provider === "string" ? v.provider : "", savedAt: typeof v.savedAt === "string" ? v.savedAt : "" };
+  }
+  return out;
+}
+
+// Saves the listing, or forgets it if it was saved. Returns a new object.
+export function toggleSaved(saved, kind, listing, now) {
+  const key = savedKey(kind, listing.id), next = { ...saved };
+  if (next[key]) delete next[key];
+  else next[key] = { name: listing.name, url: listing.url, provider: listing.provider ?? "", savedAt: now };
+  return next;
+}
+
+// What the Saved section shows: listings still on the site, newest saved first, and the rest by name.
+export function savedView(saved, items, providers) {
+  const byKey = new Map([...items.map((i) => [savedKey("item", i.id), i]), ...providers.map((p) => [savedKey("provider", p.id), p])]);
+  const order = Object.entries(saved).sort(([, a], [, b]) => b.savedAt.localeCompare(a.savedAt));
+  return {
+    items: order.filter(([k]) => k.startsWith("item:") && byKey.has(k)).map(([k]) => byKey.get(k)),
+    providers: order.filter(([k]) => k.startsWith("provider:") && byKey.has(k)).map(([k]) => byKey.get(k)),
+    gone: order.filter(([k]) => !byKey.has(k)).map(([key, v]) => ({ key, ...v })),
+  };
+}

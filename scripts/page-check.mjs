@@ -39,6 +39,35 @@ for (const [name, width, height] of [["phone", 375, 800], ["desktop", 1280, 900]
   await page.selectOption("#place", "");
   assert.equal(await page.locator('#groups .mk:has-text("Full")').count(), 0, "full classes never show");
   assert.ok(await page.locator("#providers .item").count() > 5, "providers render");
+
+  // Saving: a class and a provider go in Saved, stay after a reload, and leave when unsaved.
+  await page.evaluate(() => localStorage.removeItem("saved"));
+  await page.reload();
+  await page.waitForSelector("#groups .item");
+  assert.ok(await page.locator("#saved").isHidden(), "nothing saved, no Saved section");
+  const first = page.locator("#groups .item").first();
+  const name = await first.locator("h3").innerText();
+  await first.locator(".star").click();
+  assert.equal(await page.locator("#saved-list .item").count(), 1, "the saved class shows in Saved");
+  assert.equal(await page.locator("#saved-list h3").innerText(), name);
+  assert.equal(await page.locator(`#groups .star[aria-pressed="true"]`).count(), 1, "its star in the list is lit");
+  await page.locator("#providers .item .star").first().click();
+  assert.equal(await page.locator("#saved-list .item").count(), 2, "a provider can be saved too");
+  await page.selectOption("#age", "1");
+  await page.fill("#search", "zzzz no such class");
+  assert.equal(await page.locator("#saved-list .item").count(), 2, "Saved ignores the filters");
+  await page.fill("#search", "");
+  await page.selectOption("#age", "");
+  await page.reload();
+  await page.waitForSelector("#groups .item");
+  assert.equal(await page.locator("#saved-list .item").count(), 2, "saved listings survive a reload");
+  await page.evaluate(() => { const s = JSON.parse(localStorage.getItem("saved")); s["item:gone-away"] = { name: "Old class", url: "https://example.org/old", provider: "Rec", savedAt: "2026-01-01 00:00:00" }; localStorage.setItem("saved", JSON.stringify(s)); });
+  await page.reload();
+  await page.waitForSelector("#groups .item");
+  assert.equal(await page.locator('#saved-gone li:has-text("No longer listed")').count(), 1, "a listing gone from the site stays as a link");
+  for (const button of await page.locator("#saved .star").all()) await page.locator("#saved .star").first().click();
+  assert.ok(await page.locator("#saved").isHidden(), "unsaving everything hides Saved");
+  assert.equal(await page.evaluate(() => localStorage.getItem("saved")), "{}");
   await page.click("#theme");
   assert.equal(await page.evaluate(() => document.documentElement.dataset.theme), "dark");
   await page.screenshot({ path: `shots/${name}-dark.png` });
