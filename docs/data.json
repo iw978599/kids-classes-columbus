@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-13 14:49:34",
+ "checkedAt": "2026-11-13 20:28:46",
  "baselineAt": "2026-10-30 23:09:05",
  "anchor": "Schiller Park",
  "neighborhoods": [
@@ -24,37 +24,37 @@
    "label": "Columbus Rec & Parks",
    "ok": true,
    "count": 272,
-   "lastSuccess": "2026-11-13 14:49:34"
+   "lastSuccess": "2026-11-13 20:28:46"
   },
   "cct": {
    "label": "Columbus Children's Theatre",
    "ok": true,
    "count": 2,
-   "lastSuccess": "2026-11-13 14:49:34"
+   "lastSuccess": "2026-11-13 20:28:46"
   },
   "bexley": {
    "label": "Bexley Rec",
    "ok": true,
    "count": 3,
-   "lastSuccess": "2026-11-13 14:49:34"
+   "lastSuccess": "2026-11-13 20:28:46"
   },
   "recdesk": {
    "label": "Grandview Heights Rec",
    "ok": true,
    "count": 2,
-   "lastSuccess": "2026-11-13 14:49:34"
+   "lastSuccess": "2026-11-13 20:28:46"
   },
   "jackrabbit": {
    "label": "Wendy's and K Studio",
    "ok": true,
-   "count": 66,
-   "lastSuccess": "2026-11-13 14:49:34"
+   "count": 65,
+   "lastSuccess": "2026-11-13 20:28:46"
   },
   "library": {
    "label": "Columbus Metropolitan Library",
    "ok": true,
    "count": 17,
-   "lastSuccess": "2026-11-13 14:49:34"
+   "lastSuccess": "2026-11-13 20:28:46"
   }
  },
  "items": [
@@ -630,38 +630,6 @@
    "closesAt": null,
    "notes": [],
    "url": "https://app.jackrabbitclass.com/reg.asp?id=506905&hc=&initEmpty=&hdrColor=&WL=0&preLoadClassID=22122871&loc=",
-   "miles": 5.3,
-   "neighborhood": "Upper Arlington",
-   "firstSeen": "2026-10-30 23:09:05"
-  },
-  {
-   "id": "jr-506905-22122904",
-   "source": "jackrabbit",
-   "provider": "Wendy's Gymnastics",
-   "name": "TUMBLE TOT 1&2 - Fri @ 9:15am",
-   "category": "Gymnastics",
-   "ages": "10 mos - 2 yrs",
-   "ageMin": 10,
-   "ageMax": 36,
-   "days": [
-    "Fri"
-   ],
-   "startTime": "09:15",
-   "endTime": "09:55",
-   "firstDate": "2026-08-31",
-   "lastDate": "2027-05-28",
-   "sessions": null,
-   "location": "Wendy's Gymnastics",
-   "address": "2460 Wood Ave, Columbus, OH 43221",
-   "lat": 40.009629846106,
-   "lon": -83.034094847396,
-   "price": "$99.00 tuition",
-   "status": "anytime",
-   "openings": 1,
-   "opensAt": null,
-   "closesAt": null,
-   "notes": [],
-   "url": "https://app.jackrabbitclass.com/reg.asp?id=506905&hc=&initEmpty=&hdrColor=&WL=0&preLoadClassID=22122904&loc=",
    "miles": 5.3,
    "neighborhood": "Upper Arlington",
    "firstSeen": "2026-10-30 23:09:05"
@@ -2171,10 +2139,10 @@
    "firstSeen": "2026-10-30 23:09:05"
   },
   {
-   "id": "bex-148452",
+   "id": "bex-148455",
    "source": "bexley",
    "provider": "Bexley Recreation & Parks",
-   "name": "Gym Skills: Explorers FA 26 (440p) S3",
+   "name": "Gym Skills: Explorers FA 26 (520p) S3",
    "category": "Gymnastics",
    "ages": "4y - 5y",
    "ageMin": 48,
@@ -2182,8 +2150,8 @@
    "days": [
     "Mon"
    ],
-   "startTime": "16:40",
-   "endTime": "17:15",
+   "startTime": "17:20",
+   "endTime": "17:55",
    "firstDate": "2026-11-16",
    "lastDate": "2026-12-07",
    "sessions": null,
@@ -2200,7 +2168,7 @@
    "url": "https://bexleyoh.myrec.com/info/activities/program_details.aspx?ProgramID=31270",
    "miles": 3.3,
    "neighborhood": "Bexley",
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-11-13 20:28:46"
   },
   {
    "id": "bex-148449",
@@ -2289,7 +2257,7 @@
    "lon": -83.034094847396,
    "price": "$15.00 tuition",
    "status": "open",
-   "openings": 19,
+   "openings": 18,
    "opensAt": null,
    "closesAt": null,
    "notes": [],
@@ -2545,7 +2513,7 @@
    "lon": -83.0911,
    "price": "$30.00 resident, $36.00 non-resident",
    "status": "open",
-   "openings": 14,
+   "openings": 12,
    "opensAt": "2026-09-08 12:30:00",
    "closesAt": "2026-11-24 00:00:00",
    "notes": [],
@@ -2737,7 +2705,7 @@
    "lon": -83.0911,
    "price": "Free",
    "status": "open",
-   "openings": 7,
+   "openings": 5,
    "opensAt": "2026-11-09 12:30:00",
    "closesAt": null,
    "notes": [],
@@ -2779,41 +2747,6 @@
    "url": "https://anc.apm.activecommunities.com/columbusrecparks1/activity/search/detail/9450?onlineSiteId=0&from_original_cui=true",
    "miles": null,
    "neighborhood": "Linden & Northeast",
-   "firstSeen": "2026-10-30 23:09:05"
-  },
-  {
-   "id": "rec-8289",
-   "source": "rec",
-   "provider": "Columbus Rec & Parks",
-   "name": "School's Out Fall (Glenwood)",
-   "category": "Other",
-   "ages": "Age at least 6 yrs but less than 12 yrs",
-   "ageMin": 72,
-   "ageMax": 144,
-   "days": [
-    "Mon",
-    "Tue",
-    "Wed",
-    "Fri"
-   ],
-   "startTime": "08:00",
-   "endTime": "17:00",
-   "firstDate": "2026-11-23",
-   "lastDate": "2026-11-27",
-   "sessions": 4,
-   "location": "Glenwood Park",
-   "address": "1888 Fairmont Ave, Columbus, OH 43223",
-   "lat": 39.9556169,
-   "lon": -83.048891,
-   "price": "Free",
-   "status": "open",
-   "openings": 2,
-   "opensAt": "2026-10-27 12:30:00",
-   "closesAt": null,
-   "notes": [],
-   "url": "https://anc.apm.activecommunities.com/columbusrecparks1/activity/search/detail/8289?onlineSiteId=0&from_original_cui=true",
-   "miles": 3.1,
-   "neighborhood": "Franklinton & West Side",
    "firstSeen": "2026-10-30 23:09:05"
   },
   {
@@ -4115,7 +4048,7 @@
    "lon": -82.928756725128,
    "price": "Free",
    "status": "open",
-   "openings": 46,
+   "openings": 43,
    "opensAt": "2026-09-08 12:30:00",
    "closesAt": "2026-12-12 23:59:00",
    "notes": [],
@@ -4645,7 +4578,7 @@
    "lon": -82.9879,
    "price": "$50.00 resident, $60.00 non-resident",
    "status": "open",
-   "openings": 14,
+   "openings": 13,
    "opensAt": "2026-10-06 12:30:00",
    "closesAt": "2026-11-22 23:59:00",
    "notes": [],
@@ -9172,7 +9105,7 @@
    "lon": null,
    "price": "$50.00 resident, $60.00 non-resident",
    "status": "open",
-   "openings": 39,
+   "openings": 38,
    "opensAt": "2026-10-20 12:30:00",
    "closesAt": "2026-11-28 23:59:00",
    "notes": [],
@@ -9332,7 +9265,7 @@
    "lon": null,
    "price": "$50.00 resident, $60.00 non-resident",
    "status": "open",
-   "openings": 12,
+   "openings": 11,
    "opensAt": "2026-10-20 12:30:00",
    "closesAt": "2026-11-28 23:59:00",
    "notes": [],
@@ -10208,7 +10141,7 @@
    "lon": -82.953519930862,
    "miles": 2.8,
    "neighborhood": "Downtown & Near East",
-   "changedAt": "2026-11-13 14:49:34",
+   "changedAt": "2026-11-13 20:28:46",
    "watchOk": true
   },
   {
@@ -10248,7 +10181,7 @@
    "lon": -83.087192475101,
    "miles": 12.6,
    "neighborhood": "Northwest & Dublin",
-   "changedAt": "2026-11-13 14:49:34",
+   "changedAt": "2026-11-13 20:28:46",
    "watchOk": true
   },
   {
@@ -10364,7 +10297,7 @@
    "lon": -82.953519930862,
    "miles": 2.8,
    "neighborhood": "Downtown & Near East",
-   "changedAt": "2026-11-13 14:49:34",
+   "changedAt": "2026-11-13 20:28:46",
    "watchOk": true
   },
   {
