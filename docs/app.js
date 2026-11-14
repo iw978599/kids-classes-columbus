@@ -155,8 +155,8 @@ async function start() {
     const savedArea = remember.get("neighborhood");
     if (savedArea && [...$("neighborhood").options].some((o) => o.value === savedArea)) { $("neighborhood").value = savedArea; filters.neighborhood = savedArea; render(data); }
     $("neighborhood").addEventListener("input", (e) => remember.set("neighborhood", e.target.value));
-    const saved = remember.get("age");
-    if (saved) { $("age").value = saved; filters.age = Number(saved); render(data); }
+    const savedAge = remember.get("age");
+    if (savedAge) { $("age").value = savedAge; filters.age = Number(savedAge); render(data); }
     $("age").addEventListener("input", (e) => {
       filters.age = e.target.value === "" ? null : Number(e.target.value);
       remember.set("age", e.target.value);
