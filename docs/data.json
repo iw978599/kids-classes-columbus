@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-15 11:25:15",
+ "checkedAt": "2026-11-15 17:55:46",
  "baselineAt": "2026-10-30 23:09:05",
  "anchor": "Schiller Park",
  "neighborhoods": [
@@ -24,37 +24,37 @@
    "label": "Columbus Rec & Parks",
    "ok": true,
    "count": 238,
-   "lastSuccess": "2026-11-15 11:25:15"
+   "lastSuccess": "2026-11-15 17:55:46"
   },
   "cct": {
    "label": "Columbus Children's Theatre",
    "ok": true,
    "count": 2,
-   "lastSuccess": "2026-11-15 11:25:15"
+   "lastSuccess": "2026-11-15 17:55:46"
   },
   "bexley": {
    "label": "Bexley Rec",
    "ok": true,
    "count": 3,
-   "lastSuccess": "2026-11-15 11:25:15"
+   "lastSuccess": "2026-11-15 17:55:46"
   },
   "recdesk": {
    "label": "Grandview Heights Rec",
    "ok": true,
    "count": 2,
-   "lastSuccess": "2026-11-15 11:25:15"
+   "lastSuccess": "2026-11-15 17:55:46"
   },
   "jackrabbit": {
    "label": "Wendy's and K Studio",
    "ok": true,
-   "count": 65,
-   "lastSuccess": "2026-11-15 11:25:15"
+   "count": 64,
+   "lastSuccess": "2026-11-15 17:55:46"
   },
   "library": {
    "label": "Columbus Metropolitan Library",
    "ok": true,
    "count": 17,
-   "lastSuccess": "2026-11-15 11:25:15"
+   "lastSuccess": "2026-11-15 17:55:46"
   }
  },
  "items": [
@@ -86,38 +86,6 @@
    "closesAt": null,
    "notes": [],
    "url": "https://app.jackrabbitclass.com/reg.asp?id=513881&hc=&initEmpty=&hdrColor=&WL=0&preLoadClassID=21720787&loc=",
-   "miles": 8.2,
-   "neighborhood": "Northwest & Dublin",
-   "firstSeen": "2026-10-30 23:09:05"
-  },
-  {
-   "id": "jr-513881-21720818",
-   "source": "jackrabbit",
-   "provider": "K Studio Dance",
-   "name": "Ballet/Tap Combo",
-   "category": "Dance",
-   "ages": "4 yrs - 6 yrs",
-   "ageMin": 48,
-   "ageMax": 84,
-   "days": [
-    "Sat"
-   ],
-   "startTime": "09:30",
-   "endTime": "10:30",
-   "firstDate": "2026-08-17",
-   "lastDate": "2027-05-09",
-   "sessions": null,
-   "location": "K Studio Dance",
-   "address": "1152 Kenny Centre Mall, Columbus, OH 43220",
-   "lat": 40.051102947073,
-   "lon": -83.049880978134,
-   "price": "$70.00 tuition",
-   "status": "anytime",
-   "openings": 1,
-   "opensAt": null,
-   "closesAt": null,
-   "notes": [],
-   "url": "https://app.jackrabbitclass.com/reg.asp?id=513881&hc=&initEmpty=&hdrColor=&WL=0&preLoadClassID=21720818&loc=",
    "miles": 8.2,
    "neighborhood": "Northwest & Dublin",
    "firstSeen": "2026-10-30 23:09:05"
@@ -2097,7 +2065,7 @@
    "lon": -83.034094847396,
    "price": "$15.00 tuition",
    "status": "open",
-   "openings": 11,
+   "openings": 7,
    "opensAt": null,
    "closesAt": null,
    "notes": [],
@@ -2129,7 +2097,7 @@
    "lon": -83.034094847396,
    "price": "$15.00 tuition",
    "status": "open",
-   "openings": 17,
+   "openings": 13,
    "opensAt": null,
    "closesAt": null,
    "notes": [],
@@ -2609,7 +2577,7 @@
    "lon": -83.034094847396,
    "price": "$15.00 tuition",
    "status": "open",
-   "openings": 16,
+   "openings": 15,
    "opensAt": null,
    "closesAt": null,
    "notes": [],
@@ -4048,7 +4016,7 @@
    "lon": -82.928756725128,
    "price": "Free",
    "status": "open",
-   "openings": 32,
+   "openings": 29,
    "opensAt": "2026-09-08 12:30:00",
    "closesAt": "2026-12-12 23:59:00",
    "notes": [],
@@ -10141,7 +10109,7 @@
    "lon": -82.953519930862,
    "miles": 2.8,
    "neighborhood": "Downtown & Near East",
-   "changedAt": "2026-11-14 13:13:36",
+   "changedAt": "2026-11-15 17:55:46",
    "watchOk": true
   },
   {
@@ -10181,7 +10149,7 @@
    "lon": -83.087192475101,
    "miles": 12.6,
    "neighborhood": "Northwest & Dublin",
-   "changedAt": "2026-11-15 11:25:15",
+   "changedAt": "2026-11-15 17:55:46",
    "watchOk": true
   },
   {
