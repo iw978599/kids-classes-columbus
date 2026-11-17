@@ -2097,6 +2097,102 @@
   "rec-9775": {
    "firstSeen": "2026-11-16 22:57:49",
    "full": false
+  },
+  "jr-506905-22541817": {
+   "firstSeen": "2026-11-17 11:10:44",
+   "full": false
+  },
+  "jr-506905-22541861": {
+   "firstSeen": "2026-11-17 11:10:44",
+   "full": false
+  },
+  "jr-opengym-wendy-s-gymnastics-tue-10-00am-holiday-pjs-": {
+   "firstSeen": "2026-11-17 11:10:44",
+   "full": false
+  },
+  "jr-opengym-wendy-s-gymnastics-mon-6-00pm-holiday-pjs-": {
+   "firstSeen": "2026-11-17 11:10:44",
+   "full": false
+  },
+  "jr-opengym-wendy-s-gymnastics-mon-9-15-holiday-pjs-": {
+   "firstSeen": "2026-11-17 11:10:44",
+   "full": false
+  },
+  "jr-opengym-wendy-s-gymnastics-thu-9-15-am-holiday-pjs-": {
+   "firstSeen": "2026-11-17 11:10:44",
+   "full": false
+  },
+  "jr-opengym-wendy-s-gymnastics-tue-6-00pm-let-it-snow-": {
+   "firstSeen": "2026-11-17 11:10:44",
+   "full": false
+  },
+  "jr-opengym-wendy-s-gymnastics-mon-10-00am-jump-jingle-": {
+   "firstSeen": "2026-11-17 11:10:44",
+   "full": false
+  },
+  "jr-opengym-wendy-s-gymnastics-mon-10-45am-let-it-snow-": {
+   "firstSeen": "2026-11-17 11:10:44",
+   "full": false
+  },
+  "jr-opengym-wendy-s-gymnastics-mon-4-30pm-jump-jingle-": {
+   "firstSeen": "2026-11-17 11:10:44",
+   "full": false
+  },
+  "jr-opengym-wendy-s-gymnastics-mon-5-15pm-let-it-snow-": {
+   "firstSeen": "2026-11-17 11:10:44",
+   "full": false
+  },
+  "jr-opengym-wendy-s-gymnastics-thu-10-00am-jump-jingle-": {
+   "firstSeen": "2026-11-17 11:10:44",
+   "full": false
+  },
+  "jr-opengym-wendy-s-gymnastics-thu-10-45am-let-it-snow-": {
+   "firstSeen": "2026-11-17 11:10:44",
+   "full": false
+  },
+  "jr-opengym-wendy-s-gymnastics-thu-4-30pm-jump-jingle-": {
+   "firstSeen": "2026-11-17 11:10:44",
+   "full": false
+  },
+  "jr-opengym-wendy-s-gymnastics-thu-5-15pm-let-it-snow-": {
+   "firstSeen": "2026-11-17 11:10:44",
+   "full": false
+  },
+  "jr-opengym-wendy-s-gymnastics-thu-6-00pm-holiday-pjs-": {
+   "firstSeen": "2026-11-17 11:10:44",
+   "full": false
+  },
+  "jr-opengym-wendy-s-gymnastics-tue-10-45am-jump-jingle-": {
+   "firstSeen": "2026-11-17 11:10:44",
+   "full": false
+  },
+  "jr-opengym-wendy-s-gymnastics-tue-4-30pm-holiday-pjs-": {
+   "firstSeen": "2026-11-17 11:10:44",
+   "full": false
+  },
+  "jr-opengym-wendy-s-gymnastics-tue-5-15pm-jump-jingle-": {
+   "firstSeen": "2026-11-17 11:10:44",
+   "full": false
+  },
+  "jr-opengym-wendy-s-gymnastics-tue-9-15am-let-it-snow-": {
+   "firstSeen": "2026-11-17 11:10:44",
+   "full": false
+  },
+  "jr-opengym-wendy-s-gymnastics-wed-10-45am-holiday-pjs-": {
+   "firstSeen": "2026-11-17 11:10:44",
+   "full": false
+  },
+  "jr-opengym-wendy-s-gymnastics-wed-4-30pm-let-it-snow-": {
+   "firstSeen": "2026-11-17 11:10:44",
+   "full": false
+  },
+  "jr-opengym-wendy-s-gymnastics-wed-5-15pm-holiday-pjs-": {
+   "firstSeen": "2026-11-17 11:10:44",
+   "full": false
+  },
+  "jr-opengym-wendy-s-gymnastics-wed-9-15am-jump-jingle-": {
+   "firstSeen": "2026-11-17 11:10:44",
+   "full": false
   }
  },
  "watch": {
@@ -2126,8 +2222,8 @@
    "ok": true
   },
   "zoo": {
-   "hash": "b109088321ee698f",
-   "changedAt": "2026-11-12 15:02:16",
+   "hash": "8d8678cea1510977",
+   "changedAt": "2026-11-17 11:10:44",
    "ok": true
   },
   "metro-parks": {
@@ -2147,8 +2243,8 @@
    "ok": true
   },
   "dublin-dance": {
-   "hash": "484648137b1879e5",
-   "changedAt": "2026-11-16 22:57:49",
+   "hash": "baa3714127c2fb3d",
+   "changedAt": "2026-11-17 11:10:44",
    "ok": true
   },
   "learn-sing-grow": {
