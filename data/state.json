@@ -2193,6 +2193,38 @@
   "jr-opengym-wendy-s-gymnastics-wed-9-15am-jump-jingle-": {
    "firstSeen": "2026-11-17 11:10:44",
    "full": false
+  },
+  "rec-9784": {
+   "firstSeen": "2026-11-17 19:59:54",
+   "full": true
+  },
+  "rec-9785": {
+   "firstSeen": "2026-11-17 19:59:54",
+   "full": true
+  },
+  "rec-9786": {
+   "firstSeen": "2026-11-17 19:59:54",
+   "full": true
+  },
+  "rec-9788": {
+   "firstSeen": "2026-11-17 19:59:54",
+   "full": true
+  },
+  "rec-9778": {
+   "firstSeen": "2026-11-17 19:59:54",
+   "full": false
+  },
+  "rec-9779": {
+   "firstSeen": "2026-11-17 19:59:54",
+   "full": false
+  },
+  "rec-9782": {
+   "firstSeen": "2026-11-17 19:59:54",
+   "full": false
+  },
+  "jr-506905-22124733": {
+   "firstSeen": "2026-11-17 19:59:54",
+   "full": false
   }
  },
  "watch": {
@@ -2243,8 +2275,8 @@
    "ok": true
   },
   "dublin-dance": {
-   "hash": "baa3714127c2fb3d",
-   "changedAt": "2026-11-17 11:10:44",
+   "hash": "77f07c3f521b59dc",
+   "changedAt": "2026-11-17 19:59:54",
    "ok": true
   },
   "learn-sing-grow": {
