@@ -581,7 +581,7 @@
   },
   "rec-8076": {
    "firstSeen": "2026-10-30 23:09:05",
-   "full": false
+   "full": true
   },
   "rec-8980": {
    "firstSeen": "2026-10-30 23:09:05",
@@ -2225,6 +2225,18 @@
   "jr-506905-22124733": {
    "firstSeen": "2026-11-17 19:59:54",
    "full": false
+  },
+  "rec-9581": {
+   "firstSeen": "2026-11-18 15:38:44",
+   "full": false
+  },
+  "jr-506905-22122962": {
+   "firstSeen": "2026-11-18 15:38:44",
+   "full": false
+  },
+  "jr-506905-22123047": {
+   "firstSeen": "2026-11-18 15:38:44",
+   "full": false
   }
  },
  "watch": {
@@ -2275,8 +2287,8 @@
    "ok": true
   },
   "dublin-dance": {
-   "hash": "afc6bffcdcbdb8fd",
-   "changedAt": "2026-11-18 06:52:14",
+   "hash": "a77e4b6aa6b4d6d5",
+   "changedAt": "2026-11-18 15:38:44",
    "ok": true
   },
   "learn-sing-grow": {
@@ -2285,8 +2297,8 @@
    "ok": true
   },
   "lifetime-ua": {
-   "hash": "2e427816180ce88e",
-   "changedAt": "2026-11-03 14:33:20",
+   "hash": "69bce03de7185a14",
+   "changedAt": "2026-11-18 15:38:44",
    "ok": true
   },
   "camp-columbus": {
