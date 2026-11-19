@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-19 06:50:12",
+ "checkedAt": "2026-11-19 15:44:34",
  "baselineAt": "2026-10-30 23:09:05",
  "anchor": "Schiller Park",
  "neighborhoods": [
@@ -23,38 +23,38 @@
   "rec": {
    "label": "Columbus Rec & Parks",
    "ok": true,
-   "count": 308,
-   "lastSuccess": "2026-11-19 06:50:12"
+   "count": 309,
+   "lastSuccess": "2026-11-19 15:44:34"
   },
   "cct": {
    "label": "Columbus Children's Theatre",
    "ok": true,
    "count": 2,
-   "lastSuccess": "2026-11-19 06:50:12"
+   "lastSuccess": "2026-11-19 15:44:34"
   },
   "bexley": {
    "label": "Bexley Rec",
    "ok": true,
    "count": 1,
-   "lastSuccess": "2026-11-19 06:50:12"
+   "lastSuccess": "2026-11-19 15:44:34"
   },
   "recdesk": {
    "label": "Grandview Heights Rec",
    "ok": true,
    "count": 1,
-   "lastSuccess": "2026-11-19 06:50:12"
+   "lastSuccess": "2026-11-19 15:44:34"
   },
   "jackrabbit": {
    "label": "Wendy's and K Studio",
    "ok": true,
    "count": 87,
-   "lastSuccess": "2026-11-19 06:50:12"
+   "lastSuccess": "2026-11-19 15:44:34"
   },
   "library": {
    "label": "Columbus Metropolitan Library",
    "ok": true,
    "count": 18,
-   "lastSuccess": "2026-11-19 06:50:12"
+   "lastSuccess": "2026-11-19 15:44:34"
   }
  },
  "items": [
@@ -177,7 +177,7 @@
    "lon": -83.049880978134,
    "price": "$70.00 tuition",
    "status": "anytime",
-   "openings": 2,
+   "openings": 1,
    "opensAt": null,
    "closesAt": null,
    "notes": [],
@@ -497,7 +497,7 @@
    "lon": -83.034094847396,
    "price": "$109.00 tuition",
    "status": "anytime",
-   "openings": 3,
+   "openings": 2,
    "opensAt": null,
    "closesAt": null,
    "notes": [],
@@ -657,7 +657,7 @@
    "lon": -83.034094847396,
    "price": "$99.00 tuition",
    "status": "anytime",
-   "openings": 3,
+   "openings": 2,
    "opensAt": null,
    "closesAt": null,
    "notes": [],
@@ -2203,7 +2203,7 @@
    "firstSeen": "2026-10-30 23:09:05"
   },
   {
-   "id": "lib-main-library-family-storytime-sun-14-30",
+   "id": "lib-main-library-family-storytime-sun-13-30",
    "source": "library",
    "provider": "Columbus Metropolitan Library",
    "name": "Family Storytime",
@@ -2214,10 +2214,10 @@
    "days": [
     "Sun"
    ],
-   "startTime": "14:30",
-   "endTime": "15:00",
+   "startTime": "13:30",
+   "endTime": "14:00",
    "firstDate": "2026-11-22",
-   "lastDate": "2026-11-29",
+   "lastDate": "2026-12-06",
    "sessions": null,
    "location": "Main Library branch",
    "address": "96 S Grant Ave, Columbus, OH 43215",
@@ -2232,7 +2232,7 @@
    "url": "https://events.columbuslibrary.org/event/16464394",
    "miles": 1.5,
    "neighborhood": "Downtown & Near East",
-   "firstSeen": "2026-10-30 23:09:05"
+   "firstSeen": "2026-11-16 01:42:37"
   },
   {
    "id": "jr-opengym-wendy-s-gymnastics-mon-10-00am",
@@ -2334,41 +2334,6 @@
    "firstSeen": "2026-10-30 23:09:05"
   },
   {
-   "id": "rec-8288",
-   "source": "rec",
-   "provider": "Columbus Rec & Parks",
-   "name": "School's Out Fall (Holton)",
-   "category": "Other",
-   "ages": "Age at least 6 yrs but less than 12 yrs",
-   "ageMin": 72,
-   "ageMax": 144,
-   "days": [
-    "Mon",
-    "Tue",
-    "Wed",
-    "Fri"
-   ],
-   "startTime": "08:00",
-   "endTime": "17:00",
-   "firstDate": "2026-11-23",
-   "lastDate": "2026-11-27",
-   "sessions": 4,
-   "location": "Holton Park",
-   "address": "303 N. Eureka Ave, Columbus, OH 43204",
-   "lat": 39.9617373,
-   "lon": -83.0664297,
-   "price": "Free",
-   "status": "open",
-   "openings": 7,
-   "opensAt": "2026-10-27 12:30:00",
-   "closesAt": null,
-   "notes": [],
-   "url": "https://anc.apm.activecommunities.com/columbusrecparks1/activity/search/detail/8288?onlineSiteId=0&from_original_cui=true",
-   "miles": 4.1,
-   "neighborhood": "Franklinton & West Side",
-   "firstSeen": "2026-10-30 23:09:05"
-  },
-  {
    "id": "rec-9656",
    "source": "rec",
    "provider": "Columbus Rec & Parks",
@@ -2429,7 +2394,7 @@
    "lon": null,
    "price": "Free",
    "status": "open",
-   "openings": 20,
+   "openings": 19,
    "opensAt": "2026-09-08 12:30:00",
    "closesAt": null,
    "notes": [],
@@ -2693,7 +2658,7 @@
    "lon": -82.9424254,
    "price": "Free",
    "status": "open",
-   "openings": 101,
+   "openings": 92,
    "opensAt": "2026-09-08 12:30:00",
    "closesAt": null,
    "notes": [],
@@ -2895,6 +2860,38 @@
    "miles": 1.5,
    "neighborhood": "Downtown & Near East",
    "firstSeen": "2026-11-08 01:13:24"
+  },
+  {
+   "id": "lib-main-library-family-storytime-sun-14-30",
+   "source": "library",
+   "provider": "Columbus Metropolitan Library",
+   "name": "Family Storytime",
+   "category": "Story time",
+   "ages": "Preschool and family",
+   "ageMin": 0,
+   "ageMax": null,
+   "days": [
+    "Sun"
+   ],
+   "startTime": "14:30",
+   "endTime": "15:00",
+   "firstDate": "2026-11-29",
+   "lastDate": "2026-11-29",
+   "sessions": null,
+   "location": "Main Library branch",
+   "address": "96 S Grant Ave, Columbus, OH 43215",
+   "lat": 39.961199462733,
+   "lon": -82.990580352092,
+   "price": "Free",
+   "status": "drop-in",
+   "openings": null,
+   "opensAt": null,
+   "closesAt": null,
+   "notes": [],
+   "url": "https://events.columbuslibrary.org/event/16464395",
+   "miles": 1.5,
+   "neighborhood": "Downtown & Near East",
+   "firstSeen": "2026-10-30 23:09:05"
   },
   {
    "id": "lib-main-library-family-storytime-sweet-as-pie-sun-13-30",
@@ -3189,38 +3186,6 @@
    "miles": 10.3,
    "neighborhood": "Northwest & Dublin",
    "firstSeen": "2026-10-30 23:09:05"
-  },
-  {
-   "id": "lib-main-library-family-storytime-sun-13-30",
-   "source": "library",
-   "provider": "Columbus Metropolitan Library",
-   "name": "Family Storytime",
-   "category": "Story time",
-   "ages": "Preschool and family",
-   "ageMin": 0,
-   "ageMax": null,
-   "days": [
-    "Sun"
-   ],
-   "startTime": "13:30",
-   "endTime": "14:00",
-   "firstDate": "2026-12-06",
-   "lastDate": "2026-12-06",
-   "sessions": null,
-   "location": "Main Library branch",
-   "address": "96 S Grant Ave, Columbus, OH 43215",
-   "lat": 39.961199462733,
-   "lon": -82.990580352092,
-   "price": "Free",
-   "status": "drop-in",
-   "openings": null,
-   "opensAt": null,
-   "closesAt": null,
-   "notes": [],
-   "url": "https://events.columbuslibrary.org/event/17632284",
-   "miles": 1.5,
-   "neighborhood": "Downtown & Near East",
-   "firstSeen": "2026-11-16 01:42:37"
   },
   {
    "id": "rec-7506",
@@ -3630,7 +3595,7 @@
    "lon": -83.034094847396,
    "price": "$15.00 tuition",
    "status": "open",
-   "openings": 16,
+   "openings": 15,
    "opensAt": null,
    "closesAt": null,
    "notes": [],
@@ -4115,7 +4080,7 @@
    "lon": -83.034094847396,
    "price": "$15.00 tuition",
    "status": "open",
-   "openings": 16,
+   "openings": 15,
    "opensAt": null,
    "closesAt": null,
    "notes": [],
@@ -4563,7 +4528,7 @@
    "lon": -83.044313820481,
    "price": "See listing",
    "status": "open",
-   "openings": 16,
+   "openings": 15,
    "opensAt": null,
    "closesAt": null,
    "notes": [],
@@ -4603,38 +4568,6 @@
    "miles": 10.3,
    "neighborhood": "East Side",
    "firstSeen": "2026-11-02 01:19:31"
-  },
-  {
-   "id": "rec-9469",
-   "source": "rec",
-   "provider": "Columbus Rec & Parks",
-   "name": "Howard Holiday Toy Giveaway",
-   "category": "Other",
-   "ages": "Age at least 3 yrs but less than 13 yrs",
-   "ageMin": 36,
-   "ageMax": 156,
-   "days": [
-    "Sat"
-   ],
-   "startTime": "13:00",
-   "endTime": "16:00",
-   "firstDate": "2026-12-19",
-   "lastDate": "2026-12-19",
-   "sessions": 1,
-   "location": "2505 North Cassady Avenue",
-   "address": "2505 North Cassady Avenue",
-   "lat": 40.021280980542,
-   "lon": -82.928756725128,
-   "price": "Free",
-   "status": "open",
-   "openings": 1,
-   "opensAt": "2026-09-08 12:30:00",
-   "closesAt": "2026-12-12 23:59:00",
-   "notes": [],
-   "url": "https://anc.apm.activecommunities.com/columbusrecparks1/activity/search/detail/9469?onlineSiteId=0&from_original_cui=true",
-   "miles": 6.6,
-   "neighborhood": "Linden & Northeast",
-   "firstSeen": "2026-10-30 23:09:05"
   },
   {
    "id": "rec-9393",
@@ -4933,7 +4866,7 @@
    "lon": -83.097336833861,
    "price": "$50.00 resident, $60.00 non-resident",
    "status": "open",
-   "openings": 19,
+   "openings": 18,
    "opensAt": "2026-11-16 12:00:00",
    "closesAt": null,
    "notes": [],
@@ -5192,7 +5125,7 @@
    "lon": -82.9879,
    "price": "$50.00 resident, $60.00 non-resident",
    "status": "open",
-   "openings": 12,
+   "openings": 11,
    "opensAt": "2026-10-06 12:30:00",
    "closesAt": "2026-11-22 23:59:00",
    "notes": [],
@@ -7231,7 +7164,7 @@
    "lon": -82.928756725128,
    "price": "$50.00 resident, $60.00 non-resident",
    "status": "open",
-   "openings": 13,
+   "openings": 12,
    "opensAt": "2026-10-20 12:30:00",
    "closesAt": "2026-11-21 23:59:00",
    "notes": [],
@@ -10143,7 +10076,7 @@
    "lon": null,
    "price": "$50.00 resident, $60.00 non-resident",
    "status": "open",
-   "openings": 48,
+   "openings": 47,
    "opensAt": "2026-10-20 12:30:00",
    "closesAt": "2026-11-28 23:59:00",
    "notes": [],
@@ -10239,7 +10172,7 @@
    "lon": null,
    "price": "$50.00 resident, $60.00 non-resident",
    "status": "open",
-   "openings": 6,
+   "openings": 5,
    "opensAt": "2026-10-20 12:30:00",
    "closesAt": "2026-11-28 23:59:00",
    "notes": [],
@@ -13050,7 +12983,7 @@
    "lon": -83.087192475101,
    "miles": 12.6,
    "neighborhood": "Northwest & Dublin",
-   "changedAt": "2026-11-19 06:50:12",
+   "changedAt": "2026-11-19 15:44:34",
    "watchOk": true
   },
   {
