@@ -1071,7 +1071,7 @@
   },
   "rec-8162": {
    "firstSeen": "2026-10-30 23:09:05",
-   "full": false
+   "full": true
   },
   "rec-8248": {
    "firstSeen": "2026-10-30 23:09:05",
@@ -2237,6 +2237,242 @@
   "jr-506905-22123047": {
    "firstSeen": "2026-11-18 15:38:44",
    "full": false
+  },
+  "rec-9378": {
+   "firstSeen": "2026-11-18 21:37:51",
+   "full": false
+  },
+  "rec-9379": {
+   "firstSeen": "2026-11-18 21:37:51",
+   "full": false
+  },
+  "rec-9380": {
+   "firstSeen": "2026-11-18 21:37:51",
+   "full": false
+  },
+  "rec-9381": {
+   "firstSeen": "2026-11-18 21:37:51",
+   "full": false
+  },
+  "rec-9382": {
+   "firstSeen": "2026-11-18 21:37:51",
+   "full": false
+  },
+  "rec-9383": {
+   "firstSeen": "2026-11-18 21:37:51",
+   "full": false
+  },
+  "rec-9384": {
+   "firstSeen": "2026-11-18 21:37:51",
+   "full": false
+  },
+  "rec-9497": {
+   "firstSeen": "2026-11-18 21:37:51",
+   "full": false
+  },
+  "rec-9499": {
+   "firstSeen": "2026-11-18 21:37:51",
+   "full": false
+  },
+  "rec-9495": {
+   "firstSeen": "2026-11-18 21:37:51",
+   "full": false
+  },
+  "rec-9496": {
+   "firstSeen": "2026-11-18 21:37:51",
+   "full": false
+  },
+  "rec-9506": {
+   "firstSeen": "2026-11-18 21:37:51",
+   "full": false
+  },
+  "rec-9502": {
+   "firstSeen": "2026-11-18 21:37:51",
+   "full": false
+  },
+  "rec-9503": {
+   "firstSeen": "2026-11-18 21:37:51",
+   "full": false
+  },
+  "rec-9504": {
+   "firstSeen": "2026-11-18 21:37:51",
+   "full": false
+  },
+  "rec-9509": {
+   "firstSeen": "2026-11-18 21:37:51",
+   "full": false
+  },
+  "rec-9510": {
+   "firstSeen": "2026-11-18 21:37:51",
+   "full": false
+  },
+  "rec-9511": {
+   "firstSeen": "2026-11-18 21:37:51",
+   "full": false
+  },
+  "rec-9512": {
+   "firstSeen": "2026-11-18 21:37:51",
+   "full": false
+  },
+  "rec-9516": {
+   "firstSeen": "2026-11-18 21:37:51",
+   "full": false
+  },
+  "rec-9514": {
+   "firstSeen": "2026-11-18 21:37:51",
+   "full": false
+  },
+  "rec-9515": {
+   "firstSeen": "2026-11-18 21:37:51",
+   "full": false
+  },
+  "rec-9520": {
+   "firstSeen": "2026-11-18 21:37:51",
+   "full": false
+  },
+  "rec-9519": {
+   "firstSeen": "2026-11-18 21:37:51",
+   "full": false
+  },
+  "rec-9522": {
+   "firstSeen": "2026-11-18 21:37:51",
+   "full": false
+  },
+  "rec-9521": {
+   "firstSeen": "2026-11-18 21:37:51",
+   "full": false
+  },
+  "rec-9524": {
+   "firstSeen": "2026-11-18 21:37:51",
+   "full": false
+  },
+  "rec-9525": {
+   "firstSeen": "2026-11-18 21:37:51",
+   "full": false
+  },
+  "rec-9527": {
+   "firstSeen": "2026-11-18 21:37:51",
+   "full": false
+  },
+  "rec-9526": {
+   "firstSeen": "2026-11-18 21:37:51",
+   "full": false
+  },
+  "rec-9533": {
+   "firstSeen": "2026-11-18 21:37:51",
+   "full": false
+  },
+  "rec-9530": {
+   "firstSeen": "2026-11-18 21:37:51",
+   "full": false
+  },
+  "rec-9529": {
+   "firstSeen": "2026-11-18 21:37:51",
+   "full": false
+  },
+  "rec-9531": {
+   "firstSeen": "2026-11-18 21:37:51",
+   "full": false
+  },
+  "rec-9535": {
+   "firstSeen": "2026-11-18 21:37:51",
+   "full": false
+  },
+  "rec-9536": {
+   "firstSeen": "2026-11-18 21:37:51",
+   "full": false
+  },
+  "rec-9537": {
+   "firstSeen": "2026-11-18 21:37:51",
+   "full": false
+  },
+  "rec-9538": {
+   "firstSeen": "2026-11-18 21:37:51",
+   "full": false
+  },
+  "rec-9540": {
+   "firstSeen": "2026-11-18 21:37:51",
+   "full": false
+  },
+  "rec-9541": {
+   "firstSeen": "2026-11-18 21:37:51",
+   "full": false
+  },
+  "rec-9542": {
+   "firstSeen": "2026-11-18 21:37:51",
+   "full": false
+  },
+  "rec-9543": {
+   "firstSeen": "2026-11-18 21:37:51",
+   "full": false
+  },
+  "rec-9354": {
+   "firstSeen": "2026-11-18 21:37:51",
+   "full": false
+  },
+  "rec-9355": {
+   "firstSeen": "2026-11-18 21:37:51",
+   "full": false
+  },
+  "rec-9364": {
+   "firstSeen": "2026-11-18 21:37:51",
+   "full": false
+  },
+  "rec-9365": {
+   "firstSeen": "2026-11-18 21:37:51",
+   "full": false
+  },
+  "rec-9366": {
+   "firstSeen": "2026-11-18 21:37:51",
+   "full": false
+  },
+  "rec-9367": {
+   "firstSeen": "2026-11-18 21:37:51",
+   "full": false
+  },
+  "rec-9368": {
+   "firstSeen": "2026-11-18 21:37:51",
+   "full": false
+  },
+  "rec-9369": {
+   "firstSeen": "2026-11-18 21:37:51",
+   "full": false
+  },
+  "rec-9370": {
+   "firstSeen": "2026-11-18 21:37:51",
+   "full": false
+  },
+  "rec-9371": {
+   "firstSeen": "2026-11-18 21:37:51",
+   "full": false
+  },
+  "rec-9373": {
+   "firstSeen": "2026-11-18 21:37:51",
+   "full": false
+  },
+  "rec-9372": {
+   "firstSeen": "2026-11-18 21:37:51",
+   "full": false
+  },
+  "rec-9374": {
+   "firstSeen": "2026-11-18 21:37:51",
+   "full": false
+  },
+  "rec-9375": {
+   "firstSeen": "2026-11-18 21:37:51",
+   "full": false
+  },
+  "rec-9376": {
+   "firstSeen": "2026-11-18 21:37:51",
+   "full": false
+  },
+  "rec-9377": {
+   "firstSeen": "2026-11-18 21:37:51",
+   "full": false
+  },
+  "jr-506905-22123414": {
+   "firstSeen": "2026-11-18 21:37:51",
+   "full": false
   }
  },
  "watch": {
@@ -2266,8 +2502,8 @@
    "ok": true
   },
   "zoo": {
-   "hash": "b109088321ee698f",
-   "changedAt": "2026-11-18 06:52:14",
+   "hash": "8d8678cea1510977",
+   "changedAt": "2026-11-18 21:37:51",
    "ok": true
   },
   "metro-parks": {
@@ -2277,8 +2513,8 @@
    "error": "HTTP 403 for https://ohfranklinctyweb.myvscloud.com/wbwsc/ohfranklinctywt.wsc/search.html?module=AR&type=preschool"
   },
   "fpc": {
-   "hash": "8ccda856dfaa791d",
-   "changedAt": "2026-11-18 06:52:14",
+   "hash": "9de79095e2ca6306",
+   "changedAt": "2026-11-18 21:37:51",
    "ok": true
   },
   "ua-rec": {
@@ -2287,8 +2523,8 @@
    "ok": true
   },
   "dublin-dance": {
-   "hash": "a77e4b6aa6b4d6d5",
-   "changedAt": "2026-11-18 15:38:44",
+   "hash": "69eca847f8cac297",
+   "changedAt": "2026-11-18 21:37:51",
    "ok": true
   },
   "learn-sing-grow": {
