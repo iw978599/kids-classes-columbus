@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-18 21:37:51",
+ "checkedAt": "2026-11-19 06:50:12",
  "baselineAt": "2026-10-30 23:09:05",
  "anchor": "Schiller Park",
  "neighborhoods": [
@@ -23,38 +23,38 @@
   "rec": {
    "label": "Columbus Rec & Parks",
    "ok": true,
-   "count": 310,
-   "lastSuccess": "2026-11-18 21:37:51"
+   "count": 308,
+   "lastSuccess": "2026-11-19 06:50:12"
   },
   "cct": {
    "label": "Columbus Children's Theatre",
    "ok": true,
    "count": 2,
-   "lastSuccess": "2026-11-18 21:37:51"
+   "lastSuccess": "2026-11-19 06:50:12"
   },
   "bexley": {
    "label": "Bexley Rec",
    "ok": true,
    "count": 1,
-   "lastSuccess": "2026-11-18 21:37:51"
+   "lastSuccess": "2026-11-19 06:50:12"
   },
   "recdesk": {
    "label": "Grandview Heights Rec",
    "ok": true,
    "count": 1,
-   "lastSuccess": "2026-11-18 21:37:51"
+   "lastSuccess": "2026-11-19 06:50:12"
   },
   "jackrabbit": {
    "label": "Wendy's and K Studio",
    "ok": true,
-   "count": 86,
-   "lastSuccess": "2026-11-18 21:37:51"
+   "count": 87,
+   "lastSuccess": "2026-11-19 06:50:12"
   },
   "library": {
    "label": "Columbus Metropolitan Library",
    "ok": true,
    "count": 18,
-   "lastSuccess": "2026-11-18 21:37:51"
+   "lastSuccess": "2026-11-19 06:50:12"
   }
  },
  "items": [
@@ -1755,6 +1755,38 @@
    "firstSeen": "2026-10-30 23:09:05"
   },
   {
+   "id": "jr-506905-22125146",
+   "source": "jackrabbit",
+   "provider": "Wendy's Gymnastics",
+   "name": "TUMBLE TOT 3&4 - Wed @ 5:15pm",
+   "category": "Gymnastics",
+   "ages": "2 yrs 10 mos - 4 yrs",
+   "ageMin": 34,
+   "ageMax": 60,
+   "days": [
+    "Wed"
+   ],
+   "startTime": "17:15",
+   "endTime": "17:55",
+   "firstDate": "2026-08-31",
+   "lastDate": "2027-05-28",
+   "sessions": null,
+   "location": "Wendy's Gymnastics",
+   "address": "2460 Wood Ave, Columbus, OH 43221",
+   "lat": 40.009629846106,
+   "lon": -83.034094847396,
+   "price": "$99.00 tuition",
+   "status": "anytime",
+   "openings": 1,
+   "opensAt": null,
+   "closesAt": null,
+   "notes": [],
+   "url": "https://app.jackrabbitclass.com/reg.asp?id=506905&hc=&initEmpty=&hdrColor=&WL=0&preLoadClassID=22125146&loc=",
+   "miles": 5.3,
+   "neighborhood": "Upper Arlington",
+   "firstSeen": "2026-10-30 23:09:05"
+  },
+  {
    "id": "jr-506905-22124731",
    "source": "jackrabbit",
    "provider": "Wendy's Gymnastics",
@@ -1851,6 +1883,38 @@
    "firstSeen": "2026-10-30 23:09:05"
   },
   {
+   "id": "jr-506905-22123065",
+   "source": "jackrabbit",
+   "provider": "Wendy's Gymnastics",
+   "name": "TUMBLE TOT 4&5 - Wed @ 10:00am",
+   "category": "Gymnastics",
+   "ages": "3 yrs 10 mos - 5 yrs",
+   "ageMin": 46,
+   "ageMax": 72,
+   "days": [
+    "Wed"
+   ],
+   "startTime": "10:00",
+   "endTime": "10:40",
+   "firstDate": "2026-08-31",
+   "lastDate": "2027-05-28",
+   "sessions": null,
+   "location": "Wendy's Gymnastics",
+   "address": "2460 Wood Ave, Columbus, OH 43221",
+   "lat": 40.009629846106,
+   "lon": -83.034094847396,
+   "price": "$99.00 tuition",
+   "status": "anytime",
+   "openings": 1,
+   "opensAt": null,
+   "closesAt": null,
+   "notes": [],
+   "url": "https://app.jackrabbitclass.com/reg.asp?id=506905&hc=&initEmpty=&hdrColor=&WL=0&preLoadClassID=22123065&loc=",
+   "miles": 5.3,
+   "neighborhood": "Upper Arlington",
+   "firstSeen": "2026-11-19 06:50:12"
+  },
+  {
    "id": "jr-506905-22416575",
    "source": "jackrabbit",
    "provider": "Wendy's Gymnastics",
@@ -1915,70 +1979,6 @@
    "firstSeen": "2026-10-30 23:09:05"
   },
   {
-   "id": "lib-main-library-family-storytime-wed-10-30",
-   "source": "library",
-   "provider": "Columbus Metropolitan Library",
-   "name": "Family Storytime",
-   "category": "Story time",
-   "ages": "Preschool and family",
-   "ageMin": 0,
-   "ageMax": null,
-   "days": [
-    "Wed"
-   ],
-   "startTime": "10:30",
-   "endTime": "11:00",
-   "firstDate": "2026-11-18",
-   "lastDate": "2026-12-02",
-   "sessions": null,
-   "location": "Main Library branch",
-   "address": "96 S Grant Ave, Columbus, OH 43215",
-   "lat": 39.961199462733,
-   "lon": -82.990580352092,
-   "price": "Free",
-   "status": "drop-in",
-   "openings": null,
-   "opensAt": null,
-   "closesAt": null,
-   "notes": [],
-   "url": "https://events.columbuslibrary.org/event/16464378",
-   "miles": 1.5,
-   "neighborhood": "Downtown & Near East",
-   "firstSeen": "2026-10-30 23:09:05"
-  },
-  {
-   "id": "lib-marion-franklin-kids-create-wed-16-30",
-   "source": "library",
-   "provider": "Columbus Metropolitan Library",
-   "name": "Kids Create",
-   "category": "Story time",
-   "ages": "Preschool and family",
-   "ageMin": 0,
-   "ageMax": null,
-   "days": [
-    "Wed"
-   ],
-   "startTime": "16:30",
-   "endTime": "17:30",
-   "firstDate": "2026-11-18",
-   "lastDate": "2026-12-02",
-   "sessions": null,
-   "location": "Marion-Franklin branch",
-   "address": "2740 Lockbourne Rd, Columbus, OH 43207",
-   "lat": 39.910017375539,
-   "lon": -82.96633291529,
-   "price": "Free",
-   "status": "drop-in",
-   "openings": null,
-   "opensAt": null,
-   "closesAt": null,
-   "notes": [],
-   "url": "https://events.columbuslibrary.org/event/16340542",
-   "miles": 2.5,
-   "neighborhood": "South Side",
-   "firstSeen": "2026-10-30 23:09:05"
-  },
-  {
    "id": "lib-main-library-family-storytime-thu-10-30",
    "source": "library",
    "provider": "Columbus Metropolitan Library",
@@ -2008,102 +2008,6 @@
    "url": "https://events.columbuslibrary.org/event/16464382",
    "miles": 1.5,
    "neighborhood": "Downtown & Near East",
-   "firstSeen": "2026-10-30 23:09:05"
-  },
-  {
-   "id": "rec-8287",
-   "source": "rec",
-   "provider": "Columbus Rec & Parks",
-   "name": "Glenwood Thanksgiving Dinner and Resource Fair",
-   "category": "Other",
-   "ages": "Age at least 1 yr but less than 100 yrs",
-   "ageMin": 12,
-   "ageMax": 1200,
-   "days": [
-    "Thu"
-   ],
-   "startTime": "17:30",
-   "endTime": "19:30",
-   "firstDate": "2026-11-19",
-   "lastDate": "2026-11-19",
-   "sessions": 1,
-   "location": "Glenwood Park",
-   "address": "1888 Fairmont Ave, Columbus, OH 43223",
-   "lat": 39.9556169,
-   "lon": -83.048891,
-   "price": "Free",
-   "status": "open",
-   "openings": null,
-   "opensAt": "2026-09-08 12:30:00",
-   "closesAt": null,
-   "notes": [],
-   "url": "https://anc.apm.activecommunities.com/columbusrecparks1/activity/search/detail/8287?onlineSiteId=0&from_original_cui=true",
-   "miles": 3.1,
-   "neighborhood": "Franklinton & West Side",
-   "firstSeen": "2026-10-30 23:09:05"
-  },
-  {
-   "id": "jr-opengym-wendy-s-gymnastics-thu-6-30pm",
-   "source": "jackrabbit",
-   "provider": "Wendy's Gymnastics",
-   "name": "Open gym - Thurs @ 6:30pm",
-   "category": "Gymnastics",
-   "ages": "1 yr - 12 yrs",
-   "ageMin": 12,
-   "ageMax": 156,
-   "days": [
-    "Thu"
-   ],
-   "startTime": "18:30",
-   "endTime": "19:15",
-   "firstDate": "2026-11-19",
-   "lastDate": "2026-11-19",
-   "sessions": null,
-   "location": "Wendy's Gymnastics",
-   "address": "2460 Wood Ave, Columbus, OH 43221",
-   "lat": 40.009629846106,
-   "lon": -83.034094847396,
-   "price": "$15.00 tuition",
-   "status": "open",
-   "openings": 7,
-   "opensAt": null,
-   "closesAt": null,
-   "notes": [],
-   "url": "https://app.jackrabbitclass.com/reg.asp?id=506905&hc=&initEmpty=&hdrColor=&WL=0&preLoadClassID=22429887&loc=",
-   "miles": 5.3,
-   "neighborhood": "Upper Arlington",
-   "firstSeen": "2026-10-30 23:09:05"
-  },
-  {
-   "id": "rec-7493",
-   "source": "rec",
-   "provider": "Columbus Rec & Parks",
-   "name": "Open Hours - Getting Ready for Winter",
-   "category": "Other",
-   "ages": "All ages",
-   "ageMin": 0,
-   "ageMax": null,
-   "days": [
-    "Thu"
-   ],
-   "startTime": "15:30",
-   "endTime": "19:30",
-   "firstDate": "2026-11-19",
-   "lastDate": "2026-11-19",
-   "sessions": 1,
-   "location": "Wyandot Lodge - 3228 Indian Village Rd. Columbus 43221",
-   "address": "Wyandot Lodge - 3228 Indian Village Rd. Columbus 43221",
-   "lat": 40.020126793376,
-   "lon": -83.097444097243,
-   "price": "Free",
-   "status": "open",
-   "openings": null,
-   "opensAt": "2026-09-08 12:30:00",
-   "closesAt": null,
-   "notes": [],
-   "url": "https://anc.apm.activecommunities.com/columbusrecparks1/activity/search/detail/7493?onlineSiteId=0&from_original_cui=true",
-   "miles": 7.8,
-   "neighborhood": "Upper Arlington",
    "firstSeen": "2026-10-30 23:09:05"
   },
   {
@@ -2353,7 +2257,7 @@
    "lon": -83.034094847396,
    "price": "$15.00 tuition",
    "status": "open",
-   "openings": 15,
+   "openings": 14,
    "opensAt": null,
    "closesAt": null,
    "notes": [],
@@ -2789,7 +2693,7 @@
    "lon": -82.9424254,
    "price": "Free",
    "status": "open",
-   "openings": 104,
+   "openings": 101,
    "opensAt": "2026-09-08 12:30:00",
    "closesAt": null,
    "notes": [],
@@ -2797,6 +2701,38 @@
    "miles": 5.6,
    "neighborhood": "Other locations",
    "firstSeen": "2026-11-02 21:56:43"
+  },
+  {
+   "id": "lib-main-library-family-storytime-wed-10-30",
+   "source": "library",
+   "provider": "Columbus Metropolitan Library",
+   "name": "Family Storytime",
+   "category": "Story time",
+   "ages": "Preschool and family",
+   "ageMin": 0,
+   "ageMax": null,
+   "days": [
+    "Wed"
+   ],
+   "startTime": "10:30",
+   "endTime": "11:00",
+   "firstDate": "2026-11-25",
+   "lastDate": "2026-12-09",
+   "sessions": null,
+   "location": "Main Library branch",
+   "address": "96 S Grant Ave, Columbus, OH 43215",
+   "lat": 39.961199462733,
+   "lon": -82.990580352092,
+   "price": "Free",
+   "status": "drop-in",
+   "openings": null,
+   "opensAt": null,
+   "closesAt": null,
+   "notes": [],
+   "url": "https://events.columbuslibrary.org/event/16464379",
+   "miles": 1.5,
+   "neighborhood": "Downtown & Near East",
+   "firstSeen": "2026-10-30 23:09:05"
   },
   {
    "id": "lib-main-library-family-storytime-sweet-as-pie-wed-10-30",
@@ -3157,6 +3093,38 @@
    "miles": 5,
    "neighborhood": "Short North & Campus",
    "firstSeen": "2026-11-06 14:29:12"
+  },
+  {
+   "id": "lib-marion-franklin-kids-create-wed-16-30",
+   "source": "library",
+   "provider": "Columbus Metropolitan Library",
+   "name": "Kids Create",
+   "category": "Story time",
+   "ages": "Preschool and family",
+   "ageMin": 0,
+   "ageMax": null,
+   "days": [
+    "Wed"
+   ],
+   "startTime": "16:30",
+   "endTime": "17:30",
+   "firstDate": "2026-12-02",
+   "lastDate": "2026-12-09",
+   "sessions": null,
+   "location": "Marion-Franklin branch",
+   "address": "2740 Lockbourne Rd, Columbus, OH 43207",
+   "lat": 39.910017375539,
+   "lon": -82.96633291529,
+   "price": "Free",
+   "status": "drop-in",
+   "openings": null,
+   "opensAt": null,
+   "closesAt": null,
+   "notes": [],
+   "url": "https://events.columbuslibrary.org/event/16340543",
+   "miles": 2.5,
+   "neighborhood": "South Side",
+   "firstSeen": "2026-10-30 23:09:05"
   },
   {
    "id": "rec-9713",
@@ -3630,7 +3598,7 @@
    "lon": -83.034094847396,
    "price": "$15.00 tuition",
    "status": "open",
-   "openings": 15,
+   "openings": 12,
    "opensAt": null,
    "closesAt": null,
    "notes": [],
@@ -13082,7 +13050,7 @@
    "lon": -83.087192475101,
    "miles": 12.6,
    "neighborhood": "Northwest & Dublin",
-   "changedAt": "2026-11-18 21:37:51",
+   "changedAt": "2026-11-19 06:50:12",
    "watchOk": true
   },
   {
