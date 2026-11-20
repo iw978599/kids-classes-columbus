@@ -2196,19 +2196,23 @@
   },
   "rec-9784": {
    "firstSeen": "2026-11-17 19:59:54",
-   "full": true
+   "full": false,
+   "spotOpenedAt": "2026-11-19 21:23:16"
   },
   "rec-9785": {
    "firstSeen": "2026-11-17 19:59:54",
-   "full": true
+   "full": false,
+   "spotOpenedAt": "2026-11-19 21:23:16"
   },
   "rec-9786": {
    "firstSeen": "2026-11-17 19:59:54",
-   "full": true
+   "full": false,
+   "spotOpenedAt": "2026-11-19 21:23:16"
   },
   "rec-9788": {
    "firstSeen": "2026-11-17 19:59:54",
-   "full": true
+   "full": false,
+   "spotOpenedAt": "2026-11-19 21:23:16"
   },
   "rec-9778": {
    "firstSeen": "2026-11-17 19:59:54",
@@ -2480,7 +2484,8 @@
   },
   "rec-9976": {
    "firstSeen": "2026-11-19 15:44:34",
-   "full": true
+   "full": false,
+   "spotOpenedAt": "2026-11-19 21:23:16"
   }
  },
  "watch": {
@@ -2521,8 +2526,8 @@
    "error": "HTTP 403 for https://ohfranklinctyweb.myvscloud.com/wbwsc/ohfranklinctywt.wsc/search.html?module=AR&type=preschool"
   },
   "fpc": {
-   "hash": "9de79095e2ca6306",
-   "changedAt": "2026-11-18 21:37:51",
+   "hash": "9ed1633bcc465800",
+   "changedAt": "2026-11-19 21:23:16",
    "ok": true
   },
   "ua-rec": {
@@ -2531,8 +2536,8 @@
    "ok": true
   },
   "dublin-dance": {
-   "hash": "03c59b76ffb1b6ce",
-   "changedAt": "2026-11-19 15:44:34",
+   "hash": "cc368cd4f4e3c45a",
+   "changedAt": "2026-11-19 21:23:16",
    "ok": true
   },
   "learn-sing-grow": {
@@ -2561,8 +2566,8 @@
    "ok": true
   },
   "camp-fpc": {
-   "hash": "d1346cd78b8f379a",
-   "changedAt": "2026-11-13 20:28:46",
+   "hash": "05651e842aa01164",
+   "changedAt": "2026-11-19 21:23:16",
    "ok": true
   },
   "camp-cct": {
