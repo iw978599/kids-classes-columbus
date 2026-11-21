@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-20 15:28:41",
+ "checkedAt": "2026-11-20 21:25:31",
  "baselineAt": "2026-10-30 23:09:05",
  "anchor": "Schiller Park",
  "neighborhoods": [
@@ -24,37 +24,37 @@
    "label": "Columbus Rec & Parks",
    "ok": true,
    "count": 328,
-   "lastSuccess": "2026-11-20 15:28:41"
+   "lastSuccess": "2026-11-20 21:25:31"
   },
   "cct": {
    "label": "Columbus Children's Theatre",
    "ok": true,
-   "count": 2,
-   "lastSuccess": "2026-11-20 15:28:41"
+   "count": 8,
+   "lastSuccess": "2026-11-20 21:25:31"
   },
   "bexley": {
    "label": "Bexley Rec",
    "ok": true,
    "count": 1,
-   "lastSuccess": "2026-11-20 15:28:41"
+   "lastSuccess": "2026-11-20 21:25:31"
   },
   "recdesk": {
    "label": "Grandview Heights Rec",
    "ok": true,
    "count": 1,
-   "lastSuccess": "2026-11-20 15:28:41"
+   "lastSuccess": "2026-11-20 21:25:31"
   },
   "jackrabbit": {
    "label": "Wendy's and K Studio",
    "ok": true,
    "count": 91,
-   "lastSuccess": "2026-11-20 15:28:41"
+   "lastSuccess": "2026-11-20 21:25:31"
   },
   "library": {
    "label": "Columbus Metropolitan Library",
    "ok": true,
    "count": 18,
-   "lastSuccess": "2026-11-20 15:28:41"
+   "lastSuccess": "2026-11-20 21:25:31"
   }
  },
  "items": [
@@ -2289,7 +2289,7 @@
    "lon": -83.034094847396,
    "price": "$15.00 tuition",
    "status": "open",
-   "openings": 18,
+   "openings": 16,
    "opensAt": null,
    "closesAt": null,
    "notes": [],
@@ -2359,7 +2359,7 @@
    "lon": -83.0183878,
    "price": "Free",
    "status": "open",
-   "openings": 2,
+   "openings": 1,
    "opensAt": "2026-10-27 12:30:00",
    "closesAt": null,
    "notes": [],
@@ -2394,7 +2394,7 @@
    "lon": null,
    "price": "Free",
    "status": "open",
-   "openings": 19,
+   "openings": 20,
    "opensAt": "2026-09-08 12:30:00",
    "closesAt": null,
    "notes": [],
@@ -2437,41 +2437,6 @@
    "miles": 3.3,
    "neighborhood": "Other locations",
    "firstSeen": "2026-11-05 15:02:47"
-  },
-  {
-   "id": "rec-6348",
-   "source": "rec",
-   "provider": "Columbus Rec & Parks",
-   "name": "School's Out-Driving Park-Fall",
-   "category": "Other",
-   "ages": "Age at least 6 yrs but less than 13 yrs",
-   "ageMin": 72,
-   "ageMax": 156,
-   "days": [
-    "Mon",
-    "Tue",
-    "Wed",
-    "Fri"
-   ],
-   "startTime": "08:00",
-   "endTime": "16:00",
-   "firstDate": "2026-11-23",
-   "lastDate": "2026-11-27",
-   "sessions": 4,
-   "location": "Driving Park",
-   "address": "1100 Rhoads Ave., Columbus, OH 43206",
-   "lat": 39.9453937,
-   "lon": -82.9484753,
-   "price": "Free",
-   "status": "open",
-   "openings": 2,
-   "opensAt": "2026-08-31 12:30:00",
-   "closesAt": null,
-   "notes": [],
-   "url": "https://anc.apm.activecommunities.com/columbusrecparks1/activity/search/detail/6348?onlineSiteId=0&from_original_cui=true",
-   "miles": 2.4,
-   "neighborhood": "East Side",
-   "firstSeen": "2026-10-30 23:09:05"
   },
   {
    "id": "rec-7173",
@@ -2658,7 +2623,7 @@
    "lon": -83.034094847396,
    "price": "$15.00 tuition",
    "status": "open",
-   "openings": 8,
+   "openings": 7,
    "opensAt": null,
    "closesAt": null,
    "notes": [],
@@ -2690,7 +2655,7 @@
    "lon": -82.9424254,
    "price": "Free",
    "status": "open",
-   "openings": 84,
+   "openings": 83,
    "opensAt": "2026-09-08 12:30:00",
    "closesAt": null,
    "notes": [],
@@ -3210,7 +3175,7 @@
    "lon": -83.034094847396,
    "price": "$15.00 tuition",
    "status": "open",
-   "openings": 17,
+   "openings": 15,
    "opensAt": null,
    "closesAt": null,
    "notes": [],
@@ -3627,7 +3592,7 @@
    "lon": -82.985316625099,
    "price": "Free",
    "status": "open",
-   "openings": 174,
+   "openings": 173,
    "opensAt": "2026-11-17 00:00:00",
    "closesAt": null,
    "notes": [],
@@ -3660,7 +3625,7 @@
    "lon": -82.985316625099,
    "price": "Free",
    "status": "contact",
-   "openings": 12,
+   "openings": 11,
    "opensAt": null,
    "closesAt": null,
    "notes": [],
@@ -3693,7 +3658,7 @@
    "lon": -82.985316625099,
    "price": "Free",
    "status": "contact",
-   "openings": 15,
+   "openings": 14,
    "opensAt": null,
    "closesAt": null,
    "notes": [],
@@ -3726,7 +3691,7 @@
    "lon": -82.985316625099,
    "price": "Free",
    "status": "contact",
-   "openings": 5,
+   "openings": 4,
    "opensAt": null,
    "closesAt": null,
    "notes": [],
@@ -3759,7 +3724,7 @@
    "lon": -82.985316625099,
    "price": "Free",
    "status": "open",
-   "openings": 13,
+   "openings": 12,
    "opensAt": "2026-10-24 09:00:00",
    "closesAt": null,
    "notes": [],
@@ -4693,7 +4658,7 @@
    "lon": -83.034094847396,
    "price": "$15.00 tuition",
    "status": "open",
-   "openings": 19,
+   "openings": 17,
    "opensAt": null,
    "closesAt": null,
    "notes": [],
@@ -5386,7 +5351,7 @@
    "lon": -82.9879,
    "price": "$50.00 resident, $60.00 non-resident",
    "status": "open",
-   "openings": 9,
+   "openings": 8,
    "opensAt": "2026-10-06 12:30:00",
    "closesAt": "2026-11-22 23:59:00",
    "notes": [],
@@ -5508,10 +5473,10 @@
    "firstDate": "2027-01-11",
    "lastDate": "2027-03-08",
    "sessions": 7,
-   "location": "Linden Community  Center",
-   "address": "Linden Community  Center",
-   "lat": null,
-   "lon": null,
+   "location": "Linden Park",
+   "address": "1350 Briarwood Ave, Columbus, OH 43211",
+   "lat": 40.0177816,
+   "lon": -82.974135,
    "price": "Free",
    "status": "upcoming",
    "openings": 10,
@@ -5519,7 +5484,7 @@
    "closesAt": null,
    "notes": [],
    "url": "https://anc.apm.activecommunities.com/columbusrecparks1/activity/search/detail/9147?onlineSiteId=0&from_original_cui=true",
-   "miles": null,
+   "miles": 5.4,
    "neighborhood": "Linden & Northeast",
    "firstSeen": "2026-10-30 23:09:05"
   },
@@ -5604,10 +5569,10 @@
    "firstDate": "2027-01-11",
    "lastDate": "2027-03-08",
    "sessions": 7,
-   "location": "Linden Community Center",
-   "address": "Linden Community Center",
-   "lat": null,
-   "lon": null,
+   "location": "Linden Park",
+   "address": "1350 Briarwood Ave, Columbus, OH 43211",
+   "lat": 40.0177816,
+   "lon": -82.974135,
    "price": "Free",
    "status": "upcoming",
    "openings": 10,
@@ -5615,7 +5580,7 @@
    "closesAt": null,
    "notes": [],
    "url": "https://anc.apm.activecommunities.com/columbusrecparks1/activity/search/detail/9146?onlineSiteId=0&from_original_cui=true",
-   "miles": null,
+   "miles": 5.4,
    "neighborhood": "Linden & Northeast",
    "firstSeen": "2026-10-30 23:09:05"
   },
@@ -6456,10 +6421,10 @@
    "firstDate": "2027-01-11",
    "lastDate": "2027-02-17",
    "sessions": 10,
-   "location": "Walking Track",
-   "address": "Walking Track",
-   "lat": null,
-   "lon": null,
+   "location": "Linden Park",
+   "address": "1350 Briarwood Ave, Columbus, OH 43211",
+   "lat": 40.0177816,
+   "lon": -82.974135,
    "price": "Free",
    "status": "upcoming",
    "openings": 20,
@@ -6467,8 +6432,8 @@
    "closesAt": null,
    "notes": [],
    "url": "https://anc.apm.activecommunities.com/columbusrecparks1/activity/search/detail/9711?onlineSiteId=0&from_original_cui=true",
-   "miles": null,
-   "neighborhood": "Other locations",
+   "miles": 5.4,
+   "neighborhood": "Linden & Northeast",
    "firstSeen": "2026-11-05 20:36:12"
   },
   {
@@ -6490,10 +6455,10 @@
    "firstDate": "2027-01-11",
    "lastDate": "2027-03-11",
    "sessions": 25,
-   "location": "Gymnasium",
-   "address": "Gymnasium",
-   "lat": null,
-   "lon": null,
+   "location": "Linden Park",
+   "address": "1350 Briarwood Ave, Columbus, OH 43211",
+   "lat": 40.0177816,
+   "lon": -82.974135,
    "price": "Free",
    "status": "upcoming",
    "openings": 40,
@@ -6501,8 +6466,8 @@
    "closesAt": null,
    "notes": [],
    "url": "https://anc.apm.activecommunities.com/columbusrecparks1/activity/search/detail/9159?onlineSiteId=0&from_original_cui=true",
-   "miles": null,
-   "neighborhood": "Other locations",
+   "miles": 5.4,
+   "neighborhood": "Linden & Northeast",
    "firstSeen": "2026-10-30 23:09:05"
   },
   {
@@ -7715,7 +7680,7 @@
    "lon": -82.9291502,
    "price": "See listing",
    "status": "open",
-   "openings": 12,
+   "openings": 11,
    "opensAt": "2026-10-20 12:30:00",
    "closesAt": "2026-11-21 00:00:00",
    "notes": [],
@@ -10630,7 +10595,7 @@
    "lon": -82.928756725128,
    "price": "$50.00 resident, $60.00 non-resident",
    "status": "open",
-   "openings": 45,
+   "openings": 46,
    "opensAt": "2026-10-20 12:30:00",
    "closesAt": "2026-11-21 23:59:00",
    "notes": [],
@@ -10726,45 +10691,13 @@
    "lon": null,
    "price": "$50.00 resident, $60.00 non-resident",
    "status": "open",
-   "openings": 5,
+   "openings": 4,
    "opensAt": "2026-10-20 12:30:00",
    "closesAt": "2026-11-28 23:59:00",
    "notes": [],
    "url": "https://anc.apm.activecommunities.com/columbusrecparks1/activity/search/detail/8081?onlineSiteId=0&from_original_cui=true",
    "miles": null,
    "neighborhood": "Linden & Northeast",
-   "firstSeen": "2026-10-30 23:09:05"
-  },
-  {
-   "id": "rec-8087",
-   "source": "rec",
-   "provider": "Columbus Rec & Parks",
-   "name": "6U (Ages 5-6) Co-ed Basketball at Dodge",
-   "category": "Sports",
-   "ages": "Age at least 5 yrs but less than 7 yrs",
-   "ageMin": 60,
-   "ageMax": 84,
-   "days": [
-    "Sat"
-   ],
-   "startTime": "09:00",
-   "endTime": "10:00",
-   "firstDate": "2027-01-16",
-   "lastDate": "2027-02-20",
-   "sessions": 6,
-   "location": "",
-   "address": "",
-   "lat": null,
-   "lon": null,
-   "price": "$50.00 resident, $60.00 non-resident",
-   "status": "open",
-   "openings": 2,
-   "opensAt": "2026-10-20 12:30:00",
-   "closesAt": "2026-11-28 23:59:00",
-   "notes": [],
-   "url": "https://anc.apm.activecommunities.com/columbusrecparks1/activity/search/detail/8087?onlineSiteId=0&from_original_cui=true",
-   "miles": null,
-   "neighborhood": "Franklinton & West Side",
    "firstSeen": "2026-10-30 23:09:05"
   },
   {
@@ -10822,7 +10755,7 @@
    "lon": null,
    "price": "$50.00 resident, $60.00 non-resident",
    "status": "open",
-   "openings": 45,
+   "openings": 44,
    "opensAt": "2026-10-20 12:30:00",
    "closesAt": "2026-11-28 23:59:00",
    "notes": [],
@@ -12054,6 +11987,40 @@
    "firstSeen": "2026-11-18 21:37:51"
   },
   {
+   "id": "cct-2538677",
+   "source": "cct",
+   "provider": "Columbus Children's Theatre",
+   "name": "Summer Camp '27 Week 1 : Disney’s Descendants",
+   "category": "Camps",
+   "ages": "Ages 5–13",
+   "ageMin": 60,
+   "ageMax": 168,
+   "days": [
+    "Mon"
+   ],
+   "startTime": "08:15",
+   "endTime": "17:00",
+   "firstDate": "2027-06-07",
+   "lastDate": "2027-06-11",
+   "sessions": null,
+   "location": "CCT Naghten Studios",
+   "address": "177 E Naghten St, Columbus, OH 43215",
+   "lat": 39.968752266822,
+   "lon": -82.996387316646,
+   "price": "See listing",
+   "status": "open",
+   "openings": null,
+   "opensAt": null,
+   "closesAt": null,
+   "notes": [
+    "CCT cancels classes that don't reach minimum enrollment."
+   ],
+   "url": "https://tickets.columbuschildrenstheatre.org/events/columbuschildrenstheatre/2538677",
+   "miles": 2,
+   "neighborhood": "Downtown & Near East",
+   "firstSeen": "2026-11-20 21:25:31"
+  },
+  {
    "id": "rec-9506",
    "source": "rec",
    "provider": "Columbus Rec & Parks",
@@ -12262,6 +12229,40 @@
    "miles": 10.3,
    "neighborhood": "Northwest & Dublin",
    "firstSeen": "2026-11-18 21:37:51"
+  },
+  {
+   "id": "cct-2539222",
+   "source": "cct",
+   "provider": "Columbus Children's Theatre",
+   "name": "Summer Camp '27 Week 2 : Disney’s Finding Nemo",
+   "category": "Camps",
+   "ages": "Ages 5–13",
+   "ageMin": 60,
+   "ageMax": 168,
+   "days": [
+    "Mon"
+   ],
+   "startTime": "08:15",
+   "endTime": "17:00",
+   "firstDate": "2027-06-14",
+   "lastDate": "2027-06-18",
+   "sessions": null,
+   "location": "CCT Naghten Studios",
+   "address": "177 E Naghten St, Columbus, OH 43215",
+   "lat": 39.968752266822,
+   "lon": -82.996387316646,
+   "price": "See listing",
+   "status": "open",
+   "openings": null,
+   "opensAt": null,
+   "closesAt": null,
+   "notes": [
+    "CCT cancels classes that don't reach minimum enrollment."
+   ],
+   "url": "https://tickets.columbuschildrenstheatre.org/events/columbuschildrenstheatre/2539222",
+   "miles": 2,
+   "neighborhood": "Downtown & Near East",
+   "firstSeen": "2026-11-20 21:25:31"
   },
   {
    "id": "rec-9379",
@@ -12678,6 +12679,40 @@
    "miles": 10.3,
    "neighborhood": "Northwest & Dublin",
    "firstSeen": "2026-11-18 21:37:51"
+  },
+  {
+   "id": "cct-2539224",
+   "source": "cct",
+   "provider": "Columbus Children's Theatre",
+   "name": "Summer Camp '27 Week 4: How to Train Your Dragon",
+   "category": "Camps",
+   "ages": "Ages 5–13",
+   "ageMin": 60,
+   "ageMax": 168,
+   "days": [
+    "Mon"
+   ],
+   "startTime": "08:15",
+   "endTime": "17:00",
+   "firstDate": "2027-06-28",
+   "lastDate": "2027-07-02",
+   "sessions": null,
+   "location": "CCT Naghten Studios",
+   "address": "177 E Naghten St, Columbus, OH 43215",
+   "lat": 39.968752266822,
+   "lon": -82.996387316646,
+   "price": "See listing",
+   "status": "open",
+   "openings": null,
+   "opensAt": null,
+   "closesAt": null,
+   "notes": [
+    "CCT cancels classes that don't reach minimum enrollment."
+   ],
+   "url": "https://tickets.columbuschildrenstheatre.org/events/columbuschildrenstheatre/2539224",
+   "miles": 2,
+   "neighborhood": "Downtown & Near East",
+   "firstSeen": "2026-11-20 21:25:31"
   },
   {
    "id": "rec-9381",
@@ -13597,6 +13632,40 @@
    "firstSeen": "2026-11-18 21:37:51"
   },
   {
+   "id": "cct-2539227",
+   "source": "cct",
+   "provider": "Columbus Children's Theatre",
+   "name": "Summer Camp '27 Week 7 :  Witches of Oz",
+   "category": "Camps",
+   "ages": "Ages 5–13",
+   "ageMin": 60,
+   "ageMax": 168,
+   "days": [
+    "Mon"
+   ],
+   "startTime": "08:15",
+   "endTime": "17:00",
+   "firstDate": "2027-07-26",
+   "lastDate": "2027-07-30",
+   "sessions": null,
+   "location": "CCT Naghten Studios",
+   "address": "177 E Naghten St, Columbus, OH 43215",
+   "lat": 39.968752266822,
+   "lon": -82.996387316646,
+   "price": "See listing",
+   "status": "open",
+   "openings": null,
+   "opensAt": null,
+   "closesAt": null,
+   "notes": [
+    "CCT cancels classes that don't reach minimum enrollment."
+   ],
+   "url": "https://tickets.columbuschildrenstheatre.org/events/columbuschildrenstheatre/2539227",
+   "miles": 2,
+   "neighborhood": "Downtown & Near East",
+   "firstSeen": "2026-11-20 21:25:31"
+  },
+  {
    "id": "rec-9540",
    "source": "rec",
    "provider": "Columbus Rec & Parks",
@@ -13661,6 +13730,40 @@
    "firstSeen": "2026-11-18 21:37:51"
   },
   {
+   "id": "cct-2539228",
+   "source": "cct",
+   "provider": "Columbus Children's Theatre",
+   "name": "Summer Camp '27 Week 8 : Disney’s The Lion King",
+   "category": "Camps",
+   "ages": "Ages 5–13",
+   "ageMin": 60,
+   "ageMax": 168,
+   "days": [
+    "Mon"
+   ],
+   "startTime": "08:15",
+   "endTime": "17:00",
+   "firstDate": "2027-08-02",
+   "lastDate": "2027-08-06",
+   "sessions": null,
+   "location": "CCT Naghten Studios",
+   "address": "177 E Naghten St, Columbus, OH 43215",
+   "lat": 39.968752266822,
+   "lon": -82.996387316646,
+   "price": "See listing",
+   "status": "open",
+   "openings": null,
+   "opensAt": null,
+   "closesAt": null,
+   "notes": [
+    "CCT cancels classes that don't reach minimum enrollment."
+   ],
+   "url": "https://tickets.columbuschildrenstheatre.org/events/columbuschildrenstheatre/2539228",
+   "miles": 2,
+   "neighborhood": "Downtown & Near East",
+   "firstSeen": "2026-11-20 21:25:31"
+  },
+  {
    "id": "rec-9542",
    "source": "rec",
    "provider": "Columbus Rec & Parks",
@@ -13723,6 +13826,40 @@
    "miles": 10.3,
    "neighborhood": "Northwest & Dublin",
    "firstSeen": "2026-11-18 21:37:51"
+  },
+  {
+   "id": "cct-2539229",
+   "source": "cct",
+   "provider": "Columbus Children's Theatre",
+   "name": "Summer Camp '27 Week 9 : Trolls",
+   "category": "Camps",
+   "ages": "Ages 5–13",
+   "ageMin": 60,
+   "ageMax": 168,
+   "days": [
+    "Mon"
+   ],
+   "startTime": "08:15",
+   "endTime": "17:00",
+   "firstDate": "2027-08-09",
+   "lastDate": "2027-08-13",
+   "sessions": null,
+   "location": "CCT Naghten Studios",
+   "address": "177 E Naghten St, Columbus, OH 43215",
+   "lat": 39.968752266822,
+   "lon": -82.996387316646,
+   "price": "See listing",
+   "status": "open",
+   "openings": null,
+   "opensAt": null,
+   "closesAt": null,
+   "notes": [
+    "CCT cancels classes that don't reach minimum enrollment."
+   ],
+   "url": "https://tickets.columbuschildrenstheatre.org/events/columbuschildrenstheatre/2539229",
+   "miles": 2,
+   "neighborhood": "Downtown & Near East",
+   "firstSeen": "2026-11-20 21:25:31"
   }
  ],
  "providers": [
@@ -13881,7 +14018,7 @@
    "lon": -82.953519930862,
    "miles": 2.8,
    "neighborhood": "Downtown & Near East",
-   "changedAt": "2026-11-19 21:23:16",
+   "changedAt": "2026-11-20 21:25:31",
    "watchOk": true
   },
   {
@@ -13921,7 +14058,7 @@
    "lon": -83.087192475101,
    "miles": 12.6,
    "neighborhood": "Northwest & Dublin",
-   "changedAt": "2026-11-20 15:28:41",
+   "changedAt": "2026-11-20 21:25:31",
    "watchOk": true
   },
   {
@@ -14037,7 +14174,7 @@
    "lon": -82.953519930862,
    "miles": 2.8,
    "neighborhood": "Downtown & Near East",
-   "changedAt": "2026-11-19 21:23:16",
+   "changedAt": "2026-11-20 21:25:31",
    "watchOk": true
   },
   {
@@ -14058,7 +14195,7 @@
    "lon": -82.996387316646,
    "miles": 2,
    "neighborhood": "Downtown & Near East",
-   "changedAt": "2026-11-13 14:49:34",
+   "changedAt": "2026-11-20 21:25:31",
    "watchOk": true
   },
   {
