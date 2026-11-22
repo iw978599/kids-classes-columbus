@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-22 06:36:38",
+ "checkedAt": "2026-11-22 14:47:16",
  "baselineAt": "2026-10-30 23:09:05",
  "anchor": "Schiller Park",
  "neighborhoods": [
@@ -24,37 +24,37 @@
    "label": "Columbus Rec & Parks",
    "ok": true,
    "count": 326,
-   "lastSuccess": "2026-11-22 06:36:38"
+   "lastSuccess": "2026-11-22 14:47:16"
   },
   "cct": {
    "label": "Columbus Children's Theatre",
    "ok": true,
    "count": 8,
-   "lastSuccess": "2026-11-22 06:36:38"
+   "lastSuccess": "2026-11-22 14:47:16"
   },
   "bexley": {
    "label": "Bexley Rec",
    "ok": true,
    "count": 1,
-   "lastSuccess": "2026-11-22 06:36:38"
+   "lastSuccess": "2026-11-22 14:47:16"
   },
   "recdesk": {
    "label": "Grandview Heights Rec",
    "ok": true,
    "count": 1,
-   "lastSuccess": "2026-11-22 06:36:38"
+   "lastSuccess": "2026-11-22 14:47:16"
   },
   "jackrabbit": {
    "label": "Wendy's and K Studio",
    "ok": true,
-   "count": 94,
-   "lastSuccess": "2026-11-22 06:36:38"
+   "count": 93,
+   "lastSuccess": "2026-11-22 14:47:16"
   },
   "library": {
    "label": "Columbus Metropolitan Library",
    "ok": true,
    "count": 18,
-   "lastSuccess": "2026-11-22 06:36:38"
+   "lastSuccess": "2026-11-22 14:47:16"
   }
  },
  "items": [
@@ -1659,38 +1659,6 @@
    "firstSeen": "2026-10-30 23:09:05"
   },
   {
-   "id": "jr-506905-22123462",
-   "source": "jackrabbit",
-   "provider": "Wendy's Gymnastics",
-   "name": "TUMBLE TOT 3&4 - Tues @ 3:45pm",
-   "category": "Gymnastics",
-   "ages": "2 yrs 10 mos - 4 yrs",
-   "ageMin": 34,
-   "ageMax": 60,
-   "days": [
-    "Tue"
-   ],
-   "startTime": "15:45",
-   "endTime": "16:25",
-   "firstDate": "2026-08-31",
-   "lastDate": "2027-05-28",
-   "sessions": null,
-   "location": "Wendy's Gymnastics",
-   "address": "2460 Wood Ave, Columbus, OH 43221",
-   "lat": 40.009629846106,
-   "lon": -83.034094847396,
-   "price": "$99.00 tuition",
-   "status": "anytime",
-   "openings": 1,
-   "opensAt": null,
-   "closesAt": null,
-   "notes": [],
-   "url": "https://app.jackrabbitclass.com/reg.asp?id=506905&hc=&initEmpty=&hdrColor=&WL=0&preLoadClassID=22123462&loc=",
-   "miles": 5.3,
-   "neighborhood": "Upper Arlington",
-   "firstSeen": "2026-10-30 23:09:05"
-  },
-  {
    "id": "jr-506905-22124733",
    "source": "jackrabbit",
    "provider": "Wendy's Gymnastics",
@@ -2225,7 +2193,7 @@
    "lon": -83.034094847396,
    "price": "$15.00 tuition",
    "status": "open",
-   "openings": 9,
+   "openings": 8,
    "opensAt": null,
    "closesAt": null,
    "notes": [],
@@ -2623,7 +2591,7 @@
    "lon": -82.9424254,
    "price": "Free",
    "status": "open",
-   "openings": 75,
+   "openings": 73,
    "opensAt": "2026-09-08 12:30:00",
    "closesAt": null,
    "notes": [],
@@ -3624,7 +3592,7 @@
    "lon": -82.9879,
    "price": "$10.00 resident, $15.00 non-resident, $15.00 lab fee: for general",
    "status": "open",
-   "openings": 3,
+   "openings": 2,
    "opensAt": "2026-09-08 12:30:00",
    "closesAt": null,
    "notes": [],
@@ -3721,7 +3689,7 @@
    "lon": -82.985316625099,
    "price": "Free",
    "status": "contact",
-   "openings": 11,
+   "openings": 10,
    "opensAt": null,
    "closesAt": null,
    "notes": [],
@@ -3754,7 +3722,7 @@
    "lon": -82.985316625099,
    "price": "Free",
    "status": "contact",
-   "openings": 14,
+   "openings": 13,
    "opensAt": null,
    "closesAt": null,
    "notes": [],
@@ -4109,7 +4077,7 @@
    "lon": -83.034094847396,
    "price": "$15.00 tuition",
    "status": "open",
-   "openings": 19,
+   "openings": 18,
    "opensAt": null,
    "closesAt": null,
    "notes": [],
@@ -5322,7 +5290,7 @@
    "lon": -83.097336833861,
    "price": "$50.00 resident, $60.00 non-resident",
    "status": "open",
-   "openings": 19,
+   "openings": 18,
    "opensAt": "2026-11-16 12:00:00",
    "closesAt": null,
    "notes": [],
@@ -5354,7 +5322,7 @@
    "lon": -83.097336833861,
    "price": "$50.00 resident, $60.00 non-resident",
    "status": "open",
-   "openings": 19,
+   "openings": 18,
    "opensAt": "2026-11-16 12:00:00",
    "closesAt": null,
    "notes": [],
@@ -5386,7 +5354,7 @@
    "lon": -83.097336833861,
    "price": "$50.00 resident, $60.00 non-resident",
    "status": "open",
-   "openings": 20,
+   "openings": 19,
    "opensAt": "2026-11-16 12:00:00",
    "closesAt": null,
    "notes": [],
@@ -5482,7 +5450,7 @@
    "lon": -82.9879,
    "price": "$50.00 resident, $60.00 non-resident",
    "status": "open",
-   "openings": 6,
+   "openings": 5,
    "opensAt": "2026-10-06 12:30:00",
    "closesAt": "2026-11-22 23:59:00",
    "notes": [],
@@ -14055,7 +14023,7 @@
    "lon": -82.953519930862,
    "miles": 2.8,
    "neighborhood": "Downtown & Near East",
-   "changedAt": "2026-11-21 20:24:13",
+   "changedAt": "2026-11-22 14:47:16",
    "watchOk": true
   },
   {
@@ -14095,7 +14063,7 @@
    "lon": -83.087192475101,
    "miles": 12.6,
    "neighborhood": "Northwest & Dublin",
-   "changedAt": "2026-11-22 06:36:38",
+   "changedAt": "2026-11-22 14:47:16",
    "watchOk": true
   },
   {
