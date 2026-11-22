@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-21 20:24:13",
+ "checkedAt": "2026-11-22 06:36:38",
  "baselineAt": "2026-10-30 23:09:05",
  "anchor": "Schiller Park",
  "neighborhoods": [
@@ -23,38 +23,38 @@
   "rec": {
    "label": "Columbus Rec & Parks",
    "ok": true,
-   "count": 328,
-   "lastSuccess": "2026-11-21 20:24:13"
+   "count": 326,
+   "lastSuccess": "2026-11-22 06:36:38"
   },
   "cct": {
    "label": "Columbus Children's Theatre",
    "ok": true,
    "count": 8,
-   "lastSuccess": "2026-11-21 20:24:13"
+   "lastSuccess": "2026-11-22 06:36:38"
   },
   "bexley": {
    "label": "Bexley Rec",
    "ok": true,
    "count": 1,
-   "lastSuccess": "2026-11-21 20:24:13"
+   "lastSuccess": "2026-11-22 06:36:38"
   },
   "recdesk": {
    "label": "Grandview Heights Rec",
    "ok": true,
    "count": 1,
-   "lastSuccess": "2026-11-21 20:24:13"
+   "lastSuccess": "2026-11-22 06:36:38"
   },
   "jackrabbit": {
    "label": "Wendy's and K Studio",
    "ok": true,
    "count": 94,
-   "lastSuccess": "2026-11-21 20:24:13"
+   "lastSuccess": "2026-11-22 06:36:38"
   },
   "library": {
    "label": "Columbus Metropolitan Library",
    "ok": true,
    "count": 18,
-   "lastSuccess": "2026-11-21 20:24:13"
+   "lastSuccess": "2026-11-22 06:36:38"
   }
  },
  "items": [
@@ -2171,70 +2171,6 @@
    "firstSeen": "2026-10-30 23:09:05"
   },
   {
-   "id": "lib-main-library-family-storytime-sat-11-00",
-   "source": "library",
-   "provider": "Columbus Metropolitan Library",
-   "name": "Family Storytime",
-   "category": "Story time",
-   "ages": "Preschool and family",
-   "ageMin": 0,
-   "ageMax": null,
-   "days": [
-    "Sat"
-   ],
-   "startTime": "11:00",
-   "endTime": "11:30",
-   "firstDate": "2026-11-21",
-   "lastDate": "2026-12-05",
-   "sessions": null,
-   "location": "Main Library branch",
-   "address": "96 S Grant Ave, Columbus, OH 43215",
-   "lat": 39.961199462733,
-   "lon": -82.990580352092,
-   "price": "Free",
-   "status": "drop-in",
-   "openings": null,
-   "opensAt": null,
-   "closesAt": null,
-   "notes": [],
-   "url": "https://events.columbuslibrary.org/event/16464389",
-   "miles": 1.5,
-   "neighborhood": "Downtown & Near East",
-   "firstSeen": "2026-10-30 23:09:05"
-  },
-  {
-   "id": "lib-south-high-kids-create-sat-14-00",
-   "source": "library",
-   "provider": "Columbus Metropolitan Library",
-   "name": "Kids Create",
-   "category": "Story time",
-   "ages": "Preschool and family",
-   "ageMin": 0,
-   "ageMax": null,
-   "days": [
-    "Sat"
-   ],
-   "startTime": "14:00",
-   "endTime": "15:00",
-   "firstDate": "2026-11-21",
-   "lastDate": "2026-12-05",
-   "sessions": null,
-   "location": "South High branch",
-   "address": "3540 S High St, Columbus, OH 43207",
-   "lat": 39.889174528675,
-   "lon": -82.997669422075,
-   "price": "Free",
-   "status": "drop-in",
-   "openings": null,
-   "opensAt": null,
-   "closesAt": null,
-   "notes": [],
-   "url": "https://events.columbuslibrary.org/event/16398850",
-   "miles": 3.5,
-   "neighborhood": "South Side",
-   "firstSeen": "2026-10-30 23:09:05"
-  },
-  {
    "id": "lib-main-library-family-storytime-sun-13-30",
    "source": "library",
    "provider": "Columbus Metropolitan Library",
@@ -2687,7 +2623,7 @@
    "lon": -82.9424254,
    "price": "Free",
    "status": "open",
-   "openings": 76,
+   "openings": 75,
    "opensAt": "2026-09-08 12:30:00",
    "closesAt": null,
    "notes": [],
@@ -2923,6 +2859,38 @@
    "firstSeen": "2026-11-07 05:23:22"
   },
   {
+   "id": "lib-main-library-family-storytime-sat-11-00",
+   "source": "library",
+   "provider": "Columbus Metropolitan Library",
+   "name": "Family Storytime",
+   "category": "Story time",
+   "ages": "Preschool and family",
+   "ageMin": 0,
+   "ageMax": null,
+   "days": [
+    "Sat"
+   ],
+   "startTime": "11:00",
+   "endTime": "11:30",
+   "firstDate": "2026-11-28",
+   "lastDate": "2026-12-12",
+   "sessions": null,
+   "location": "Main Library branch",
+   "address": "96 S Grant Ave, Columbus, OH 43215",
+   "lat": 39.961199462733,
+   "lon": -82.990580352092,
+   "price": "Free",
+   "status": "drop-in",
+   "openings": null,
+   "opensAt": null,
+   "closesAt": null,
+   "notes": [],
+   "url": "https://events.columbuslibrary.org/event/16464390",
+   "miles": 1.5,
+   "neighborhood": "Downtown & Near East",
+   "firstSeen": "2026-10-30 23:09:05"
+  },
+  {
    "id": "lib-main-library-family-storytime-sweet-as-pie-sat-11-00",
    "source": "library",
    "provider": "Columbus Metropolitan Library",
@@ -2953,6 +2921,38 @@
    "miles": 1.5,
    "neighborhood": "Downtown & Near East",
    "firstSeen": "2026-11-08 01:13:24"
+  },
+  {
+   "id": "lib-south-high-kids-create-sat-14-00",
+   "source": "library",
+   "provider": "Columbus Metropolitan Library",
+   "name": "Kids Create",
+   "category": "Story time",
+   "ages": "Preschool and family",
+   "ageMin": 0,
+   "ageMax": null,
+   "days": [
+    "Sat"
+   ],
+   "startTime": "14:00",
+   "endTime": "15:00",
+   "firstDate": "2026-11-28",
+   "lastDate": "2026-12-12",
+   "sessions": null,
+   "location": "South High branch",
+   "address": "3540 S High St, Columbus, OH 43207",
+   "lat": 39.889174528675,
+   "lon": -82.997669422075,
+   "price": "Free",
+   "status": "drop-in",
+   "openings": null,
+   "opensAt": null,
+   "closesAt": null,
+   "notes": [],
+   "url": "https://events.columbuslibrary.org/event/16398851",
+   "miles": 3.5,
+   "neighborhood": "South Side",
+   "firstSeen": "2026-10-30 23:09:05"
   },
   {
    "id": "lib-main-library-family-storytime-sun-14-30",
@@ -7759,38 +7759,6 @@
    "firstSeen": "2026-11-04 20:30:00"
   },
   {
-   "id": "rec-9440",
-   "source": "rec",
-   "provider": "Columbus Rec & Parks",
-   "name": "5U (Ages 3-5) Co-ed Basketball at Howard",
-   "category": "Sports",
-   "ages": "Age at least 3 yrs but less than 5y 11m",
-   "ageMin": 36,
-   "ageMax": 71,
-   "days": [
-    "Wed"
-   ],
-   "startTime": "18:00",
-   "endTime": "19:00",
-   "firstDate": "2027-01-13",
-   "lastDate": "2027-02-17",
-   "sessions": 6,
-   "location": "2505 North Cassady Avenue",
-   "address": "2505 North Cassady Avenue",
-   "lat": 40.021280980542,
-   "lon": -82.928756725128,
-   "price": "$50.00 resident, $60.00 non-resident",
-   "status": "open",
-   "openings": 11,
-   "opensAt": "2026-10-20 12:30:00",
-   "closesAt": "2026-11-21 23:59:00",
-   "notes": [],
-   "url": "https://anc.apm.activecommunities.com/columbusrecparks1/activity/search/detail/9440?onlineSiteId=0&from_original_cui=true",
-   "miles": 6.6,
-   "neighborhood": "Linden & Northeast",
-   "firstSeen": "2026-10-30 23:09:05"
-  },
-  {
    "id": "rec-9603",
    "source": "rec",
    "provider": "Columbus Rec & Parks",
@@ -10672,38 +10640,6 @@
    "miles": 0.1,
    "neighborhood": "German Village & Merion Village",
    "firstSeen": "2026-11-20 15:28:41"
-  },
-  {
-   "id": "rec-9442",
-   "source": "rec",
-   "provider": "Columbus Rec & Parks",
-   "name": "5-8 Co-ed Basketball at Howard",
-   "category": "Sports",
-   "ages": "Age at least 5 yrs but less than 9 yrs",
-   "ageMin": 60,
-   "ageMax": 108,
-   "days": [
-    "Sat"
-   ],
-   "startTime": "10:00",
-   "endTime": "12:00",
-   "firstDate": "2027-01-16",
-   "lastDate": "2027-03-06",
-   "sessions": 8,
-   "location": "2505 North Cassady Avenue",
-   "address": "2505 North Cassady Avenue",
-   "lat": 40.021280980542,
-   "lon": -82.928756725128,
-   "price": "$50.00 resident, $60.00 non-resident",
-   "status": "open",
-   "openings": 42,
-   "opensAt": "2026-10-20 12:30:00",
-   "closesAt": "2026-11-21 23:59:00",
-   "notes": [],
-   "url": "https://anc.apm.activecommunities.com/columbusrecparks1/activity/search/detail/9442?onlineSiteId=0&from_original_cui=true",
-   "miles": 6.6,
-   "neighborhood": "Linden & Northeast",
-   "firstSeen": "2026-10-30 23:09:05"
   },
   {
    "id": "rec-9471",
@@ -14159,7 +14095,7 @@
    "lon": -83.087192475101,
    "miles": 12.6,
    "neighborhood": "Northwest & Dublin",
-   "changedAt": "2026-11-21 20:24:13",
+   "changedAt": "2026-11-22 06:36:38",
    "watchOk": true
   },
   {
