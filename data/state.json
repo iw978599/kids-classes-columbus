@@ -1788,7 +1788,7 @@
   },
   "rec-9656": {
    "firstSeen": "2026-11-03 14:33:20",
-   "full": false
+   "full": true
   },
   "jr-506905-22123500": {
    "firstSeen": "2026-11-03 14:33:20",
@@ -2654,8 +2654,8 @@
    "error": "HTTP 403 for https://ohfranklinctyweb.myvscloud.com/wbwsc/ohfranklinctywt.wsc/search.html?module=AR&type=preschool"
   },
   "fpc": {
-   "hash": "6d1444e73b1c396d",
-   "changedAt": "2026-11-22 14:47:16",
+   "hash": "37d5fc58d9684925",
+   "changedAt": "2026-11-22 20:47:24",
    "ok": true
   },
   "ua-rec": {
@@ -2664,8 +2664,8 @@
    "ok": true
   },
   "dublin-dance": {
-   "hash": "2ff5c280226562e6",
-   "changedAt": "2026-11-22 14:47:16",
+   "hash": "4c496e41d0dbb63d",
+   "changedAt": "2026-11-22 20:47:24",
    "ok": true
   },
   "learn-sing-grow": {
