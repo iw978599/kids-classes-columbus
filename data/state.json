@@ -2211,7 +2211,7 @@
   },
   "rec-9788": {
    "firstSeen": "2026-11-17 19:59:54",
-   "full": false,
+   "full": true,
    "spotOpenedAt": "2026-11-19 21:23:16"
   },
   "rec-9778": {
@@ -2664,8 +2664,8 @@
    "ok": true
   },
   "dublin-dance": {
-   "hash": "4c496e41d0dbb63d",
-   "changedAt": "2026-11-22 20:47:24",
+   "hash": "3e78005637d66002",
+   "changedAt": "2026-11-23 08:03:13",
    "ok": true
   },
   "learn-sing-grow": {
@@ -2694,8 +2694,8 @@
    "ok": true
   },
   "camp-fpc": {
-   "hash": "23ceac2b9c346daa",
-   "changedAt": "2026-11-21 20:24:13",
+   "hash": "711799f1b474ce37",
+   "changedAt": "2026-11-23 08:03:13",
    "ok": true
   },
   "camp-cct": {
