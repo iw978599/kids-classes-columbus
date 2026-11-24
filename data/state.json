@@ -373,7 +373,7 @@
   },
   "rec-7481": {
    "firstSeen": "2026-10-30 23:09:05",
-   "full": false
+   "full": true
   },
   "rec-8292": {
    "firstSeen": "2026-10-30 23:09:05",
@@ -1288,11 +1288,11 @@
   },
   "rec-9076": {
    "firstSeen": "2026-10-30 23:09:05",
-   "full": false
+   "full": true
   },
   "rec-7487": {
    "firstSeen": "2026-10-30 23:09:05",
-   "full": false
+   "full": true
   },
   "rec-9146": {
    "firstSeen": "2026-10-30 23:09:05",
@@ -1741,7 +1741,7 @@
   },
   "rec-8965": {
    "firstSeen": "2026-11-02 14:34:13",
-   "full": false
+   "full": true
   },
   "jr-506905-22125753": {
    "firstSeen": "2026-11-02 14:34:13",
@@ -2089,7 +2089,7 @@
   },
   "rec-9770": {
    "firstSeen": "2026-11-16 14:40:25",
-   "full": false
+   "full": true
   },
   "rec-9776": {
    "firstSeen": "2026-11-16 22:57:49",
@@ -2212,8 +2212,8 @@
   },
   "rec-9788": {
    "firstSeen": "2026-11-17 19:59:54",
-   "full": true,
-   "spotOpenedAt": "2026-11-19 21:23:16"
+   "full": false,
+   "spotOpenedAt": "2026-11-24 18:56:05"
   },
   "rec-9778": {
    "firstSeen": "2026-11-17 19:59:54",
@@ -2614,11 +2614,11 @@
   },
   "rec-10054": {
    "firstSeen": "2026-11-21 20:24:13",
-   "full": false
+   "full": true
   },
   "rec-10055": {
    "firstSeen": "2026-11-23 21:16:35",
-   "full": false
+   "full": true
   },
   "rec-10097": {
    "firstSeen": "2026-11-23 21:16:35",
@@ -2634,6 +2634,30 @@
   },
   "jr-506905-22125360": {
    "firstSeen": "2026-11-23 21:16:35",
+   "full": false
+  },
+  "rec-10096": {
+   "firstSeen": "2026-11-24 18:56:05",
+   "full": false
+  },
+  "rec-10103": {
+   "firstSeen": "2026-11-24 18:56:05",
+   "full": false
+  },
+  "rec-9588": {
+   "firstSeen": "2026-11-24 18:56:05",
+   "full": false
+  },
+  "rec-10111": {
+   "firstSeen": "2026-11-24 18:56:05",
+   "full": false
+  },
+  "rec-9968": {
+   "firstSeen": "2026-11-24 18:56:05",
+   "full": false
+  },
+  "rec-10112": {
+   "firstSeen": "2026-11-24 18:56:05",
    "full": false
   }
  },
@@ -2685,8 +2709,8 @@
    "ok": true
   },
   "dublin-dance": {
-   "hash": "978f70fb34766057",
-   "changedAt": "2026-11-24 08:53:19",
+   "hash": "171baf9dda192814",
+   "changedAt": "2026-11-24 18:56:05",
    "ok": true
   },
   "learn-sing-grow": {
@@ -2715,8 +2739,8 @@
    "ok": true
   },
   "camp-fpc": {
-   "hash": "711799f1b474ce37",
-   "changedAt": "2026-11-23 08:03:13",
+   "hash": "e2217024dfd9965f",
+   "changedAt": "2026-11-24 18:56:05",
    "ok": true
   },
   "camp-cct": {
