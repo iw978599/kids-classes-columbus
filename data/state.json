@@ -381,7 +381,8 @@
   },
   "rec-9469": {
    "firstSeen": "2026-10-30 23:09:05",
-   "full": true
+   "full": false,
+   "spotOpenedAt": "2026-11-23 21:16:35"
   },
   "rec-8530": {
    "firstSeen": "2026-10-30 23:09:05",
@@ -2614,6 +2615,26 @@
   "rec-10054": {
    "firstSeen": "2026-11-21 20:24:13",
    "full": false
+  },
+  "rec-10055": {
+   "firstSeen": "2026-11-23 21:16:35",
+   "full": false
+  },
+  "rec-10097": {
+   "firstSeen": "2026-11-23 21:16:35",
+   "full": false
+  },
+  "rec-10090": {
+   "firstSeen": "2026-11-23 21:16:35",
+   "full": false
+  },
+  "jr-506905-22123050": {
+   "firstSeen": "2026-11-23 21:16:35",
+   "full": false
+  },
+  "jr-506905-22125360": {
+   "firstSeen": "2026-11-23 21:16:35",
+   "full": false
   }
  },
  "watch": {
@@ -2664,8 +2685,8 @@
    "ok": true
   },
   "dublin-dance": {
-   "hash": "3e78005637d66002",
-   "changedAt": "2026-11-23 08:03:13",
+   "hash": "775db27ad56acba3",
+   "changedAt": "2026-11-23 21:16:35",
    "ok": true
   },
   "learn-sing-grow": {
@@ -2689,8 +2710,8 @@
    "ok": true
   },
   "camp-audubon": {
-   "hash": "801b7de82235f534",
-   "changedAt": "2026-11-13 06:09:44",
+   "hash": "e556c548dcda698a",
+   "changedAt": "2026-11-23 21:16:35",
    "ok": true
   },
   "camp-fpc": {
