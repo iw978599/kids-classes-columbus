@@ -2663,6 +2663,14 @@
   "lib-main-library-kids-create-snowman-photo-frames-tue-16-00": {
    "firstSeen": "2026-11-25 03:45:32",
    "full": false
+  },
+  "jr-506905-22122773": {
+   "firstSeen": "2026-11-25 14:22:24",
+   "full": false
+  },
+  "jr-506905-22125744": {
+   "firstSeen": "2026-11-25 14:22:24",
+   "full": false
   }
  },
  "watch": {
@@ -2713,8 +2721,8 @@
    "ok": true
   },
   "dublin-dance": {
-   "hash": "c4c8d2a392d3348b",
-   "changedAt": "2026-11-25 03:45:32",
+   "hash": "2eb1ac480528da50",
+   "changedAt": "2026-11-25 14:22:24",
    "ok": true
   },
   "learn-sing-grow": {
