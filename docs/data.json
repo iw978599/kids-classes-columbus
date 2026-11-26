@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-25 14:22:24",
+ "checkedAt": "2026-11-25 22:37:52",
  "baselineAt": "2026-10-30 23:09:05",
  "anchor": "Schiller Park",
  "neighborhoods": [
@@ -24,37 +24,37 @@
    "label": "Columbus Rec & Parks",
    "ok": true,
    "count": 315,
-   "lastSuccess": "2026-11-25 14:22:24"
+   "lastSuccess": "2026-11-25 22:37:52"
   },
   "cct": {
    "label": "Columbus Children's Theatre",
    "ok": true,
    "count": 8,
-   "lastSuccess": "2026-11-25 14:22:24"
+   "lastSuccess": "2026-11-25 22:37:52"
   },
   "bexley": {
    "label": "Bexley Rec",
    "ok": true,
    "count": 1,
-   "lastSuccess": "2026-11-25 14:22:24"
+   "lastSuccess": "2026-11-25 22:37:52"
   },
   "recdesk": {
    "label": "Grandview Heights Rec",
    "ok": true,
    "count": 0,
-   "lastSuccess": "2026-11-25 14:22:24"
+   "lastSuccess": "2026-11-25 22:37:52"
   },
   "jackrabbit": {
    "label": "Wendy's and K Studio",
    "ok": true,
    "count": 94,
-   "lastSuccess": "2026-11-25 14:22:24"
+   "lastSuccess": "2026-11-25 22:37:52"
   },
   "library": {
    "label": "Columbus Metropolitan Library",
    "ok": true,
    "count": 19,
-   "lastSuccess": "2026-11-25 14:22:24"
+   "lastSuccess": "2026-11-25 22:37:52"
   }
  },
  "items": [
@@ -689,7 +689,7 @@
    "lon": -83.034094847396,
    "price": "$99.00 tuition",
    "status": "anytime",
-   "openings": 5,
+   "openings": 4,
    "opensAt": null,
    "closesAt": null,
    "notes": [],
@@ -3869,7 +3869,7 @@
    "lon": -83.034094847396,
    "price": "$15.00 tuition",
    "status": "open",
-   "openings": 16,
+   "openings": 14,
    "opensAt": null,
    "closesAt": null,
    "notes": [],
@@ -13872,7 +13872,7 @@
    "lon": -82.953519930862,
    "miles": 2.8,
    "neighborhood": "Downtown & Near East",
-   "changedAt": "2026-11-22 20:47:24",
+   "changedAt": "2026-11-25 22:37:52",
    "watchOk": true
   },
   {
@@ -13912,7 +13912,7 @@
    "lon": -83.087192475101,
    "miles": 12.6,
    "neighborhood": "Northwest & Dublin",
-   "changedAt": "2026-11-25 14:22:24",
+   "changedAt": "2026-11-25 22:37:52",
    "watchOk": true
   },
   {
@@ -14028,7 +14028,7 @@
    "lon": -82.953519930862,
    "miles": 2.8,
    "neighborhood": "Downtown & Near East",
-   "changedAt": "2026-11-24 18:56:05",
+   "changedAt": "2026-11-25 22:37:52",
    "watchOk": true
   },
   {
