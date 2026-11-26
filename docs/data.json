@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-25 22:37:52",
+ "checkedAt": "2026-11-26 12:01:27",
  "baselineAt": "2026-10-30 23:09:05",
  "anchor": "Schiller Park",
  "neighborhoods": [
@@ -24,37 +24,37 @@
    "label": "Columbus Rec & Parks",
    "ok": true,
    "count": 315,
-   "lastSuccess": "2026-11-25 22:37:52"
+   "lastSuccess": "2026-11-26 12:01:27"
   },
   "cct": {
    "label": "Columbus Children's Theatre",
    "ok": true,
    "count": 8,
-   "lastSuccess": "2026-11-25 22:37:52"
+   "lastSuccess": "2026-11-26 12:01:27"
   },
   "bexley": {
    "label": "Bexley Rec",
    "ok": true,
    "count": 1,
-   "lastSuccess": "2026-11-25 22:37:52"
+   "lastSuccess": "2026-11-26 12:01:27"
   },
   "recdesk": {
    "label": "Grandview Heights Rec",
    "ok": true,
    "count": 0,
-   "lastSuccess": "2026-11-25 22:37:52"
+   "lastSuccess": "2026-11-26 12:01:27"
   },
   "jackrabbit": {
    "label": "Wendy's and K Studio",
    "ok": true,
    "count": 94,
-   "lastSuccess": "2026-11-25 22:37:52"
+   "lastSuccess": "2026-11-26 12:01:27"
   },
   "library": {
    "label": "Columbus Metropolitan Library",
    "ok": true,
    "count": 19,
-   "lastSuccess": "2026-11-25 22:37:52"
+   "lastSuccess": "2026-11-26 12:01:27"
   }
  },
  "items": [
@@ -2065,7 +2065,7 @@
    "lon": -83.034094847396,
    "price": "$99.00 tuition",
    "status": "anytime",
-   "openings": 3,
+   "openings": 4,
    "opensAt": null,
    "closesAt": null,
    "notes": [],
@@ -2201,70 +2201,6 @@
    "miles": 5.3,
    "neighborhood": "Upper Arlington",
    "firstSeen": "2026-10-30 23:09:05"
-  },
-  {
-   "id": "lib-main-library-family-storytime-wed-10-30",
-   "source": "library",
-   "provider": "Columbus Metropolitan Library",
-   "name": "Family Storytime",
-   "category": "Story time",
-   "ages": "Preschool and family",
-   "ageMin": 0,
-   "ageMax": null,
-   "days": [
-    "Wed"
-   ],
-   "startTime": "10:30",
-   "endTime": "11:00",
-   "firstDate": "2026-11-25",
-   "lastDate": "2026-12-09",
-   "sessions": null,
-   "location": "Main Library branch",
-   "address": "96 S Grant Ave, Columbus, OH 43215",
-   "lat": 39.961199462733,
-   "lon": -82.990580352092,
-   "price": "Free",
-   "status": "drop-in",
-   "openings": null,
-   "opensAt": null,
-   "closesAt": null,
-   "notes": [],
-   "url": "https://events.columbuslibrary.org/event/16464379",
-   "miles": 1.5,
-   "neighborhood": "Downtown & Near East",
-   "firstSeen": "2026-10-30 23:09:05"
-  },
-  {
-   "id": "lib-main-library-family-storytime-sweet-as-pie-wed-10-30",
-   "source": "library",
-   "provider": "Columbus Metropolitan Library",
-   "name": "Family Storytime: Sweet As Pie",
-   "category": "Story time",
-   "ages": "Preschool and family",
-   "ageMin": 0,
-   "ageMax": null,
-   "days": [
-    "Wed"
-   ],
-   "startTime": "10:30",
-   "endTime": "11:00",
-   "firstDate": "2026-11-25",
-   "lastDate": "2026-11-25",
-   "sessions": null,
-   "location": "Main Library branch",
-   "address": "96 S Grant Ave, Columbus, OH 43215",
-   "lat": 39.961199462733,
-   "lon": -82.990580352092,
-   "price": "Free",
-   "status": "drop-in",
-   "openings": null,
-   "opensAt": null,
-   "closesAt": null,
-   "notes": [],
-   "url": "https://events.columbuslibrary.org/event/17561978",
-   "miles": 1.5,
-   "neighborhood": "Downtown & Near East",
-   "firstSeen": "2026-11-05 06:06:11"
   },
   {
    "id": "lib-main-library-family-storytime-fri-10-30",
@@ -2751,6 +2687,38 @@
    "miles": 5,
    "neighborhood": "Short North & Campus",
    "firstSeen": "2026-11-06 14:29:12"
+  },
+  {
+   "id": "lib-main-library-family-storytime-wed-10-30",
+   "source": "library",
+   "provider": "Columbus Metropolitan Library",
+   "name": "Family Storytime",
+   "category": "Story time",
+   "ages": "Preschool and family",
+   "ageMin": 0,
+   "ageMax": null,
+   "days": [
+    "Wed"
+   ],
+   "startTime": "10:30",
+   "endTime": "11:00",
+   "firstDate": "2026-12-02",
+   "lastDate": "2026-12-09",
+   "sessions": null,
+   "location": "Main Library branch",
+   "address": "96 S Grant Ave, Columbus, OH 43215",
+   "lat": 39.961199462733,
+   "lon": -82.990580352092,
+   "price": "Free",
+   "status": "drop-in",
+   "openings": null,
+   "opensAt": null,
+   "closesAt": null,
+   "notes": [],
+   "url": "https://events.columbuslibrary.org/event/17632280",
+   "miles": 1.5,
+   "neighborhood": "Downtown & Near East",
+   "firstSeen": "2026-10-30 23:09:05"
   },
   {
    "id": "lib-marion-franklin-kids-create-wed-16-30",
@@ -4042,6 +4010,38 @@
    "miles": 7.2,
    "neighborhood": "Clintonville",
    "firstSeen": "2026-11-06 14:29:12"
+  },
+  {
+   "id": "lib-main-library-family-storytime-arctic-animals-wed-10-30",
+   "source": "library",
+   "provider": "Columbus Metropolitan Library",
+   "name": "Family Storytime: Arctic Animals",
+   "category": "Story time",
+   "ages": "Preschool and family",
+   "ageMin": 0,
+   "ageMax": null,
+   "days": [
+    "Wed"
+   ],
+   "startTime": "10:30",
+   "endTime": "11:00",
+   "firstDate": "2026-12-16",
+   "lastDate": "2026-12-16",
+   "sessions": null,
+   "location": "Main Library branch",
+   "address": "96 S Grant Ave, Columbus, OH 43215",
+   "lat": 39.961199462733,
+   "lon": -82.990580352092,
+   "price": "Free",
+   "status": "drop-in",
+   "openings": null,
+   "opensAt": null,
+   "closesAt": null,
+   "notes": [],
+   "url": "https://events.columbuslibrary.org/event/17562172",
+   "miles": 1.5,
+   "neighborhood": "Downtown & Near East",
+   "firstSeen": "2026-11-26 12:01:27"
   },
   {
    "id": "jr-opengym-wendy-s-gymnastics-wed-10-45am-holiday-pjs-",
@@ -10513,7 +10513,7 @@
    "lon": null,
    "price": "$50.00 resident, $60.00 non-resident",
    "status": "open",
-   "openings": 32,
+   "openings": 31,
    "opensAt": "2026-10-20 12:30:00",
    "closesAt": "2026-11-28 23:59:00",
    "notes": [],
@@ -10705,7 +10705,7 @@
    "lon": null,
    "price": "$50.00 resident, $60.00 non-resident",
    "status": "open",
-   "openings": 36,
+   "openings": 35,
    "opensAt": "2026-10-20 12:30:00",
    "closesAt": "2026-11-28 23:59:00",
    "notes": [],
@@ -13832,7 +13832,7 @@
    "lon": -83.112805247906,
    "miles": 15.9,
    "neighborhood": "Powell",
-   "changedAt": "2026-11-21 20:24:13",
+   "changedAt": "2026-11-26 12:01:27",
    "watchOk": true
   },
   {
@@ -13912,7 +13912,7 @@
    "lon": -83.087192475101,
    "miles": 12.6,
    "neighborhood": "Northwest & Dublin",
-   "changedAt": "2026-11-25 22:37:52",
+   "changedAt": "2026-11-26 12:01:27",
    "watchOk": true
   },
   {

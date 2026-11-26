@@ -2671,6 +2671,10 @@
   "jr-506905-22125744": {
    "firstSeen": "2026-11-25 14:22:24",
    "full": false
+  },
+  "lib-main-library-family-storytime-arctic-animals-wed-10-30": {
+   "firstSeen": "2026-11-26 12:01:27",
+   "full": false
   }
  },
  "watch": {
@@ -2700,8 +2704,8 @@
    "ok": true
   },
   "zoo": {
-   "hash": "739612bf762449f1",
-   "changedAt": "2026-11-21 20:24:13",
+   "hash": "e82c372a3c96cba7",
+   "changedAt": "2026-11-26 12:01:27",
    "ok": true
   },
   "metro-parks": {
@@ -2721,8 +2725,8 @@
    "ok": true
   },
   "dublin-dance": {
-   "hash": "18fc3cbe6d5bb64a",
-   "changedAt": "2026-11-25 22:37:52",
+   "hash": "ae3b8eb6e1666d11",
+   "changedAt": "2026-11-26 12:01:27",
    "ok": true
   },
   "learn-sing-grow": {
