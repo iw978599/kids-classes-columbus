@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-26 12:01:27",
+ "checkedAt": "2026-11-26 20:47:06",
  "baselineAt": "2026-10-30 23:09:05",
  "anchor": "Schiller Park",
  "neighborhoods": [
@@ -24,37 +24,37 @@
    "label": "Columbus Rec & Parks",
    "ok": true,
    "count": 315,
-   "lastSuccess": "2026-11-26 12:01:27"
+   "lastSuccess": "2026-11-26 20:47:06"
   },
   "cct": {
    "label": "Columbus Children's Theatre",
    "ok": true,
    "count": 8,
-   "lastSuccess": "2026-11-26 12:01:27"
+   "lastSuccess": "2026-11-26 20:47:06"
   },
   "bexley": {
    "label": "Bexley Rec",
    "ok": true,
    "count": 1,
-   "lastSuccess": "2026-11-26 12:01:27"
+   "lastSuccess": "2026-11-26 20:47:06"
   },
   "recdesk": {
    "label": "Grandview Heights Rec",
    "ok": true,
    "count": 0,
-   "lastSuccess": "2026-11-26 12:01:27"
+   "lastSuccess": "2026-11-26 20:47:06"
   },
   "jackrabbit": {
    "label": "Wendy's and K Studio",
    "ok": true,
    "count": 94,
-   "lastSuccess": "2026-11-26 12:01:27"
+   "lastSuccess": "2026-11-26 20:47:06"
   },
   "library": {
    "label": "Columbus Metropolitan Library",
    "ok": true,
    "count": 19,
-   "lastSuccess": "2026-11-26 12:01:27"
+   "lastSuccess": "2026-11-26 20:47:06"
   }
  },
  "items": [
@@ -4681,7 +4681,7 @@
    "lon": -82.9719977,
    "price": "Free",
    "status": "open",
-   "openings": 3,
+   "openings": 1,
    "opensAt": "2026-11-24 12:30:00",
    "closesAt": null,
    "notes": [],
@@ -10417,7 +10417,7 @@
    "lon": -82.928756725128,
    "price": "$50.00 resident, $60.00 non-resident",
    "status": "open",
-   "openings": 40,
+   "openings": 39,
    "opensAt": "2026-10-20 12:30:00",
    "closesAt": "2026-11-28 23:59:00",
    "notes": [],
@@ -10737,7 +10737,7 @@
    "lon": null,
    "price": "$50.00 resident, $60.00 non-resident",
    "status": "open",
-   "openings": 50,
+   "openings": 49,
    "opensAt": "2026-10-20 12:30:00",
    "closesAt": "2026-11-28 23:59:00",
    "notes": [],
@@ -13832,7 +13832,7 @@
    "lon": -83.112805247906,
    "miles": 15.9,
    "neighborhood": "Powell",
-   "changedAt": "2026-11-26 12:01:27",
+   "changedAt": "2026-11-26 20:47:06",
    "watchOk": true
   },
   {
@@ -13872,7 +13872,7 @@
    "lon": -82.953519930862,
    "miles": 2.8,
    "neighborhood": "Downtown & Near East",
-   "changedAt": "2026-11-25 22:37:52",
+   "changedAt": "2026-11-26 20:47:06",
    "watchOk": true
   },
   {
@@ -13912,7 +13912,7 @@
    "lon": -83.087192475101,
    "miles": 12.6,
    "neighborhood": "Northwest & Dublin",
-   "changedAt": "2026-11-26 12:01:27",
+   "changedAt": "2026-11-26 20:47:06",
    "watchOk": true
   },
   {
