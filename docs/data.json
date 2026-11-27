@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-27 07:38:59",
+ "checkedAt": "2026-11-27 18:30:22",
  "baselineAt": "2026-10-30 23:09:05",
  "anchor": "Schiller Park",
  "neighborhoods": [
@@ -24,37 +24,37 @@
    "label": "Columbus Rec & Parks",
    "ok": true,
    "count": 315,
-   "lastSuccess": "2026-11-27 07:38:59"
+   "lastSuccess": "2026-11-27 18:30:22"
   },
   "cct": {
    "label": "Columbus Children's Theatre",
    "ok": true,
    "count": 8,
-   "lastSuccess": "2026-11-27 07:38:59"
+   "lastSuccess": "2026-11-27 18:30:22"
   },
   "bexley": {
    "label": "Bexley Rec",
    "ok": true,
    "count": 1,
-   "lastSuccess": "2026-11-27 07:38:59"
+   "lastSuccess": "2026-11-27 18:30:22"
   },
   "recdesk": {
    "label": "Grandview Heights Rec",
    "ok": true,
    "count": 0,
-   "lastSuccess": "2026-11-27 07:38:59"
+   "lastSuccess": "2026-11-27 18:30:22"
   },
   "jackrabbit": {
    "label": "Wendy's and K Studio",
    "ok": true,
    "count": 95,
-   "lastSuccess": "2026-11-27 07:38:59"
+   "lastSuccess": "2026-11-27 18:30:22"
   },
   "library": {
    "label": "Columbus Metropolitan Library",
    "ok": true,
    "count": 20,
-   "lastSuccess": "2026-11-27 07:38:59"
+   "lastSuccess": "2026-11-27 18:30:22"
   }
  },
  "items": [
@@ -2449,7 +2449,7 @@
    "lon": -83.034094847396,
    "price": "$15.00 tuition",
    "status": "open",
-   "openings": 17,
+   "openings": 16,
    "opensAt": null,
    "closesAt": null,
    "notes": [],
@@ -4720,41 +4720,6 @@
    "firstSeen": "2026-11-24 18:56:05"
   },
   {
-   "id": "rec-9588",
-   "source": "rec",
-   "provider": "Columbus Rec & Parks",
-   "name": "School's Out Winter (Feddersen)",
-   "category": "Other",
-   "ages": "Age at least 6 yrs but less than 13 yrs",
-   "ageMin": 72,
-   "ageMax": 156,
-   "days": [
-    "Mon",
-    "Tue",
-    "Wed",
-    "Thu"
-   ],
-   "startTime": "08:00",
-   "endTime": "17:30",
-   "firstDate": "2026-12-21",
-   "lastDate": "2026-12-31",
-   "sessions": 8,
-   "location": "Cooke Park",
-   "address": "3911 Dresden St, Columbus, OH 43224",
-   "lat": 40.0470502,
-   "lon": -82.9719977,
-   "price": "Free",
-   "status": "open",
-   "openings": 1,
-   "opensAt": "2026-11-24 12:30:00",
-   "closesAt": null,
-   "notes": [],
-   "url": "https://anc.apm.activecommunities.com/columbusrecparks1/activity/search/detail/9588?onlineSiteId=0&from_original_cui=true",
-   "miles": 7.5,
-   "neighborhood": "Other locations",
-   "firstSeen": "2026-11-24 18:56:05"
-  },
-  {
    "id": "rec-8290",
    "source": "rec",
    "provider": "Columbus Rec & Parks",
@@ -4780,7 +4745,7 @@
    "lon": -83.0664297,
    "price": "Free",
    "status": "open",
-   "openings": 19,
+   "openings": 18,
    "opensAt": "2026-11-24 12:30:00",
    "closesAt": null,
    "notes": [],
@@ -10481,7 +10446,7 @@
    "lon": -82.928756725128,
    "price": "$50.00 resident, $60.00 non-resident",
    "status": "open",
-   "openings": 39,
+   "openings": 38,
    "opensAt": "2026-10-20 12:30:00",
    "closesAt": "2026-11-28 23:59:00",
    "notes": [],
@@ -10747,6 +10712,38 @@
    "firstSeen": "2026-10-30 23:09:05"
   },
   {
+   "id": "rec-8156",
+   "source": "rec",
+   "provider": "Columbus Rec & Parks",
+   "name": "6U (Ages 5-6) Co-ed Basketball at Milo Grogan",
+   "category": "Sports",
+   "ages": "Age at least 5 yrs but less than 6y 11m",
+   "ageMin": 60,
+   "ageMax": 83,
+   "days": [
+    "Sat"
+   ],
+   "startTime": "09:00",
+   "endTime": "10:00",
+   "firstDate": "2027-01-16",
+   "lastDate": "2027-02-20",
+   "sessions": 6,
+   "location": "",
+   "address": "",
+   "lat": null,
+   "lon": null,
+   "price": "$50.00 resident, $60.00 non-resident",
+   "status": "open",
+   "openings": 49,
+   "opensAt": "2026-10-20 12:30:00",
+   "closesAt": "2026-11-28 23:59:00",
+   "notes": [],
+   "url": "https://anc.apm.activecommunities.com/columbusrecparks1/activity/search/detail/8156?onlineSiteId=0&from_original_cui=true",
+   "miles": null,
+   "neighborhood": "Linden & Northeast",
+   "firstSeen": "2026-10-30 23:09:05"
+  },
+  {
    "id": "rec-8166",
    "source": "rec",
    "provider": "Columbus Rec & Parks",
@@ -10776,38 +10773,6 @@
    "url": "https://anc.apm.activecommunities.com/columbusrecparks1/activity/search/detail/8166?onlineSiteId=0&from_original_cui=true",
    "miles": null,
    "neighborhood": "Northland & Westerville",
-   "firstSeen": "2026-10-30 23:09:05"
-  },
-  {
-   "id": "rec-8156",
-   "source": "rec",
-   "provider": "Columbus Rec & Parks",
-   "name": "6U (Ages 5-7) Co-ed Basketball at Milo Grogan",
-   "category": "Sports",
-   "ages": "Age at least 5 yrs but less than 6 yrs",
-   "ageMin": 60,
-   "ageMax": 72,
-   "days": [
-    "Sat"
-   ],
-   "startTime": "09:00",
-   "endTime": "10:00",
-   "firstDate": "2027-01-16",
-   "lastDate": "2027-02-20",
-   "sessions": 6,
-   "location": "",
-   "address": "",
-   "lat": null,
-   "lon": null,
-   "price": "$50.00 resident, $60.00 non-resident",
-   "status": "open",
-   "openings": 50,
-   "opensAt": "2026-10-20 12:30:00",
-   "closesAt": "2026-11-28 23:59:00",
-   "notes": [],
-   "url": "https://anc.apm.activecommunities.com/columbusrecparks1/activity/search/detail/8156?onlineSiteId=0&from_original_cui=true",
-   "miles": null,
-   "neighborhood": "Linden & Northeast",
    "firstSeen": "2026-10-30 23:09:05"
   },
   {
@@ -13976,7 +13941,7 @@
    "lon": -83.087192475101,
    "miles": 12.6,
    "neighborhood": "Northwest & Dublin",
-   "changedAt": "2026-11-27 07:38:59",
+   "changedAt": "2026-11-27 18:30:22",
    "watchOk": true
   },
   {

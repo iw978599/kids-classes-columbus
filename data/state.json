@@ -2646,7 +2646,7 @@
   },
   "rec-9588": {
    "firstSeen": "2026-11-24 18:56:05",
-   "full": false
+   "full": true
   },
   "rec-10111": {
    "firstSeen": "2026-11-24 18:56:05",
@@ -2733,8 +2733,8 @@
    "ok": true
   },
   "dublin-dance": {
-   "hash": "4c787293e8b75e65",
-   "changedAt": "2026-11-27 07:38:59",
+   "hash": "4460727301d883fc",
+   "changedAt": "2026-11-27 18:30:22",
    "ok": true
   },
   "learn-sing-grow": {
