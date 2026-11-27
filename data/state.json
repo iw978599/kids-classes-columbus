@@ -2675,6 +2675,14 @@
   "lib-main-library-family-storytime-arctic-animals-wed-10-30": {
    "firstSeen": "2026-11-26 12:01:27",
    "full": false
+  },
+  "jr-506905-22125404": {
+   "firstSeen": "2026-11-27 07:38:59",
+   "full": false
+  },
+  "lib-main-library-family-storytime-arctic-animals-thu-10-30": {
+   "firstSeen": "2026-11-27 07:38:59",
+   "full": false
   }
  },
  "watch": {
@@ -2725,8 +2733,8 @@
    "ok": true
   },
   "dublin-dance": {
-   "hash": "39946eef7486708b",
-   "changedAt": "2026-11-26 20:47:06",
+   "hash": "4c787293e8b75e65",
+   "changedAt": "2026-11-27 07:38:59",
    "ok": true
   },
   "learn-sing-grow": {
@@ -2755,8 +2763,8 @@
    "ok": true
   },
   "camp-fpc": {
-   "hash": "7ca65cf905be984f",
-   "changedAt": "2026-11-25 22:37:52",
+   "hash": "e2c7b38889111e6b",
+   "changedAt": "2026-11-27 07:38:59",
    "ok": true
   },
   "camp-cct": {

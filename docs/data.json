@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-26 20:47:06",
+ "checkedAt": "2026-11-27 07:38:59",
  "baselineAt": "2026-10-30 23:09:05",
  "anchor": "Schiller Park",
  "neighborhoods": [
@@ -24,37 +24,37 @@
    "label": "Columbus Rec & Parks",
    "ok": true,
    "count": 315,
-   "lastSuccess": "2026-11-26 20:47:06"
+   "lastSuccess": "2026-11-27 07:38:59"
   },
   "cct": {
    "label": "Columbus Children's Theatre",
    "ok": true,
    "count": 8,
-   "lastSuccess": "2026-11-26 20:47:06"
+   "lastSuccess": "2026-11-27 07:38:59"
   },
   "bexley": {
    "label": "Bexley Rec",
    "ok": true,
    "count": 1,
-   "lastSuccess": "2026-11-26 20:47:06"
+   "lastSuccess": "2026-11-27 07:38:59"
   },
   "recdesk": {
    "label": "Grandview Heights Rec",
    "ok": true,
    "count": 0,
-   "lastSuccess": "2026-11-26 20:47:06"
+   "lastSuccess": "2026-11-27 07:38:59"
   },
   "jackrabbit": {
    "label": "Wendy's and K Studio",
    "ok": true,
-   "count": 94,
-   "lastSuccess": "2026-11-26 20:47:06"
+   "count": 95,
+   "lastSuccess": "2026-11-27 07:38:59"
   },
   "library": {
    "label": "Columbus Metropolitan Library",
    "ok": true,
-   "count": 19,
-   "lastSuccess": "2026-11-26 20:47:06"
+   "count": 20,
+   "lastSuccess": "2026-11-27 07:38:59"
   }
  },
  "items": [
@@ -569,6 +569,38 @@
    "miles": 5.3,
    "neighborhood": "Upper Arlington",
    "firstSeen": "2026-11-10 18:28:12"
+  },
+  {
+   "id": "jr-506905-22125404",
+   "source": "jackrabbit",
+   "provider": "Wendy's Gymnastics",
+   "name": "KINDER-KIDS 5-6 - Tues @ 3:45pm",
+   "category": "Gymnastics",
+   "ages": "5 yrs - 6 yrs",
+   "ageMin": 60,
+   "ageMax": 84,
+   "days": [
+    "Tue"
+   ],
+   "startTime": "15:45",
+   "endTime": "16:25",
+   "firstDate": "2026-08-31",
+   "lastDate": "2027-05-28",
+   "sessions": null,
+   "location": "Wendy's Gymnastics",
+   "address": "2460 Wood Ave, Columbus, OH 43221",
+   "lat": 40.009629846106,
+   "lon": -83.034094847396,
+   "price": "$99.00 tuition",
+   "status": "anytime",
+   "openings": 1,
+   "opensAt": null,
+   "closesAt": null,
+   "notes": [],
+   "url": "https://app.jackrabbitclass.com/reg.asp?id=506905&hc=&initEmpty=&hdrColor=&WL=0&preLoadClassID=22125404&loc=",
+   "miles": 5.3,
+   "neighborhood": "Upper Arlington",
+   "firstSeen": "2026-11-27 07:38:59"
   },
   {
    "id": "jr-506905-22125360",
@@ -3353,7 +3385,7 @@
    "lon": -82.985316625099,
    "price": "Free",
    "status": "contact",
-   "openings": 4,
+   "openings": 3,
    "opensAt": null,
    "closesAt": null,
    "notes": [],
@@ -3386,7 +3418,7 @@
    "lon": -82.985316625099,
    "price": "Free",
    "status": "contact",
-   "openings": 13,
+   "openings": 12,
    "opensAt": null,
    "closesAt": null,
    "notes": [],
@@ -3419,7 +3451,7 @@
    "lon": -82.985316625099,
    "price": "Free",
    "status": "contact",
-   "openings": 2,
+   "openings": 1,
    "opensAt": null,
    "closesAt": null,
    "notes": [],
@@ -3452,7 +3484,7 @@
    "lon": -82.985316625099,
    "price": "Free",
    "status": "open",
-   "openings": 7,
+   "openings": 6,
    "opensAt": "2026-10-24 09:00:00",
    "closesAt": null,
    "notes": [],
@@ -4266,6 +4298,38 @@
    "miles": 13.2,
    "neighborhood": "Northland & Westerville",
    "firstSeen": "2026-11-06 14:29:12"
+  },
+  {
+   "id": "lib-main-library-family-storytime-arctic-animals-thu-10-30",
+   "source": "library",
+   "provider": "Columbus Metropolitan Library",
+   "name": "Family Storytime: Arctic Animals",
+   "category": "Story time",
+   "ages": "Preschool and family",
+   "ageMin": 0,
+   "ageMax": null,
+   "days": [
+    "Thu"
+   ],
+   "startTime": "10:30",
+   "endTime": "11:00",
+   "firstDate": "2026-12-17",
+   "lastDate": "2026-12-17",
+   "sessions": null,
+   "location": "Main Library branch",
+   "address": "96 S Grant Ave, Columbus, OH 43215",
+   "lat": 39.961199462733,
+   "lon": -82.990580352092,
+   "price": "Free",
+   "status": "drop-in",
+   "openings": null,
+   "opensAt": null,
+   "closesAt": null,
+   "notes": [],
+   "url": "https://events.columbuslibrary.org/event/17562173",
+   "miles": 1.5,
+   "neighborhood": "Downtown & Near East",
+   "firstSeen": "2026-11-27 07:38:59"
   },
   {
    "id": "rec-8292",
@@ -10737,7 +10801,7 @@
    "lon": null,
    "price": "$50.00 resident, $60.00 non-resident",
    "status": "open",
-   "openings": 49,
+   "openings": 50,
    "opensAt": "2026-10-20 12:30:00",
    "closesAt": "2026-11-28 23:59:00",
    "notes": [],
@@ -13912,7 +13976,7 @@
    "lon": -83.087192475101,
    "miles": 12.6,
    "neighborhood": "Northwest & Dublin",
-   "changedAt": "2026-11-26 20:47:06",
+   "changedAt": "2026-11-27 07:38:59",
    "watchOk": true
   },
   {
@@ -14028,7 +14092,7 @@
    "lon": -82.953519930862,
    "miles": 2.8,
    "neighborhood": "Downtown & Near East",
-   "changedAt": "2026-11-25 22:37:52",
+   "changedAt": "2026-11-27 07:38:59",
    "watchOk": true
   },
   {
