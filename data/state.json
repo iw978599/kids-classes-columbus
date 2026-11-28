@@ -2683,6 +2683,10 @@
   "lib-main-library-family-storytime-arctic-animals-thu-10-30": {
    "firstSeen": "2026-11-27 07:38:59",
    "full": false
+  },
+  "lib-main-library-family-storytime-arctic-animals-fri-10-30": {
+   "firstSeen": "2026-11-28 02:57:56",
+   "full": false
   }
  },
  "watch": {
@@ -2733,8 +2737,8 @@
    "ok": true
   },
   "dublin-dance": {
-   "hash": "4460727301d883fc",
-   "changedAt": "2026-11-27 18:30:22",
+   "hash": "e9fce13d1bbb478f",
+   "changedAt": "2026-11-28 02:57:56",
    "ok": true
   },
   "learn-sing-grow": {
